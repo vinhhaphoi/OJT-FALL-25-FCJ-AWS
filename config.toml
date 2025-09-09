@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/vinhdqse180012-report/"
+baseURL = "https://vinhdqse180012.netlify.app/"
 relativeURLs = true
 canonifyURLs = true
 
