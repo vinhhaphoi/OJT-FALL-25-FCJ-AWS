@@ -1,5 +1,10 @@
 ---
 title: "Worklog Tuần 5"
+date: "2025-08-15"
+weight: 5
+chapter: false
+pre: " <b> 1.5. </b> "
+---le: "Worklog Tuần 5"
 date: "2025-09-09"
 weight: 1
 chapter: false

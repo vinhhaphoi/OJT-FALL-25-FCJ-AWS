@@ -13,8 +13,8 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = ""
-  description = ""
+  editURL = "https://github.com/vinhhaphoi/OJT-FALL-25-FCJ-AWS"
+  description = "VinhDQSE180012 | OJT_FALL_25 - AWS_FCJ_Internship Program"
   author = "its.vnhdq@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
@@ -27,9 +27,9 @@ weight = 1
 languageName = "English"
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group"
-identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj/"
+name = "<i class='fab fa-facebook'></i> Vinhhaphoi's Facebook Page"
+identifier = "Personal Facebook"
+url = "https://www.facebook.com/vinhhaphoi/"
 weight = 20
 
 [Languages.vi]
@@ -38,9 +38,9 @@ weight = 2
 languageName = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
-name = "<i class='fab fa-facebook'></i> AWS Study Group"
-identifier = "AWS Study Group FB"
-url = "https://www.facebook.com/groups/awsstudygroupfcj/"
+name = "<i class='fab fa-facebook'></i> Trang cá nhân facebook của Vinhhaphoi"
+identifier = "Facebook cá nhân"
+url = "https://www.facebook.com/vinhhaphoi/"
 weight = 20
 
 [markup]

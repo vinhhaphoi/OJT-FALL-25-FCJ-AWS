@@ -5,10 +5,6 @@ weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 1:
 
@@ -18,8 +14,9 @@ pre: " <b> 1.1. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 1   | - Gặp mặt, kết nối với team cố vấn và những người khác trong AWS_OJT_FALL_25 <br> - Ghi chú về các chính sách và quy định của chương trình thực tập <br> - Cách thực hiện nhiệm vụ và hoàn thành tất cả bài tập | 06/09/2025   | 06/09/2025      |
+| 2   | - Tìm hiểu về các dịch vụ AWS và hỗ trợ cho OJT <br>&emsp; + Cách tạo tài khoản mới và nhận credit free tier <br>&emsp; + Tạo ngân sách hàng tháng cho hóa đơn, một bước quan trọng trong việc quản lý chi phí dịch vụ AWS <br>&emsp; + **Module 1 - 1:** <br>&emsp;&emsp; - Cloud Computing: định nghĩa, lợi ích và cách bắt đầu <br>&emsp;&emsp; - Tìm hiểu về hạ tầng AWS: Data center, Availability Zone, Region, Edge Locations <br>&emsp;&emsp; - Công cụ quản lý dịch vụ AWS: AWS Management Console, AWS CLI (Command Line Interface), AWS SDK (Software Development Kit) | 08/09/2025   | 08/09/2025      | https://000007.awsstudygroup.com/0-createtemplate/ |
+| 3   | - **Dịch vụ AWS:** <br>&emsp; + **Module 1 - 1:** <br>&emsp;&emsp; - Tối ưu hóa chi phí sử dụng trên AWS: tránh chi phí không cần thiết <br>&emsp;&emsp; - Làm việc với AWS Support <br>&emsp;&emsp;&emsp; • 4 gói hỗ trợ chính: Basic, Developer, Business và Enterprise <br>&emsp;&emsp; - Các bài lab bắt buộc <br>&emsp; + **Nhiệm vụ thực hành:** <br>&emsp;&emsp; - Tài khoản AWS <br>&emsp;&emsp; - Quản lý ngân sách <br>&emsp;&emsp; - Nghiên cứu triển khai | 09/09/2025   | 09/09/2025      | AWS Calculator <br> AWS Well Architected Framework |
 | 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
