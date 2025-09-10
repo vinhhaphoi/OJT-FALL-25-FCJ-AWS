@@ -25,31 +25,73 @@ pre: " <b> 1.1. </b> "
 
 ### Week 1 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Team Integration & Program Understanding:**
+  * Successfully connected with advisor team and fellow OJT participants in AWS_OJT_FALL_25
+  * Understood internship policies, rules, and assignment completion procedures
+  * Established clear communication channels and expectations for the program
 
-* Successfully created and configured an AWS Free Tier account.
+* **Cloud Computing Fundamentals:**
+  * Mastered Cloud Computing concepts: definition, benefits, and implementation strategies
+  * Understood AWS global infrastructure components:
+    * Data Centers and their role in AWS services
+    * Availability Zones (AZ) and their importance for high availability
+    * AWS Regions and their geographical distribution
+    * Edge Locations and content delivery optimization
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **AWS Account & Security Setup:**
+  * Successfully created and configured AWS Free Tier account with proper credit allocation
+  * Implemented Multi-Factor Authentication (MFA) for both root and IAM accounts
+  * Established secure access practices and account protection measures
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **AWS Management Tools Mastery:**
+  * Became proficient with AWS Management Console navigation and service discovery
+  * Successfully installed and configured AWS CLI with proper credentials:
+    * Access Key configuration
+    * Secret Key management
+    * Default Region settings
+  * Gained familiarity with AWS SDK concepts and development integration
 
-* Used AWS CLI to perform basic operations such as:
+* **Cost Management & Optimization:**
+  * Created comprehensive monthly budget monitoring for AWS service costs
+  * Implemented multiple budget types:
+    * Template-based budgets for standard cost tracking
+    * Usage budgets for service consumption monitoring
+    * Reservation Instance (RI) budgets for reserved capacity management
+    * Savings Plans budgets for cost optimization tracking
+  * Learned cost optimization strategies to avoid unnecessary expenses
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* **AWS Support & Framework Understanding:**
+  * Explored AWS Support packages and their capabilities:
+    * Basic Support features and limitations
+    * Developer Support for development environments
+    * Business Support for production workloads
+    * Enterprise Support for mission-critical applications
+  * Studied AWS Well-Architected Framework principles:
+    * Design principles for cloud-native architecture
+    * Best practices for system operation in cloud environments
+    * Framework assessment methodology through questioning approach
+    * Integration with AWS Management Console for architecture guidance
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Networking & VPC Fundamentals:**
+  * Comprehensive understanding of AWS Virtual Private Cloud (VPC) concepts
+  * Learned VPC Security features and Multi-VPC architecture patterns
+  * Gained knowledge of networking components:
+    * VPN connections and Site-to-Site configurations
+    * AWS DirectConnect for dedicated network connections
+    * Load Balancer types and use cases
+  * Practical experience with VPC components:
+    * Subnet design and implementation
+    * Route table configuration and management
+    * Internet Gateway (IGW) setup for public connectivity
+    * NAT Gateway (NGW) configuration for private subnet internet access
+    * Security Group rules and network-level security
+
+* **Practical Skills Development:**
+  * Successfully used AWS CLI for operational tasks:
+    * Account information verification and configuration checks
+    * Regional service availability queries
+    * EC2 service exploration and management
+    * Key pair creation and management for secure access
+    * Active service monitoring and status checking
+  * Developed proficiency in parallel management using both web console and CLI interfaces
+  * Established workflow for efficient AWS resource management and monitoring

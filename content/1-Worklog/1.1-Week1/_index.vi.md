@@ -22,31 +22,73 @@ pre: " <b> 1.1. </b> "
 
 ### Kết quả đạt được tuần 1:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Hòa nhập nhóm & Hiểu chương trình:**
+  * Kết nối thành công với đội ngũ cố vấn và các thành viên OJT khác trong AWS_OJT_FALL_25
+  * Hiểu rõ các chính sách, quy định và quy trình hoàn thành bài tập của chương trình thực tập
+  * Thiết lập kênh giao tiếp rõ ràng và các kỳ vọng cho chương trình
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* **Kiến thức cơ bản về Cloud Computing:**
+  * Nắm vững các khái niệm Cloud Computing: định nghĩa, lợi ích và chiến lược triển khai
+  * Hiểu rõ các thành phần hạ tầng toàn cầu của AWS:
+    * Data Centers và vai trò của chúng trong các dịch vụ AWS
+    * Availability Zones (AZ) và tầm quan trọng của chúng cho tính khả dụng cao
+    * AWS Regions và sự phân bố địa lý của chúng
+    * Edge Locations và tối ưu hóa phân phối nội dung
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* **Thiết lập tài khoản AWS & Bảo mật:**
+  * Tạo và cấu hình thành công tài khoản AWS Free Tier với phân bổ credit phù hợp
+  * Triển khai Multi-Factor Authentication (MFA) cho cả tài khoản root và IAM
+  * Thiết lập các thực tiễn truy cập an toàn và biện pháp bảo vệ tài khoản
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* **Thành thạo công cụ quản lý AWS:**
+  * Thành thạo điều hướng AWS Management Console và khám phá dịch vụ
+  * Cài đặt và cấu hình thành công AWS CLI với thông tin xác thực phù hợp:
+    * Cấu hình Access Key
+    * Quản lý Secret Key
+    * Cài đặt Default Region
+  * Làm quen với các khái niệm AWS SDK và tích hợp phát triển
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* **Quản lý chi phí & Tối ưu hóa:**
+  * Tạo giám sát ngân sách hàng tháng toàn diện cho chi phí dịch vụ AWS
+  * Triển khai nhiều loại ngân sách:
+    * Ngân sách dựa trên mẫu cho theo dõi chi phí tiêu chuẩn
+    * Ngân sách sử dụng cho giám sát tiêu thụ dịch vụ
+    * Ngân sách Reservation Instance (RI) cho quản lý dung lượng dự trữ
+    * Ngân sách Savings Plans cho theo dõi tối ưu hóa chi phí
+  * Học các chiến lược tối ưu hóa chi phí để tránh chi phí không cần thiết
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* **Hiểu biết về AWS Support & Framework:**
+  * Khám phá các gói AWS Support và khả năng của chúng:
+    * Các tính năng và hạn chế của Basic Support
+    * Developer Support cho môi trường phát triển
+    * Business Support cho khối lượng công việc sản xuất
+    * Enterprise Support cho các ứng dụng quan trọng
+  * Nghiên cứu các nguyên tắc AWS Well-Architected Framework:
+    * Nguyên tắc thiết kế cho kiến trúc cloud-native
+    * Thực tiễn tốt nhất cho vận hành hệ thống trong môi trường đám mây
+    * Phương pháp đánh giá Framework thông qua cách tiếp cận câu hỏi
+    * Tích hợp với AWS Management Console để hướng dẫn kiến trúc
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* **Kiến thức cơ bản về Networking & VPC:**
+  * Hiểu biết toàn diện về các khái niệm AWS Virtual Private Cloud (VPC)
+  * Học các tính năng bảo mật VPC và mẫu kiến trúc Multi-VPC
+  * Có kiến thức về các thành phần mạng:
+    * Kết nối VPN và cấu hình Site-to-Site
+    * AWS DirectConnect cho kết nối mạng chuyên dụng
+    * Các loại Load Balancer và trường hợp sử dụng
+  * Kinh nghiệm thực hành với các thành phần VPC:
+    * Thiết kế và triển khai Subnet
+    * Cấu hình và quản lý Route table
+    * Thiết lập Internet Gateway (IGW) cho kết nối công khai
+    * Cấu hình NAT Gateway (NGW) cho truy cập internet của subnet riêng tư
+    * Quy tắc Security Group và bảo mật cấp mạng
+
+* **Phát triển kỹ năng thực hành:**
+  * Sử dụng thành công AWS CLI cho các tác vụ vận hành:
+    * Xác minh thông tin tài khoản và kiểm tra cấu hình
+    * Truy vấn tính khả dụng dịch vụ theo khu vực
+    * Khám phá và quản lý dịch vụ EC2
+    * Tạo và quản lý key pair cho truy cập an toàn
+    * Giám sát dịch vụ hoạt động và kiểm tra trạng thái
+  * Phát triển thành thạo trong quản lý song song sử dụng cả giao diện web console và CLI
+  * Thiết lập quy trình làm việc để quản lý và giám sát tài nguyên AWS hiệu quả
