@@ -90,7 +90,6 @@ pre: " <b> 1.1. </b> "
   * Successfully used AWS CLI for operational tasks:
     * Account information verification and configuration checks
     * Regional service availability queries
-    * EC2 service exploration and management
     * Key pair creation and management for secure access
     * Active service monitoring and status checking
   * Developed proficiency in parallel management using both web console and CLI interfaces

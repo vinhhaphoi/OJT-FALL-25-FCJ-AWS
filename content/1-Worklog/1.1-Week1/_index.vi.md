@@ -87,7 +87,6 @@ pre: " <b> 1.1. </b> "
   * Sử dụng thành công AWS CLI cho các tác vụ vận hành:
     * Xác minh thông tin tài khoản và kiểm tra cấu hình
     * Truy vấn tính khả dụng dịch vụ theo khu vực
-    * Khám phá và quản lý dịch vụ EC2
     * Tạo và quản lý key pair cho truy cập an toàn
     * Giám sát dịch vụ hoạt động và kiểm tra trạng thái
   * Phát triển thành thạo trong quản lý song song sử dụng cả giao diện web console và CLI
