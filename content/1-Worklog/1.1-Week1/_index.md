@@ -12,6 +12,12 @@ pre: " <b> 1.1. </b> "
 
 * Know, get target, connect with advisor team and other people on OJT in FCJ
 * Understand basic of AWS services and kick - off for start learning in FCJ
+* Understand how to use console and CLI.
+* Configure basic services in AWS Management Console.
+* Setup AWS account, free tier credit, budget for cost management
+* Understand AWS global infrastructure, AWS management tools (Console, CLI, SDK)
+* Understand AWS cost management, optimization, AWS Support packages, AWS Well-Architected Framework
+* Understand networking, VPC, VPN, DirectConnect, LoadBalancer and practical with VPC
 
 
 ### Tasks to be carried out this week:

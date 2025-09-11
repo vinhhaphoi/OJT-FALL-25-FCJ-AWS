@@ -9,7 +9,13 @@ pre: " <b> 1.1. </b> "
 ### Mục tiêu tuần 1:
 
 * Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hiểu về AWS và bắt đầu học tập trong FCJ.
+* Hiểu cách dùng console & CLI.
+* Cấu hình các dịch vụ cơ bản trong AWS Management Console.
+* Thiết lập tài khoản AWS, nhận credit free tier, tạo ngân sách quản lý chi phí.
+* Hiểu hạ tầng toàn cầu của AWS, công cụ quản lý AWS (Console, CLI, SDK).
+* Hiểu quản lý chi phí AWS, tối ưu hóa, gói hỗ trợ AWS, AWS Well-Architected Framework.
+* Hiểu về mạng, VPC, VPN, DirectConnect, LoadBalancer và thực hành với VPC.
 
 ### Các công việc cần triển khai trong tuần này:
 | Ngày | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
