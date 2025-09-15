@@ -6,17 +6,19 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-
-
 ### Week 2 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Understand AWS Identity and Access Management (IAM)
+* Grant access to AWS services with an IAM role
+* Understand AWS Cloud9 and its features
+* Get started with AWS Cloud9
+* Hosting static website with Amazon S3
+
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
+| 2   | - Understand and implement IAM roles and policies <br> - Understand AWS Cloud9 can do and how to implement <br> - Explore Basic features in AWS Cloud 9 <br> - Using AWS CLI for list EC2 instances in account <br> - Starting services with Amazon S3 Services <br> - **Practice:** <br>&emsp; + Create IAM user and access key <br>&emsp; + Attach IAM policy to grant necessary permissions <br>&emsp; - AWS Cloud9: <br>&emsp;&emsp; - By using Command Line <br>&emsp;&emsp; - Working with text file <br>&emsp;&emsp; - Return to Dashboard <br>&emsp; + Using command: aws ec2 describe-instances for list EC2 instances in account in AWS CLI command <br>&emsp; - Amazon S3:   | 09/15/2025 | 09/15/2025 | [AWS Cloud9](https://000049.awsstudygroup.com/) <br> <br> [Grant permission for IAM <br> role](https://000048.awsstudygroup.com/) <br> <br> [Hosting static website <br> with Amazon S3](https://000057.awsstudygroup.com/)|
 | 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
@@ -25,31 +27,33 @@ pre: " <b> 1.2. </b> "
 
 ### Week 2 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **AWS Identity and Access Management (IAM) Mastery:**
+  * Comprehensive understanding of IAM concepts: Users, Groups, Roles, and Policies
+  * Successfully created and managed IAM users with appropriate access keys
+  * Configured and attached IAM policies to grant necessary permissions
+  * Understood least privilege principle and IAM security best practices
 
-* Successfully created and configured an AWS Free Tier account.
+* **AWS Cloud9 Development Environment Proficiency:**
+  * Mastered AWS Cloud9 features and capabilities
+  * Gained proficiency in using Cloud9 IDE for development tasks
+  * Effectively worked with command line interface within Cloud9
+  * Managed files and performed text editing in cloud-based environment
+  * Navigated and utilized Cloud9 dashboard efficiently
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* **Advanced AWS CLI Skills:**
+  * Successfully utilized AWS CLI within Cloud9 environment
+  * Executed `aws ec2 describe-instances` command to list and manage EC2 instances
+  * Integrated AWS CLI commands into daily workflow
+  * Understood how to combine GUI and CLI for efficient AWS resource management
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **Amazon S3 Service Fundamentals:**
+  * Understood basic concepts of Amazon S3 service
+  * Grasped S3 bucket and object storage functionality
+  * Prepared foundational knowledge for static website hosting
+  * Understood use cases and benefits of S3 in cloud architecture
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* **Cloud Development Workflow:**
+  * Established complete development environment on cloud
+  * Developed skills in working with cloud-based tools and services
+  * Understood how to integrate multiple AWS services in a workflow
+  * Built foundation for advanced cloud development practices

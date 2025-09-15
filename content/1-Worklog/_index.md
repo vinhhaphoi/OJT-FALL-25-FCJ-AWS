@@ -9,7 +9,7 @@ pre: " <b> 1. </b> "
 
 **Week 1:** [Getting familiar with AWS, basic AWS services and setup basic services in AWS Management Console](1.1-week1/)
 
-**Week 2:** [Doing task A...](1.2-week2/)
+**Week 2:** [Explore AWS Cloud9, Hosting static website with Amazon S3, IAM ](1.2-week2/)
 
 **Week 3:** [Doing task B...](1.3-week3/)
 
