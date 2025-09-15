@@ -25,6 +25,7 @@ pre: " <b> 1.1. </b> "
 | 3   | - **Dịch vụ AWS:** <br>&emsp; + **Module 1 - 1:** <br>&emsp;&emsp; - Tối ưu hóa chi phí sử dụng trên AWS: tránh chi phí không cần thiết <br>&emsp;&emsp; - Làm việc với AWS Support và các loại gói hỗ trợ <br> &emsp;&emsp;&emsp; + Basic <br> &emsp;&emsp;&emsp; + Developer <br> &emsp;&emsp;&emsp; + Business <br> &emsp;&emsp;&emsp; + Enterprise <br> -   **Nhiệm vụ thực hành:** <br>&emsp;&emsp; - Tài khoản AWS <br>&emsp;&emsp; - Cài đặt MFA cho tài khoản root & IAM <br>&emsp;&emsp; - Tổng quan quản lý ngân sách <br>&emsp;&emsp; - Tạo ngân sách theo mẫu <br>&emsp;&emsp; - Tạo ngân sách sử dụng <br>&emsp;&emsp; - Tạo ngân sách Reservation Instance (RI) <br>&emsp;&emsp; - Tạo ngân sách Savings Plans <br>&emsp;&emsp; - Quản lý gói hỗ trợ AWS & Yêu cầu <br>&emsp; + **Nghiên cứu bổ sung:** <br>&emsp;&emsp; - AWS Well-Architected Framework <br> &emsp;&emsp;&emsp; + Tự học và trả lời <br> &emsp;&emsp;&emsp;&emsp; - Các khái niệm, nguyên tắc thiết kế và thực tiễn tốt nhất để thiết kế và vận hành hệ thống trong môi trường điện toán đám mây. <br> &emsp;&emsp;&emsp;&emsp; - Bạn sử dụng Framework bằng cách trả lời các câu hỏi, giúp hiểu sự phù hợp giữa kiến trúc của bạn và các thực tiễn tốt nhất được khuyến nghị. <br> &emsp;&emsp;&emsp;&emsp; - Khi sử dụng AWS Well-Architected Framework trong AWS Management Console, bạn sẽ nhận được hướng dẫn để cải thiện kiến trúc hiện tại.| 09/09/2025 | 09/09/2025| [AWS Calculator](https://calculator.aws/#/) <br> <br> [AWS Well Architected <br> Framework](https://docs.aws.amazon.com/wellarchitected/) |
 | 4   | - Tìm hiểu về AWS Virtual Private Cloud (VPC) <br> - Tìm hiểu về bảo mật VPC & tính năng Multi-VPC <br> - VPN - DirectConnect - LoadBalancer - ExtraResources <br> - **Nhiệm vụ thực hành:** <br>&emsp;&emsp; + Tìm hiểu về Amazon VPC và AWS VPN Site-to-Site <br>&emsp;&emsp; + Subnets <br>&emsp;&emsp; + Routes <br>&emsp;&emsp; + Internet Gateway (IGW) <br>&emsp;&emsp; + NAT Gateway (NGW) <br>&emsp;&emsp; + Security Group| 09/10/2025 | 09/10/2025 | [AWS Virtual Private <br> Cloud](https://youtu.be/O9Ac_vGHquM?si=VnvwkOE2_eUi2-XP) <br> <br> [VPC Security & <br> Multi-VPC feature](https://youtu.be/BPuD1l2hEQ4?si=Hdqaxk8S2Dtpx83X) <br> <br> [VPN - DirectConnect - <br> LoadBalancer - <br> ExtraResources](https://youtu.be/CXU8D3kyxIc?si=xagv4Aexd94cxUJQ)|
 | 5   | - Tìm hiểu cách tạo EC2 Public và EC2 Private <br>&emsp;&emsp; + Kết nối tới EC2 Public trước <br>&emsp;&emsp; + Sau đó kết nối tới EC2 Private <br> - **Nhiệm vụ thực hành:** <br>&emsp;&emsp; + Bắt đầu với Amazon VPC và AWS VPN Site-to-Site <br>&emsp;&emsp; + Tạo và cấu hình sau đó kết nối tới EC2 <br>&emsp;&emsp; + Cấu hình VPN để kết nối từ Customer Gateway instance tới EC2 Private: <br>&emsp;&emsp;&emsp; - Tạo và cấu hình AWS VPN Tunnel nâng cao <br>&emsp;&emsp;&emsp; - Khắc phục sự cố VPN từ AWS Official| 09/11/2025 | 09/11/2025 | [AWS Virtual Private <br> Cloud](https://youtu.be/O9Ac_vGHquM?si=VnvwkOE2_eUi2-XP) <br> <br> [VPC Security & <br> Multi-VPC feature](https://youtu.be/BPuD1l2hEQ4?si=Hdqaxk8S2Dtpx83X) <br> <br> [VPN - DirectConnect - <br> LoadBalancer - <br> ExtraResources](https://youtu.be/CXU8D3kyxIc?si=xagv4Aexd94cxUJQ) <br> <br> [Install Amazon EC2 <br> Instances](https://000003.awsstudygroup.com/vi/4-createec2server/) <br> <br> [Config Site to Site <br> VPN Tunnel](https://000003.awsstudygroup.com/vi/5-vpnsitetosite/)|
+| 6   | - Khám phá EC2 với Amazon Machine Image (AMI) <br>&emsp;&emsp; + Hiểu về AMI, Instance Type, Key Pair, Security Group <br>&emsp;&emsp; + Tạo EC2 với AMI <br> - **Nhiệm vụ thực hành:** <br>&emsp;&emsp; + Sử dụng AWS CLI để thực hiện các tác vụ vận hành: <br>&emsp;&emsp;&emsp; - Tạo Linux VPC & Windows VPC <br>&emsp;&emsp;&emsp; - Tạo Security group cho Linux và Windows Instances <br>&emsp;&emsp;&emsp; - Khởi chạy và triển khai AWS User Management Application trên LAMP Web server <br>&emsp;&emsp;&emsp; - Tạo và quản lý key pair <br>&emsp;&emsp;&emsp; - Tạo và triển khai Node.js App lên EC2 Windows | 09/12/2025 | 09/12/2025 | [Cài đặt AWS CLI và <br> thực hiện tác vụ vận hành](https://000004.awsstudygroup.com/1-introduce/) |
 
 
 ### Kết quả đạt được tuần 1:
@@ -104,3 +105,20 @@ pre: " <b> 1.1. </b> "
   * Cấu hình EC2 instances Private cho truy cập mạng nội bộ
   * Triển khai kết nối VPN từ Customer Gateway instances tới EC2 instances Private
   * Khắc phục sự cố kết nối VPN sử dụng tài nguyên chính thức của AWS
+
+* **Amazon Machine Image (AMI) & Tối ưu hóa Instance:**
+  * Nắm vững các khái niệm AMI và cách sử dụng trong việc tạo EC2 instances
+  * Hiểu rõ các loại Instance Types và cách lựa chọn phù hợp cho từng use case
+  * Thành thạo quản lý Key Pairs cho việc xác thực và truy cập an toàn
+  * Cấu hình Security Groups nâng cao cho nhiều môi trường khác nhau
+
+* **Kỹ năng AWS CLI nâng cao & Application Deployment:**
+  * Thành thạo sử dụng AWS CLI cho các tác vụ vận hành phức tạp:
+    * Tạo và quản lý VPC cho cả môi trường Linux và Windows
+    * Cấu hình Security Groups chuyên biệt cho từng loại instance
+    * Quản lý Key Pairs thông qua command line interface
+  * Triển khai thành công các ứng dụng web thực tế:
+    * Cài đặt và cấu hình LAMP Web server cho ứng dụng User Management
+    * Deploy Node.js application lên EC2 Windows instance
+    * Thiết lập môi trường multi-platform (Linux/Windows) trên AWS
+  * Phát triển kỹ năng DevOps cơ bản với automation thông qua AWS CLI
