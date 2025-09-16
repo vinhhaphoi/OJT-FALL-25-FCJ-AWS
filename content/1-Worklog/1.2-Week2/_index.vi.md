@@ -18,7 +18,7 @@ pre: " <b> 1.2. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Ngày | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Hiểu và triển khai IAM roles và policies <br> - Hiểu AWS Cloud9 có thể làm gì và cách triển khai <br> - Khám phá các tính năng cơ bản trong AWS Cloud 9 <br> - Sử dụng AWS CLI để liệt kê EC2 instances trong tài khoản <br> - Bắt đầu các dịch vụ với Amazon S3 Services <br> - **Thực hành:** <br>&emsp; + Tạo IAM user và access key <br>&emsp; + Gắn IAM policy để cấp các quyền cần thiết <br>&emsp; - AWS Cloud9: <br>&emsp;&emsp; - Sử dụng Command Line <br>&emsp;&emsp; - Làm việc với text file <br>&emsp;&emsp; - Quay lại Dashboard <br>&emsp; + Sử dụng lệnh: aws ec2 describe-instances để liệt kê EC2 instances trong tài khoản bằng AWS CLI command <br>&emsp; - Amazon S3:   | 09/15/2025 | 09/15/2025 | [AWS Cloud9](https://000049.awsstudygroup.com/) <br> <br> [Cấp quyền cho IAM <br> role](https://000048.awsstudygroup.com/) <br> <br> [Hosting website tĩnh <br> với Amazon S3](https://000057.awsstudygroup.com/)|
+| 2   | - Hiểu và triển khai IAM roles và policies <br> - Hiểu AWS Cloud9 có thể làm gì và cách triển khai <br> - Khám phá các tính năng cơ bản trong AWS Cloud 9 <br> - Sử dụng AWS CLI để liệt kê EC2 instances trong tài khoản <br> - Bắt đầu các dịch vụ với Amazon S3 Services <br> - **Thực hành:** <br>&emsp; + Tạo IAM user và access key <br>&emsp; + Gắn IAM policy để cấp các quyền cần thiết <br>&emsp; - AWS Cloud9: <br>&emsp;&emsp; - Sử dụng Command Line <br>&emsp;&emsp; - Làm việc với text file <br>&emsp;&emsp; - Quay lại Dashboard <br>&emsp; + Sử dụng lệnh: aws ec2 describe-instances để liệt kê EC2 instances trong tài khoản bằng AWS CLI command <br>&emsp; - Amazon S3: <br>&emsp;&emsp; + Hosting website tĩnh với Amazon S3 <br>&emsp;&emsp; + Sử dụng CloudFront để hosting website tĩnh | 09/15/2025 | 09/15/2025 | [AWS Cloud9](https://000049.awsstudygroup.com/) <br> <br> [Cấp quyền cho IAM <br> role](https://000048.awsstudygroup.com/) <br> <br> [Hosting website tĩnh <br> với Amazon S3](https://000057.awsstudygroup.com/)|
 | 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 08/12/2025   | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 08/14/2025   | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
@@ -46,11 +46,14 @@ pre: " <b> 1.2. </b> "
   * Tích hợp AWS CLI commands vào workflow hàng ngày
   * Hiểu cách kết hợp GUI và CLI để quản lý tài nguyên AWS hiệu quả
 
-* **Amazon S3 Service Fundamentals:**
+* **Amazon S3 & Static Website Hosting:**
   * Hiểu các khái niệm cơ bản của Amazon S3 service
   * Nắm vững cách thức hoạt động của S3 bucket và object storage
-  * Chuẩn bị kiến thức nền tảng cho việc hosting static websites
+  * Thành công triển khai static website hosting với Amazon S3
+  * Cấu hình S3 bucket để phục vụ web content
   * Hiểu use cases và benefits của S3 trong cloud architecture
+  * Tích hợp CloudFront để cải thiện performance và distribution của static websites
+  * Nắm vững best practices cho web hosting trên AWS cloud platform
 
 * **Cloud Development Workflow:**
   * Thiết lập môi trường development hoàn chỉnh trên cloud
