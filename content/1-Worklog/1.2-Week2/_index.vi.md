@@ -20,6 +20,10 @@ pre: " <b> 1.2. </b> "
 * Triển khai Auto Scaling Groups cho các ứng dụng có thể mở rộng
 * Cấu hình Load Balancers cho tính khả dụng cao
 * Hiểu cách monitoring với CloudWatch
+* Thành thạo AWS Command Line Interface (CLI) để quản lý infrastructure
+* Hiểu Amazon DynamoDB NoSQL database service
+* Học Amazon ElastiCache for Redis in-memory caching service
+* Học Python SDK (Boto3) cho AWS service automation
 
 ### Các công việc cần triển khai trong tuần này:
 | Ngày | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
@@ -27,7 +31,7 @@ pre: " <b> 1.2. </b> "
 | 2   | - Hiểu và triển khai IAM roles và policies <br> - Hiểu AWS Cloud9 có thể làm gì và cách triển khai <br> - Khám phá các tính năng cơ bản trong AWS Cloud 9 <br> - Sử dụng AWS CLI để liệt kê EC2 instances trong tài khoản <br> - Bắt đầu các dịch vụ với Amazon S3 Services <br> - **Thực hành:** <br>&emsp; + Tạo IAM user và access key <br>&emsp; + Gắn IAM policy để cấp các quyền cần thiết <br>&emsp; - AWS Cloud9: <br>&emsp;&emsp; - Sử dụng Command Line <br>&emsp;&emsp; - Làm việc với text file <br>&emsp;&emsp; - Quay lại Dashboard <br>&emsp; + Sử dụng lệnh: aws ec2 describe-instances để liệt kê EC2 instances trong tài khoản bằng AWS CLI command <br>&emsp; - Amazon S3: <br>&emsp;&emsp; + Hosting website tĩnh với Amazon S3 <br>&emsp;&emsp; + Sử dụng CloudFront để hosting website tĩnh | 09/15/2025 | 09/15/2025 | [AWS Cloud9](https://000049.awsstudygroup.com/) <br> <br> [Cấp quyền cho IAM <br> role](https://000048.awsstudygroup.com/) <br> <br> [Hosting website tĩnh <br> với Amazon S3](https://000057.awsstudygroup.com/)|
 | 3   | - Khám phá Amazon Relational Database Service (Amazon RDS) và các lợi ích của nó <br> - Amazon Lightsail Container: <br>&emsp; + Hiểu về Lightsail Container <br>&emsp; + Deploy container image lên Amazon Lightsail Container bằng Docker trên Ubuntu <br> - Khám phá deploy FCJ Management với Auto Scaling Group <br> - **Thực hành:** <br>&emsp; + Triển khai Amazon RDS <br>&emsp; + Triển khai Application với MySQL <br>&emsp; + Backup và Restore trong Amazon RDS <br>&emsp; + Build container image và deploy <br>&emsp; + Deploy FCJ Management: <br>&emsp;&emsp; - Tạo Launch Template và Setup Load balance <br>&emsp;&emsp; - Tạo Auto Scaling Group | 09/16/2025 | 09/16/2025 | [Amazon RDS](https://000005.awsstudygroup.com/) <br> <br> [Amazon Lightsail](https://000046.awsstudygroup.com/) <br> <br> [Deploy ứng dụng với <br> Amazon EC2 Auto Scaling](https://000006.awsstudygroup.com/)|
 | 4   | - Học và tạo CloudFormation với template file <br> - Sử dụng CloudWatch Metrics, CloudWatch Logs và CloudWatch dashboard <br> - Hiểu Hybrid DNS với Route 53 Resolver <br> - **Thực hành:** <br>&emsp; + CloudWatch: <br>&emsp;&emsp; - CloudWatch cho phép người dùng chọn và hiển thị metrics từ các ứng dụng của họ <br>&emsp;&emsp; - Lọc dữ liệu sử dụng advanced search expressions <br>&emsp;&emsp; - Áp dụng tính toán toán học để có insight sâu hơn như averages hoặc rankings <br>&emsp;&emsp; - Thêm dynamic labels để cải thiện khả năng đọc và diễn giải biểu đồ. <br>&emsp; + Route 53 Resolver: <br>&emsp;&emsp; - Khởi tạo CloudFormation bằng template. <br>&emsp;&emsp; - Tạo và deploy Microsoft AD (AWS Managed Microsoft Active Directory) <br>&emsp;&emsp; - Setup DNS với In/Out Endpoint| 09/17/2025 | 09/17/2025      | [CloudWatch workshop](https://000008.awsstudygroup.com/) <br> <br> [Hybrid DNS với Route 53](https://000010.awsstudygroup.com/)|
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 08/14/2025   | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Thành thạo AWS CLI cơ bản và quản lý EC2 <br> - Tìm hiểu EC2 instance types, AMI, EBS, và kết nối SSH <br> - Hiểu Amazon DynamoDB NoSQL database concepts <br> - Học Amazon ElastiCache for Redis in-memory caching <br> - Học Python SDK (Boto3) cho các dịch vụ AWS <br> - **Thực hành:** <br>&emsp; + Cấu hình AWS CLI với profiles và output formats <br>&emsp; + Xem tài nguyên: `aws ec2 describe-instances`, `aws s3 ls` <br>&emsp; + Tạo Key Pair và Security Groups <br>&emsp; + Tạo EC2 với `aws ec2 run-instances` <br>&emsp; + Kết nối SSH và terminate instances <br>&emsp; + Amazon DynamoDB Operations: <br>&emsp;&emsp; - Tạo tables và cấu hình primary keys <br>&emsp;&emsp; - Thực hiện CRUD operations (Create, Read, Update, Delete) <br>&emsp;&emsp; - Query và Scan data với Python Boto3 <br>&emsp;&emsp; - Load sample data và quản lý table operations <br>&emsp; + Amazon ElastiCache Redis Operations: <br>&emsp;&emsp; - Tạo ElastiCache clusters (mode disabled/enabled) <br>&emsp;&emsp; - Kết nối Redis clusters với Python <br>&emsp;&emsp; - Set/Get strings và hash operations <br>&emsp;&emsp; - Triển khai Publish/Subscribe messaging <br>&emsp;&emsp; - Làm việc với Redis streams cho data processing | 09/18/2025   | 09/18/2025      | [Getting Started with AWS CLI](https://000011.awsstudygroup.com/) <br> <br> [Work with Amazon DynamoDB](https://000060.awsstudygroup.com/) <br> <br> [Amazon ElastiCache - Redis](https://000061.awsstudygroup.com/) |
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 08/15/2025   | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
@@ -109,6 +113,57 @@ pre: " <b> 1.2. </b> "
   * Cấu hình inbound và outbound DNS resolution
   * Hiểu DNS security và performance optimization
   * Quản lý cross-premises DNS connectivity và troubleshooting
+
+* **AWS CLI & Quản lý Infrastructure qua Command Line:**
+  * Thành thạo cài đặt và cấu hình AWS Command Line Interface (CLI)
+  * Cấu hình thành công AWS CLI profiles cho nhiều môi trường
+  * Hiểu và áp dụng các output formats khác nhau (JSON, YAML, text, table)
+  * Thành thạo sử dụng CLI auto-prompt để tạo lệnh tương tác
+  * Nắm vững việc xem và quản lý infrastructure qua command line
+  * Sử dụng thành công `aws ec2 describe-instances` để kiểm tra tài nguyên EC2
+  * Quản lý S3 buckets bằng lệnh `aws s3 ls`
+  * Hiểu quản lý tài nguyên theo region và cross-region operations
+
+* **Quản lý EC2 Lifecycle qua CLI:**
+  * Thành thạo quản lý toàn bộ vòng đời EC2 instance qua AWS CLI
+  * Tạo và quản lý thành công AWS Key Pairs cho secure access
+  * Cấu hình Security Groups và ingress rules cho SSH access
+  * Thành thạo tạo EC2 instances bằng `aws ec2 run-instances`
+  * Nắm vững các phương pháp kết nối SSH và troubleshooting
+  * Theo dõi thành công trạng thái instance bằng CLI commands
+  * Thực hiện resource cleanup và terminate instances đúng cách
+  * Hiểu EC2 instance types, AMI selection, và EBS volume management
+
+* **Thành thạo Amazon DynamoDB NoSQL Database:**
+  * Hiểu các khái niệm cơ bản của Amazon DynamoDB NoSQL database service
+  * Nắm vững DynamoDB core components: Tables, Items, Attributes, và Primary Keys
+  * Thành thạo DynamoDB secondary indexes và query optimization
+  * Hiểu read consistency models và capacity management
+  * Thành công triển khai DynamoDB naming rules và data type specifications
+  * Nắm vững backup và restore capabilities cho data protection
+  * Hiểu encryption at rest và security best practices
+  * Có chuyên môn trong scaling strategies và performance optimization
+
+* **Python SDK (Boto3) & AWS Service Automation:**
+  * Thành thạo Python Boto3 SDK cho AWS service automation và integration
+  * Hiểu sự khác biệt giữa Boto3 Client và Resource interfaces
+  * Cấu hình thành công AWS SDK với proper authentication methods
+  * Thành thạo DynamoDB table creation và schema design
+  * Nắm vững CRUD operations: Create, Read, Update, và Delete data
+  * Thành công triển khai Query và Scan operations cho data retrieval
+  * Hiểu batch operations và efficient data loading techniques
+  * Triển khai proper error handling và resource management trong Python code
+
+* **Amazon ElastiCache Redis In-Memory Caching:**
+  * Thành thạo Amazon ElastiCache for Redis concepts và architecture
+  * Hiểu clusters, nodes, và shards configuration cho high availability
+  * Tạo và quản lý thành công ElastiCache clusters (mode disabled/enabled)
+  * Thành thạo Redis data partitioning trên tới 500 shards
+  * Nắm vững automatic failure detection và recovery mechanisms
+  * Tích hợp thành công ElastiCache với EC2, CloudWatch, và AWS services khác
+  * Hiểu backup management, patching, và security features
+  * Triển khai Redis operations: strings, hashes, Pub/Sub, và streams
+  * Thành thạo performance optimization và cost-effective caching strategies
 
 * **Cloud Development Workflow:**
   * Thiết lập môi trường development hoàn chỉnh trên cloud
