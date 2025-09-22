@@ -24,6 +24,10 @@ pre: " <b> 1.2. </b> "
 * Hiểu Amazon DynamoDB NoSQL database service
 * Học Amazon ElastiCache for Redis in-memory caching service
 * Học Python SDK (Boto3) cho AWS service automation
+* Thành thạo AWS Networking và VPC architecture fundamentals
+* Hiểu advanced networking concepts: Transit Gateway, VPN, Direct Connect
+* Thành thạo Amazon CloudFront CDN cho global content delivery
+* Thành thạo advanced CloudFront features: Lambda@Edge, Origin Groups, và monitoring
 
 ### Các công việc cần triển khai trong tuần này:
 | Ngày | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
@@ -32,7 +36,7 @@ pre: " <b> 1.2. </b> "
 | 3   | - Khám phá Amazon Relational Database Service (Amazon RDS) và các lợi ích của nó <br> - Amazon Lightsail Container: <br>&emsp; + Hiểu về Lightsail Container <br>&emsp; + Deploy container image lên Amazon Lightsail Container bằng Docker trên Ubuntu <br> - Khám phá deploy FCJ Management với Auto Scaling Group <br> - **Thực hành:** <br>&emsp; + Triển khai Amazon RDS <br>&emsp; + Triển khai Application với MySQL <br>&emsp; + Backup và Restore trong Amazon RDS <br>&emsp; + Build container image và deploy <br>&emsp; + Deploy FCJ Management: <br>&emsp;&emsp; - Tạo Launch Template và Setup Load balance <br>&emsp;&emsp; - Tạo Auto Scaling Group | 09/16/2025 | 09/16/2025 | [Amazon RDS](https://000005.awsstudygroup.com/) <br> <br> [Amazon Lightsail](https://000046.awsstudygroup.com/) <br> <br> [Deploy ứng dụng với <br> Amazon EC2 Auto Scaling](https://000006.awsstudygroup.com/)|
 | 4   | - Học và tạo CloudFormation với template file <br> - Sử dụng CloudWatch Metrics, CloudWatch Logs và CloudWatch dashboard <br> - Hiểu Hybrid DNS với Route 53 Resolver <br> - **Thực hành:** <br>&emsp; + CloudWatch: <br>&emsp;&emsp; - CloudWatch cho phép người dùng chọn và hiển thị metrics từ các ứng dụng của họ <br>&emsp;&emsp; - Lọc dữ liệu sử dụng advanced search expressions <br>&emsp;&emsp; - Áp dụng tính toán toán học để có insight sâu hơn như averages hoặc rankings <br>&emsp;&emsp; - Thêm dynamic labels để cải thiện khả năng đọc và diễn giải biểu đồ. <br>&emsp; + Route 53 Resolver: <br>&emsp;&emsp; - Khởi tạo CloudFormation bằng template. <br>&emsp;&emsp; - Tạo và deploy Microsoft AD (AWS Managed Microsoft Active Directory) <br>&emsp;&emsp; - Setup DNS với In/Out Endpoint| 09/17/2025 | 09/17/2025      | [CloudWatch workshop](https://000008.awsstudygroup.com/) <br> <br> [Hybrid DNS với Route 53](https://000010.awsstudygroup.com/)|
 | 5   | - Thành thạo AWS CLI cơ bản và quản lý EC2 <br> - Tìm hiểu EC2 instance types, AMI, EBS, và kết nối SSH <br> - Hiểu Amazon DynamoDB NoSQL database concepts <br> - Học Amazon ElastiCache for Redis in-memory caching <br> - Học Python SDK (Boto3) cho các dịch vụ AWS <br> - **Thực hành:** <br>&emsp; + Cấu hình AWS CLI với profiles và output formats <br>&emsp; + Xem tài nguyên: `aws ec2 describe-instances`, `aws s3 ls` <br>&emsp; + Tạo Key Pair và Security Groups <br>&emsp; + Tạo EC2 với `aws ec2 run-instances` <br>&emsp; + Kết nối SSH và terminate instances <br>&emsp; + Amazon DynamoDB Operations: <br>&emsp;&emsp; - Tạo tables và cấu hình primary keys <br>&emsp;&emsp; - Thực hiện CRUD operations (Create, Read, Update, Delete) <br>&emsp;&emsp; - Query và Scan data với Python Boto3 <br>&emsp;&emsp; - Load sample data và quản lý table operations <br>&emsp; + Amazon ElastiCache Redis Operations: <br>&emsp;&emsp; - Tạo ElastiCache clusters (mode disabled/enabled) <br>&emsp;&emsp; - Kết nối Redis clusters với Python <br>&emsp;&emsp; - Set/Get strings và hash operations <br>&emsp;&emsp; - Triển khai Publish/Subscribe messaging <br>&emsp;&emsp; - Làm việc với Redis streams cho data processing | 09/18/2025   | 09/18/2025      | [Getting Started with AWS CLI](https://000011.awsstudygroup.com/) <br> <br> [Work with Amazon DynamoDB](https://000060.awsstudygroup.com/) <br> <br> [Amazon ElastiCache - Redis](https://000061.awsstudygroup.com/) |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 08/15/2025   | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Thành thạo AWS Networking cơ bản và kiến trúc VPC <br> - Học các thành phần VPC: Subnets, Route Tables, Internet Gateway, NAT Gateway <br> - Hiểu Security Groups và NACLs cho network security <br> - Khám phá VPC Peering, Transit Gateway, và hybrid connectivity <br> - Học Route 53 DNS services và Load Balancing concepts <br> - Thành thạo Amazon CloudFront CDN và content delivery <br> - **Thực hành:** <br>&emsp; + VPC Components Deep Dive: <br>&emsp;&emsp; - Tạo và cấu hình VPC với multiple subnets <br>&emsp;&emsp; - Cấu hình Route Tables và Internet/NAT Gateways <br>&emsp;&emsp; - Triển khai Security Groups và Network ACLs <br>&emsp; + Advanced Networking: <br>&emsp;&emsp; - Thiết lập Transit Gateway và Site-to-Site VPNs <br>&emsp;&emsp; - Cấu hình Route 53 DNS endpoints và hosted zones <br>&emsp;&emsp; - Triển khai VPC Endpoints cho AWS services <br>&emsp;&emsp; - Tạo VPC Peering connections <br>&emsp;&emsp; - Deploy Network Load Balancer configurations <br>&emsp;    + CloudFront Content Delivery: <br>&emsp;&emsp; - Tạo S3 bucket cho static website hosting <br>&emsp;&emsp; - Cấu hình CloudFront distribution với S3 origin <br>&emsp;&emsp; - Triển khai Origin Access Identity (OAI) cho security <br>&emsp;&emsp; - Test performance improvements và edge locations <br>&emsp;&emsp; - Cấu hình custom domain names và SSL certificates <br>&emsp; + Advanced CloudFront Features: <br>&emsp;&emsp; - Cấu hình distribution invalidations cho cache management <br>&emsp;&emsp; - Thiết lập custom error pages và Origin Groups cho failover <br>&emsp;&emsp; - Triển khai response headers và cache behaviors <br>&emsp;&emsp; - Tạo và deploy Lambda@Edge functions <br>&emsp;&emsp; - Monitor performance với CloudFront metrics và logs | 09/19/2025   | 09/19/2025      | [AWS Networking and Content Delivery](https://000092.awsstudygroup.com/) <br> <br> [CloudFront with S3 Bucket Origin](https://000094.awsstudygroup.com/) <br> <br> [Advanced CloudFront Workshop](https://000130.awsstudygroup.com/) | | 09/19/2025   | 09/19/2025      | [AWS Networking and Content Delivery](https://000092.awsstudygroup.com/) <br> <br> [CloudFront with S3 Bucket Origin](https://000094.awsstudygroup.com/) |
 
 
 ### Kết quả đạt được tuần 2:
@@ -165,6 +169,56 @@ pre: " <b> 1.2. </b> "
   * Triển khai Redis operations: strings, hashes, Pub/Sub, và streams
   * Thành thạo performance optimization và cost-effective caching strategies
 
+* **Thành thạo AWS Networking & Kiến trúc VPC:**
+  * Nắm vững Amazon Virtual Private Cloud (VPC) concepts và architecture
+  * Hiểu AWS global infrastructure: Regions, Availability Zones, và Edge Locations
+  * Cấu hình thành công VPC components: Subnets, Route Tables, và CIDR blocks
+  * Thành thạo Elastic Network Interfaces (ENI) và Elastic IP addresses
+  * Nắm vững Internet Gateway và NAT Gateway configurations cho internet connectivity
+  * Triển khai VPC Endpoints cho secure AWS service connections không cần internet
+  * Hiểu network security với Security Groups và Network ACLs (NACLs)
+  * Thành thạo stateful vs stateless firewall concepts và rule configurations
+
+* **Advanced Networking & Hybrid Connectivity:**
+  * Nắm vững VPC Peering cho inter-VPC communication và limitations
+  * Có chuyên môn trong Transit Gateway cho centralized network hub architecture
+  * Cấu hình thành công VPN Site-to-Site cho hybrid cloud connectivity
+  * Hiểu AWS Direct Connect cho dedicated private connections
+  * Thành thạo Route 53 DNS services, endpoints, và internal hosted zones
+  * Triển khai Network Load Balancer (NLB) cho high-performance Layer 4 load balancing
+  * Hiểu Transit Gateway Network Manager cho network visualization
+  * Thành thạo complex routing scenarios và traffic flow optimization
+
+* **Network Security & Performance Optimization:**
+  * Triển khai comprehensive network security sử dụng multiple layers of protection
+  * Thành thạo Security Group rules và best practices cho least privilege access
+  * Cấu hình thành công Network ACLs cho subnet-level security controls
+  * Hiểu VPC Flow Logs cho network monitoring và troubleshooting
+  * Triển khai network segmentation strategies cho different environments
+  * Thành thạo DNS resolution và Route 53 advanced features
+  * Tối ưu hóa network performance qua proper subnet và routing design
+  * Hiểu cost optimization strategies cho networking services
+
+* **Amazon CloudFront Content Delivery Network:**
+  * Thành thạo CDN concepts và global edge locations
+  * Thành công tạo và cấu hình CloudFront distributions với S3 origins
+  * Triển khai Origin Access Identity (OAI) cho enhanced security
+  * Hiểu performance benefits và edge caching strategies
+  * Nắm vững custom domain configuration và SSL certificate management
+  * Thành thạo global content delivery optimization techniques
+  * Hiểu caching behaviors và cache invalidation strategies
+  * Tối ưu hóa website performance qua CloudFront edge locations
+
+* **Advanced CloudFront Features & Lambda@Edge:**
+  * Expertly cấu hình distribution invalidations cho efficient cache management
+  * Thành công triển khai custom error pages cho enhanced user experience
+  * Thành thạo Origin Groups cho automatic failover và high availability
+  * Cấu hình response headers cho security và performance optimization
+  * Tạo custom cache behaviors cho different content types
+  * Phát triển và deploy Lambda@Edge functions cho request processing
+  * Monitor CloudFront performance sử dụng comprehensive metrics và logs
+  * Áp dụng CloudFront best practices bao gồm compression và SSL/TLS encryption
+
 * **Cloud Development Workflow:**
   * Thiết lập môi trường development hoàn chỉnh trên cloud
   * Phát triển kỹ năng làm việc với cloud-based tools và services
@@ -173,5 +227,6 @@ pre: " <b> 1.2. </b> "
   * Tích hợp database services vào cloud application architecture
   * Thành thạo containerization và auto scaling trong cloud architecture
   * Triển khai Infrastructure as Code và comprehensive monitoring solutions
+  * Thiết kế secure và scalable network architectures cho production workloads
 
 
