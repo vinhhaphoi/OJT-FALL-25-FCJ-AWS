@@ -7,9 +7,9 @@ pre: " <b> 1. </b> "
 ---
 
 
-**Week 1:** [Getting familiar with AWS, basic AWS services and setup basic services in AWS Management Console](1.1-week1/)
+**Week 1:** [AWS Foundations: Global Infrastructure, Management Tools, Cost Optimization, VPC Networking, and Well-Architected Framework](1.1-week1/)
 
-**Week 2:** [Explore AWS Cloud9, Hosting static website with Amazon S3, IAM ](1.2-week2/)
+**Week 2:** [Advanced AWS Services: IAM Security, Cloud9 Development, S3 Hosting, RDS Databases, Auto Scaling, Load Balancing, CloudFormation, CLI Management, DynamoDB, ElastiCache, and CloudFront CDN](1.2-week2/)
 
 **Week 3:** [Doing task B...](1.3-week3/)
 

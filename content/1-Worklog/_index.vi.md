@@ -6,9 +6,9 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-**Tuần 1:** [Làm quen với AWS, các dịch vụ cơ bản trong AWS và cấu hình các dịch vụ cơ bản trong AWS Management Console](1.1-week1/)
+**Tuần 1:** [AWS Foundations: Global Infrastructure, Management Tools, Cost Optimization, VPC Networking, và Well-Architected Framework](1.1-week1/)
 
-**Tuần 2:** [Khám phá AWS Cloud9, Hosting website tĩnh với Amazon S3, IAM](1.2-week2/)
+**Tuần 2:** [Advanced AWS Services: IAM Security, Cloud9 Development, S3 Hosting, RDS Databases, Auto Scaling, Load Balancing, CloudFormation, CLI Management, DynamoDB, ElastiCache, và CloudFront CDN](1.2-week2/)
 
 **Tuần 3:** [Làm công việc B...](1.3-week3/)
 
