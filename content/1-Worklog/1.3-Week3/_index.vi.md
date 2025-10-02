@@ -81,7 +81,6 @@ pre: " <b> 1.3. </b> "
   * Quản lý Amazon S3 storage cho VM image files và migration artifacts
   * Hiểu migration use cases: application migration, backup, và disaster recovery
   * Thành thạo cost optimization strategies cho VM migration workflows
-  * Áp dụng best practices cho VM preparation và post-migration configuration
 
 * **Thành thạo Database Schema Conversion & Migration:**
   * Hiểu heterogeneous database migration concepts và challenges
@@ -104,7 +103,6 @@ pre: " <b> 1.3. </b> "
   * Triển khai Network ACLs cho subnet-level security controls
   * Thành thạo Security Groups cho instance-level firewall rules
   * Hiểu VPC peering và transit gateway concepts
-  * Áp dụng best practices cho network segmentation và security
 
 * **Thành thạo AWS Site-to-Site VPN:**
   * Hiểu hybrid cloud connectivity sử dụng AWS VPN
@@ -193,7 +191,6 @@ pre: " <b> 1.3. </b> "
   * Triển khai error handling và retry logic cho Lambda functions
   * Monitor Lambda performance metrics sử dụng CloudWatch
   * Hiểu Lambda pricing model và cost optimization strategies
-  * Áp dụng best practices cho serverless application architecture
 
 * **Chuyên môn Amazon ECS Container Orchestration:**
   * Thành thạo Amazon ECS concepts cho container orchestration
@@ -221,7 +218,6 @@ pre: " <b> 1.3. </b> "
   * Thành thạo Kubernetes ConfigMaps và Secrets cho configuration management
   * Triển khai horizontal pod autoscaling dựa trên resource metrics
   * Hiểu EKS integration với AWS services (IAM, CloudWatch, EBS)
-  * Áp dụng Kubernetes best practices cho production workloads
 
 * **Chuyên môn AWS App Runner Deployment:**
   * Hiểu AWS App Runner concepts cho simplified container deployment
@@ -235,35 +231,3 @@ pre: " <b> 1.3. </b> "
   * Thành thạo App Runner auto-scaling dựa trên concurrent requests
   * Monitor application performance sử dụng App Runner metrics
   * Hiểu cost-effective deployment strategies cho web applications
-  * Áp dụng best practices cho containerized application architecture
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-

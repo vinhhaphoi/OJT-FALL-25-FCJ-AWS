@@ -83,7 +83,6 @@ pre: " <b> 1.3. </b> "
   * Managed Amazon S3 storage for VM image files and migration artifacts
   * Understood migration use cases: application migration, backup, and disaster recovery
   * Mastered cost optimization strategies for VM migration workflows
-  * Applied best practices for VM preparation and post-migration configuration
 
 * **Database Schema Conversion & Migration Mastery:**
   * Understood heterogeneous database migration concepts and challenges
@@ -106,7 +105,6 @@ pre: " <b> 1.3. </b> "
   * Implemented Network ACLs for subnet-level security controls
   * Mastered Security Groups for instance-level firewall rules
   * Understood VPC peering and transit gateway concepts
-  * Applied best practices for network segmentation and security
 
 * **AWS Site-to-Site VPN Proficiency:**
   * Understood hybrid cloud connectivity using AWS VPN
@@ -195,7 +193,6 @@ pre: " <b> 1.3. </b> "
   * Implemented error handling and retry logic for Lambda functions
   * Monitored Lambda performance metrics using CloudWatch
   * Understood Lambda pricing model and cost optimization strategies
-  * Applied best practices for serverless application architecture
 
 * **Amazon ECS Container Orchestration Expertise:**
   * Mastered Amazon ECS concepts for container orchestration
@@ -223,7 +220,6 @@ pre: " <b> 1.3. </b> "
   * Mastered Kubernetes ConfigMaps and Secrets for configuration management
   * Implemented horizontal pod autoscaling based on resource metrics
   * Understood EKS integration with AWS services (IAM, CloudWatch, EBS)
-  * Applied Kubernetes best practices for production workloads
 
 * **AWS App Runner Deployment Expertise:**
   * Understood AWS App Runner concepts for simplified container deployment
@@ -237,33 +233,3 @@ pre: " <b> 1.3. </b> "
   * Mastered App Runner auto-scaling based on concurrent requests
   * Monitored application performance using App Runner metrics
   * Understood cost-effective deployment strategies for web applications
-  * Applied best practices for containerized application architecture
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
