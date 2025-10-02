@@ -17,6 +17,10 @@ pre: " <b> 1.3. </b> "
 * Thành thạo AWS VPC networking concepts và advanced network architecture.
 * Hiểu AWS Site-to-Site VPN cho secure hybrid cloud connectivity.
 * Học AWS FSx for Windows File Server enterprise storage solutions.
+* Thành thạo AWS Direct Connect cho dedicated private network connections.
+* Hiểu AWS Client VPN cho secure remote user access.
+* Học AWS Transit Gateway cho centralized network hub architecture.
+* Thành thạo AWS PrivateLink cho private service connectivity.
 * Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
 
 ### Các công việc cần triển khai trong tuần này:
@@ -25,7 +29,7 @@ pre: " <b> 1.3. </b> "
 | 2   | - Học AWS WorkSpaces virtual desktop service và modern working adaptation <br> - Hiểu WorkSpaces infrastructure và deployment architecture <br> - Thành thạo WordPress deployment trên AWS Cloud với Auto Scaling và Load Balancing <br> - Học AWS Managed Directory Service cho enterprise Windows environments <br> - **Thực hành:** <br>&emsp; + **WorkSpaces Deployment:** <br>&emsp;&emsp; - Thiết lập WorkSpaces prerequisites và directory services <br>&emsp;&emsp; - Deploy Amazon WorkSpaces instances <br>&emsp;&emsp; - Truy cập WorkSpaces qua client applications và browsers <br>&emsp; + **WordPress trên AWS Cloud:** <br>&emsp;&emsp; - Cài đặt WordPress trên EC2 với RDS MySQL backend <br>&emsp;&emsp; - Triển khai Auto Scaling Groups cho application scalability <br>&emsp;&emsp; - Cấu hình Application Load Balancer cho high availability <br>&emsp;&emsp; - Thiết lập CloudFront CDN cho global content delivery <br>&emsp;&emsp; - Triển khai database backup và restore với Multi-AZ <br>&emsp; + **AWS Managed Directory Service:** <br>&emsp;&emsp; - Deploy AWS Managed Active Directory service <br>&emsp;&emsp; - Cấu hình Windows Server 2022 làm AD Manager <br>&emsp;&emsp; - Thiết lập Bastion Host cho secure remote access <br>&emsp;&emsp; - Triển khai domain joining và administrative tools | 22/09/2025   | 22/09/2025      | [AWS WorkSpaces Workshop](https://000093.awsstudygroup.com/) <br> <br> [WordPress on AWS Cloud](https://000101.awsstudygroup.com/) <br> <br> [AWS Managed Directory <br> Service](https://000095.awsstudygroup.com/) |
 | 3   | - Thành thạo AWS VM Import/Export cho on-premises to cloud migration <br> - Học Database Schema Conversion và Migration với AWS DMS và SCT <br> - Hiểu hybrid cloud migration strategies <br> - **Thực hành:** <br>&emsp; + **VM Import/Export Workshop:** <br>&emsp;&emsp; - Thiết lập VMware Workstation với Ubuntu Desktop VM <br>&emsp;&emsp; - Cấu hình on-premises virtual machine environment <br>&emsp;&emsp; - Import virtual machine images từ on-premises đến Amazon EC2 <br>&emsp;&emsp; - Export EC2 instances trở lại on-premises environment <br>&emsp;&emsp; - Quản lý S3 storage cho VM image files <br>&emsp; + **Database Migration Workshop:** <br>&emsp;&emsp; - Hiểu AWS Schema Conversion Tool (SCT) concepts <br>&emsp;&emsp; - Học AWS Database Migration Service (DMS) architecture <br>&emsp;&emsp; - Select và configure DMS source databases <br>&emsp;&emsp; - Select và configure DMS target databases <br>&emsp;&emsp; - Triển khai serverless replication cho database migration <br>&emsp;&emsp; - Monitor DMS migrations và troubleshoot issues | 23/09/2025 | 23/09/2025 | [AWS VM Import/Export](https://000014.awsstudygroup.com/) <br> <br> [Database Schema <br> Conversion & Migration](https://000043.awsstudygroup.com/) |
 | 4   | - Học AWS VPC và advanced networking concepts <br> - Thành thạo AWS VPN cho secure hybrid cloud connectivity <br> - Hiểu AWS FSx for Windows File Server enterprise storage <br> - **Thực hành:** <br>&emsp; + **AWS VPC Networking:** <br>&emsp;&emsp; - Tạo và cấu hình VPC với custom CIDR blocks <br>&emsp;&emsp; - Thiết lập public và private subnets qua multiple AZs <br>&emsp;&emsp; - Cấu hình Internet Gateway cho public subnet connectivity <br>&emsp;&emsp; - Triển khai NAT Gateway cho private subnet internet access <br>&emsp;&emsp; - Cấu hình route tables và network ACLs <br>&emsp;&emsp; - Thiết lập security groups cho instance-level security <br>&emsp; + **AWS Site-to-Site VPN:** <br>&emsp;&emsp; - Hiểu VPN architecture và components <br>&emsp;&emsp; - Cấu hình Virtual Private Gateway và Customer Gateway <br>&emsp;&emsp; - Thiết lập VPN connections giữa on-premises và AWS <br>&emsp;&emsp; - Cấu hình static và dynamic routing với BGP <br>&emsp;&emsp; - Test và verify VPN connectivity <br>&emsp; + **AWS FSx for Windows File Server:** <br>&emsp;&emsp; - Deploy FSx file system với Multi-AZ configuration <br>&emsp;&emsp; - Cấu hình Active Directory integration <br>&emsp;&emsp; - Thiết lập EC2 instances cho file server access <br>&emsp;&emsp; - Triển khai file sharing và permissions <br>&emsp;&emsp; - Cấu hình backup và restore strategies | 24/09/2025 | 24/09/2025 | [AWS VPC Networking](https://000100.awsstudygroup.com/) <br> <br> [AWS Site-to-Site VPN](https://000022.awsstudygroup.com/) <br> <br> [AWS FSx for Windows <br> File Server](https://000029.awsstudygroup.com/) |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Học AWS Direct Connect cho dedicated network connections <br> - Thành thạo AWS Client VPN cho secure remote access <br> - Hiểu AWS Transit Gateway cho network consolidation <br> - Học AWS PrivateLink cho private connectivity <br> - **Thực hành:** <br>&emsp; + **AWS Direct Connect:** <br>&emsp;&emsp; - Hiểu Direct Connect architecture và benefits <br>&emsp;&emsp; - Học Direct Connect Gateway configuration <br>&emsp;&emsp; - Cấu hình Virtual Private Gateway connections <br>&emsp;&emsp; - Thiết lập routing và BGP configurations <br>&emsp;&emsp; - Hiểu LAG (Link Aggregation Groups) cho bandwidth <br>&emsp; + **AWS Client VPN:** <br>&emsp;&emsp; - Deploy Client VPN endpoint configuration <br>&emsp;&emsp; - Cấu hình mutual authentication với certificates <br>&emsp;&emsp; - Thiết lập client VPN connections và routing <br>&emsp;&emsp; - Triển khai split-tunnel và full-tunnel configurations <br>&emsp;&emsp; - Cấu hình authorization rules và security groups <br>&emsp; + **AWS Transit Gateway:** <br>&emsp;&emsp; - Hiểu Transit Gateway architecture và use cases <br>&emsp;&emsp; - Cấu hình Transit Gateway attachments to VPCs <br>&emsp;&emsp; - Thiết lập Transit Gateway route tables <br>&emsp;&emsp; - Triển khai VPC-to-VPC connectivity via Transit Gateway <br>&emsp;&emsp; - Cấu hình VPN attachments to Transit Gateway <br>&emsp; + **AWS PrivateLink:** <br>&emsp;&emsp; - Hiểu VPC Endpoint Services và Interface Endpoints <br>&emsp;&emsp; - Cấu hình PrivateLink cho AWS services <br>&emsp;&emsp; - Thiết lập custom PrivateLink endpoints <br>&emsp;&emsp; - Triển khai private connectivity patterns <br>&emsp;&emsp; - Cấu hình endpoint policies và security | 25/09/2025 | 25/09/2025 | [AWS Direct Connect](https://000036.awsstudygroup.com/) <br> <br> [AWS Client VPN](https://000027.awsstudygroup.com/) <br> <br> [AWS Transit Gateway](https://000028.awsstudygroup.com/) <br> <br> [AWS PrivateLink](https://000031.awsstudygroup.com/) |
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
@@ -122,6 +126,56 @@ pre: " <b> 1.3. </b> "
   * Cấu hình shadow copies cho point-in-time file recovery
   * Triển khai monitoring và maintenance best practices
   * Hiểu cost considerations cho FSx deployment
+
+* **Chuyên môn AWS Direct Connect:**
+  * Thành thạo AWS Direct Connect concepts cho dedicated private connectivity
+  * Hiểu Direct Connect architecture và connection types (dedicated vs hosted)
+  * Học Direct Connect Gateway cho multi-region và multi-VPC connectivity
+  * Cấu hình Virtual Private Gateway integration với Direct Connect
+  * Hiểu routing configurations và BGP protocol implementation
+  * Thành thạo Link Aggregation Groups (LAG) cho increased bandwidth
+  * Học Direct Connect resiliency và high availability patterns
+  * Hiểu cost optimization strategies cho Direct Connect deployments
+  * Áp dụng best practices cho hybrid cloud network architecture
+  * So sánh Direct Connect vs VPN cho enterprise connectivity scenarios
+
+* **Thành thạo AWS Client VPN:**
+  * Hiểu AWS Client VPN concepts cho secure remote access
+  * Thành công học Client VPN endpoint architecture và configuration
+  * Thành thạo mutual authentication sử dụng client certificates và server certificates
+  * Cấu hình Active Directory và SAML-based authentication methods
+  * Triển khai split-tunnel VPN cho optimized traffic routing
+  * Thiết lập full-tunnel VPN cho complete traffic encryption
+  * Cấu hình authorization rules cho user access control
+  * Triển khai security group rules cho Client VPN endpoints
+  * Hiểu connection logging và monitoring capabilities
+  * Áp dụng cost considerations và scaling strategies cho Client VPN
+
+* **Thành thạo AWS Transit Gateway:**
+  * Thành thạo AWS Transit Gateway concepts cho centralized network hub
+  * Hiểu Transit Gateway architecture và scalability benefits
+  * Thành công học Transit Gateway attachment types (VPC, VPN, Direct Connect)
+  * Cấu hình Transit Gateway route tables cho traffic management
+  * Triển khai inter-VPC connectivity through Transit Gateway
+  * Thiết lập VPN connections to Transit Gateway cho hybrid cloud
+  * Cấu hình Direct Connect Gateway integration với Transit Gateway
+  * Hiểu Transit Gateway peering cho inter-region connectivity
+  * Thành thạo route propagation và static routing configurations
+  * Áp dụng network segmentation và security best practices
+  * Hiểu cost optimization cho large-scale network architectures
+
+* **Chuyên môn AWS PrivateLink:**
+  * Hiểu AWS PrivateLink concepts cho private service connectivity
+  * Thành thạo VPC Endpoint Services và Interface Endpoints architecture
+  * Thành công cấu hình PrivateLink cho AWS managed services
+  * Học Gateway Endpoints cho S3 và DynamoDB private access
+  * Triển khai custom PrivateLink endpoints cho third-party services
+  * Cấu hình endpoint policies cho fine-grained access control
+  * Hiểu PrivateLink DNS resolution và naming
+  * Thành thạo cross-account PrivateLink service sharing
+  * Triển khai private connectivity patterns cho microservices
+  * Áp dụng security best practices cho private service exposure
+  * Hiểu cost considerations và scaling cho PrivateLink deployments
 
 * Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
   * Compute

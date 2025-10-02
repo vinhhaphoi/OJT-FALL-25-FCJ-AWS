@@ -19,6 +19,10 @@ pre: " <b> 1.3. </b> "
 * Master AWS VPC networking concepts and advanced network architecture.
 * Understand AWS Site-to-Site VPN for secure hybrid cloud connectivity.
 * Learn AWS FSx for Windows File Server enterprise storage solutions.
+* Master AWS Direct Connect for dedicated private network connections.
+* Understand AWS Client VPN for secure remote user access.
+* Learn AWS Transit Gateway for centralized network hub architecture.
+* Master AWS PrivateLink for private service connectivity.
 * Understand basic AWS services, how to use the console & CLI.
 
 ### Tasks to be carried out this week:
@@ -27,7 +31,7 @@ pre: " <b> 1.3. </b> "
 | 2   | - Learn AWS WorkSpaces virtual desktop service and modern working adaptation <br> - Understand WorkSpaces infrastructure and deployment architecture <br> - Master WordPress deployment on AWS Cloud with Auto Scaling and Load Balancing <br> - Learn AWS Managed Directory Service for enterprise Windows environments <br> - **Practice:** <br>&emsp; + **WorkSpaces Deployment:** <br>&emsp;&emsp; - Set up WorkSpaces prerequisites and directory services <br>&emsp;&emsp; - Deploy Amazon WorkSpaces instances <br>&emsp;&emsp; - Access WorkSpaces via client applications and browsers <br>&emsp; + **WordPress on AWS Cloud:** <br>&emsp;&emsp; - Install WordPress on EC2 with RDS MySQL backend <br>&emsp;&emsp; - Implement Auto Scaling Groups for application scalability <br>&emsp;&emsp; - Configure Application Load Balancer for high availability <br>&emsp;&emsp; - Set up CloudFront CDN for global content delivery <br>&emsp;&emsp; - Implement database backup and restore with Multi-AZ <br>&emsp; + **AWS Managed Directory Service:** <br>&emsp;&emsp; - Deploy AWS Managed Active Directory service <br>&emsp;&emsp; - Configure Windows Server 2022 as AD Manager <br>&emsp;&emsp; - Set up Bastion Host for secure remote access <br>&emsp;&emsp; - Implement domain joining and administrative tools | 09/22/2025 | 09/22/2025      | [AWS WorkSpaces Workshop](https://000093.awsstudygroup.com/) <br> <br> [WordPress on AWS Cloud](https://000101.awsstudygroup.com/) <br> <br> [AWS Managed Directory <br> Service](https://000095.awsstudygroup.com/) |
 | 3   | - Master AWS VM Import/Export for on-premises to cloud migration <br> - Learn Database Schema Conversion and Migration with AWS DMS and SCT <br> - Understand hybrid cloud migration strategies <br> - **Practice:** <br>&emsp; + **VM Import/Export Workshop:** <br>&emsp;&emsp; - Set up VMware Workstation with Ubuntu Desktop VM <br>&emsp;&emsp; - Configure on-premises virtual machine environment <br>&emsp;&emsp; - Import virtual machine images from on-premises to Amazon EC2 <br>&emsp;&emsp; - Export EC2 instances back to on-premises environment <br>&emsp;&emsp; - Manage S3 storage for VM image files <br>&emsp; + **Database Migration Workshop:** <br>&emsp;&emsp; - Understand AWS Schema Conversion Tool (SCT) concepts <br>&emsp;&emsp; - Learn AWS Database Migration Service (DMS) architecture <br>&emsp;&emsp; - Select and configure DMS source databases <br>&emsp;&emsp; - Select and configure DMS target databases <br>&emsp;&emsp; - Implement serverless replication for database migration <br>&emsp;&emsp; - Monitor DMS migrations and troubleshoot issues | 09/23/2025 | 09/23/2025      | [AWS VM Import/Export](https://000014.awsstudygroup.com/) <br> <br> [Database Schema <br> Conversion & Migration](https://000043.awsstudygroup.com/) |
 | 4   | - Learn AWS VPC and advanced networking concepts <br> - Master AWS VPN for secure hybrid cloud connectivity <br> - Understand AWS FSx for Windows File Server enterprise storage <br> - **Practice:** <br>&emsp; + **AWS VPC Networking:** <br>&emsp;&emsp; - Create and configure VPC with custom CIDR blocks <br>&emsp;&emsp; - Set up public and private subnets across multiple AZs <br>&emsp;&emsp; - Configure Internet Gateway for public subnet connectivity <br>&emsp;&emsp; - Implement NAT Gateway for private subnet internet access <br>&emsp;&emsp; - Configure route tables and network ACLs <br>&emsp;&emsp; - Set up security groups for instance-level security <br>&emsp; + **AWS Site-to-Site VPN:** <br>&emsp;&emsp; - Understand VPN architecture and components <br>&emsp;&emsp; - Configure Virtual Private Gateway and Customer Gateway <br>&emsp;&emsp; - Establish VPN connections between on-premises and AWS <br>&emsp;&emsp; - Configure static and dynamic routing with BGP <br>&emsp;&emsp; - Test and verify VPN connectivity <br>&emsp; + **AWS FSx for Windows File Server:** <br>&emsp;&emsp; - Deploy FSx file system with Multi-AZ configuration <br>&emsp;&emsp; - Configure Active Directory integration <br>&emsp;&emsp; - Set up EC2 instances for file server access <br>&emsp;&emsp; - Implement file sharing and permissions <br>&emsp;&emsp; - Configure backup and restore strategies | 09/24/2025 | 09/24/2025      | [AWS VPC Networking](https://000100.awsstudygroup.com/) <br> <br> [AWS Site-to-Site VPN](https://000022.awsstudygroup.com/) <br> <br> [AWS FSx for Windows <br> File Server](https://000029.awsstudygroup.com/) |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Learn AWS Direct Connect for dedicated network connections <br> - Master AWS Client VPN for secure remote access <br> - Understand AWS Transit Gateway for network consolidation <br> - Learn AWS PrivateLink for private connectivity <br> - **Practice:** <br>&emsp; + **AWS Direct Connect:** <br>&emsp;&emsp; - Understand Direct Connect architecture and benefits <br>&emsp;&emsp; - Learn Direct Connect Gateway configuration <br>&emsp;&emsp; - Configure Virtual Private Gateway connections <br>&emsp;&emsp; - Set up routing and BGP configurations <br>&emsp;&emsp; - Understand LAG (Link Aggregation Groups) for bandwidth <br>&emsp; + **AWS Client VPN:** <br>&emsp;&emsp; - Deploy Client VPN endpoint configuration <br>&emsp;&emsp; - Configure mutual authentication with certificates <br>&emsp;&emsp; - Set up client VPN connections and routing <br>&emsp;&emsp; - Implement split-tunnel and full-tunnel configurations <br>&emsp;&emsp; - Configure authorization rules and security groups <br>&emsp; + **AWS Transit Gateway:** <br>&emsp;&emsp; - Understand Transit Gateway architecture and use cases <br>&emsp;&emsp; - Configure Transit Gateway attachments to VPCs <br>&emsp;&emsp; - Set up Transit Gateway route tables <br>&emsp;&emsp; - Implement VPC-to-VPC connectivity via Transit Gateway <br>&emsp;&emsp; - Configure VPN attachments to Transit Gateway <br>&emsp; + **AWS PrivateLink:** <br>&emsp;&emsp; - Understand VPC Endpoint Services and Interface Endpoints <br>&emsp;&emsp; - Configure PrivateLink for AWS services <br>&emsp;&emsp; - Set up custom PrivateLink endpoints <br>&emsp;&emsp; - Implement private connectivity patterns <br>&emsp;&emsp; - Configure endpoint policies and security | 09/25/2025 | 09/25/2025      | [AWS Direct Connect](https://000036.awsstudygroup.com/) <br> <br> [AWS Client VPN](https://000027.awsstudygroup.com/) <br> <br> [AWS Transit Gateway](https://000028.awsstudygroup.com/) <br> <br> [AWS PrivateLink](https://000031.awsstudygroup.com/) |
 | 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
@@ -124,6 +128,56 @@ pre: " <b> 1.3. </b> "
   * Configured shadow copies for point-in-time file recovery
   * Implemented monitoring and maintenance best practices
   * Understood cost considerations for FSx deployment
+
+* **AWS Direct Connect Expertise:**
+  * Mastered AWS Direct Connect concepts for dedicated private connectivity
+  * Understood Direct Connect architecture and connection types (dedicated vs hosted)
+  * Learned Direct Connect Gateway for multi-region and multi-VPC connectivity
+  * Configured Virtual Private Gateway integration with Direct Connect
+  * Understood routing configurations and BGP protocol implementation
+  * Mastered Link Aggregation Groups (LAG) for increased bandwidth
+  * Learned Direct Connect resiliency and high availability patterns
+  * Understood cost optimization strategies for Direct Connect deployments
+  * Applied best practices for hybrid cloud network architecture
+  * Compared Direct Connect vs VPN for enterprise connectivity scenarios
+
+* **AWS Client VPN Proficiency:**
+  * Understood AWS Client VPN concepts for secure remote access
+  * Successfully learned Client VPN endpoint architecture and configuration
+  * Mastered mutual authentication using client certificates and server certificates
+  * Configured Active Directory and SAML-based authentication methods
+  * Implemented split-tunnel VPN for optimized traffic routing
+  * Set up full-tunnel VPN for complete traffic encryption
+  * Configured authorization rules for user access control
+  * Implemented security group rules for Client VPN endpoints
+  * Understood connection logging and monitoring capabilities
+  * Applied cost considerations and scaling strategies for Client VPN
+
+* **AWS Transit Gateway Mastery:**
+  * Mastered AWS Transit Gateway concepts for centralized network hub
+  * Understood Transit Gateway architecture and scalability benefits
+  * Successfully learned Transit Gateway attachment types (VPC, VPN, Direct Connect)
+  * Configured Transit Gateway route tables for traffic management
+  * Implemented inter-VPC connectivity through Transit Gateway
+  * Set up VPN connections to Transit Gateway for hybrid cloud
+  * Configured Direct Connect Gateway integration with Transit Gateway
+  * Understood Transit Gateway peering for inter-region connectivity
+  * Mastered route propagation and static routing configurations
+  * Applied network segmentation and security best practices
+  * Understood cost optimization for large-scale network architectures
+
+* **AWS PrivateLink Expertise:**
+  * Understood AWS PrivateLink concepts for private service connectivity
+  * Mastered VPC Endpoint Services and Interface Endpoints architecture
+  * Successfully configured PrivateLink for AWS managed services
+  * Learned Gateway Endpoints for S3 and DynamoDB private access
+  * Implemented custom PrivateLink endpoints for third-party services
+  * Configured endpoint policies for fine-grained access control
+  * Understood PrivateLink DNS resolution and naming
+  * Mastered cross-account PrivateLink service sharing
+  * Implemented private connectivity patterns for microservices
+  * Applied security best practices for private service exposure
+  * Understood cost considerations and scaling for PrivateLink deployments
 
 * Understood what AWS is and mastered the basic service groups: 
   * Compute
