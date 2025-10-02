@@ -10,7 +10,6 @@ pre: " <b> 1.3. </b> "
 
 ### Week 3 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
 * Learn AWS WorkSpaces virtual desktop service for modern cloud-based workstations.
 * Master WordPress deployment on AWS Cloud with scalability and high availability.
 * Understand AWS Managed Directory Service for enterprise Windows environments.

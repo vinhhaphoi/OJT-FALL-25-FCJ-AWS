@@ -8,7 +8,6 @@ pre: " <b> 1.3. </b> "
 
 ### Mục tiêu tuần 3:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
 * Học AWS WorkSpaces virtual desktop service cho modern cloud-based workstations.
 * Thành thạo WordPress deployment trên AWS Cloud với scalability và high availability.
 * Hiểu AWS Managed Directory Service cho enterprise Windows environments.
