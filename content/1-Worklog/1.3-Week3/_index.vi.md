@@ -14,6 +14,9 @@ pre: " <b> 1.3. </b> "
 * Hiểu AWS Managed Directory Service cho enterprise Windows environments.
 * Thành thạo AWS VM Import/Export cho on-premises to cloud migration.
 * Học Database Schema Conversion và Migration sử dụng AWS DMS và SCT.
+* Thành thạo AWS VPC networking concepts và advanced network architecture.
+* Hiểu AWS Site-to-Site VPN cho secure hybrid cloud connectivity.
+* Học AWS FSx for Windows File Server enterprise storage solutions.
 * Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
 
 ### Các công việc cần triển khai trong tuần này:
@@ -21,7 +24,7 @@ pre: " <b> 1.3. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2   | - Học AWS WorkSpaces virtual desktop service và modern working adaptation <br> - Hiểu WorkSpaces infrastructure và deployment architecture <br> - Thành thạo WordPress deployment trên AWS Cloud với Auto Scaling và Load Balancing <br> - Học AWS Managed Directory Service cho enterprise Windows environments <br> - **Thực hành:** <br>&emsp; + **WorkSpaces Deployment:** <br>&emsp;&emsp; - Thiết lập WorkSpaces prerequisites và directory services <br>&emsp;&emsp; - Deploy Amazon WorkSpaces instances <br>&emsp;&emsp; - Truy cập WorkSpaces qua client applications và browsers <br>&emsp; + **WordPress trên AWS Cloud:** <br>&emsp;&emsp; - Cài đặt WordPress trên EC2 với RDS MySQL backend <br>&emsp;&emsp; - Triển khai Auto Scaling Groups cho application scalability <br>&emsp;&emsp; - Cấu hình Application Load Balancer cho high availability <br>&emsp;&emsp; - Thiết lập CloudFront CDN cho global content delivery <br>&emsp;&emsp; - Triển khai database backup và restore với Multi-AZ <br>&emsp; + **AWS Managed Directory Service:** <br>&emsp;&emsp; - Deploy AWS Managed Active Directory service <br>&emsp;&emsp; - Cấu hình Windows Server 2022 làm AD Manager <br>&emsp;&emsp; - Thiết lập Bastion Host cho secure remote access <br>&emsp;&emsp; - Triển khai domain joining và administrative tools | 22/09/2025   | 22/09/2025      | [AWS WorkSpaces Workshop](https://000093.awsstudygroup.com/) <br> <br> [WordPress on AWS Cloud](https://000101.awsstudygroup.com/) <br> <br> [AWS Managed Directory <br> Service](https://000095.awsstudygroup.com/) |
 | 3   | - Thành thạo AWS VM Import/Export cho on-premises to cloud migration <br> - Học Database Schema Conversion và Migration với AWS DMS và SCT <br> - Hiểu hybrid cloud migration strategies <br> - **Thực hành:** <br>&emsp; + **VM Import/Export Workshop:** <br>&emsp;&emsp; - Thiết lập VMware Workstation với Ubuntu Desktop VM <br>&emsp;&emsp; - Cấu hình on-premises virtual machine environment <br>&emsp;&emsp; - Import virtual machine images từ on-premises đến Amazon EC2 <br>&emsp;&emsp; - Export EC2 instances trở lại on-premises environment <br>&emsp;&emsp; - Quản lý S3 storage cho VM image files <br>&emsp; + **Database Migration Workshop:** <br>&emsp;&emsp; - Hiểu AWS Schema Conversion Tool (SCT) concepts <br>&emsp;&emsp; - Học AWS Database Migration Service (DMS) architecture <br>&emsp;&emsp; - Select và configure DMS source databases <br>&emsp;&emsp; - Select và configure DMS target databases <br>&emsp;&emsp; - Triển khai serverless replication cho database migration <br>&emsp;&emsp; - Monitor DMS migrations và troubleshoot issues | 23/09/2025 | 23/09/2025 | [AWS VM Import/Export](https://000014.awsstudygroup.com/) <br> <br> [Database Schema <br> Conversion & Migration](https://000043.awsstudygroup.com/) |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Học AWS VPC và advanced networking concepts <br> - Thành thạo AWS VPN cho secure hybrid cloud connectivity <br> - Hiểu AWS FSx for Windows File Server enterprise storage <br> - **Thực hành:** <br>&emsp; + **AWS VPC Networking:** <br>&emsp;&emsp; - Tạo và cấu hình VPC với custom CIDR blocks <br>&emsp;&emsp; - Thiết lập public và private subnets qua multiple AZs <br>&emsp;&emsp; - Cấu hình Internet Gateway cho public subnet connectivity <br>&emsp;&emsp; - Triển khai NAT Gateway cho private subnet internet access <br>&emsp;&emsp; - Cấu hình route tables và network ACLs <br>&emsp;&emsp; - Thiết lập security groups cho instance-level security <br>&emsp; + **AWS Site-to-Site VPN:** <br>&emsp;&emsp; - Hiểu VPN architecture và components <br>&emsp;&emsp; - Cấu hình Virtual Private Gateway và Customer Gateway <br>&emsp;&emsp; - Thiết lập VPN connections giữa on-premises và AWS <br>&emsp;&emsp; - Cấu hình static và dynamic routing với BGP <br>&emsp;&emsp; - Test và verify VPN connectivity <br>&emsp; + **AWS FSx for Windows File Server:** <br>&emsp;&emsp; - Deploy FSx file system với Multi-AZ configuration <br>&emsp;&emsp; - Cấu hình Active Directory integration <br>&emsp;&emsp; - Thiết lập EC2 instances cho file server access <br>&emsp;&emsp; - Triển khai file sharing và permissions <br>&emsp;&emsp; - Cấu hình backup và restore strategies | 24/09/2025 | 24/09/2025 | [AWS VPC Networking](https://000100.awsstudygroup.com/) <br> <br> [AWS Site-to-Site VPN](https://000022.awsstudygroup.com/) <br> <br> [AWS FSx for Windows <br> File Server](https://000029.awsstudygroup.com/) |
 | 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
@@ -82,6 +85,43 @@ pre: " <b> 1.3. </b> "
   * Monitor DMS migration tasks và performance metrics
   * Troubleshoot migration issues và áp dụng remediation strategies
   * Hiểu minimal downtime migration techniques cho production databases
+
+* **Chuyên môn AWS VPC Networking:**
+  * Thành thạo AWS Virtual Private Cloud (VPC) concepts và architecture
+  * Thành công tạo VPC với custom IPv4 CIDR blocks
+  * Cấu hình public và private subnets qua multiple Availability Zones
+  * Triển khai Internet Gateway cho public subnet internet connectivity
+  * Deploy NAT Gateway để enable internet access cho private subnets
+  * Cấu hình route tables cho traffic routing giữa subnets
+  * Triển khai Network ACLs cho subnet-level security controls
+  * Thành thạo Security Groups cho instance-level firewall rules
+  * Hiểu VPC peering và transit gateway concepts
+  * Áp dụng best practices cho network segmentation và security
+
+* **Thành thạo AWS Site-to-Site VPN:**
+  * Hiểu hybrid cloud connectivity sử dụng AWS VPN
+  * Thành thạo VPN architecture với Virtual Private Gateway và Customer Gateway
+  * Thành công cấu hình Site-to-Site VPN connections
+  * Triển khai static routing cho VPN traffic management
+  * Cấu hình dynamic routing sử dụng Border Gateway Protocol (BGP)
+  * Thiết lập redundant VPN tunnels cho high availability
+  * Test và verify VPN connectivity giữa on-premises và AWS
+  * Monitor VPN connection status và troubleshoot connectivity issues
+  * Hiểu IPsec encryption và VPN security protocols
+  * Áp dụng cost optimization strategies cho VPN deployments
+
+* **Thành thạo AWS FSx for Windows File Server:**
+  * Hiểu AWS FSx concepts cho enterprise Windows file storage
+  * Thành công deploy FSx file system với Multi-AZ configuration
+  * Tích hợp FSx với AWS Managed Active Directory
+  * Cấu hình Windows EC2 instances cho FSx file server access
+  * Triển khai file sharing và NTFS permissions management
+  * Thiết lập automated backup và restore strategies
+  * Hiểu deduplication và data compression features
+  * Thành thạo FSx performance optimization và scaling capabilities
+  * Cấu hình shadow copies cho point-in-time file recovery
+  * Triển khai monitoring và maintenance best practices
+  * Hiểu cost considerations cho FSx deployment
 
 * Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
   * Compute

@@ -16,6 +16,9 @@ pre: " <b> 1.3. </b> "
 * Understand AWS Managed Directory Service for enterprise Windows environments.
 * Master AWS VM Import/Export for on-premises to cloud migration.
 * Learn Database Schema Conversion and Migration using AWS DMS and SCT.
+* Master AWS VPC networking concepts and advanced network architecture.
+* Understand AWS Site-to-Site VPN for secure hybrid cloud connectivity.
+* Learn AWS FSx for Windows File Server enterprise storage solutions.
 * Understand basic AWS services, how to use the console & CLI.
 
 ### Tasks to be carried out this week:
@@ -23,7 +26,7 @@ pre: " <b> 1.3. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
 | 2   | - Learn AWS WorkSpaces virtual desktop service and modern working adaptation <br> - Understand WorkSpaces infrastructure and deployment architecture <br> - Master WordPress deployment on AWS Cloud with Auto Scaling and Load Balancing <br> - Learn AWS Managed Directory Service for enterprise Windows environments <br> - **Practice:** <br>&emsp; + **WorkSpaces Deployment:** <br>&emsp;&emsp; - Set up WorkSpaces prerequisites and directory services <br>&emsp;&emsp; - Deploy Amazon WorkSpaces instances <br>&emsp;&emsp; - Access WorkSpaces via client applications and browsers <br>&emsp; + **WordPress on AWS Cloud:** <br>&emsp;&emsp; - Install WordPress on EC2 with RDS MySQL backend <br>&emsp;&emsp; - Implement Auto Scaling Groups for application scalability <br>&emsp;&emsp; - Configure Application Load Balancer for high availability <br>&emsp;&emsp; - Set up CloudFront CDN for global content delivery <br>&emsp;&emsp; - Implement database backup and restore with Multi-AZ <br>&emsp; + **AWS Managed Directory Service:** <br>&emsp;&emsp; - Deploy AWS Managed Active Directory service <br>&emsp;&emsp; - Configure Windows Server 2022 as AD Manager <br>&emsp;&emsp; - Set up Bastion Host for secure remote access <br>&emsp;&emsp; - Implement domain joining and administrative tools | 09/22/2025 | 09/22/2025      | [AWS WorkSpaces Workshop](https://000093.awsstudygroup.com/) <br> <br> [WordPress on AWS Cloud](https://000101.awsstudygroup.com/) <br> <br> [AWS Managed Directory <br> Service](https://000095.awsstudygroup.com/) |
 | 3   | - Master AWS VM Import/Export for on-premises to cloud migration <br> - Learn Database Schema Conversion and Migration with AWS DMS and SCT <br> - Understand hybrid cloud migration strategies <br> - **Practice:** <br>&emsp; + **VM Import/Export Workshop:** <br>&emsp;&emsp; - Set up VMware Workstation with Ubuntu Desktop VM <br>&emsp;&emsp; - Configure on-premises virtual machine environment <br>&emsp;&emsp; - Import virtual machine images from on-premises to Amazon EC2 <br>&emsp;&emsp; - Export EC2 instances back to on-premises environment <br>&emsp;&emsp; - Manage S3 storage for VM image files <br>&emsp; + **Database Migration Workshop:** <br>&emsp;&emsp; - Understand AWS Schema Conversion Tool (SCT) concepts <br>&emsp;&emsp; - Learn AWS Database Migration Service (DMS) architecture <br>&emsp;&emsp; - Select and configure DMS source databases <br>&emsp;&emsp; - Select and configure DMS target databases <br>&emsp;&emsp; - Implement serverless replication for database migration <br>&emsp;&emsp; - Monitor DMS migrations and troubleshoot issues | 09/23/2025 | 09/23/2025      | [AWS VM Import/Export](https://000014.awsstudygroup.com/) <br> <br> [Database Schema <br> Conversion & Migration](https://000043.awsstudygroup.com/) |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Learn AWS VPC and advanced networking concepts <br> - Master AWS VPN for secure hybrid cloud connectivity <br> - Understand AWS FSx for Windows File Server enterprise storage <br> - **Practice:** <br>&emsp; + **AWS VPC Networking:** <br>&emsp;&emsp; - Create and configure VPC with custom CIDR blocks <br>&emsp;&emsp; - Set up public and private subnets across multiple AZs <br>&emsp;&emsp; - Configure Internet Gateway for public subnet connectivity <br>&emsp;&emsp; - Implement NAT Gateway for private subnet internet access <br>&emsp;&emsp; - Configure route tables and network ACLs <br>&emsp;&emsp; - Set up security groups for instance-level security <br>&emsp; + **AWS Site-to-Site VPN:** <br>&emsp;&emsp; - Understand VPN architecture and components <br>&emsp;&emsp; - Configure Virtual Private Gateway and Customer Gateway <br>&emsp;&emsp; - Establish VPN connections between on-premises and AWS <br>&emsp;&emsp; - Configure static and dynamic routing with BGP <br>&emsp;&emsp; - Test and verify VPN connectivity <br>&emsp; + **AWS FSx for Windows File Server:** <br>&emsp;&emsp; - Deploy FSx file system with Multi-AZ configuration <br>&emsp;&emsp; - Configure Active Directory integration <br>&emsp;&emsp; - Set up EC2 instances for file server access <br>&emsp;&emsp; - Implement file sharing and permissions <br>&emsp;&emsp; - Configure backup and restore strategies | 09/24/2025 | 09/24/2025      | [AWS VPC Networking](https://000100.awsstudygroup.com/) <br> <br> [AWS Site-to-Site VPN](https://000022.awsstudygroup.com/) <br> <br> [AWS FSx for Windows <br> File Server](https://000029.awsstudygroup.com/) |
 | 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
@@ -84,6 +87,43 @@ pre: " <b> 1.3. </b> "
   * Monitored DMS migration tasks and performance metrics
   * Troubleshot migration issues and applied remediation strategies
   * Understood minimal downtime migration techniques for production databases
+
+* **AWS VPC Networking Expertise:**
+  * Mastered AWS Virtual Private Cloud (VPC) concepts and architecture
+  * Successfully created VPC with custom IPv4 CIDR blocks
+  * Configured public and private subnets across multiple Availability Zones
+  * Implemented Internet Gateway for public subnet internet connectivity
+  * Deployed NAT Gateway to enable internet access for private subnets
+  * Configured route tables for traffic routing between subnets
+  * Implemented Network ACLs for subnet-level security controls
+  * Mastered Security Groups for instance-level firewall rules
+  * Understood VPC peering and transit gateway concepts
+  * Applied best practices for network segmentation and security
+
+* **AWS Site-to-Site VPN Proficiency:**
+  * Understood hybrid cloud connectivity using AWS VPN
+  * Mastered VPN architecture with Virtual Private Gateway and Customer Gateway
+  * Successfully configured Site-to-Site VPN connections
+  * Implemented static routing for VPN traffic management
+  * Configured dynamic routing using Border Gateway Protocol (BGP)
+  * Set up redundant VPN tunnels for high availability
+  * Tested and verified VPN connectivity between on-premises and AWS
+  * Monitored VPN connection status and troubleshot connectivity issues
+  * Understood IPsec encryption and VPN security protocols
+  * Applied cost optimization strategies for VPN deployments
+
+* **AWS FSx for Windows File Server Mastery:**
+  * Understood AWS FSx concepts for enterprise Windows file storage
+  * Successfully deployed FSx file system with Multi-AZ configuration
+  * Integrated FSx with AWS Managed Active Directory
+  * Configured Windows EC2 instances for FSx file server access
+  * Implemented file sharing and NTFS permissions management
+  * Set up automated backup and restore strategies
+  * Understood deduplication and data compression features
+  * Mastered FSx performance optimization and scaling capabilities
+  * Configured shadow copies for point-in-time file recovery
+  * Implemented monitoring and maintenance best practices
+  * Understood cost considerations for FSx deployment
 
 * Understood what AWS is and mastered the basic service groups: 
   * Compute
