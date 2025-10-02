@@ -15,13 +15,16 @@ pre: " <b> 1.4. </b> "
 * Master AWS Storage Gateway for hybrid cloud storage integration.
 * Understand Amazon S3 Glacier for long-term archival storage.
 * Learn AWS DataSync for automated data transfer and synchronization.
+* Master AWS Control Tower for multi-account AWS environment setup.
+* Understand AWS Organizations for centralized account management.
+* Learn AWS Service Catalog for standardized service provisioning.
 
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
 | 2   | - Learn AWS Backup for centralized backup management <br> - Master AWS Storage Gateway for hybrid cloud storage <br> - Understand Amazon S3 Glacier for archival storage <br> - Learn AWS DataSync for automated data transfer <br> - **Practice:** <br>&emsp; + **AWS Backup Service:** <br>&emsp;&emsp; - Understand AWS Backup architecture and features <br>&emsp;&emsp; - Configure backup plans and policies <br>&emsp;&emsp; - Set up backup vaults and access policies <br>&emsp;&emsp; - Implement automated backup schedules <br>&emsp;&emsp; - Perform backup restoration and recovery <br>&emsp;&emsp; - Configure cross-region and cross-account backup <br>&emsp; + **AWS Storage Gateway:** <br>&emsp;&emsp; - Understand Storage Gateway types (File, Volume, Tape) <br>&emsp;&emsp; - Deploy File Gateway for NFS/SMB file storage <br>&emsp;&emsp; - Configure Volume Gateway for iSCSI block storage <br>&emsp;&emsp; - Set up Tape Gateway for virtual tape library <br>&emsp;&emsp; - Implement caching and bandwidth optimization <br>&emsp;&emsp; - Configure on-premises to S3 integration <br>&emsp; + **Amazon S3 Glacier:** <br>&emsp;&emsp; - Understand Glacier storage classes and pricing <br>&emsp;&emsp; - Configure S3 Lifecycle policies for archival <br>&emsp;&emsp; - Implement Glacier retrieval options (Expedited, Standard, Bulk) <br>&emsp;&emsp; - Set up Glacier Vault Lock for compliance <br>&emsp;&emsp; - Configure S3 Intelligent-Tiering for cost optimization <br>&emsp; + **AWS DataSync:** <br>&emsp;&emsp; - Understand DataSync architecture and use cases <br>&emsp;&emsp; - Configure DataSync agents for on-premises transfers <br>&emsp;&emsp; - Set up DataSync tasks for automated transfers <br>&emsp;&emsp; - Implement data validation and verification <br>&emsp;&emsp; - Configure bandwidth throttling and scheduling <br>&emsp;&emsp; - Monitor DataSync task execution and performance | 09/29/2025 | 09/29/2025      | [AWS Backup Service](https://000102.awsstudygroup.com/) <br> <br> [AWS Storage Gateway](https://000032.awsstudygroup.com/) <br> <br> [Amazon S3 Glacier](https://000074.awsstudygroup.com/) <br> <br> [AWS DataSync](https://000075.awsstudygroup.com/) |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 3   | - Master AWS Control Tower for multi-account environment setup <br> - Understand AWS Organizations for centralized account management <br> - Learn AWS Service Catalog for standardized provisioning <br> - **Practice:** <br>&emsp; + **AWS Control Tower:** <br>&emsp;&emsp; - Understand Control Tower architecture and landing zone <br>&emsp;&emsp; - Set up multi-account AWS environment with Control Tower <br>&emsp;&emsp; - Configure organizational units (OUs) and account structure <br>&emsp;&emsp; - Implement guardrails for preventive and detective controls <br>&emsp;&emsp; - Set up Account Factory for automated account provisioning <br>&emsp;&emsp; - Configure centralized logging and monitoring <br>&emsp;&emsp; - Implement baseline security configurations <br>&emsp; + **AWS Organizations:** <br>&emsp;&emsp; - Understand Organizations architecture and hierarchy <br>&emsp;&emsp; - Create and manage organizational structure <br>&emsp;&emsp; - Configure Service Control Policies (SCPs) <br>&emsp;&emsp; - Implement consolidated billing and cost allocation <br>&emsp;&emsp; - Set up cross-account resource sharing <br>&emsp;&emsp; - Configure centralized security and compliance policies <br>&emsp; + **AWS Service Catalog:** <br>&emsp;&emsp; - Understand Service Catalog architecture and benefits <br>&emsp;&emsp; - Create and manage product portfolios <br>&emsp;&emsp; - Configure provisioning artifacts and constraints <br>&emsp;&emsp; - Set up user access and permissions <br>&emsp;&emsp; - Implement TagOptions for resource tagging <br>&emsp;&emsp; - Configure launch constraints and templates <br>&emsp;&emsp; - Monitor provisioned products and compliance | 09/30/2025 | 09/30/2025      | [AWS Control Tower](https://000063.awsstudygroup.com/) <br> <br> [AWS Organizations](https://000064.awsstudygroup.com/) <br> <br> [AWS Service Catalog](https://000088.awsstudygroup.com/) |
 | 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
@@ -84,4 +87,46 @@ pre: " <b> 1.4. </b> "
   * Monitored DataSync task execution and performance metrics
   * Understood DataSync vs Snow Family for large-scale data transfers
   * Applied best practices for data migration and synchronization strategies
+
+* **AWS Control Tower Multi-Account Mastery:**
+  * Mastered AWS Control Tower concepts for multi-account environment management
+  * Understood Control Tower landing zone architecture and components
+  * Successfully set up multi-account AWS environment with automated provisioning
+  * Configured organizational units (OUs) with hierarchical account structure
+  * Implemented preventive guardrails to enforce policies and compliance
+  * Set up detective guardrails for monitoring and alerting
+  * Mastered Account Factory for automated account creation and baseline configuration
+  * Configured centralized logging with AWS CloudTrail and AWS Config
+  * Implemented dashboard for compliance and security monitoring
+  * Understood Control Tower integration with AWS Organizations and SSO
+  * Applied best practices for enterprise-scale multi-account architecture
+  * Mastered account lifecycle management and governance
+
+* **AWS Organizations Governance Expertise:**
+  * Understood AWS Organizations concepts for centralized account management
+  * Mastered organizational hierarchy with root, OUs, and member accounts
+  * Successfully created and structured organization with multiple accounts
+  * Configured Service Control Policies (SCPs) for permission boundaries
+  * Implemented preventive controls across organizational units
+  * Set up consolidated billing for cost management and optimization
+  * Configured cost allocation tags for detailed billing analysis
+  * Implemented cross-account resource sharing with AWS RAM
+  * Set up centralized security policies and compliance controls
+  * Mastered invitation and account migration processes
+  * Understood Organizations integration with Control Tower and SSO
+  * Applied best practices for organizational account governance
+
+* **AWS Service Catalog Provisioning Proficiency:**
+  * Mastered AWS Service Catalog concepts for standardized provisioning
+  * Understood Service Catalog architecture with portfolios and products
+  * Successfully created product portfolios with versioned products
+  * Configured provisioning artifacts using CloudFormation templates
+  * Implemented launch constraints for resource governance
+  * Set up template constraints for parameter validation
+  * Configured user access and permissions for portfolio sharing
+  * Implemented TagOptions for automated resource tagging
+  * Set up notification constraints for provisioning events
+  * Monitored provisioned products and stack resources
+  * Understood Service Catalog integration with AWS Organizations
+  * Applied best practices for self-service infrastructure provisioning
 
