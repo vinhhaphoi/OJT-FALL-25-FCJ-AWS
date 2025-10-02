@@ -15,6 +15,8 @@ pre: " <b> 1.4. </b> "
 * Thành thạo AWS Control Tower cho multi-account AWS environment setup.
 * Hiểu AWS Organizations cho centralized account management.
 * Học AWS Service Catalog cho standardized service provisioning.
+* Thành thạo AWS Systems Manager cho unified operations management.
+* Hiểu AWS CloudFormation cho infrastructure as code.
 
 
 ### Các công việc cần triển khai trong tuần này:
@@ -22,7 +24,7 @@ pre: " <b> 1.4. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2   | - Học AWS Backup cho centralized backup management <br> - Thành thạo AWS Storage Gateway cho hybrid cloud storage <br> - Hiểu Amazon S3 Glacier cho archival storage <br> - Học AWS DataSync cho automated data transfer <br> - **Thực hành:** <br>&emsp; + **AWS Backup Service:** <br>&emsp;&emsp; - Hiểu AWS Backup architecture và features <br>&emsp;&emsp; - Cấu hình backup plans và policies <br>&emsp;&emsp; - Thiết lập backup vaults và access policies <br>&emsp;&emsp; - Triển khai automated backup schedules <br>&emsp;&emsp; - Thực hiện backup restoration và recovery <br>&emsp;&emsp; - Cấu hình cross-region và cross-account backup <br>&emsp; + **AWS Storage Gateway:** <br>&emsp;&emsp; - Hiểu Storage Gateway types (File, Volume, Tape) <br>&emsp;&emsp; - Deploy File Gateway cho NFS/SMB file storage <br>&emsp;&emsp; - Cấu hình Volume Gateway cho iSCSI block storage <br>&emsp;&emsp; - Thiết lập Tape Gateway cho virtual tape library <br>&emsp;&emsp; - Triển khai caching và bandwidth optimization <br>&emsp;&emsp; - Cấu hình on-premises to S3 integration <br>&emsp; + **Amazon S3 Glacier:** <br>&emsp;&emsp; - Hiểu Glacier storage classes và pricing <br>&emsp;&emsp; - Cấu hình S3 Lifecycle policies cho archival <br>&emsp;&emsp; - Triển khai Glacier retrieval options (Expedited, Standard, Bulk) <br>&emsp;&emsp; - Thiết lập Glacier Vault Lock cho compliance <br>&emsp;&emsp; - Cấu hình S3 Intelligent-Tiering cho cost optimization <br>&emsp; + **AWS DataSync:** <br>&emsp;&emsp; - Hiểu DataSync architecture và use cases <br>&emsp;&emsp; - Cấu hình DataSync agents cho on-premises transfers <br>&emsp;&emsp; - Thiết lập DataSync tasks cho automated transfers <br>&emsp;&emsp; - Triển khai data validation và verification <br>&emsp;&emsp; - Cấu hình bandwidth throttling và scheduling <br>&emsp;&emsp; - Monitor DataSync task execution và performance | 29/09/2025 | 29/09/2025 | [AWS Backup Service](https://000102.awsstudygroup.com/) <br> <br> [AWS Storage Gateway](https://000032.awsstudygroup.com/) <br> <br> [Amazon S3 Glacier](https://000074.awsstudygroup.com/) <br> <br> [AWS DataSync](https://000075.awsstudygroup.com/) |
 | 3   | - Thành thạo AWS Control Tower cho multi-account environment setup <br> - Hiểu AWS Organizations cho centralized account management <br> - Học AWS Service Catalog cho standardized provisioning <br> - **Thực hành:** <br>&emsp; + **AWS Control Tower:** <br>&emsp;&emsp; - Hiểu Control Tower architecture và landing zone <br>&emsp;&emsp; - Thiết lập multi-account AWS environment với Control Tower <br>&emsp;&emsp; - Cấu hình organizational units (OUs) và account structure <br>&emsp;&emsp; - Triển khai guardrails cho preventive và detective controls <br>&emsp;&emsp; - Thiết lập Account Factory cho automated account provisioning <br>&emsp;&emsp; - Cấu hình centralized logging và monitoring <br>&emsp;&emsp; - Triển khai baseline security configurations <br>&emsp; + **AWS Organizations:** <br>&emsp;&emsp; - Hiểu Organizations architecture và hierarchy <br>&emsp;&emsp; - Tạo và quản lý organizational structure <br>&emsp;&emsp; - Cấu hình Service Control Policies (SCPs) <br>&emsp;&emsp; - Triển khai consolidated billing và cost allocation <br>&emsp;&emsp; - Thiết lập cross-account resource sharing <br>&emsp;&emsp; - Cấu hình centralized security và compliance policies <br>&emsp; + **AWS Service Catalog:** <br>&emsp;&emsp; - Hiểu Service Catalog architecture và benefits <br>&emsp;&emsp; - Tạo và quản lý product portfolios <br>&emsp;&emsp; - Cấu hình provisioning artifacts và constraints <br>&emsp;&emsp; - Thiết lập user access và permissions <br>&emsp;&emsp; - Triển khai TagOptions cho resource tagging <br>&emsp;&emsp; - Cấu hình launch constraints và templates <br>&emsp;&emsp; - Monitor provisioned products và compliance | 30/09/2025 | 30/09/2025 | [AWS Control Tower](https://000063.awsstudygroup.com/) <br> <br> [AWS Organizations](https://000064.awsstudygroup.com/) <br> <br> [AWS Service Catalog](https://000088.awsstudygroup.com/) |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 4   | - Thành thạo AWS Systems Manager cho unified operations management <br> - Hiểu AWS CloudFormation cho infrastructure as code <br> - **Thực hành:** <br>&emsp; + **AWS Systems Manager:** <br>&emsp;&emsp; - Hiểu Systems Manager architecture và capabilities <br>&emsp;&emsp; - Cấu hình Session Manager cho secure instance access <br>&emsp;&emsp; - Thiết lập Run Command cho remote command execution <br>&emsp;&emsp; - Triển khai Patch Manager cho automated patching <br>&emsp;&emsp; - Cấu hình State Manager cho configuration management <br>&emsp;&emsp; - Thiết lập Parameter Store cho configuration data <br>&emsp;&emsp; - Triển khai Inventory cho metadata collection <br>&emsp;&emsp; - Cấu hình Maintenance Windows cho scheduled tasks <br>&emsp;&emsp; - Thiết lập Automation cho operational tasks <br>&emsp;&emsp; - Monitor compliance và configuration drift <br>&emsp; + **AWS CloudFormation:** <br>&emsp;&emsp; - Hiểu CloudFormation concepts và templates <br>&emsp;&emsp; - Tạo CloudFormation stacks với YAML/JSON templates <br>&emsp;&emsp; - Cấu hình stack parameters và outputs <br>&emsp;&emsp; - Triển khai nested stacks cho modular infrastructure <br>&emsp;&emsp; - Thiết lập StackSets cho multi-account/region deployment <br>&emsp;&emsp; - Cấu hình drift detection và remediation <br>&emsp;&emsp; - Triển khai change sets cho preview updates <br>&emsp;&emsp; - Thiết lập rollback configuration và policies <br>&emsp;&emsp; - Monitor stack events và troubleshoot failures | 01/10/2025 | 01/10/2025 | [AWS Systems Manager](https://000089.awsstudygroup.com/) <br> <br> [AWS CloudFormation](https://000087.awsstudygroup.com/) |
 | 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
@@ -126,4 +128,34 @@ pre: " <b> 1.4. </b> "
   * Monitor provisioned products và stack resources
   * Hiểu Service Catalog integration với AWS Organizations
   * Áp dụng best practices cho self-service infrastructure provisioning
+
+* **Thành thạo AWS Systems Manager Operations:**
+  * Thành thạo AWS Systems Manager concepts cho unified operations management
+  * Hiểu Systems Manager architecture và component services
+  * Thành công cấu hình Session Manager cho secure bastion-less access
+  * Triển khai Run Command cho remote command execution across instances
+  * Thiết lập Patch Manager cho automated OS và application patching
+  * Cấu hình State Manager cho desired state configuration management
+  * Thành thạo Parameter Store cho secure configuration data storage
+  * Triển khai Inventory cho automated metadata collection
+  * Thiết lập Maintenance Windows cho scheduled operational tasks
+  * Cấu hình Automation cho workflow-based operational procedures
+  * Monitor compliance status và configuration drift detection
+  * Hiểu Systems Manager integration với CloudWatch và Config
+  * Áp dụng best practices cho fleet management và operations
+
+* **Chuyên môn AWS CloudFormation Infrastructure as Code:**
+  * Thành thạo AWS CloudFormation concepts cho infrastructure as code
+  * Hiểu CloudFormation template structure với YAML và JSON
+  * Thành công tạo CloudFormation stacks cho resource provisioning
+  * Cấu hình stack parameters cho flexible template reusability
+  * Triển khai stack outputs cho cross-stack references
+  * Thiết lập nested stacks cho modular infrastructure architecture
+  * Thành thạo StackSets cho multi-account và multi-region deployments
+  * Cấu hình drift detection để identify manual configuration changes
+  * Triển khai change sets cho safe preview of stack updates
+  * Thiết lập rollback configuration và automatic rollback triggers
+  * Monitor stack events và troubleshoot provisioning failures
+  * Hiểu CloudFormation integration với Service Catalog
+  * Áp dụng best practices cho infrastructure as code và version control
 
