@@ -21,6 +21,10 @@ pre: " <b> 1.3. </b> "
 * Hiểu AWS Client VPN cho secure remote user access.
 * Học AWS Transit Gateway cho centralized network hub architecture.
 * Thành thạo AWS PrivateLink cho private service connectivity.
+* Học AWS Lambda cho serverless computing và event-driven architecture.
+* Thành thạo Amazon ECS cho container orchestration và management.
+* Hiểu Amazon EKS cho managed Kubernetes deployments.
+* Học AWS App Runner cho simplified containerized application deployment.
 * Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
 
 ### Các công việc cần triển khai trong tuần này:
@@ -30,7 +34,7 @@ pre: " <b> 1.3. </b> "
 | 3   | - Thành thạo AWS VM Import/Export cho on-premises to cloud migration <br> - Học Database Schema Conversion và Migration với AWS DMS và SCT <br> - Hiểu hybrid cloud migration strategies <br> - **Thực hành:** <br>&emsp; + **VM Import/Export Workshop:** <br>&emsp;&emsp; - Thiết lập VMware Workstation với Ubuntu Desktop VM <br>&emsp;&emsp; - Cấu hình on-premises virtual machine environment <br>&emsp;&emsp; - Import virtual machine images từ on-premises đến Amazon EC2 <br>&emsp;&emsp; - Export EC2 instances trở lại on-premises environment <br>&emsp;&emsp; - Quản lý S3 storage cho VM image files <br>&emsp; + **Database Migration Workshop:** <br>&emsp;&emsp; - Hiểu AWS Schema Conversion Tool (SCT) concepts <br>&emsp;&emsp; - Học AWS Database Migration Service (DMS) architecture <br>&emsp;&emsp; - Select và configure DMS source databases <br>&emsp;&emsp; - Select và configure DMS target databases <br>&emsp;&emsp; - Triển khai serverless replication cho database migration <br>&emsp;&emsp; - Monitor DMS migrations và troubleshoot issues | 23/09/2025 | 23/09/2025 | [AWS VM Import/Export](https://000014.awsstudygroup.com/) <br> <br> [Database Schema <br> Conversion & Migration](https://000043.awsstudygroup.com/) |
 | 4   | - Học AWS VPC và advanced networking concepts <br> - Thành thạo AWS VPN cho secure hybrid cloud connectivity <br> - Hiểu AWS FSx for Windows File Server enterprise storage <br> - **Thực hành:** <br>&emsp; + **AWS VPC Networking:** <br>&emsp;&emsp; - Tạo và cấu hình VPC với custom CIDR blocks <br>&emsp;&emsp; - Thiết lập public và private subnets qua multiple AZs <br>&emsp;&emsp; - Cấu hình Internet Gateway cho public subnet connectivity <br>&emsp;&emsp; - Triển khai NAT Gateway cho private subnet internet access <br>&emsp;&emsp; - Cấu hình route tables và network ACLs <br>&emsp;&emsp; - Thiết lập security groups cho instance-level security <br>&emsp; + **AWS Site-to-Site VPN:** <br>&emsp;&emsp; - Hiểu VPN architecture và components <br>&emsp;&emsp; - Cấu hình Virtual Private Gateway và Customer Gateway <br>&emsp;&emsp; - Thiết lập VPN connections giữa on-premises và AWS <br>&emsp;&emsp; - Cấu hình static và dynamic routing với BGP <br>&emsp;&emsp; - Test và verify VPN connectivity <br>&emsp; + **AWS FSx for Windows File Server:** <br>&emsp;&emsp; - Deploy FSx file system với Multi-AZ configuration <br>&emsp;&emsp; - Cấu hình Active Directory integration <br>&emsp;&emsp; - Thiết lập EC2 instances cho file server access <br>&emsp;&emsp; - Triển khai file sharing và permissions <br>&emsp;&emsp; - Cấu hình backup và restore strategies | 24/09/2025 | 24/09/2025 | [AWS VPC Networking](https://000100.awsstudygroup.com/) <br> <br> [AWS Site-to-Site VPN](https://000022.awsstudygroup.com/) <br> <br> [AWS FSx for Windows <br> File Server](https://000029.awsstudygroup.com/) |
 | 5   | - Học AWS Direct Connect cho dedicated network connections <br> - Thành thạo AWS Client VPN cho secure remote access <br> - Hiểu AWS Transit Gateway cho network consolidation <br> - Học AWS PrivateLink cho private connectivity <br> - **Thực hành:** <br>&emsp; + **AWS Direct Connect:** <br>&emsp;&emsp; - Hiểu Direct Connect architecture và benefits <br>&emsp;&emsp; - Học Direct Connect Gateway configuration <br>&emsp;&emsp; - Cấu hình Virtual Private Gateway connections <br>&emsp;&emsp; - Thiết lập routing và BGP configurations <br>&emsp;&emsp; - Hiểu LAG (Link Aggregation Groups) cho bandwidth <br>&emsp; + **AWS Client VPN:** <br>&emsp;&emsp; - Deploy Client VPN endpoint configuration <br>&emsp;&emsp; - Cấu hình mutual authentication với certificates <br>&emsp;&emsp; - Thiết lập client VPN connections và routing <br>&emsp;&emsp; - Triển khai split-tunnel và full-tunnel configurations <br>&emsp;&emsp; - Cấu hình authorization rules và security groups <br>&emsp; + **AWS Transit Gateway:** <br>&emsp;&emsp; - Hiểu Transit Gateway architecture và use cases <br>&emsp;&emsp; - Cấu hình Transit Gateway attachments to VPCs <br>&emsp;&emsp; - Thiết lập Transit Gateway route tables <br>&emsp;&emsp; - Triển khai VPC-to-VPC connectivity via Transit Gateway <br>&emsp;&emsp; - Cấu hình VPN attachments to Transit Gateway <br>&emsp; + **AWS PrivateLink:** <br>&emsp;&emsp; - Hiểu VPC Endpoint Services và Interface Endpoints <br>&emsp;&emsp; - Cấu hình PrivateLink cho AWS services <br>&emsp;&emsp; - Thiết lập custom PrivateLink endpoints <br>&emsp;&emsp; - Triển khai private connectivity patterns <br>&emsp;&emsp; - Cấu hình endpoint policies và security | 25/09/2025 | 25/09/2025 | [AWS Direct Connect](https://000036.awsstudygroup.com/) <br> <br> [AWS Client VPN](https://000027.awsstudygroup.com/) <br> <br> [AWS Transit Gateway](https://000028.awsstudygroup.com/) <br> <br> [AWS PrivateLink](https://000031.awsstudygroup.com/) |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Học AWS Lambda serverless computing platform <br> - Thành thạo Amazon ECS container orchestration service <br> - Hiểu Amazon EKS Kubernetes service <br> - Học AWS App Runner cho containerized web applications <br> - **Thực hành:** <br>&emsp; + **AWS Lambda Serverless:** <br>&emsp;&emsp; - Hiểu Lambda architecture và execution model <br>&emsp;&emsp; - Tạo và deploy Lambda functions với various runtimes <br>&emsp;&emsp; - Cấu hình Lambda triggers từ multiple event sources <br>&emsp;&emsp; - Triển khai Lambda function versioning và aliases <br>&emsp;&emsp; - Thiết lập Lambda layers cho shared code và dependencies <br>&emsp;&emsp; - Cấu hình environment variables và execution role <br>&emsp;&emsp; - Monitor Lambda performance với CloudWatch <br>&emsp; + **Amazon ECS Container Service:** <br>&emsp;&emsp; - Hiểu ECS architecture với clusters và services <br>&emsp;&emsp; - Cấu hình ECS task definitions và container specifications <br>&emsp;&emsp; - Deploy ECS services với Fargate và EC2 launch types <br>&emsp;&emsp; - Thiết lập Application Load Balancer integration <br>&emsp;&emsp; - Triển khai auto-scaling cho ECS services <br>&emsp;&emsp; - Cấu hình service discovery và networking <br>&emsp; + **Amazon EKS Kubernetes Service:** <br>&emsp;&emsp; - Hiểu EKS architecture và Kubernetes concepts <br>&emsp;&emsp; - Tạo EKS cluster với managed node groups <br>&emsp;&emsp; - Deploy applications sử dụng Kubernetes manifests <br>&emsp;&emsp; - Cấu hình kubectl cho EKS cluster management <br>&emsp;&emsp; - Triển khai Kubernetes deployments và services <br>&emsp;&emsp; - Thiết lập ingress controllers và load balancing <br>&emsp; + **AWS App Runner:** <br>&emsp;&emsp; - Hiểu App Runner architecture và use cases <br>&emsp;&emsp; - Deploy containerized applications từ source code <br>&emsp;&emsp; - Cấu hình automatic deployments và scaling <br>&emsp;&emsp; - Thiết lập custom domains và HTTPS <br>&emsp;&emsp; - Triển khai health checks và monitoring | 26/09/2025 | 26/09/2025 | [AWS Lambda Serverless](https://000058.awsstudygroup.com/) <br> <br> [Amazon ECS Container Service](https://000037.awsstudygroup.com/) <br> <br> [Amazon EKS Kubernetes](https://000038.awsstudygroup.com/) <br> <br> [AWS App Runner](https://000076.awsstudygroup.com/) |
 
 
 ### Kết quả đạt được tuần 3:
@@ -176,6 +180,62 @@ pre: " <b> 1.3. </b> "
   * Triển khai private connectivity patterns cho microservices
   * Áp dụng security best practices cho private service exposure
   * Hiểu cost considerations và scaling cho PrivateLink deployments
+
+* **Thành thạo AWS Lambda Serverless Computing:**
+  * Thành thạo AWS Lambda concepts cho serverless event-driven architecture
+  * Hiểu Lambda execution model và compute resource allocation
+  * Thành công tạo Lambda functions với multiple runtime environments (Python, Node.js, Java)
+  * Cấu hình Lambda triggers từ various event sources (S3, DynamoDB, API Gateway, EventBridge)
+  * Triển khai Lambda function versioning cho code management
+  * Thiết lập Lambda aliases cho environment-specific deployments
+  * Thành thạo Lambda layers cho shared code libraries và dependencies
+  * Cấu hình environment variables và execution roles với IAM
+  * Triển khai error handling và retry logic cho Lambda functions
+  * Monitor Lambda performance metrics sử dụng CloudWatch
+  * Hiểu Lambda pricing model và cost optimization strategies
+  * Áp dụng best practices cho serverless application architecture
+
+* **Chuyên môn Amazon ECS Container Orchestration:**
+  * Thành thạo Amazon ECS concepts cho container orchestration
+  * Hiểu ECS architecture với clusters, services, và tasks
+  * Thành công tạo ECS task definitions với container specifications
+  * Cấu hình ECS services với Fargate serverless launch type
+  * Deploy ECS services sử dụng EC2 launch type cho custom configurations
+  * Tích hợp Application Load Balancer cho traffic distribution
+  * Triển khai auto-scaling policies cho ECS services dựa trên metrics
+  * Cấu hình service discovery sử dụng AWS Cloud Map
+  * Thiết lập VPC networking và security groups cho ECS tasks
+  * Thành thạo ECS task placement strategies và constraints
+  * Triển khai logging và monitoring với CloudWatch Container Insights
+  * Hiểu cost optimization cho Fargate vs EC2 launch types
+
+* **Thành thạo Amazon EKS Kubernetes Service:**
+  * Hiểu Amazon EKS concepts cho managed Kubernetes clusters
+  * Thành thạo Kubernetes architecture bao gồm control plane và worker nodes
+  * Thành công tạo EKS cluster với managed node groups
+  * Cấu hình kubectl command-line tool cho EKS cluster management
+  * Deploy containerized applications sử dụng Kubernetes manifests (YAML)
+  * Triển khai Kubernetes Deployments cho application lifecycle management
+  * Cấu hình Kubernetes Services cho service discovery và load balancing
+  * Thiết lập Ingress controllers cho external traffic routing
+  * Thành thạo Kubernetes ConfigMaps và Secrets cho configuration management
+  * Triển khai horizontal pod autoscaling dựa trên resource metrics
+  * Hiểu EKS integration với AWS services (IAM, CloudWatch, EBS)
+  * Áp dụng Kubernetes best practices cho production workloads
+
+* **Chuyên môn AWS App Runner Deployment:**
+  * Hiểu AWS App Runner concepts cho simplified container deployment
+  * Thành thạo App Runner architecture và automatic scaling capabilities
+  * Thành công deploy containerized web applications từ source code repositories
+  * Cấu hình App Runner services từ Docker container images
+  * Triển khai automatic deployments triggered by code commits
+  * Thiết lập custom domains với HTTPS certificates cho App Runner services
+  * Cấu hình environment variables và secrets management
+  * Triển khai health checks cho application availability monitoring
+  * Thành thạo App Runner auto-scaling dựa trên concurrent requests
+  * Monitor application performance sử dụng App Runner metrics
+  * Hiểu cost-effective deployment strategies cho web applications
+  * Áp dụng best practices cho containerized application architecture
 
 * Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
   * Compute

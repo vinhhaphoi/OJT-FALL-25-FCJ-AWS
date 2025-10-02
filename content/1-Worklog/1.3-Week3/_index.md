@@ -23,6 +23,10 @@ pre: " <b> 1.3. </b> "
 * Understand AWS Client VPN for secure remote user access.
 * Learn AWS Transit Gateway for centralized network hub architecture.
 * Master AWS PrivateLink for private service connectivity.
+* Learn AWS Lambda for serverless computing and event-driven architecture.
+* Master Amazon ECS for container orchestration and management.
+* Understand Amazon EKS for managed Kubernetes deployments.
+* Learn AWS App Runner for simplified containerized application deployment.
 * Understand basic AWS services, how to use the console & CLI.
 
 ### Tasks to be carried out this week:
@@ -32,7 +36,7 @@ pre: " <b> 1.3. </b> "
 | 3   | - Master AWS VM Import/Export for on-premises to cloud migration <br> - Learn Database Schema Conversion and Migration with AWS DMS and SCT <br> - Understand hybrid cloud migration strategies <br> - **Practice:** <br>&emsp; + **VM Import/Export Workshop:** <br>&emsp;&emsp; - Set up VMware Workstation with Ubuntu Desktop VM <br>&emsp;&emsp; - Configure on-premises virtual machine environment <br>&emsp;&emsp; - Import virtual machine images from on-premises to Amazon EC2 <br>&emsp;&emsp; - Export EC2 instances back to on-premises environment <br>&emsp;&emsp; - Manage S3 storage for VM image files <br>&emsp; + **Database Migration Workshop:** <br>&emsp;&emsp; - Understand AWS Schema Conversion Tool (SCT) concepts <br>&emsp;&emsp; - Learn AWS Database Migration Service (DMS) architecture <br>&emsp;&emsp; - Select and configure DMS source databases <br>&emsp;&emsp; - Select and configure DMS target databases <br>&emsp;&emsp; - Implement serverless replication for database migration <br>&emsp;&emsp; - Monitor DMS migrations and troubleshoot issues | 09/23/2025 | 09/23/2025      | [AWS VM Import/Export](https://000014.awsstudygroup.com/) <br> <br> [Database Schema <br> Conversion & Migration](https://000043.awsstudygroup.com/) |
 | 4   | - Learn AWS VPC and advanced networking concepts <br> - Master AWS VPN for secure hybrid cloud connectivity <br> - Understand AWS FSx for Windows File Server enterprise storage <br> - **Practice:** <br>&emsp; + **AWS VPC Networking:** <br>&emsp;&emsp; - Create and configure VPC with custom CIDR blocks <br>&emsp;&emsp; - Set up public and private subnets across multiple AZs <br>&emsp;&emsp; - Configure Internet Gateway for public subnet connectivity <br>&emsp;&emsp; - Implement NAT Gateway for private subnet internet access <br>&emsp;&emsp; - Configure route tables and network ACLs <br>&emsp;&emsp; - Set up security groups for instance-level security <br>&emsp; + **AWS Site-to-Site VPN:** <br>&emsp;&emsp; - Understand VPN architecture and components <br>&emsp;&emsp; - Configure Virtual Private Gateway and Customer Gateway <br>&emsp;&emsp; - Establish VPN connections between on-premises and AWS <br>&emsp;&emsp; - Configure static and dynamic routing with BGP <br>&emsp;&emsp; - Test and verify VPN connectivity <br>&emsp; + **AWS FSx for Windows File Server:** <br>&emsp;&emsp; - Deploy FSx file system with Multi-AZ configuration <br>&emsp;&emsp; - Configure Active Directory integration <br>&emsp;&emsp; - Set up EC2 instances for file server access <br>&emsp;&emsp; - Implement file sharing and permissions <br>&emsp;&emsp; - Configure backup and restore strategies | 09/24/2025 | 09/24/2025      | [AWS VPC Networking](https://000100.awsstudygroup.com/) <br> <br> [AWS Site-to-Site VPN](https://000022.awsstudygroup.com/) <br> <br> [AWS FSx for Windows <br> File Server](https://000029.awsstudygroup.com/) |
 | 5   | - Learn AWS Direct Connect for dedicated network connections <br> - Master AWS Client VPN for secure remote access <br> - Understand AWS Transit Gateway for network consolidation <br> - Learn AWS PrivateLink for private connectivity <br> - **Practice:** <br>&emsp; + **AWS Direct Connect:** <br>&emsp;&emsp; - Understand Direct Connect architecture and benefits <br>&emsp;&emsp; - Learn Direct Connect Gateway configuration <br>&emsp;&emsp; - Configure Virtual Private Gateway connections <br>&emsp;&emsp; - Set up routing and BGP configurations <br>&emsp;&emsp; - Understand LAG (Link Aggregation Groups) for bandwidth <br>&emsp; + **AWS Client VPN:** <br>&emsp;&emsp; - Deploy Client VPN endpoint configuration <br>&emsp;&emsp; - Configure mutual authentication with certificates <br>&emsp;&emsp; - Set up client VPN connections and routing <br>&emsp;&emsp; - Implement split-tunnel and full-tunnel configurations <br>&emsp;&emsp; - Configure authorization rules and security groups <br>&emsp; + **AWS Transit Gateway:** <br>&emsp;&emsp; - Understand Transit Gateway architecture and use cases <br>&emsp;&emsp; - Configure Transit Gateway attachments to VPCs <br>&emsp;&emsp; - Set up Transit Gateway route tables <br>&emsp;&emsp; - Implement VPC-to-VPC connectivity via Transit Gateway <br>&emsp;&emsp; - Configure VPN attachments to Transit Gateway <br>&emsp; + **AWS PrivateLink:** <br>&emsp;&emsp; - Understand VPC Endpoint Services and Interface Endpoints <br>&emsp;&emsp; - Configure PrivateLink for AWS services <br>&emsp;&emsp; - Set up custom PrivateLink endpoints <br>&emsp;&emsp; - Implement private connectivity patterns <br>&emsp;&emsp; - Configure endpoint policies and security | 09/25/2025 | 09/25/2025      | [AWS Direct Connect](https://000036.awsstudygroup.com/) <br> <br> [AWS Client VPN](https://000027.awsstudygroup.com/) <br> <br> [AWS Transit Gateway](https://000028.awsstudygroup.com/) <br> <br> [AWS PrivateLink](https://000031.awsstudygroup.com/) |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 6   | - Learn AWS Lambda serverless computing platform <br> - Master Amazon ECS container orchestration service <br> - Understand Amazon EKS Kubernetes service <br> - Learn AWS App Runner for containerized web applications <br> - **Practice:** <br>&emsp; + **AWS Lambda Serverless:** <br>&emsp;&emsp; - Understand Lambda architecture and execution model <br>&emsp;&emsp; - Create and deploy Lambda functions with various runtimes <br>&emsp;&emsp; - Configure Lambda triggers from multiple event sources <br>&emsp;&emsp; - Implement Lambda function versioning and aliases <br>&emsp;&emsp; - Set up Lambda layers for shared code and dependencies <br>&emsp;&emsp; - Configure environment variables and execution role <br>&emsp;&emsp; - Monitor Lambda performance with CloudWatch <br>&emsp; + **Amazon ECS Container Service:** <br>&emsp;&emsp; - Understand ECS architecture with clusters and services <br>&emsp;&emsp; - Configure ECS task definitions and container specifications <br>&emsp;&emsp; - Deploy ECS services with Fargate and EC2 launch types <br>&emsp;&emsp; - Set up Application Load Balancer integration <br>&emsp;&emsp; - Implement auto-scaling for ECS services <br>&emsp;&emsp; - Configure service discovery and networking <br>&emsp; + **Amazon EKS Kubernetes Service:** <br>&emsp;&emsp; - Understand EKS architecture and Kubernetes concepts <br>&emsp;&emsp; - Create EKS cluster with managed node groups <br>&emsp;&emsp; - Deploy applications using Kubernetes manifests <br>&emsp;&emsp; - Configure kubectl for EKS cluster management <br>&emsp;&emsp; - Implement Kubernetes deployments and services <br>&emsp;&emsp; - Set up ingress controllers and load balancing <br>&emsp; + **AWS App Runner:** <br>&emsp;&emsp; - Understand App Runner architecture and use cases <br>&emsp;&emsp; - Deploy containerized applications from source code <br>&emsp;&emsp; - Configure automatic deployments and scaling <br>&emsp;&emsp; - Set up custom domains and HTTPS <br>&emsp;&emsp; - Implement health checks and monitoring | 09/26/2025 | 09/26/2025      | [AWS Lambda Serverless](https://000058.awsstudygroup.com/) <br> <br> [Amazon ECS Container Service](https://000037.awsstudygroup.com/) <br> <br> [Amazon EKS Kubernetes](https://000038.awsstudygroup.com/) <br> <br> [AWS App Runner](https://000076.awsstudygroup.com/) |
 
 
 ### Week 3 Achievements:
@@ -178,6 +182,62 @@ pre: " <b> 1.3. </b> "
   * Implemented private connectivity patterns for microservices
   * Applied security best practices for private service exposure
   * Understood cost considerations and scaling for PrivateLink deployments
+
+* **AWS Lambda Serverless Computing Mastery:**
+  * Mastered AWS Lambda concepts for serverless event-driven architecture
+  * Understood Lambda execution model and compute resource allocation
+  * Successfully created Lambda functions with multiple runtime environments (Python, Node.js, Java)
+  * Configured Lambda triggers from various event sources (S3, DynamoDB, API Gateway, EventBridge)
+  * Implemented Lambda function versioning for code management
+  * Set up Lambda aliases for environment-specific deployments
+  * Mastered Lambda layers for shared code libraries and dependencies
+  * Configured environment variables and execution roles with IAM
+  * Implemented error handling and retry logic for Lambda functions
+  * Monitored Lambda performance metrics using CloudWatch
+  * Understood Lambda pricing model and cost optimization strategies
+  * Applied best practices for serverless application architecture
+
+* **Amazon ECS Container Orchestration Expertise:**
+  * Mastered Amazon ECS concepts for container orchestration
+  * Understood ECS architecture with clusters, services, and tasks
+  * Successfully created ECS task definitions with container specifications
+  * Configured ECS services with Fargate serverless launch type
+  * Deployed ECS services using EC2 launch type for custom configurations
+  * Integrated Application Load Balancer for traffic distribution
+  * Implemented auto-scaling policies for ECS services based on metrics
+  * Configured service discovery using AWS Cloud Map
+  * Set up VPC networking and security groups for ECS tasks
+  * Mastered ECS task placement strategies and constraints
+  * Implemented logging and monitoring with CloudWatch Container Insights
+  * Understood cost optimization for Fargate vs EC2 launch types
+
+* **Amazon EKS Kubernetes Service Proficiency:**
+  * Understood Amazon EKS concepts for managed Kubernetes clusters
+  * Mastered Kubernetes architecture including control plane and worker nodes
+  * Successfully created EKS cluster with managed node groups
+  * Configured kubectl command-line tool for EKS cluster management
+  * Deployed containerized applications using Kubernetes manifests (YAML)
+  * Implemented Kubernetes Deployments for application lifecycle management
+  * Configured Kubernetes Services for service discovery and load balancing
+  * Set up Ingress controllers for external traffic routing
+  * Mastered Kubernetes ConfigMaps and Secrets for configuration management
+  * Implemented horizontal pod autoscaling based on resource metrics
+  * Understood EKS integration with AWS services (IAM, CloudWatch, EBS)
+  * Applied Kubernetes best practices for production workloads
+
+* **AWS App Runner Deployment Expertise:**
+  * Understood AWS App Runner concepts for simplified container deployment
+  * Mastered App Runner architecture and automatic scaling capabilities
+  * Successfully deployed containerized web applications from source code repositories
+  * Configured App Runner services from Docker container images
+  * Implemented automatic deployments triggered by code commits
+  * Set up custom domains with HTTPS certificates for App Runner services
+  * Configured environment variables and secrets management
+  * Implemented health checks for application availability monitoring
+  * Mastered App Runner auto-scaling based on concurrent requests
+  * Monitored application performance using App Runner metrics
+  * Understood cost-effective deployment strategies for web applications
+  * Applied best practices for containerized application architecture
 
 * Understood what AWS is and mastered the basic service groups: 
   * Compute
