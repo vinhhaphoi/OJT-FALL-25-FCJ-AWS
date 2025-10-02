@@ -11,9 +11,9 @@ pre: " <b> 1. </b> "
 
 **Week 2:** [Advanced AWS Services: IAM Security, Cloud9 Development, S3 Hosting, RDS Databases, Auto Scaling, Load Balancing, CloudFormation, CLI Management, DynamoDB, ElastiCache, and CloudFront CDN](1.2-week2/)
 
-**Week 3:** [Doing task B...](1.3-week3/)
+**Week 3:** [Enterprise AWS Solutions: WorkSpaces Virtual Desktop, WordPress Deployment, Managed Directory Service, VM Migration, Database Migration, VPC Networking, VPN Connectivity, FSx File Server, Direct Connect, Client VPN, Transit Gateway, PrivateLink, Lambda Serverless, ECS Containers, EKS Kubernetes, and App Runner](1.3-week3/)
 
-**Week 4:** [Doing task C...](1.4-week4/)
+**Week 4:** [AWS Backup & Governance: Backup Service, Storage Gateway, S3 Glacier, DataSync, Control Tower, Organizations, Service Catalog, Systems Manager, CloudFormation IaC, EC2 Fundamentals, IAM Security, RDS Databases, Route 53 DNS, Auto Scaling, Load Balancing, CloudFront CDN, and S3 Storage](1.4-week4/)
 
 **Week 5:** [Doing task D...](1.5-week5/)
 
