@@ -20,6 +20,10 @@ pre: " <b> 1.4. </b> "
 * Learn AWS Service Catalog for standardized service provisioning.
 * Master AWS Systems Manager for unified operations management.
 * Understand AWS CloudFormation for infrastructure as code.
+* Learn Amazon EC2 fundamentals including instance types, AMI, and EBS.
+* Master AWS IAM for identity and access management.
+* Understand Amazon RDS for managed relational databases.
+* Learn Amazon Route 53 for DNS and domain management.
 
 
 ### Tasks to be carried out this week:
@@ -28,7 +32,7 @@ pre: " <b> 1.4. </b> "
 | 2   | - Learn AWS Backup for centralized backup management <br> - Master AWS Storage Gateway for hybrid cloud storage <br> - Understand Amazon S3 Glacier for archival storage <br> - Learn AWS DataSync for automated data transfer <br> - **Practice:** <br>&emsp; + **AWS Backup Service:** <br>&emsp;&emsp; - Understand AWS Backup architecture and features <br>&emsp;&emsp; - Configure backup plans and policies <br>&emsp;&emsp; - Set up backup vaults and access policies <br>&emsp;&emsp; - Implement automated backup schedules <br>&emsp;&emsp; - Perform backup restoration and recovery <br>&emsp;&emsp; - Configure cross-region and cross-account backup <br>&emsp; + **AWS Storage Gateway:** <br>&emsp;&emsp; - Understand Storage Gateway types (File, Volume, Tape) <br>&emsp;&emsp; - Deploy File Gateway for NFS/SMB file storage <br>&emsp;&emsp; - Configure Volume Gateway for iSCSI block storage <br>&emsp;&emsp; - Set up Tape Gateway for virtual tape library <br>&emsp;&emsp; - Implement caching and bandwidth optimization <br>&emsp;&emsp; - Configure on-premises to S3 integration <br>&emsp; + **Amazon S3 Glacier:** <br>&emsp;&emsp; - Understand Glacier storage classes and pricing <br>&emsp;&emsp; - Configure S3 Lifecycle policies for archival <br>&emsp;&emsp; - Implement Glacier retrieval options (Expedited, Standard, Bulk) <br>&emsp;&emsp; - Set up Glacier Vault Lock for compliance <br>&emsp;&emsp; - Configure S3 Intelligent-Tiering for cost optimization <br>&emsp; + **AWS DataSync:** <br>&emsp;&emsp; - Understand DataSync architecture and use cases <br>&emsp;&emsp; - Configure DataSync agents for on-premises transfers <br>&emsp;&emsp; - Set up DataSync tasks for automated transfers <br>&emsp;&emsp; - Implement data validation and verification <br>&emsp;&emsp; - Configure bandwidth throttling and scheduling <br>&emsp;&emsp; - Monitor DataSync task execution and performance | 09/29/2025 | 09/29/2025      | [AWS Backup Service](https://000102.awsstudygroup.com/) <br> <br> [AWS Storage Gateway](https://000032.awsstudygroup.com/) <br> <br> [Amazon S3 Glacier](https://000074.awsstudygroup.com/) <br> <br> [AWS DataSync](https://000075.awsstudygroup.com/) |
 | 3   | - Master AWS Control Tower for multi-account environment setup <br> - Understand AWS Organizations for centralized account management <br> - Learn AWS Service Catalog for standardized provisioning <br> - **Practice:** <br>&emsp; + **AWS Control Tower:** <br>&emsp;&emsp; - Understand Control Tower architecture and landing zone <br>&emsp;&emsp; - Set up multi-account AWS environment with Control Tower <br>&emsp;&emsp; - Configure organizational units (OUs) and account structure <br>&emsp;&emsp; - Implement guardrails for preventive and detective controls <br>&emsp;&emsp; - Set up Account Factory for automated account provisioning <br>&emsp;&emsp; - Configure centralized logging and monitoring <br>&emsp;&emsp; - Implement baseline security configurations <br>&emsp; + **AWS Organizations:** <br>&emsp;&emsp; - Understand Organizations architecture and hierarchy <br>&emsp;&emsp; - Create and manage organizational structure <br>&emsp;&emsp; - Configure Service Control Policies (SCPs) <br>&emsp;&emsp; - Implement consolidated billing and cost allocation <br>&emsp;&emsp; - Set up cross-account resource sharing <br>&emsp;&emsp; - Configure centralized security and compliance policies <br>&emsp; + **AWS Service Catalog:** <br>&emsp;&emsp; - Understand Service Catalog architecture and benefits <br>&emsp;&emsp; - Create and manage product portfolios <br>&emsp;&emsp; - Configure provisioning artifacts and constraints <br>&emsp;&emsp; - Set up user access and permissions <br>&emsp;&emsp; - Implement TagOptions for resource tagging <br>&emsp;&emsp; - Configure launch constraints and templates <br>&emsp;&emsp; - Monitor provisioned products and compliance | 09/30/2025 | 09/30/2025      | [AWS Control Tower](https://000063.awsstudygroup.com/) <br> <br> [AWS Organizations](https://000064.awsstudygroup.com/) <br> <br> [AWS Service Catalog](https://000088.awsstudygroup.com/) |
 | 4   | - Master AWS Systems Manager for unified operations management <br> - Understand AWS CloudFormation for infrastructure as code <br> - **Practice:** <br>&emsp; + **AWS Systems Manager:** <br>&emsp;&emsp; - Understand Systems Manager architecture and capabilities <br>&emsp;&emsp; - Configure Session Manager for secure instance access <br>&emsp;&emsp; - Set up Run Command for remote command execution <br>&emsp;&emsp; - Implement Patch Manager for automated patching <br>&emsp;&emsp; - Configure State Manager for configuration management <br>&emsp;&emsp; - Set up Parameter Store for configuration data <br>&emsp;&emsp; - Implement Inventory for metadata collection <br>&emsp;&emsp; - Configure Maintenance Windows for scheduled tasks <br>&emsp;&emsp; - Set up Automation for operational tasks <br>&emsp;&emsp; - Monitor compliance and configuration drift <br>&emsp; + **AWS CloudFormation:** <br>&emsp;&emsp; - Understand CloudFormation concepts and templates <br>&emsp;&emsp; - Create CloudFormation stacks with YAML/JSON templates <br>&emsp;&emsp; - Configure stack parameters and outputs <br>&emsp;&emsp; - Implement nested stacks for modular infrastructure <br>&emsp;&emsp; - Set up StackSets for multi-account/region deployment <br>&emsp;&emsp; - Configure drift detection and remediation <br>&emsp;&emsp; - Implement change sets for preview updates <br>&emsp;&emsp; - Set up rollback configuration and policies <br>&emsp;&emsp; - Monitor stack events and troubleshoot failures | 10/01/2025 | 10/01/2025      | [AWS Systems Manager](https://000089.awsstudygroup.com/) <br> <br> [AWS CloudFormation](https://000087.awsstudygroup.com/) |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Learn Amazon EC2 fundamentals and compute services <br> - Master AWS IAM for identity and access management <br> - Understand Amazon RDS for managed databases <br> - Learn Amazon Route 53 for DNS management <br> - **Practice:** <br>&emsp; + **Amazon EC2 Fundamentals:** <br>&emsp;&emsp; - Understand EC2 instance types and families <br>&emsp;&emsp; - Configure Amazon Machine Images (AMI) <br>&emsp;&emsp; - Launch and manage EC2 instances <br>&emsp;&emsp; - Set up SSH key pairs for secure access <br>&emsp;&emsp; - Configure security groups and network ACLs <br>&emsp;&emsp; - Implement Elastic IP addresses <br>&emsp;&emsp; - Manage EBS volumes and snapshots <br>&emsp;&emsp; - Set up instance user data and metadata <br>&emsp;&emsp; - Configure EC2 instance lifecycle and states <br>&emsp;&emsp; - Monitor EC2 instances with CloudWatch <br>&emsp; + **AWS IAM Identity and Access Management:** <br>&emsp;&emsp; - Understand IAM concepts and components <br>&emsp;&emsp; - Create and manage IAM users and groups <br>&emsp;&emsp; - Configure IAM policies and permissions <br>&emsp;&emsp; - Implement IAM roles for AWS services <br>&emsp;&emsp; - Set up multi-factor authentication (MFA) <br>&emsp;&emsp; - Configure password policies and access keys <br>&emsp;&emsp; - Implement cross-account access with roles <br>&emsp;&emsp; - Set up IAM identity federation <br>&emsp;&emsp; - Configure service control policies (SCPs) <br>&emsp;&emsp; - Monitor IAM access with CloudTrail <br>&emsp; + **Amazon RDS Managed Databases:** <br>&emsp;&emsp; - Understand RDS database engines and features <br>&emsp;&emsp; - Launch RDS instances with MySQL/PostgreSQL <br>&emsp;&emsp; - Configure RDS parameter groups and option groups <br>&emsp;&emsp; - Implement automated backups and snapshots <br>&emsp;&emsp; - Set up RDS read replicas for scaling <br>&emsp;&emsp; - Configure Multi-AZ deployments for high availability <br>&emsp;&emsp; - Implement RDS encryption at rest and in transit <br>&emsp;&emsp; - Set up RDS security groups and subnet groups <br>&emsp;&emsp; - Monitor RDS performance with CloudWatch <br>&emsp;&emsp; - Configure RDS maintenance windows and upgrades <br>&emsp; + **Amazon Route 53 DNS Service:** <br>&emsp;&emsp; - Understand Route 53 DNS concepts and features <br>&emsp;&emsp; - Register and manage domain names <br>&emsp;&emsp; - Configure hosted zones and record sets <br>&emsp;&emsp; - Implement routing policies (simple, weighted, latency) <br>&emsp;&emsp; - Set up health checks and DNS failover <br>&emsp;&emsp; - Configure alias records for AWS resources <br>&emsp;&emsp; - Implement traffic flow for advanced routing <br>&emsp;&emsp; - Set up Route 53 Resolver for hybrid DNS <br>&emsp;&emsp; - Configure DNSSEC for domain security <br>&emsp;&emsp; - Monitor DNS queries with CloudWatch Logs | 10/02/2025 | 10/02/2025      | [Amazon EC2 Fundamentals](https://000012.awsstudygroup.com/) <br> <br> [AWS IAM](https://000030.awsstudygroup.com/) <br> <br> [Amazon RDS](https://000044.awsstudygroup.com/) <br> <br> [Amazon Route 53](https://000018.awsstudygroup.com/) |
 | 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
@@ -161,4 +165,64 @@ pre: " <b> 1.4. </b> "
   * Monitored stack events and troubleshot provisioning failures
   * Understood CloudFormation integration with Service Catalog
   * Applied best practices for infrastructure as code and version control
+
+* **Amazon EC2 Compute Fundamentals Mastery:**
+  * Mastered Amazon EC2 concepts and compute services
+  * Understood EC2 instance types, families, and use cases
+  * Successfully launched and managed EC2 instances
+  * Configured Amazon Machine Images (AMI) for custom images
+  * Set up SSH key pairs for secure instance access
+  * Implemented security groups and network ACL rules
+  * Configured Elastic IP addresses for static public IPs
+  * Managed EBS volumes for persistent block storage
+  * Created and restored EBS snapshots for backup
+  * Set up instance user data for automated bootstrapping
+  * Monitored EC2 instances with CloudWatch metrics
+  * Understood EC2 placement groups and tenancy options
+  * Applied best practices for EC2 cost optimization and security
+
+* **AWS IAM Security and Access Management Proficiency:**
+  * Mastered AWS IAM concepts for identity and access management
+  * Understood IAM authentication and authorization principles
+  * Successfully created and managed IAM users and groups
+  * Configured IAM policies with JSON policy documents
+  * Implemented least privilege access with fine-grained permissions
+  * Set up IAM roles for EC2, Lambda, and other AWS services
+  * Configured multi-factor authentication (MFA) for enhanced security
+  * Implemented password policies and access key rotation
+  * Set up cross-account access with IAM roles and trust policies
+  * Configured IAM identity federation with SAML and OIDC
+  * Monitored IAM activity with CloudTrail and access advisor
+  * Understood IAM best practices for security and compliance
+  * Applied principle of least privilege across AWS resources
+
+* **Amazon RDS Managed Database Expertise:**
+  * Mastered Amazon RDS concepts for managed relational databases
+  * Understood RDS database engines (MySQL, PostgreSQL, Oracle, SQL Server)
+  * Successfully launched RDS instances with proper sizing
+  * Configured RDS parameter groups for database optimization
+  * Implemented automated backups with retention policies
+  * Set up RDS snapshots for manual backup and recovery
+  * Configured RDS read replicas for read scaling
+  * Implemented Multi-AZ deployments for high availability
+  * Set up RDS encryption at rest with KMS keys
+  * Configured RDS security groups and subnet groups
+  * Monitored RDS performance with CloudWatch and Performance Insights
+  * Understood RDS maintenance windows and version upgrades
+  * Applied best practices for RDS security and performance optimization
+
+* **Amazon Route 53 DNS Management Mastery:**
+  * Mastered Amazon Route 53 concepts for DNS and domain management
+  * Understood DNS fundamentals and Route 53 features
+  * Successfully registered and managed domain names
+  * Configured hosted zones for public and private DNS
+  * Created record sets for various DNS record types
+  * Implemented routing policies (simple, weighted, latency-based, failover)
+  * Set up health checks for endpoint monitoring
+  * Configured DNS failover for high availability
+  * Implemented alias records for AWS resource integration
+  * Set up traffic flow for complex routing configurations
+  * Configured Route 53 Resolver for hybrid cloud DNS
+  * Monitored DNS queries with CloudWatch Logs and metrics
+  * Applied best practices for DNS security and performance
 

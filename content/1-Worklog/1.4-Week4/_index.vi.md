@@ -8,7 +8,82 @@ pre: " <b> 1.4. </b> "
 
 ### Mục tiêu tuần 4:
 
-* Học AWS Backup cho centralized backup management across AWS services.
+* Học AWS Backup cho cen* **Chuyên môn AWS CloudFormation Infrastructure as Code:**
+  * Thành thạo AWS CloudFormation concepts cho infrastructure as code
+  * Hiểu CloudFormation template structure với YAML và JSON
+  * Thành công tạo CloudFormation stacks cho resource provisioning
+  * Cấu hình stack parameters cho flexible template reusability
+  * Triển khai stack outputs cho cross-stack references
+  * Thiết lập nested stacks cho modular infrastructure architecture
+  * Thành thạo StackSets cho multi-account và multi-region deployments
+  * Cấu hình drift detection để identify manual configuration changes
+  * Triển khai change sets cho safe preview of stack updates
+  * Thiết lập rollback configuration và automatic rollback triggers
+  * Monitor stack events và troubleshot provisioning failures
+  * Hiểu CloudFormation integration với Service Catalog
+  * Áp dụng best practices cho infrastructure as code và version control
+
+* **Thành thạo Amazon EC2 Compute Fundamentals:**
+  * Thành thạo Amazon EC2 concepts và compute services
+  * Hiểu EC2 instance types, families, và use cases
+  * Thành công launch và manage EC2 instances
+  * Cấu hình Amazon Machine Images (AMI) cho custom images
+  * Thiết lập SSH key pairs cho secure instance access
+  * Triển khai security groups và network ACL rules
+  * Cấu hình Elastic IP addresses cho static public IPs
+  * Quản lý EBS volumes cho persistent block storage
+  * Tạo và restore EBS snapshots cho backup
+  * Thiết lập instance user data cho automated bootstrapping
+  * Monitor EC2 instances với CloudWatch metrics
+  * Hiểu EC2 placement groups và tenancy options
+  * Áp dụng best practices cho EC2 cost optimization và security
+
+* **Thành thạo AWS IAM Security and Access Management:**
+  * Thành thạo AWS IAM concepts cho identity and access management
+  * Hiểu IAM authentication và authorization principles
+  * Thành công tạo và quản lý IAM users và groups
+  * Cấu hình IAM policies với JSON policy documents
+  * Triển khai least privilege access với fine-grained permissions
+  * Thiết lập IAM roles cho EC2, Lambda, và AWS services khác
+  * Cấu hình multi-factor authentication (MFA) cho enhanced security
+  * Triển khai password policies và access key rotation
+  * Thiết lập cross-account access với IAM roles và trust policies
+  * Cấu hình IAM identity federation với SAML và OIDC
+  * Monitor IAM activity với CloudTrail và access advisor
+  * Hiểu IAM best practices cho security và compliance
+  * Áp dụng principle of least privilege across AWS resources
+
+* **Chuyên môn Amazon RDS Managed Database:**
+  * Thành thạo Amazon RDS concepts cho managed relational databases
+  * Hiểu RDS database engines (MySQL, PostgreSQL, Oracle, SQL Server)
+  * Thành công launch RDS instances với proper sizing
+  * Cấu hình RDS parameter groups cho database optimization
+  * Triển khai automated backups với retention policies
+  * Thiết lập RDS snapshots cho manual backup và recovery
+  * Cấu hình RDS read replicas cho read scaling
+  * Triển khai Multi-AZ deployments cho high availability
+  * Thiết lập RDS encryption at rest với KMS keys
+  * Cấu hình RDS security groups và subnet groups
+  * Monitor RDS performance với CloudWatch và Performance Insights
+  * Hiểu RDS maintenance windows và version upgrades
+  * Áp dụng best practices cho RDS security và performance optimization
+
+* **Thành thạo Amazon Route 53 DNS Management:**
+  * Thành thạo Amazon Route 53 concepts cho DNS và domain management
+  * Hiểu DNS fundamentals và Route 53 features
+  * Thành công register và manage domain names
+  * Cấu hình hosted zones cho public và private DNS
+  * Tạo record sets cho various DNS record types
+  * Triển khai routing policies (simple, weighted, latency-based, failover)
+  * Thiết lập health checks cho endpoint monitoring
+  * Cấu hình DNS failover cho high availability
+  * Triển khai alias records cho AWS resource integration
+  * Thiết lập traffic flow cho complex routing configurations
+  * Cấu hình Route 53 Resolver cho hybrid cloud DNS
+  * Monitor DNS queries với CloudWatch Logs và metrics
+  * Áp dụng best practices cho DNS security và performance
+
+management across AWS services.
 * Thành thạo AWS Storage Gateway cho hybrid cloud storage integration.
 * Hiểu Amazon S3 Glacier cho long-term archival storage.
 * Học AWS DataSync cho automated data transfer và synchronization.
@@ -25,7 +100,7 @@ pre: " <b> 1.4. </b> "
 | 2   | - Học AWS Backup cho centralized backup management <br> - Thành thạo AWS Storage Gateway cho hybrid cloud storage <br> - Hiểu Amazon S3 Glacier cho archival storage <br> - Học AWS DataSync cho automated data transfer <br> - **Thực hành:** <br>&emsp; + **AWS Backup Service:** <br>&emsp;&emsp; - Hiểu AWS Backup architecture và features <br>&emsp;&emsp; - Cấu hình backup plans và policies <br>&emsp;&emsp; - Thiết lập backup vaults và access policies <br>&emsp;&emsp; - Triển khai automated backup schedules <br>&emsp;&emsp; - Thực hiện backup restoration và recovery <br>&emsp;&emsp; - Cấu hình cross-region và cross-account backup <br>&emsp; + **AWS Storage Gateway:** <br>&emsp;&emsp; - Hiểu Storage Gateway types (File, Volume, Tape) <br>&emsp;&emsp; - Deploy File Gateway cho NFS/SMB file storage <br>&emsp;&emsp; - Cấu hình Volume Gateway cho iSCSI block storage <br>&emsp;&emsp; - Thiết lập Tape Gateway cho virtual tape library <br>&emsp;&emsp; - Triển khai caching và bandwidth optimization <br>&emsp;&emsp; - Cấu hình on-premises to S3 integration <br>&emsp; + **Amazon S3 Glacier:** <br>&emsp;&emsp; - Hiểu Glacier storage classes và pricing <br>&emsp;&emsp; - Cấu hình S3 Lifecycle policies cho archival <br>&emsp;&emsp; - Triển khai Glacier retrieval options (Expedited, Standard, Bulk) <br>&emsp;&emsp; - Thiết lập Glacier Vault Lock cho compliance <br>&emsp;&emsp; - Cấu hình S3 Intelligent-Tiering cho cost optimization <br>&emsp; + **AWS DataSync:** <br>&emsp;&emsp; - Hiểu DataSync architecture và use cases <br>&emsp;&emsp; - Cấu hình DataSync agents cho on-premises transfers <br>&emsp;&emsp; - Thiết lập DataSync tasks cho automated transfers <br>&emsp;&emsp; - Triển khai data validation và verification <br>&emsp;&emsp; - Cấu hình bandwidth throttling và scheduling <br>&emsp;&emsp; - Monitor DataSync task execution và performance | 29/09/2025 | 29/09/2025 | [AWS Backup Service](https://000102.awsstudygroup.com/) <br> <br> [AWS Storage Gateway](https://000032.awsstudygroup.com/) <br> <br> [Amazon S3 Glacier](https://000074.awsstudygroup.com/) <br> <br> [AWS DataSync](https://000075.awsstudygroup.com/) |
 | 3   | - Thành thạo AWS Control Tower cho multi-account environment setup <br> - Hiểu AWS Organizations cho centralized account management <br> - Học AWS Service Catalog cho standardized provisioning <br> - **Thực hành:** <br>&emsp; + **AWS Control Tower:** <br>&emsp;&emsp; - Hiểu Control Tower architecture và landing zone <br>&emsp;&emsp; - Thiết lập multi-account AWS environment với Control Tower <br>&emsp;&emsp; - Cấu hình organizational units (OUs) và account structure <br>&emsp;&emsp; - Triển khai guardrails cho preventive và detective controls <br>&emsp;&emsp; - Thiết lập Account Factory cho automated account provisioning <br>&emsp;&emsp; - Cấu hình centralized logging và monitoring <br>&emsp;&emsp; - Triển khai baseline security configurations <br>&emsp; + **AWS Organizations:** <br>&emsp;&emsp; - Hiểu Organizations architecture và hierarchy <br>&emsp;&emsp; - Tạo và quản lý organizational structure <br>&emsp;&emsp; - Cấu hình Service Control Policies (SCPs) <br>&emsp;&emsp; - Triển khai consolidated billing và cost allocation <br>&emsp;&emsp; - Thiết lập cross-account resource sharing <br>&emsp;&emsp; - Cấu hình centralized security và compliance policies <br>&emsp; + **AWS Service Catalog:** <br>&emsp;&emsp; - Hiểu Service Catalog architecture và benefits <br>&emsp;&emsp; - Tạo và quản lý product portfolios <br>&emsp;&emsp; - Cấu hình provisioning artifacts và constraints <br>&emsp;&emsp; - Thiết lập user access và permissions <br>&emsp;&emsp; - Triển khai TagOptions cho resource tagging <br>&emsp;&emsp; - Cấu hình launch constraints và templates <br>&emsp;&emsp; - Monitor provisioned products và compliance | 30/09/2025 | 30/09/2025 | [AWS Control Tower](https://000063.awsstudygroup.com/) <br> <br> [AWS Organizations](https://000064.awsstudygroup.com/) <br> <br> [AWS Service Catalog](https://000088.awsstudygroup.com/) |
 | 4   | - Thành thạo AWS Systems Manager cho unified operations management <br> - Hiểu AWS CloudFormation cho infrastructure as code <br> - **Thực hành:** <br>&emsp; + **AWS Systems Manager:** <br>&emsp;&emsp; - Hiểu Systems Manager architecture và capabilities <br>&emsp;&emsp; - Cấu hình Session Manager cho secure instance access <br>&emsp;&emsp; - Thiết lập Run Command cho remote command execution <br>&emsp;&emsp; - Triển khai Patch Manager cho automated patching <br>&emsp;&emsp; - Cấu hình State Manager cho configuration management <br>&emsp;&emsp; - Thiết lập Parameter Store cho configuration data <br>&emsp;&emsp; - Triển khai Inventory cho metadata collection <br>&emsp;&emsp; - Cấu hình Maintenance Windows cho scheduled tasks <br>&emsp;&emsp; - Thiết lập Automation cho operational tasks <br>&emsp;&emsp; - Monitor compliance và configuration drift <br>&emsp; + **AWS CloudFormation:** <br>&emsp;&emsp; - Hiểu CloudFormation concepts và templates <br>&emsp;&emsp; - Tạo CloudFormation stacks với YAML/JSON templates <br>&emsp;&emsp; - Cấu hình stack parameters và outputs <br>&emsp;&emsp; - Triển khai nested stacks cho modular infrastructure <br>&emsp;&emsp; - Thiết lập StackSets cho multi-account/region deployment <br>&emsp;&emsp; - Cấu hình drift detection và remediation <br>&emsp;&emsp; - Triển khai change sets cho preview updates <br>&emsp;&emsp; - Thiết lập rollback configuration và policies <br>&emsp;&emsp; - Monitor stack events và troubleshoot failures | 01/10/2025 | 01/10/2025 | [AWS Systems Manager](https://000089.awsstudygroup.com/) <br> <br> [AWS CloudFormation](https://000087.awsstudygroup.com/) |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 5   | - Học Amazon EC2 fundamentals và compute services <br> - Thành thạo AWS IAM cho identity and access management <br> - Hiểu Amazon RDS cho managed databases <br> - Học Amazon Route 53 cho DNS management <br> - **Thực hành:** <br>&emsp; + **Amazon EC2 Fundamentals:** <br>&emsp;&emsp; - Hiểu EC2 instance types và families <br>&emsp;&emsp; - Cấu hình Amazon Machine Images (AMI) <br>&emsp;&emsp; - Launch và manage EC2 instances <br>&emsp;&emsp; - Thiết lập SSH key pairs cho secure access <br>&emsp;&emsp; - Cấu hình security groups và network ACLs <br>&emsp;&emsp; - Triển khai Elastic IP addresses <br>&emsp;&emsp; - Quản lý EBS volumes và snapshots <br>&emsp;&emsp; - Thiết lập instance user data và metadata <br>&emsp;&emsp; - Cấu hình EC2 instance lifecycle và states <br>&emsp;&emsp; - Monitor EC2 instances với CloudWatch <br>&emsp; + **AWS IAM Identity and Access Management:** <br>&emsp;&emsp; - Hiểu IAM concepts và components <br>&emsp;&emsp; - Tạo và quản lý IAM users và groups <br>&emsp;&emsp; - Cấu hình IAM policies và permissions <br>&emsp;&emsp; - Triển khai IAM roles cho AWS services <br>&emsp;&emsp; - Thiết lập multi-factor authentication (MFA) <br>&emsp;&emsp; - Cấu hình password policies và access keys <br>&emsp;&emsp; - Triển khai cross-account access với roles <br>&emsp;&emsp; - Thiết lập IAM identity federation <br>&emsp;&emsp; - Cấu hình service control policies (SCPs) <br>&emsp;&emsp; - Monitor IAM access với CloudTrail <br>&emsp; + **Amazon RDS Managed Databases:** <br>&emsp;&emsp; - Hiểu RDS database engines và features <br>&emsp;&emsp; - Launch RDS instances với MySQL/PostgreSQL <br>&emsp;&emsp; - Cấu hình RDS parameter groups và option groups <br>&emsp;&emsp; - Triển khai automated backups và snapshots <br>&emsp;&emsp; - Thiết lập RDS read replicas cho scaling <br>&emsp;&emsp; - Cấu hình Multi-AZ deployments cho high availability <br>&emsp;&emsp; - Triển khai RDS encryption at rest và in transit <br>&emsp;&emsp; - Thiết lập RDS security groups và subnet groups <br>&emsp;&emsp; - Monitor RDS performance với CloudWatch <br>&emsp;&emsp; - Cấu hình RDS maintenance windows và upgrades <br>&emsp; + **Amazon Route 53 DNS Service:** <br>&emsp;&emsp; - Hiểu Route 53 DNS concepts và features <br>&emsp;&emsp; - Register và manage domain names <br>&emsp;&emsp; - Cấu hình hosted zones và record sets <br>&emsp;&emsp; - Triển khai routing policies (simple, weighted, latency) <br>&emsp;&emsp; - Thiết lập health checks và DNS failover <br>&emsp;&emsp; - Cấu hình alias records cho AWS resources <br>&emsp;&emsp; - Triển khai traffic flow cho advanced routing <br>&emsp;&emsp; - Thiết lập Route 53 Resolver cho hybrid DNS <br>&emsp;&emsp; - Cấu hình DNSSEC cho domain security <br>&emsp;&emsp; - Monitor DNS queries với CloudWatch Logs | 02/10/2025 | 02/10/2025 | [Amazon EC2 Fundamentals](https://000012.awsstudygroup.com/) <br> <br> [AWS IAM](https://000030.awsstudygroup.com/) <br> <br> [Amazon RDS](https://000044.awsstudygroup.com/) <br> <br> [Amazon Route 53](https://000018.awsstudygroup.com/) |
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
 
@@ -158,4 +233,64 @@ pre: " <b> 1.4. </b> "
   * Monitor stack events và troubleshoot provisioning failures
   * Hiểu CloudFormation integration với Service Catalog
   * Áp dụng best practices cho infrastructure as code và version control
+
+* **Thành thạo Amazon EC2 Compute Fundamentals:**
+  * Thành thạo Amazon EC2 concepts và compute services
+  * Hiểu EC2 instance types, families, và use cases
+  * Thành công launch và manage EC2 instances
+  * Cấu hình Amazon Machine Images (AMI) cho custom images
+  * Thiết lập SSH key pairs cho secure instance access
+  * Triển khai security groups và network ACL rules
+  * Cấu hình Elastic IP addresses cho static public IPs
+  * Quản lý EBS volumes cho persistent block storage
+  * Tạo và restore EBS snapshots cho backup
+  * Thiết lập instance user data cho automated bootstrapping
+  * Monitor EC2 instances với CloudWatch metrics
+  * Hiểu EC2 placement groups và tenancy options
+  * Áp dụng best practices cho EC2 cost optimization và security
+
+* **Thành thạo AWS IAM Security and Access Management:**
+  * Thành thạo AWS IAM concepts cho identity and access management
+  * Hiểu IAM authentication và authorization principles
+  * Thành công tạo và quản lý IAM users và groups
+  * Cấu hình IAM policies với JSON policy documents
+  * Triển khai least privilege access với fine-grained permissions
+  * Thiết lập IAM roles cho EC2, Lambda, và AWS services khác
+  * Cấu hình multi-factor authentication (MFA) cho enhanced security
+  * Triển khai password policies và access key rotation
+  * Thiết lập cross-account access với IAM roles và trust policies
+  * Cấu hình IAM identity federation với SAML và OIDC
+  * Monitor IAM activity với CloudTrail và access advisor
+  * Hiểu IAM best practices cho security và compliance
+  * Áp dụng principle of least privilege across AWS resources
+
+* **Chuyên môn Amazon RDS Managed Database:**
+  * Thành thạo Amazon RDS concepts cho managed relational databases
+  * Hiểu RDS database engines (MySQL, PostgreSQL, Oracle, SQL Server)
+  * Thành công launch RDS instances với proper sizing
+  * Cấu hình RDS parameter groups cho database optimization
+  * Triển khai automated backups với retention policies
+  * Thiết lập RDS snapshots cho manual backup và recovery
+  * Cấu hình RDS read replicas cho read scaling
+  * Triển khai Multi-AZ deployments cho high availability
+  * Thiết lập RDS encryption at rest với KMS keys
+  * Cấu hình RDS security groups và subnet groups
+  * Monitor RDS performance với CloudWatch và Performance Insights
+  * Hiểu RDS maintenance windows và version upgrades
+  * Áp dụng best practices cho RDS security và performance optimization
+
+* **Thành thạo Amazon Route 53 DNS Management:**
+  * Thành thạo Amazon Route 53 concepts cho DNS và domain management
+  * Hiểu DNS fundamentals và Route 53 features
+  * Thành công register và manage domain names
+  * Cấu hình hosted zones cho public và private DNS
+  * Tạo record sets cho various DNS record types
+  * Triển khai routing policies (simple, weighted, latency-based, failover)
+  * Thiết lập health checks cho endpoint monitoring
+  * Cấu hình DNS failover cho high availability
+  * Triển khai alias records cho AWS resource integration
+  * Thiết lập traffic flow cho complex routing configurations
+  * Cấu hình Route 53 Resolver cho hybrid cloud DNS
+  * Monitor DNS queries với CloudWatch Logs và metrics
+  * Áp dụng best practices cho DNS security và performance
 
