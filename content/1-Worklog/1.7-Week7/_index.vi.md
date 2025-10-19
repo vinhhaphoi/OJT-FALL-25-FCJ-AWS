@@ -1,64 +1,79 @@
 ---
 title: "Worklog Tuần 7"
-date: "2025-08-17"
+date: "2025-10-20"
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
----le: "Worklog Tuần 7"
-date: "2025-09-09"
-weight: 1
-chapter: false
-pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 7:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* **Thành thạo AWS Directory Service:**
+  * Hiểu các tùy chọn và tính năng Directory Service
+  * Cấu hình Microsoft AD và Simple AD
+  * Triển khai xác thực directory
+  * Thiết lập sao chép directory
+  * Giám sát tình trạng và sức khỏe directory
+
+* **Học AWS Resource Access Manager (RAM):**
+  * Hiểu khái niệm RAM và tùy chọn chia sẻ
+  * Cấu hình chia sẻ tài nguyên
+  * Triển khai truy cập xuyên tài khoản
+  * Quản lý quyền tài nguyên được chia sẻ
+  * Giám sát sử dụng tài nguyên được chia sẻ
+
+* **Học AWS Resource Groups:**
+  * Hiểu chiến lược nhóm tài nguyên
+  * Tạo và quản lý nhóm tài nguyên
+  * Triển khai chiến lược gắn thẻ
+  * Cấu hình thao tác dựa trên nhóm
+  * Giám sát tài nguyên nhóm
+
+* **Thành thạo AWS License Manager:**
+  * Hiểu khái niệm quản lý giấy phép
+  * Cấu hình quy tắc và theo dõi giấy phép
+  * Triển khai báo cáo giấy phép
+  * Thiết lập cảnh báo giấy phép
+  * Giám sát sử dụng giấy phép
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | ---- | ---------- | --------------- | ----------------- |
+| 2   | - Học AWS Directory Service cho quản lý định danh <br> - Thành thạo AWS RAM cho chia sẻ tài nguyên <br> - Hiểu AWS Resource Groups cho tổ chức <br> - Học AWS License Manager cho theo dõi giấy phép <br> - **Thực hành:** <br>&emsp; + **AWS Directory Service:** <br>&emsp;&emsp; - Thiết lập Microsoft AD và Simple AD <br>&emsp;&emsp; - Cấu hình quan hệ tin cậy directory <br>&emsp;&emsp; - Triển khai xác thực directory <br>&emsp;&emsp; - Thiết lập sao chép directory <br>&emsp;&emsp; - Giám sát hiệu suất directory <br>&emsp; + **AWS RAM:** <br>&emsp;&emsp; - Tạo chia sẻ tài nguyên <br>&emsp;&emsp; - Cấu hình quyền chia sẻ <br>&emsp;&emsp; - Triển khai chia sẻ xuyên tài khoản <br>&emsp;&emsp; - Thiết lập truy cập tài nguyên <br>&emsp;&emsp; - Giám sát tài nguyên được chia sẻ <br>&emsp; + **AWS Resource Groups:** <br>&emsp;&emsp; - Tạo và cấu hình nhóm <br>&emsp;&emsp; - Triển khai chiến lược gắn thẻ <br>&emsp;&emsp; - Thiết lập truy cập dựa trên nhóm <br>&emsp;&emsp; - Cấu hình thao tác nhóm <br>&emsp;&emsp; - Giám sát tài nguyên nhóm <br>&emsp; + **AWS License Manager:** <br>&emsp;&emsp; - Cấu hình quy tắc giấy phép <br>&emsp;&emsp; - Thiết lập theo dõi giấy phép <br>&emsp;&emsp; - Triển khai báo cáo sử dụng <br>&emsp;&emsp; - Cấu hình cảnh báo giấy phép <br>&emsp;&emsp; - Giám sát tiêu thụ giấy phép | 20/10/2025 | 20/10/2025 | [AWS Directory Service](https://000053.awsstudygroup.com/) <br> <br> [AWS RAM](https://000054.awsstudygroup.com/) <br> <br> [AWS Resource Groups](https://000055.awsstudygroup.com/) <br> <br> [AWS License Manager](https://000056.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 7:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* **Thành thạo AWS Directory Service:**
+  * Thành thạo khái niệm Directory Service và kiến trúc
+  * Thành công cấu hình Microsoft AD và Simple AD
+  * Triển khai quan hệ tin cậy directory
+  * Thiết lập tham gia domain liền mạch
+  * Cấu hình sao chép directory
+  * Giám sát sức khỏe và hiệu suất directory
+  * Áp dụng best practices cho quản lý directory
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* **Thành thạo AWS RAM Resource Sharing:**
+  * Thành thạo khái niệm RAM và cơ chế chia sẻ
+  * Thành công tạo và quản lý chia sẻ tài nguyên
+  * Triển khai chia sẻ tài nguyên xuyên tài khoản
+  * Cấu hình quyền và truy cập chia sẻ
+  * Giám sát sử dụng tài nguyên được chia sẻ
+  * Áp dụng best practices cho chia sẻ tài nguyên
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* **Thành thạo AWS Resource Groups Management:**
+  * Thành thạo khái niệm Resource Groups và tổ chức
+  * Thành công tạo và quản lý nhóm tài nguyên
+  * Triển khai chiến lược gắn thẻ hiệu quả
+  * Cấu hình thao tác dựa trên nhóm
+  * Giám sát tài nguyên và trạng thái nhóm
+  * Áp dụng best practices cho tổ chức tài nguyên
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* **Thành thạo AWS License Manager:**
+  * Thành thạo khái niệm và tính năng License Manager
+  * Thành công cấu hình quy tắc và theo dõi giấy phép
+  * Triển khai báo cáo sử dụng giấy phép
+  * Thiết lập cảnh báo và thông báo giấy phép
+  * Giám sát tiêu thụ giấy phép
+  * Áp dụng best practices cho quản lý giấy phép
 
 
