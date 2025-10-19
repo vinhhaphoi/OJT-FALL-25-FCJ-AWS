@@ -41,6 +41,7 @@ pre: " <b> 1.6. </b> "
 | --- | ---- | ---------- | --------------- | ----------------- |
 | 2   | - Học AWS Shield cho bảo vệ DDoS <br> - Thành thạo AWS GuardDuty cho phát hiện mối đe dọa <br> - Hiểu Amazon Inspector cho đánh giá bảo mật <br> - Học AWS Trusted Advisor cho tối ưu hóa <br> - **Thực hành:** <br>&emsp; + **AWS Shield:** <br>&emsp;&emsp; - Cấu hình bảo vệ AWS Shield Standard <br>&emsp;&emsp; - Thiết lập tính năng Shield Advanced <br>&emsp;&emsp; - Triển khai kế hoạch phản hồi DDoS <br>&emsp;&emsp; - Giám sát sự kiện và số liệu DDoS <br>&emsp;&emsp; - Phân tích mẫu tấn công <br>&emsp; + **AWS GuardDuty:** <br>&emsp;&emsp; - Kích hoạt và cấu hình GuardDuty <br>&emsp;&emsp; - Thiết lập thông báo phát hiện <br>&emsp;&emsp; - Phân tích phát hiện bảo mật <br>&emsp;&emsp; - Triển khai phản hồi tự động <br>&emsp;&emsp; - Giám sát bảo mật tài khoản <br>&emsp; + **Amazon Inspector:** <br>&emsp;&emsp; - Cấu hình mẫu đánh giá <br>&emsp;&emsp; - Chạy đánh giá bảo mật <br>&emsp;&emsp; - Phân tích phát hiện lỗ hổng <br>&emsp;&emsp; - Triển khai khắc phục <br>&emsp;&emsp; - Giám sát trạng thái bảo mật <br>&emsp; + **AWS Trusted Advisor:** <br>&emsp;&emsp; - Xem xét kiểm tra best practice <br>&emsp;&emsp; - Cấu hình thông báo <br>&emsp;&emsp; - Phân tích khuyến nghị <br>&emsp;&emsp; - Triển khai tối ưu hóa <br>&emsp;&emsp; - Giám sát hiệu quả tài nguyên | 13/10/2025 | 13/10/2025 | [AWS Shield](https://000016.awsstudygroup.com/) <br> <br> [AWS GuardDuty](https://000118.awsstudygroup.com/) <br> <br> [Amazon Inspector](https://000017.awsstudygroup.com/) <br> <br> [AWS Trusted Advisor](https://000023.awsstudygroup.com/) |
 | 3   | - Học AWS SSO cho quản lý truy cập tập trung <br> - Thành thạo EC2 Auto Scaling cho năng lực động <br> - Hiểu EC2 Systems Manager cho quản lý instance <br> - **Thực hành:** <br>&emsp; + **AWS SSO:** <br>&emsp;&emsp; - Cấu hình SSO với AWS Organizations <br>&emsp;&emsp; - Thiết lập identity providers và directories <br>&emsp;&emsp; - Triển khai permission sets và assignments <br>&emsp;&emsp; - Cấu hình cổng thông tin SSO <br>&emsp;&emsp; - Giám sát hoạt động người dùng SSO <br>&emsp; + **EC2 Auto Scaling:** <br>&emsp;&emsp; - Tạo Auto Scaling groups <br>&emsp;&emsp; - Cấu hình launch templates <br>&emsp;&emsp; - Thiết lập scaling policies <br>&emsp;&emsp; - Triển khai instance refresh <br>&emsp;&emsp; - Giám sát hoạt động scaling <br>&emsp; + **EC2 Systems Manager:** <br>&emsp;&emsp; - Cấu hình thiết lập Systems Manager <br>&emsp;&emsp; - Triển khai quản lý bản vá <br>&emsp;&emsp; - Sử dụng Session Manager cho truy cập <br>&emsp;&emsp; - Cấu hình automation runbooks <br>&emsp;&emsp; - Giám sát tuân thủ instance | 14/10/2025 | 14/10/2025 | [AWS SSO](https://000152.awsstudygroup.com/) <br> <br> [EC2 Auto Scaling](https://000024.awsstudygroup.com/) <br> <br> [EC2 Systems Manager](https://000025.awsstudygroup.com/) |
+| 4   | - Học Amazon Redshift cho data warehousing <br> - Thành thạo Amazon EMR cho xử lý big data <br> - Hiểu AWS Glue cho quy trình ETL <br> - **Thực hành:** <br>&emsp; + **Amazon Redshift:** <br>&emsp;&emsp; - Tạo và cấu hình Redshift clusters <br>&emsp;&emsp; - Thiết lập bảo mật và mã hóa database <br>&emsp;&emsp; - Triển khai quản lý workload <br>&emsp;&emsp; - Cấu hình backup và bảo trì <br>&emsp;&emsp; - Giám sát hiệu suất cluster <br>&emsp; + **Amazon EMR:** <br>&emsp;&emsp; - Khởi chạy EMR clusters với applications <br>&emsp;&emsp; - Cấu hình instance groups và scaling <br>&emsp;&emsp; - Triển khai bảo mật và IAM roles <br>&emsp;&emsp; - Thiết lập steps và workflows <br>&emsp;&emsp; - Giám sát metrics cluster <br>&emsp; + **AWS Glue:** <br>&emsp;&emsp; - Cấu hình Glue Data Catalog <br>&emsp;&emsp; - Tạo crawlers và classifiers <br>&emsp;&emsp; - Phát triển ETL jobs và scripts <br>&emsp;&emsp; - Thiết lập job triggers và scheduling <br>&emsp;&emsp; - Giám sát hoạt động ETL | 15/10/2025 | 15/10/2025 | [Amazon Redshift](https://000039.awsstudygroup.com/) <br> <br> [Amazon EMR](https://000047.awsstudygroup.com/) <br> <br> [AWS Glue](https://000068.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 6:
 
@@ -114,5 +115,33 @@ pre: " <b> 1.6. </b> "
   * Cấu hình chính sách tuân thủ
   * Giám sát sức khỏe và trạng thái instance
   * Áp dụng best practices cho quản lý fleet
+
+* **Thành thạo Amazon Redshift Data Warehouse:**
+  * Thành thạo khái niệm Redshift và kiến trúc data warehouse
+  * Thành công tạo và cấu hình Redshift clusters
+  * Triển khai bảo mật và mã hóa cho bảo vệ dữ liệu
+  * Cấu hình workload management cho tối ưu hóa query
+  * Thiết lập backup tự động và maintenance windows
+  * Giám sát hiệu suất cluster và thực thi query
+  * Áp dụng best practices cho thiết kế data warehouse
+
+* **Thành thạo Amazon EMR Big Data Processing:**
+  * Thành thạo khái niệm EMR và frameworks big data
+  * Thành công khởi chạy và quản lý EMR clusters
+  * Cấu hình instance groups và auto scaling
+  * Triển khai bảo mật với EMR security configurations
+  * Thiết lập EMR steps và workflows cho xử lý
+  * Giám sát hiệu suất cluster và metrics ứng dụng
+  * Áp dụng best practices cho xử lý big data
+
+* **Thành thạo AWS Glue ETL Service:**
+  * Thành thạo khái niệm AWS Glue và quy trình ETL
+  * Thành công cấu hình Glue Data Catalog
+  * Tạo và quản lý crawlers cho khám phá dữ liệu
+  * Phát triển ETL jobs bằng Python và Scala
+  * Triển khai job bookmarks và xử lý lỗi
+  * Thiết lập job triggers và scheduling
+  * Giám sát hoạt động và hiệu suất ETL
+  * Áp dụng best practices cho tích hợp dữ liệu
 
 

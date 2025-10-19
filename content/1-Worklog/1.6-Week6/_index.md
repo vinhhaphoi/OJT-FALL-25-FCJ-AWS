@@ -57,11 +57,33 @@ pre: " <b> 1.6. </b> "
   * Use Session Manager for secure access
   * Monitor and troubleshoot instances with Systems Manager
 
+* **Learn Amazon Redshift for Data Warehousing:**
+  * Understand Amazon Redshift architecture and components
+  * Configure Redshift clusters and nodes
+  * Set up database security and access controls
+  * Implement data distribution and sort keys
+  * Monitor and optimize query performance
+
+* **Master Amazon EMR for Big Data Processing:**
+  * Understand EMR cluster architecture and components
+  * Configure EMR clusters with Hadoop and Spark
+  * Set up data storage with S3 and HDFS
+  * Implement security and IAM roles for EMR
+  * Monitor and troubleshoot EMR cluster performance
+
+* **Learn AWS Glue for ETL Workflows:**
+  * Understand AWS Glue architecture and components
+  * Configure Glue Data Catalog and crawlers
+  * Develop ETL jobs with Glue Studio
+  * Implement job triggers and scheduling
+  * Monitor and optimize ETL job performance
+
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ----------------- |
 | 2   | - Learn AWS Shield for DDoS protection <br> - Master AWS GuardDuty for threat detection <br> - Understand Amazon Inspector for security assessment <br> - Learn AWS Trusted Advisor for optimization <br> - **Practice:** <br>&emsp; + **AWS Shield:** <br>&emsp;&emsp; - Configure AWS Shield Standard protection <br>&emsp;&emsp; - Set up Shield Advanced features <br>&emsp;&emsp; - Implement DDoS response plans <br>&emsp;&emsp; - Monitor DDoS events and metrics <br>&emsp;&emsp; - Analyze attack patterns <br>&emsp; + **AWS GuardDuty:** <br>&emsp;&emsp; - Enable and configure GuardDuty <br>&emsp;&emsp; - Set up finding notifications <br>&emsp;&emsp; - Analyze security findings <br>&emsp;&emsp; - Implement automated responses <br>&emsp;&emsp; - Monitor account security <br>&emsp; + **Amazon Inspector:** <br>&emsp;&emsp; - Configure assessment templates <br>&emsp;&emsp; - Run security assessments <br>&emsp;&emsp; - Analyze vulnerability findings <br>&emsp;&emsp; - Implement remediation <br>&emsp;&emsp; - Monitor security status <br>&emsp; + **AWS Trusted Advisor:** <br>&emsp;&emsp; - Review best practice checks <br>&emsp;&emsp; - Configure notifications <br>&emsp;&emsp; - Analyze recommendations <br>&emsp;&emsp; - Implement optimizations <br>&emsp;&emsp; - Monitor resource efficiency | 10/13/2025 | 10/13/2025 | [AWS Shield](https://000016.awsstudygroup.com/) <br> <br> [AWS GuardDuty](https://000118.awsstudygroup.com/) <br> <br> [Amazon Inspector](https://000017.awsstudygroup.com/) <br> <br> [AWS Trusted Advisor](https://000023.awsstudygroup.com/) |
 | 3   | - Learn AWS SSO for centralized access management <br> - Master EC2 Auto Scaling for dynamic capacity <br> - Understand EC2 Systems Manager for instance management <br> - **Practice:** <br>&emsp; + **AWS SSO:** <br>&emsp;&emsp; - Configure SSO with AWS Organizations <br>&emsp;&emsp; - Set up identity providers and directories <br>&emsp;&emsp; - Implement permission sets and assignments <br>&emsp;&emsp; - Configure SSO access portal <br>&emsp;&emsp; - Monitor SSO user activities <br>&emsp; + **EC2 Auto Scaling:** <br>&emsp;&emsp; - Create Auto Scaling groups <br>&emsp;&emsp; - Configure launch templates <br>&emsp;&emsp; - Set up scaling policies <br>&emsp;&emsp; - Implement instance refresh <br>&emsp;&emsp; - Monitor scaling activities <br>&emsp; + **EC2 Systems Manager:** <br>&emsp;&emsp; - Configure Systems Manager setup <br>&emsp;&emsp; - Implement patch management <br>&emsp;&emsp; - Use Session Manager for access <br>&emsp;&emsp; - Configure automation runbooks <br>&emsp;&emsp; - Monitor instance compliance | 10/14/2025 | 10/14/2025 | [AWS SSO](https://000152.awsstudygroup.com/) <br> <br> [EC2 Auto Scaling](https://000024.awsstudygroup.com/) <br> <br> [EC2 Systems Manager](https://000025.awsstudygroup.com/) |
+| 4   | - Learn Amazon Redshift for data warehousing <br> - Master Amazon EMR for big data processing <br> - Understand AWS Glue for ETL workflows <br> - **Practice:** <br>&emsp; + **Amazon Redshift:** <br>&emsp;&emsp; - Create and configure Redshift clusters <br>&emsp;&emsp; - Set up database security and encryption <br>&emsp;&emsp; - Implement workload management <br>&emsp;&emsp; - Configure backup and maintenance <br>&emsp;&emsp; - Monitor cluster performance <br>&emsp; + **Amazon EMR:** <br>&emsp;&emsp; - Launch EMR clusters with applications <br>&emsp;&emsp; - Configure instance groups and scaling <br>&emsp;&emsp; - Implement security and IAM roles <br>&emsp;&emsp; - Set up steps and workflows <br>&emsp;&emsp; - Monitor cluster metrics <br>&emsp; + **AWS Glue:** <br>&emsp;&emsp; - Configure Glue Data Catalog <br>&emsp;&emsp; - Create crawlers and classifiers <br>&emsp;&emsp; - Develop ETL jobs and scripts <br>&emsp;&emsp; - Set up job triggers and scheduling <br>&emsp;&emsp; - Monitor ETL operations | 10/15/2025 | 10/15/2025 | [Amazon Redshift](https://000039.awsstudygroup.com/) <br> <br> [Amazon EMR](https://000047.awsstudygroup.com/) <br> <br> [AWS Glue](https://000068.awsstudygroup.com/) |
 
 ### Week 6 Achievements:
 
@@ -135,3 +157,31 @@ pre: " <b> 1.6. </b> "
   * Configured compliance policies
   * Monitored instance health and status
   * Applied best practices for fleet management
+
+* **Amazon Redshift Data Warehouse Mastery:**
+  * Mastered Redshift concepts and data warehouse architecture
+  * Successfully created and configured Redshift clusters
+  * Implemented security and encryption for data protection
+  * Configured workload management for query optimization
+  * Set up automated backups and maintenance windows
+  * Monitored cluster performance and query execution
+  * Applied best practices for data warehouse design
+
+* **Amazon EMR Big Data Processing Expertise:**
+  * Mastered EMR concepts and big data frameworks
+  * Successfully launched and managed EMR clusters
+  * Configured instance groups and automatic scaling
+  * Implemented security with EMR security configurations
+  * Set up EMR steps and workflows for processing
+  * Monitored cluster performance and application metrics
+  * Applied best practices for big data processing
+
+* **AWS Glue ETL Service Proficiency:**
+  * Mastered AWS Glue concepts and ETL workflows
+  * Successfully configured Glue Data Catalog
+  * Created and managed crawlers for data discovery
+  * Developed ETL jobs using Python and Scala
+  * Implemented job bookmarks and error handling
+  * Set up job triggers and scheduling
+  * Monitored ETL operations and performance
+  * Applied best practices for data integration
