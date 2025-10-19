@@ -42,6 +42,7 @@ pre: " <b> 1.5. </b> "
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ----------------- |
 | 2   | - Learn AWS Lambda serverless computing <br> - Master Amazon API Gateway for REST APIs <br> - Understand Amazon DynamoDB NoSQL database <br> - Learn AWS messaging with SNS/SQS <br> - **Practice:** <br>&emsp; + **AWS Lambda:** <br>&emsp;&emsp; - Create Lambda functions in multiple languages <br>&emsp;&emsp; - Configure function triggers and permissions <br>&emsp;&emsp; - Implement error handling and retries <br>&emsp;&emsp; - Set up function monitoring and logging <br>&emsp;&emsp; - Use environment variables and layers <br>&emsp; + **Amazon API Gateway:** <br>&emsp;&emsp; - Create REST APIs with resources and methods <br>&emsp;&emsp; - Configure Lambda integrations <br>&emsp;&emsp; - Implement API authentication <br>&emsp;&emsp; - Set up request/response mapping <br>&emsp;&emsp; - Deploy APIs to different stages <br>&emsp; + **Amazon DynamoDB:** <br>&emsp;&emsp; - Create tables with proper key schema <br>&emsp;&emsp; - Perform CRUD operations via SDK <br>&emsp;&emsp; - Implement secondary indexes <br>&emsp;&emsp; - Configure auto scaling <br>&emsp;&emsp; - Use DynamoDB Streams <br>&emsp; + **SNS/SQS Messaging:** <br>&emsp;&emsp; - Create SNS topics and subscriptions <br>&emsp;&emsp; - Set up SQS queues with proper config <br>&emsp;&emsp; - Implement message filtering <br>&emsp;&emsp; - Handle message processing <br>&emsp;&emsp; - Monitor queue metrics | 10/06/2025 | 10/06/2025 | [AWS Lambda](https://000096.awsstudygroup.com/) <br> <br> [Amazon API Gateway](https://000097.awsstudygroup.com/) <br> <br> [Amazon DynamoDB](https://000098.awsstudygroup.com/) <br> <br> [AWS SNS/SQS](https://000099.awsstudygroup.com/) |
+| 3   | - Learn AWS CloudWatch for monitoring and observability <br> - Master AWS IAM Roles and Security <br> - Understand Amazon VPC networking <br> - **Practice:** <br>&emsp; + **AWS CloudWatch:** <br>&emsp;&emsp; - Set up CloudWatch metrics and dashboards <br>&emsp;&emsp; - Configure alarms and notifications <br>&emsp;&emsp; - Implement custom metrics and dimensions <br>&emsp;&emsp; - Use CloudWatch Logs for log aggregation <br>&emsp;&emsp; - Create metric filters and insights <br>&emsp; + **AWS IAM Roles:** <br>&emsp;&emsp; - Create and configure IAM roles <br>&emsp;&emsp; - Set up service-linked roles <br>&emsp;&emsp; - Implement cross-account access <br>&emsp;&emsp; - Configure role trust relationships <br>&emsp;&emsp; - Use role assumption policies <br>&emsp; + **Amazon VPC:** <br>&emsp;&emsp; - Design VPC architecture and subnets <br>&emsp;&emsp; - Configure route tables and gateways <br>&emsp;&emsp; - Implement security groups and NACLs <br>&emsp;&emsp; - Set up VPC peering connections <br>&emsp;&emsp; - Use VPC endpoints for service access | 10/07/2025 | 10/07/2025 | [AWS CloudWatch](https://000141.awsstudygroup.com/) <br> <br> [AWS IAM Roles](https://000069.awsstudygroup.com/) <br> <br> [Amazon VPC](https://000013.awsstudygroup.com/) |
 
 ### Week 5 Achievements:
 
@@ -100,3 +101,37 @@ pre: " <b> 1.5. </b> "
   * Monitored queue metrics and performance
   * Implemented proper error handling and retries
   * Applied best practices for reliable messaging
+
+* **AWS CloudWatch Monitoring and Observability Mastery:**
+  * Mastered CloudWatch concepts for monitoring AWS resources
+  * Successfully set up CloudWatch metrics and dashboards
+  * Configured alarms and notifications for proactive monitoring
+  * Implemented custom metrics and dimensions for detailed insights
+  * Used CloudWatch Logs for centralized log aggregation
+  * Created metric filters and insights for log data analysis
+  * Configured CloudWatch Events for automated responses
+  * Integrated CloudWatch with SNS for alerting
+  * Monitored AWS service limits and usage
+  * Applied best practices for cost-effective monitoring
+
+* **AWS IAM Roles and Security Mastery:**
+  * Mastered IAM roles concepts and security best practices
+  * Successfully created and configured IAM roles
+  * Set up service-linked roles for AWS services
+  * Implemented cross-account access with IAM roles
+  * Configured role trust relationships and policies
+  * Used role assumption policies for temporary access
+  * Monitored IAM role usage and permissions
+  * Applied least privilege principle for security
+  * Regularly rotated IAM role credentials
+  * Integrated IAM roles with AWS Lambda and EC2
+
+* **Amazon VPC Networking Mastery:**
+  * Mastered VPC concepts and networking best practices
+  * Successfully designed VPC architecture and subnets
+  * Configured route tables and internet gateways
+  * Implemented security groups and network ACLs
+  * Set up VPC peering connections for network connectivity
+  * Used VPC endpoints for private service access
+  * Monitored VPC flow logs and network traffic
+  * Applied best practices for VPC design and security
