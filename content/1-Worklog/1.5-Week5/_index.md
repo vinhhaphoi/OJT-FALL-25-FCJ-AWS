@@ -38,12 +38,20 @@ pre: " <b> 1.5. </b> "
   * Configure message queuing with SQS
   * Handle message filtering and dead-letter queues
 
+* **Learn Amazon S3 Object Storage:**
+  * Understand S3 storage classes and use cases
+  * Create and configure S3 buckets and objects
+  * Implement S3 versioning and lifecycle policies
+  * Configure S3 replication and cross-region copying
+  * Monitor S3 storage metrics and analytics
+
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ----------------- |
 | 2   | - Learn AWS Lambda serverless computing <br> - Master Amazon API Gateway for REST APIs <br> - Understand Amazon DynamoDB NoSQL database <br> - Learn AWS messaging with SNS/SQS <br> - **Practice:** <br>&emsp; + **AWS Lambda:** <br>&emsp;&emsp; - Create Lambda functions in multiple languages <br>&emsp;&emsp; - Configure function triggers and permissions <br>&emsp;&emsp; - Implement error handling and retries <br>&emsp;&emsp; - Set up function monitoring and logging <br>&emsp;&emsp; - Use environment variables and layers <br>&emsp; + **Amazon API Gateway:** <br>&emsp;&emsp; - Create REST APIs with resources and methods <br>&emsp;&emsp; - Configure Lambda integrations <br>&emsp;&emsp; - Implement API authentication <br>&emsp;&emsp; - Set up request/response mapping <br>&emsp;&emsp; - Deploy APIs to different stages <br>&emsp; + **Amazon DynamoDB:** <br>&emsp;&emsp; - Create tables with proper key schema <br>&emsp;&emsp; - Perform CRUD operations via SDK <br>&emsp;&emsp; - Implement secondary indexes <br>&emsp;&emsp; - Configure auto scaling <br>&emsp;&emsp; - Use DynamoDB Streams <br>&emsp; + **SNS/SQS Messaging:** <br>&emsp;&emsp; - Create SNS topics and subscriptions <br>&emsp;&emsp; - Set up SQS queues with proper config <br>&emsp;&emsp; - Implement message filtering <br>&emsp;&emsp; - Handle message processing <br>&emsp;&emsp; - Monitor queue metrics | 10/06/2025 | 10/06/2025 | [AWS Lambda](https://000096.awsstudygroup.com/) <br> <br> [Amazon API Gateway](https://000097.awsstudygroup.com/) <br> <br> [Amazon DynamoDB](https://000098.awsstudygroup.com/) <br> <br> [AWS SNS/SQS](https://000099.awsstudygroup.com/) |
 | 3   | - Learn AWS CloudWatch for monitoring and observability <br> - Master AWS IAM Roles and Security <br> - Understand Amazon VPC networking <br> - **Practice:** <br>&emsp; + **AWS CloudWatch:** <br>&emsp;&emsp; - Set up CloudWatch metrics and dashboards <br>&emsp;&emsp; - Configure alarms and notifications <br>&emsp;&emsp; - Implement custom metrics and dimensions <br>&emsp;&emsp; - Use CloudWatch Logs for log aggregation <br>&emsp;&emsp; - Create metric filters and insights <br>&emsp; + **AWS IAM Roles:** <br>&emsp;&emsp; - Create and configure IAM roles <br>&emsp;&emsp; - Set up service-linked roles <br>&emsp;&emsp; - Implement cross-account access <br>&emsp;&emsp; - Configure role trust relationships <br>&emsp;&emsp; - Use role assumption policies <br>&emsp; + **Amazon VPC:** <br>&emsp;&emsp; - Design VPC architecture and subnets <br>&emsp;&emsp; - Configure route tables and gateways <br>&emsp;&emsp; - Implement security groups and NACLs <br>&emsp;&emsp; - Set up VPC peering connections <br>&emsp;&emsp; - Use VPC endpoints for service access | 10/07/2025 | 10/07/2025 | [AWS CloudWatch](https://000141.awsstudygroup.com/) <br> <br> [AWS IAM Roles](https://000069.awsstudygroup.com/) <br> <br> [Amazon VPC](https://000013.awsstudygroup.com/) |
 | 4   | - Learn Amazon EBS for block storage management <br> - Master Amazon EFS for scalable file systems <br> - Understand AWS KMS for encryption key management <br> - **Practice:** <br>&emsp; + **Amazon EBS Storage:** <br>&emsp;&emsp; - Create and attach EBS volumes <br>&emsp;&emsp; - Configure volume types and IOPS <br>&emsp;&emsp; - Implement EBS snapshots and backups <br>&emsp;&emsp; - Set up automated snapshot lifecycles <br>&emsp;&emsp; - Monitor EBS performance metrics <br>&emsp; + **Amazon EFS File System:** <br>&emsp;&emsp; - Create and configure EFS file systems <br>&emsp;&emsp; - Set up mount targets and security groups <br>&emsp;&emsp; - Implement EFS access points <br>&emsp;&emsp; - Configure performance modes and throughput <br>&emsp;&emsp; - Use EFS lifecycle management <br>&emsp; + **AWS KMS Security:** <br>&emsp;&emsp; - Create and manage KMS keys <br>&emsp;&emsp; - Set up key policies and grants <br>&emsp;&emsp; - Implement key rotation <br>&emsp;&emsp; - Configure cross-account key access <br>&emsp;&emsp; - Monitor KMS API usage | 10/08/2025 | 10/08/2025 | [Amazon EBS](https://000019.awsstudygroup.com/) <br> <br> [Amazon EFS](https://000020.awsstudygroup.com/) <br> <br> [AWS KMS](https://000077.awsstudygroup.com/) |
+| 5   | - Learn Amazon S3 object storage fundamentals <br> - Master S3 security and access control <br> - Understand S3 performance optimization <br> - **Practice:** <br>&emsp; + **Amazon S3 Storage:** <br>&emsp;&emsp; - Create and configure S3 buckets <br>&emsp;&emsp; - Set up bucket policies and IAM permissions <br>&emsp;&emsp; - Implement versioning and lifecycle rules <br>&emsp;&emsp; - Configure S3 encryption options <br>&emsp;&emsp; - Monitor S3 access and usage <br>&emsp; + **S3 Security Management:** <br>&emsp;&emsp; - Configure bucket and object ACLs <br>&emsp;&emsp; - Implement CORS and bucket policies <br>&emsp;&emsp; - Set up S3 Block Public Access <br>&emsp;&emsp; - Use presigned URLs and cookies <br>&emsp;&emsp; - Monitor S3 security settings <br>&emsp; + **S3 Performance:** <br>&emsp;&emsp; - Optimize S3 performance with prefixes <br>&emsp;&emsp; - Implement S3 Transfer Acceleration <br>&emsp;&emsp; - Configure multipart uploads <br>&emsp;&emsp; - Use S3 Select for query optimization <br>&emsp;&emsp; - Monitor performance metrics | 10/09/2025 | 10/09/2025 | [Amazon S3 Storage](https://100000.awsstudygroup.com/) <br> <br> [S3 Security](https://100001.awsstudygroup.com/) <br> <br> [S3 Performance](https://100002.awsstudygroup.com/) |
 
 ### Week 5 Achievements:
 
@@ -165,3 +173,14 @@ pre: " <b> 1.5. </b> "
   * Monitored KMS key usage and API activity
   * Integrated KMS with AWS services for encryption at rest and in transit
   * Applied best practices for KMS security and compliance
+
+* **Amazon S3 Object Storage Mastery:**
+  * Mastered S3 concepts and object storage principles
+  * Successfully created and configured S3 buckets and objects
+  * Implemented S3 versioning and lifecycle policies
+  * Configured S3 replication and cross-region copying
+  * Monitored S3 storage metrics and analytics
+  * Applied best practices for S3 security and access control
+  * Optimized S3 performance with prefixes and Transfer Acceleration
+  * Configured multipart uploads and S3 Select for query optimization
+  * Monitored S3 access and usage with CloudWatch
