@@ -99,6 +99,27 @@ pre: " <b> 1.6. </b> "
   * Monitor and analyze stream data
   * Manage and optimize stream processing
 
+* **Learn Amazon MSK for Managed Kafka Service:**
+  * Understand MSK architecture and components
+  * Configure MSK clusters and brokers
+  * Set up Kafka topics and partitions
+  * Implement producers and consumers
+  * Monitor and troubleshoot Kafka performance
+
+* **Master Amazon MQ for Message Brokers:**
+  * Understand Amazon MQ concepts and broker types
+  * Configure ActiveMQ and RabbitMQ brokers
+  * Set up message queues and topics
+  * Implement message security and encryption
+  * Monitor and manage broker performance
+
+* **Understand Amazon EventBridge for Event Routing:**
+  * Understand EventBridge architecture and components
+  * Configure event buses and rules
+  * Set up event patterns and targets
+  * Implement event archival and replay
+  * Monitor and troubleshoot event processing
+
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ----------------- |
@@ -106,6 +127,7 @@ pre: " <b> 1.6. </b> "
 | 3   | - Learn AWS SSO for centralized access management <br> - Master EC2 Auto Scaling for dynamic capacity <br> - Understand EC2 Systems Manager for instance management <br> - **Practice:** <br>&emsp; + **AWS SSO:** <br>&emsp;&emsp; - Configure SSO with AWS Organizations <br>&emsp;&emsp; - Set up identity providers and directories <br>&emsp;&emsp; - Implement permission sets and assignments <br>&emsp;&emsp; - Configure SSO access portal <br>&emsp;&emsp; - Monitor SSO user activities <br>&emsp; + **EC2 Auto Scaling:** <br>&emsp;&emsp; - Create Auto Scaling groups <br>&emsp;&emsp; - Configure launch templates <br>&emsp;&emsp; - Set up scaling policies <br>&emsp;&emsp; - Implement instance refresh <br>&emsp;&emsp; - Monitor scaling activities <br>&emsp; + **EC2 Systems Manager:** <br>&emsp;&emsp; - Configure Systems Manager setup <br>&emsp;&emsp; - Implement patch management <br>&emsp;&emsp; - Use Session Manager for access <br>&emsp;&emsp; - Configure automation runbooks <br>&emsp;&emsp; - Monitor instance compliance | 10/14/2025 | 10/14/2025 | [AWS SSO](https://000152.awsstudygroup.com/) <br> <br> [EC2 Auto Scaling](https://000024.awsstudygroup.com/) <br> <br> [EC2 Systems Manager](https://000025.awsstudygroup.com/) |
 | 4   | - Learn Amazon Redshift for data warehousing <br> - Master Amazon EMR for big data processing <br> - Understand AWS Glue for ETL workflows <br> - **Practice:** <br>&emsp; + **Amazon Redshift:** <br>&emsp;&emsp; - Create and configure Redshift clusters <br>&emsp;&emsp; - Set up database security and encryption <br>&emsp;&emsp; - Implement workload management <br>&emsp;&emsp; - Configure backup and maintenance <br>&emsp;&emsp; - Monitor cluster performance <br>&emsp; + **Amazon EMR:** <br>&emsp;&emsp; - Launch EMR clusters with applications <br>&emsp;&emsp; - Configure instance groups and scaling <br>&emsp;&emsp; - Implement security and IAM roles <br>&emsp;&emsp; - Set up steps and workflows <br>&emsp;&emsp; - Monitor cluster metrics <br>&emsp; + **AWS Glue:** <br>&emsp;&emsp; - Configure Glue Data Catalog <br>&emsp;&emsp; - Create crawlers and classifiers <br>&emsp;&emsp; - Develop ETL jobs and scripts <br>&emsp;&emsp; - Set up job triggers and scheduling <br>&emsp;&emsp; - Monitor ETL operations | 10/15/2025 | 10/15/2025 | [Amazon Redshift](https://000039.awsstudygroup.com/) <br> <br> [Amazon EMR](https://000047.awsstudygroup.com/) <br> <br> [AWS Glue](https://000068.awsstudygroup.com/) |
 | 5   | - Learn Amazon ElastiCache for in-memory caching <br> - Master Amazon SQS for message queuing <br> - Understand Amazon Kinesis for real-time data streaming <br> - **Practice:** <br>&emsp; + **Amazon ElastiCache:** <br>&emsp;&emsp; - Create and configure cache clusters <br>&emsp;&emsp; - Set up Redis and Memcached nodes <br>&emsp;&emsp; - Implement cache strategies <br>&emsp;&emsp; - Configure backup and recovery <br>&emsp;&emsp; - Monitor cache performance <br>&emsp; + **Amazon SQS:** <br>&emsp;&emsp; - Create standard and FIFO queues <br>&emsp;&emsp; - Configure message attributes <br>&emsp;&emsp; - Implement dead-letter queues <br>&emsp;&emsp; - Set up long polling <br>&emsp;&emsp; - Monitor queue metrics <br>&emsp; + **Amazon Kinesis:** <br>&emsp;&emsp; - Set up data streams <br>&emsp;&emsp; - Configure producers and consumers <br>&emsp;&emsp; - Implement data analytics <br>&emsp;&emsp; - Configure stream processing <br>&emsp;&emsp; - Monitor stream metrics | 10/16/2025 | 10/16/2025 | [Amazon ElastiCache](https://000042.awsstudygroup.com/) <br> <br> [Amazon SQS](https://000034.awsstudygroup.com/) <br> <br> [Amazon Kinesis](https://000040.awsstudygroup.com/) |
+| 6   | - Learn Amazon MSK for managed Kafka service <br> - Master Amazon MQ for message brokers <br> - Understand Amazon EventBridge for event routing <br> - **Practice:** <br>&emsp; + **Amazon MSK:** <br>&emsp;&emsp; - Create and configure MSK clusters <br>&emsp;&emsp; - Set up Kafka topics and partitions <br>&emsp;&emsp; - Implement producers and consumers <br>&emsp;&emsp; - Configure security and encryption <br>&emsp;&emsp; - Monitor cluster performance <br>&emsp; + **Amazon MQ:** <br>&emsp;&emsp; - Deploy ActiveMQ and RabbitMQ brokers <br>&emsp;&emsp; - Configure queue and topic destinations <br>&emsp;&emsp; - Set up high availability and failover <br>&emsp;&emsp; - Implement message security <br>&emsp;&emsp; - Monitor broker metrics <br>&emsp; + **Amazon EventBridge:** <br>&emsp;&emsp; - Create event buses and rules <br>&emsp;&emsp; - Configure event patterns <br>&emsp;&emsp; - Set up event targets <br>&emsp;&emsp; - Implement event archival <br>&emsp;&emsp; - Monitor event processing | 10/17/2025 | 10/17/2025 | [Amazon MSK](https://000050.awsstudygroup.com/) <br> <br> [Amazon MQ](https://000051.awsstudygroup.com/) <br> <br> [Amazon EventBridge](https://000052.awsstudygroup.com/) |
 
 ### Week 6 Achievements:
 
@@ -237,3 +259,30 @@ pre: " <b> 1.6. </b> "
   * Implemented data analytics applications
   * Monitored stream metrics and performance
   * Applied best practices for stream processing
+
+* **Amazon MSK Kafka Service Mastery:**
+  * Mastered MSK concepts and Kafka architecture
+  * Successfully created and configured MSK clusters
+  * Implemented Kafka topics and partitioning strategies
+  * Set up producers and consumers with SDKs
+  * Configured security with encryption and authentication
+  * Implemented monitoring with Prometheus and CloudWatch
+  * Applied best practices for Kafka operations
+
+* **Amazon MQ Message Broker Expertise:**
+  * Mastered Amazon MQ concepts and broker types
+  * Successfully deployed ActiveMQ and RabbitMQ brokers
+  * Configured queues and topics for messaging
+  * Implemented high availability with multi-AZ deployment
+  * Set up security with authentication and encryption
+  * Monitored broker health and performance
+  * Applied best practices for message broker management
+
+* **Amazon EventBridge Event Routing Proficiency:**
+  * Mastered EventBridge concepts and event routing
+  * Successfully created custom event buses
+  * Implemented event rules and patterns
+  * Configured multiple event targets
+  * Set up event archival and replay
+  * Monitored event processing and delivery
+  * Applied best practices for event-driven architectures
