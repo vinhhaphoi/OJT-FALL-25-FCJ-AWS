@@ -14,9 +14,9 @@ pre: " <b> 1. </b> "
 
 **Tuần 4:** [AWS Backup & Governance: Backup Service, Storage Gateway, S3 Glacier, DataSync, Control Tower, Organizations, Service Catalog, Systems Manager, CloudFormation IaC, EC2 Fundamentals, IAM Security, RDS Databases, Route 53 DNS, Auto Scaling, Load Balancing, CloudFront CDN, và S3 Storage](1.4-week4/)
 
-**Tuần 5:** [Làm công việc D...](1.5-week5/)
+**Tuần 5:** [AWS Serverless & Integration: Lambda Functions, API Gateway Development, DynamoDB NoSQL Database, SNS/SQS Messaging, CloudWatch Monitoring, IAM Roles, VPC Networking, EBS Storage, EFS File Systems, KMS Security, S3 Object Storage, Config Management, WAF Security, và Application Load Balancing](1.5-week5/)
 
-**Tuần 6:** [Làm công việc E...](1.6-week6/)
+**Tuần 6:** [AWS Security & Management: Certificate Manager, Secrets Manager, Parameter Store, Private Certificate Authority, Shield DDoS Protection, GuardDuty Security, Inspector Assessment, Trusted Advisor, SSO Access Management, EC2 Auto Scaling, Systems Manager, ElastiCache, SQS Queues, Kinesis Streams, MSK Kafka, MQ Messaging, và EventBridge](1.6-week6/)
 
 **Tuần 7:** [Làm công việc G...](1.7-week7/)
 

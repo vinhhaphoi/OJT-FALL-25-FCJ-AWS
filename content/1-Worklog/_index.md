@@ -15,9 +15,9 @@ pre: " <b> 1. </b> "
 
 **Week 4:** [AWS Backup & Governance: Backup Service, Storage Gateway, S3 Glacier, DataSync, Control Tower, Organizations, Service Catalog, Systems Manager, CloudFormation IaC, EC2 Fundamentals, IAM Security, RDS Databases, Route 53 DNS, Auto Scaling, Load Balancing, CloudFront CDN, and S3 Storage](1.4-week4/)
 
-**Week 5:** [Doing task D...](1.5-week5/)
+**Week 5:** [AWS Serverless & Integration: Lambda Functions, API Gateway Development, DynamoDB NoSQL Database, SNS/SQS Messaging, CloudWatch Monitoring, IAM Roles, VPC Networking, EBS Storage, EFS File Systems, KMS Security, S3 Object Storage, Config Management, WAF Security, and Application Load Balancing](1.5-week5/)
 
-**Week 6:** [Doing task E...](1.6-week6/)
+**Week 6:** [AWS Security & Management: Certificate Manager, Secrets Manager, Parameter Store, Private Certificate Authority, Shield DDoS Protection, GuardDuty Security, Inspector Assessment, Trusted Advisor, SSO Access Management, EC2 Auto Scaling, Systems Manager, ElastiCache, SQS Queues, Kinesis Streams, MSK Kafka, MQ Messaging, and EventBridge](1.6-week6/)
 
 **Week 7:** [Doing task G...](1.7-week7/)
 
