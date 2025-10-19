@@ -45,6 +45,27 @@ pre: " <b> 1.5. </b> "
   * Configure S3 replication and cross-region copying
   * Monitor S3 storage metrics and analytics
 
+* **Learn AWS Config for Resource Management:**
+  * Understand AWS Config rules and evaluations
+  * Monitor resource configuration changes
+  * Implement compliance auditing
+  * Configure automated remediation
+  * Track resource relationships
+
+* **Master AWS WAF for Web Application Security:**
+  * Understand WAF concepts and web ACLs
+  * Implement security rules and conditions
+  * Configure rate-based rules
+  * Protect applications from common exploits
+  * Monitor security events
+
+* **Learn Application Load Balancer:**
+  * Understand ALB concepts and features
+  * Configure listener rules and target groups
+  * Implement path-based routing
+  * Set up SSL/TLS termination
+  * Monitor load balancer metrics
+
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ----------------- |
@@ -52,6 +73,7 @@ pre: " <b> 1.5. </b> "
 | 3   | - Learn AWS CloudWatch for monitoring and observability <br> - Master AWS IAM Roles and Security <br> - Understand Amazon VPC networking <br> - **Practice:** <br>&emsp; + **AWS CloudWatch:** <br>&emsp;&emsp; - Set up CloudWatch metrics and dashboards <br>&emsp;&emsp; - Configure alarms and notifications <br>&emsp;&emsp; - Implement custom metrics and dimensions <br>&emsp;&emsp; - Use CloudWatch Logs for log aggregation <br>&emsp;&emsp; - Create metric filters and insights <br>&emsp; + **AWS IAM Roles:** <br>&emsp;&emsp; - Create and configure IAM roles <br>&emsp;&emsp; - Set up service-linked roles <br>&emsp;&emsp; - Implement cross-account access <br>&emsp;&emsp; - Configure role trust relationships <br>&emsp;&emsp; - Use role assumption policies <br>&emsp; + **Amazon VPC:** <br>&emsp;&emsp; - Design VPC architecture and subnets <br>&emsp;&emsp; - Configure route tables and gateways <br>&emsp;&emsp; - Implement security groups and NACLs <br>&emsp;&emsp; - Set up VPC peering connections <br>&emsp;&emsp; - Use VPC endpoints for service access | 10/07/2025 | 10/07/2025 | [AWS CloudWatch](https://000141.awsstudygroup.com/) <br> <br> [AWS IAM Roles](https://000069.awsstudygroup.com/) <br> <br> [Amazon VPC](https://000013.awsstudygroup.com/) |
 | 4   | - Learn Amazon EBS for block storage management <br> - Master Amazon EFS for scalable file systems <br> - Understand AWS KMS for encryption key management <br> - **Practice:** <br>&emsp; + **Amazon EBS Storage:** <br>&emsp;&emsp; - Create and attach EBS volumes <br>&emsp;&emsp; - Configure volume types and IOPS <br>&emsp;&emsp; - Implement EBS snapshots and backups <br>&emsp;&emsp; - Set up automated snapshot lifecycles <br>&emsp;&emsp; - Monitor EBS performance metrics <br>&emsp; + **Amazon EFS File System:** <br>&emsp;&emsp; - Create and configure EFS file systems <br>&emsp;&emsp; - Set up mount targets and security groups <br>&emsp;&emsp; - Implement EFS access points <br>&emsp;&emsp; - Configure performance modes and throughput <br>&emsp;&emsp; - Use EFS lifecycle management <br>&emsp; + **AWS KMS Security:** <br>&emsp;&emsp; - Create and manage KMS keys <br>&emsp;&emsp; - Set up key policies and grants <br>&emsp;&emsp; - Implement key rotation <br>&emsp;&emsp; - Configure cross-account key access <br>&emsp;&emsp; - Monitor KMS API usage | 10/08/2025 | 10/08/2025 | [Amazon EBS](https://000019.awsstudygroup.com/) <br> <br> [Amazon EFS](https://000020.awsstudygroup.com/) <br> <br> [AWS KMS](https://000077.awsstudygroup.com/) |
 | 5   | - Learn Amazon S3 object storage fundamentals <br> - Master S3 security and access control <br> - Understand S3 performance optimization <br> - **Practice:** <br>&emsp; + **Amazon S3 Storage:** <br>&emsp;&emsp; - Create and configure S3 buckets <br>&emsp;&emsp; - Set up bucket policies and IAM permissions <br>&emsp;&emsp; - Implement versioning and lifecycle rules <br>&emsp;&emsp; - Configure S3 encryption options <br>&emsp;&emsp; - Monitor S3 access and usage <br>&emsp; + **S3 Security Management:** <br>&emsp;&emsp; - Configure bucket and object ACLs <br>&emsp;&emsp; - Implement CORS and bucket policies <br>&emsp;&emsp; - Set up S3 Block Public Access <br>&emsp;&emsp; - Use presigned URLs and cookies <br>&emsp;&emsp; - Monitor S3 security settings <br>&emsp; + **S3 Performance:** <br>&emsp;&emsp; - Optimize S3 performance with prefixes <br>&emsp;&emsp; - Implement S3 Transfer Acceleration <br>&emsp;&emsp; - Configure multipart uploads <br>&emsp;&emsp; - Use S3 Select for query optimization <br>&emsp;&emsp; - Monitor performance metrics | 10/09/2025 | 10/09/2025 | [Amazon S3 Storage](https://100000.awsstudygroup.com/) <br> <br> [S3 Security](https://100001.awsstudygroup.com/) <br> <br> [S3 Performance](https://100002.awsstudygroup.com/) |
+| 6   | - Learn AWS Config for resource management <br> - Master AWS WAF for web application security <br> - Understand Application Load Balancer <br> - **Practice:** <br>&emsp; + **AWS Config:** <br>&emsp;&emsp; - Set up AWS Config and recorders <br>&emsp;&emsp; - Configure rules and evaluations <br>&emsp;&emsp; - Implement compliance monitoring <br>&emsp;&emsp; - Set up automated remediation <br>&emsp;&emsp; - Monitor configuration changes <br>&emsp; + **AWS WAF:** <br>&emsp;&emsp; - Create and configure web ACLs <br>&emsp;&emsp; - Implement security rules <br>&emsp;&emsp; - Set up rate limiting <br>&emsp;&emsp; - Configure IP blocking <br>&emsp;&emsp; - Monitor security events <br>&emsp; + **Application Load Balancer:** <br>&emsp;&emsp; - Create and configure ALB <br>&emsp;&emsp; - Set up listener rules <br>&emsp;&emsp; - Implement target groups <br>&emsp;&emsp; - Configure path routing <br>&emsp;&emsp; - Monitor ALB metrics | 10/10/2025 | 10/10/2025 | [AWS Config](https://100003.awsstudygroup.com/) <br> <br> [AWS WAF](https://100004.awsstudygroup.com/) <br> <br> [Application Load Balancer](https://000015.awsstudygroup.com/) |
 
 ### Week 5 Achievements:
 
@@ -184,3 +206,33 @@ pre: " <b> 1.5. </b> "
   * Optimized S3 performance with prefixes and Transfer Acceleration
   * Configured multipart uploads and S3 Select for query optimization
   * Monitored S3 access and usage with CloudWatch
+
+* **AWS Config Resource Management Mastery:**
+  * Mastered AWS Config concepts and configuration management
+  * Successfully set up Config recorders and aggregators
+  * Implemented custom and managed Config rules
+  * Configured automated remediation actions
+  * Set up configuration change monitoring
+  * Implemented compliance reporting and auditing
+  * Created resource relationships tracking
+  * Applied best practices for resource governance
+
+* **AWS WAF Security Mastery:**
+  * Mastered AWS WAF concepts and web security
+  * Successfully created and configured web ACLs
+  * Implemented IP-based blocking and allow rules
+  * Set up rate-based rules for DDoS protection
+  * Configured SQL injection and XSS prevention
+  * Implemented geo-matching conditions
+  * Monitored and analyzed security events
+  * Applied best practices for web application security
+
+* **Application Load Balancer Mastery:**
+  * Mastered ALB concepts and features
+  * Successfully created and configured ALB
+  * Implemented listener rules and conditions
+  * Set up target groups and health checks
+  * Configured path-based routing
+  * Implemented SSL/TLS termination
+  * Monitored ALB performance metrics
+  * Applied best practices for load balancing
