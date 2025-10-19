@@ -42,6 +42,7 @@ pre: " <b> 1.6. </b> "
 | 2   | - Học AWS Shield cho bảo vệ DDoS <br> - Thành thạo AWS GuardDuty cho phát hiện mối đe dọa <br> - Hiểu Amazon Inspector cho đánh giá bảo mật <br> - Học AWS Trusted Advisor cho tối ưu hóa <br> - **Thực hành:** <br>&emsp; + **AWS Shield:** <br>&emsp;&emsp; - Cấu hình bảo vệ AWS Shield Standard <br>&emsp;&emsp; - Thiết lập tính năng Shield Advanced <br>&emsp;&emsp; - Triển khai kế hoạch phản hồi DDoS <br>&emsp;&emsp; - Giám sát sự kiện và số liệu DDoS <br>&emsp;&emsp; - Phân tích mẫu tấn công <br>&emsp; + **AWS GuardDuty:** <br>&emsp;&emsp; - Kích hoạt và cấu hình GuardDuty <br>&emsp;&emsp; - Thiết lập thông báo phát hiện <br>&emsp;&emsp; - Phân tích phát hiện bảo mật <br>&emsp;&emsp; - Triển khai phản hồi tự động <br>&emsp;&emsp; - Giám sát bảo mật tài khoản <br>&emsp; + **Amazon Inspector:** <br>&emsp;&emsp; - Cấu hình mẫu đánh giá <br>&emsp;&emsp; - Chạy đánh giá bảo mật <br>&emsp;&emsp; - Phân tích phát hiện lỗ hổng <br>&emsp;&emsp; - Triển khai khắc phục <br>&emsp;&emsp; - Giám sát trạng thái bảo mật <br>&emsp; + **AWS Trusted Advisor:** <br>&emsp;&emsp; - Xem xét kiểm tra best practice <br>&emsp;&emsp; - Cấu hình thông báo <br>&emsp;&emsp; - Phân tích khuyến nghị <br>&emsp;&emsp; - Triển khai tối ưu hóa <br>&emsp;&emsp; - Giám sát hiệu quả tài nguyên | 13/10/2025 | 13/10/2025 | [AWS Shield](https://000016.awsstudygroup.com/) <br> <br> [AWS GuardDuty](https://000118.awsstudygroup.com/) <br> <br> [Amazon Inspector](https://000017.awsstudygroup.com/) <br> <br> [AWS Trusted Advisor](https://000023.awsstudygroup.com/) |
 | 3   | - Học AWS SSO cho quản lý truy cập tập trung <br> - Thành thạo EC2 Auto Scaling cho năng lực động <br> - Hiểu EC2 Systems Manager cho quản lý instance <br> - **Thực hành:** <br>&emsp; + **AWS SSO:** <br>&emsp;&emsp; - Cấu hình SSO với AWS Organizations <br>&emsp;&emsp; - Thiết lập identity providers và directories <br>&emsp;&emsp; - Triển khai permission sets và assignments <br>&emsp;&emsp; - Cấu hình cổng thông tin SSO <br>&emsp;&emsp; - Giám sát hoạt động người dùng SSO <br>&emsp; + **EC2 Auto Scaling:** <br>&emsp;&emsp; - Tạo Auto Scaling groups <br>&emsp;&emsp; - Cấu hình launch templates <br>&emsp;&emsp; - Thiết lập scaling policies <br>&emsp;&emsp; - Triển khai instance refresh <br>&emsp;&emsp; - Giám sát hoạt động scaling <br>&emsp; + **EC2 Systems Manager:** <br>&emsp;&emsp; - Cấu hình thiết lập Systems Manager <br>&emsp;&emsp; - Triển khai quản lý bản vá <br>&emsp;&emsp; - Sử dụng Session Manager cho truy cập <br>&emsp;&emsp; - Cấu hình automation runbooks <br>&emsp;&emsp; - Giám sát tuân thủ instance | 14/10/2025 | 14/10/2025 | [AWS SSO](https://000152.awsstudygroup.com/) <br> <br> [EC2 Auto Scaling](https://000024.awsstudygroup.com/) <br> <br> [EC2 Systems Manager](https://000025.awsstudygroup.com/) |
 | 4   | - Học Amazon Redshift cho data warehousing <br> - Thành thạo Amazon EMR cho xử lý big data <br> - Hiểu AWS Glue cho quy trình ETL <br> - **Thực hành:** <br>&emsp; + **Amazon Redshift:** <br>&emsp;&emsp; - Tạo và cấu hình Redshift clusters <br>&emsp;&emsp; - Thiết lập bảo mật và mã hóa database <br>&emsp;&emsp; - Triển khai quản lý workload <br>&emsp;&emsp; - Cấu hình backup và bảo trì <br>&emsp;&emsp; - Giám sát hiệu suất cluster <br>&emsp; + **Amazon EMR:** <br>&emsp;&emsp; - Khởi chạy EMR clusters với applications <br>&emsp;&emsp; - Cấu hình instance groups và scaling <br>&emsp;&emsp; - Triển khai bảo mật và IAM roles <br>&emsp;&emsp; - Thiết lập steps và workflows <br>&emsp;&emsp; - Giám sát metrics cluster <br>&emsp; + **AWS Glue:** <br>&emsp;&emsp; - Cấu hình Glue Data Catalog <br>&emsp;&emsp; - Tạo crawlers và classifiers <br>&emsp;&emsp; - Phát triển ETL jobs và scripts <br>&emsp;&emsp; - Thiết lập job triggers và scheduling <br>&emsp;&emsp; - Giám sát hoạt động ETL | 15/10/2025 | 15/10/2025 | [Amazon Redshift](https://000039.awsstudygroup.com/) <br> <br> [Amazon EMR](https://000047.awsstudygroup.com/) <br> <br> [AWS Glue](https://000068.awsstudygroup.com/) |
+| 5   | - Học Amazon ElastiCache cho in-memory caching <br> - Thành thạo Amazon SQS cho message queuing <br> - Hiểu Amazon Kinesis cho real-time data streaming <br> - **Thực hành:** <br>&emsp; + **Amazon ElastiCache:** <br>&emsp;&emsp; - Tạo và cấu hình cache clusters <br>&emsp;&emsp; - Thiết lập Redis và Memcached nodes <br>&emsp;&emsp; - Triển khai cache strategies <br>&emsp;&emsp; - Cấu hình backup và recovery <br>&emsp;&emsp; - Giám sát cache performance <br>&emsp; + **Amazon SQS:** <br>&emsp;&emsp; - Tạo standard và FIFO queues <br>&emsp;&emsp; - Cấu hình message attributes <br>&emsp;&emsp; - Triển khai dead-letter queues <br>&emsp;&emsp; - Thiết lập long polling <br>&emsp;&emsp; - Giám sát queue metrics <br>&emsp; + **Amazon Kinesis:** <br>&emsp;&emsp; - Thiết lập data streams <br>&emsp;&emsp; - Cấu hình producers và consumers <br>&emsp;&emsp; - Triển khai data analytics <br>&emsp;&emsp; - Cấu hình stream processing <br>&emsp;&emsp; - Giám sát stream metrics | 16/10/2025 | 16/10/2025 | [Amazon ElastiCache](https://000042.awsstudygroup.com/) <br> <br> [Amazon SQS](https://000034.awsstudygroup.com/) <br> <br> [Amazon Kinesis](https://000040.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 6:
 
@@ -143,5 +144,35 @@ pre: " <b> 1.6. </b> "
   * Thiết lập job triggers và scheduling
   * Giám sát hoạt động và hiệu suất ETL
   * Áp dụng best practices cho tích hợp dữ liệu
+
+* **Thành thạo Amazon ElastiCache In-Memory Cache:**
+  * Thành thạo khái niệm ElastiCache cho in-memory caching
+  * Thành công tạo Redis và Memcached clusters
+  * Cấu hình cache node types và scaling options
+  * Triển khai caching strategies và patterns
+  * Thiết lập quy trình backup và restore
+  * Cấu hình cluster security và encryption
+  * Giám sát cache performance metrics
+  * Áp dụng best practices cho cache optimization
+
+* **Thành thạo Amazon SQS Message Queue:**
+  * Thành thạo khái niệm SQS và queue types
+  * Thành công tạo standard và FIFO queues
+  * Triển khai message attributes và metadata
+  * Cấu hình dead-letter queues cho failed messages
+  * Thiết lập long polling cho efficient message retrieval
+  * Triển khai message visibility timeout
+  * Giám sát queue performance metrics
+  * Áp dụng best practices cho reliable messaging
+
+* **Thành thạo Amazon Kinesis Data Streaming:**
+  * Thành thạo khái niệm Kinesis cho real-time streaming
+  * Thành công cấu hình data streams và shards
+  * Triển khai producers sử dụng Kinesis SDK
+  * Thiết lập consumers với enhanced fan-out
+  * Cấu hình stream processing với Lambda
+  * Triển khai data analytics applications
+  * Giám sát stream metrics và performance
+  * Áp dụng best practices cho stream processing
 
 
