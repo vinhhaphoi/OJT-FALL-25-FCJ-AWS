@@ -36,10 +36,43 @@ pre: " <b> 1.7. </b> "
   * Set up license alerts
   * Monitor license usage
 
+* **Learn AWS Certificate Manager:**
+  * Understand ACM concepts and certificate management
+  * Request and validate public certificates
+  * Import external certificates
+  * Configure certificate renewals
+  * Set up certificate integrations
+  * Monitor certificate expiry
+
+* **Master AWS Secrets Manager:**
+  * Understand Secrets Manager concepts and features
+  * Create and store secrets
+  * Configure secret rotation
+  * Set up access policies
+  * Implement secret encryption
+  * Monitor secret usage
+
+* **Learn AWS Parameter Store:**
+  * Understand Parameter Store concepts and hierarchy
+  * Create parameter hierarchies
+  * Configure parameter policies
+  * Set up version tracking
+  * Implement parameter encryption
+  * Monitor parameter access
+
+* **Master AWS Private Certificate Authority:**
+  * Understand Private CA concepts and operations
+  * Set up private certificate authority
+  * Issue private certificates
+  * Configure certificate templates
+  * Implement revocation
+  * Monitor CA operations
+
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ----------------- |
 | 2   | - Learn AWS Directory Service for identity management <br> - Master AWS RAM for resource sharing <br> - Understand AWS Resource Groups for organization <br> - Learn AWS License Manager for license tracking <br> - **Practice:** <br>&emsp; + **AWS Directory Service:** <br>&emsp;&emsp; - Set up Microsoft AD and Simple AD <br>&emsp;&emsp; - Configure directory trust relationships <br>&emsp;&emsp; - Implement directory authentication <br>&emsp;&emsp; - Set up directory replication <br>&emsp;&emsp; - Monitor directory performance <br>&emsp; + **AWS RAM:** <br>&emsp;&emsp; - Create resource shares <br>&emsp;&emsp; - Configure sharing permissions <br>&emsp;&emsp; - Implement cross-account sharing <br>&emsp;&emsp; - Set up resource access <br>&emsp;&emsp; - Monitor shared resources <br>&emsp; + **AWS Resource Groups:** <br>&emsp;&emsp; - Create and configure groups <br>&emsp;&emsp; - Implement tagging strategies <br>&emsp;&emsp; - Set up group-based access <br>&emsp;&emsp; - Configure group operations <br>&emsp;&emsp; - Monitor group resources <br>&emsp; + **AWS License Manager:** <br>&emsp;&emsp; - Configure license rules <br>&emsp;&emsp; - Set up license tracking <br>&emsp;&emsp; - Implement usage reporting <br>&emsp;&emsp; - Configure license alerts <br>&emsp;&emsp; - Monitor license consumption | 10/20/2025 | 10/20/2025 | [AWS Directory Service](https://000053.awsstudygroup.com/) <br> <br> [AWS RAM](https://000054.awsstudygroup.com/) <br> <br> [AWS Resource Groups](https://000055.awsstudygroup.com/) <br> <br> [AWS License Manager](https://000056.awsstudygroup.com/) |
+| 3   | - Learn AWS Certificate Manager for SSL/TLS certificates <br> - Master AWS Secrets Manager for secret management <br> - Understand AWS Parameter Store for configuration <br> - Learn AWS Private Certificate Authority <br> - **Practice:** <br>&emsp; + **AWS Certificate Manager:** <br>&emsp;&emsp; - Request and validate public certificates <br>&emsp;&emsp; - Import external certificates <br>&emsp;&emsp; - Configure certificate renewals <br>&emsp;&emsp; - Set up certificate integrations <br>&emsp;&emsp; - Monitor certificate expiry <br>&emsp; + **AWS Secrets Manager:** <br>&emsp;&emsp; - Create and store secrets <br>&emsp;&emsp; - Configure secret rotation <br>&emsp;&emsp; - Set up access policies <br>&emsp;&emsp; - Implement secret encryption <br>&emsp;&emsp; - Monitor secret usage <br>&emsp; + **AWS Parameter Store:** <br>&emsp;&emsp; - Create parameter hierarchies <br>&emsp;&emsp; - Configure parameter policies <br>&emsp;&emsp; - Set up version tracking <br>&emsp;&emsp; - Implement parameter encryption <br>&emsp;&emsp; - Monitor parameter access <br>&emsp; + **AWS Private CA:** <br>&emsp;&emsp; - Set up private certificate authority <br>&emsp;&emsp; - Issue private certificates <br>&emsp;&emsp; - Configure certificate templates <br>&emsp;&emsp; - Implement revocation <br>&emsp;&emsp; - Monitor CA operations | 10/21/2025 | 10/21/2025 | [AWS Certificate Manager](https://000078.awsstudygroup.com/) <br> <br> [AWS Secrets Manager](https://000079.awsstudygroup.com/) <br> <br> [AWS Parameter Store](https://000080.awsstudygroup.com/) <br> <br> [AWS Private CA](https://000081.awsstudygroup.com/) |
 
 ### Week 7 Achievements:
 
@@ -75,3 +108,35 @@ pre: " <b> 1.7. </b> "
   * Set up license alerts and notifications
   * Monitored license consumption
   * Applied best practices for license management
+
+* **AWS Certificate Manager SSL/TLS Mastery:**
+  * Mastered ACM concepts and certificate management
+  * Successfully requested and validated public certificates
+  * Implemented certificate renewals and notifications
+  * Configured integrations with AWS services
+  * Monitored certificate lifecycle and expiry
+  * Applied best practices for SSL/TLS security
+
+* **AWS Secrets Manager Security Expertise:**
+  * Mastered Secrets Manager concepts and features
+  * Successfully created and managed sensitive secrets
+  * Implemented automatic secret rotation
+  * Configured access controls and encryption
+  * Monitored secret access and usage
+  * Applied best practices for secrets management
+
+* **AWS Parameter Store Configuration Proficiency:**
+  * Mastered Parameter Store concepts and hierarchy
+  * Successfully created and organized parameters
+  * Implemented parameter policies and versions
+  * Configured secure string parameters
+  * Monitored parameter access patterns
+  * Applied best practices for configuration management
+
+* **AWS Private Certificate Authority Expertise:**
+  * Mastered Private CA concepts and operations
+  * Successfully set up private certificate authorities
+  * Implemented certificate issuance and templates
+  * Configured certificate revocation lists
+  * Monitored CA activities and health
+  * Applied best practices for private PKI
