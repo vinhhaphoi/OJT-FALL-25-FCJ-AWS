@@ -43,6 +43,7 @@ pre: " <b> 1.5. </b> "
 | --- | ---- | ---------- | --------------- | ----------------- |
 | 2   | - Learn AWS Lambda serverless computing <br> - Master Amazon API Gateway for REST APIs <br> - Understand Amazon DynamoDB NoSQL database <br> - Learn AWS messaging with SNS/SQS <br> - **Practice:** <br>&emsp; + **AWS Lambda:** <br>&emsp;&emsp; - Create Lambda functions in multiple languages <br>&emsp;&emsp; - Configure function triggers and permissions <br>&emsp;&emsp; - Implement error handling and retries <br>&emsp;&emsp; - Set up function monitoring and logging <br>&emsp;&emsp; - Use environment variables and layers <br>&emsp; + **Amazon API Gateway:** <br>&emsp;&emsp; - Create REST APIs with resources and methods <br>&emsp;&emsp; - Configure Lambda integrations <br>&emsp;&emsp; - Implement API authentication <br>&emsp;&emsp; - Set up request/response mapping <br>&emsp;&emsp; - Deploy APIs to different stages <br>&emsp; + **Amazon DynamoDB:** <br>&emsp;&emsp; - Create tables with proper key schema <br>&emsp;&emsp; - Perform CRUD operations via SDK <br>&emsp;&emsp; - Implement secondary indexes <br>&emsp;&emsp; - Configure auto scaling <br>&emsp;&emsp; - Use DynamoDB Streams <br>&emsp; + **SNS/SQS Messaging:** <br>&emsp;&emsp; - Create SNS topics and subscriptions <br>&emsp;&emsp; - Set up SQS queues with proper config <br>&emsp;&emsp; - Implement message filtering <br>&emsp;&emsp; - Handle message processing <br>&emsp;&emsp; - Monitor queue metrics | 10/06/2025 | 10/06/2025 | [AWS Lambda](https://000096.awsstudygroup.com/) <br> <br> [Amazon API Gateway](https://000097.awsstudygroup.com/) <br> <br> [Amazon DynamoDB](https://000098.awsstudygroup.com/) <br> <br> [AWS SNS/SQS](https://000099.awsstudygroup.com/) |
 | 3   | - Learn AWS CloudWatch for monitoring and observability <br> - Master AWS IAM Roles and Security <br> - Understand Amazon VPC networking <br> - **Practice:** <br>&emsp; + **AWS CloudWatch:** <br>&emsp;&emsp; - Set up CloudWatch metrics and dashboards <br>&emsp;&emsp; - Configure alarms and notifications <br>&emsp;&emsp; - Implement custom metrics and dimensions <br>&emsp;&emsp; - Use CloudWatch Logs for log aggregation <br>&emsp;&emsp; - Create metric filters and insights <br>&emsp; + **AWS IAM Roles:** <br>&emsp;&emsp; - Create and configure IAM roles <br>&emsp;&emsp; - Set up service-linked roles <br>&emsp;&emsp; - Implement cross-account access <br>&emsp;&emsp; - Configure role trust relationships <br>&emsp;&emsp; - Use role assumption policies <br>&emsp; + **Amazon VPC:** <br>&emsp;&emsp; - Design VPC architecture and subnets <br>&emsp;&emsp; - Configure route tables and gateways <br>&emsp;&emsp; - Implement security groups and NACLs <br>&emsp;&emsp; - Set up VPC peering connections <br>&emsp;&emsp; - Use VPC endpoints for service access | 10/07/2025 | 10/07/2025 | [AWS CloudWatch](https://000141.awsstudygroup.com/) <br> <br> [AWS IAM Roles](https://000069.awsstudygroup.com/) <br> <br> [Amazon VPC](https://000013.awsstudygroup.com/) |
+| 4   | - Learn Amazon EBS for block storage management <br> - Master Amazon EFS for scalable file systems <br> - Understand AWS KMS for encryption key management <br> - **Practice:** <br>&emsp; + **Amazon EBS Storage:** <br>&emsp;&emsp; - Create and attach EBS volumes <br>&emsp;&emsp; - Configure volume types and IOPS <br>&emsp;&emsp; - Implement EBS snapshots and backups <br>&emsp;&emsp; - Set up automated snapshot lifecycles <br>&emsp;&emsp; - Monitor EBS performance metrics <br>&emsp; + **Amazon EFS File System:** <br>&emsp;&emsp; - Create and configure EFS file systems <br>&emsp;&emsp; - Set up mount targets and security groups <br>&emsp;&emsp; - Implement EFS access points <br>&emsp;&emsp; - Configure performance modes and throughput <br>&emsp;&emsp; - Use EFS lifecycle management <br>&emsp; + **AWS KMS Security:** <br>&emsp;&emsp; - Create and manage KMS keys <br>&emsp;&emsp; - Set up key policies and grants <br>&emsp;&emsp; - Implement key rotation <br>&emsp;&emsp; - Configure cross-account key access <br>&emsp;&emsp; - Monitor KMS API usage | 10/08/2025 | 10/08/2025 | [Amazon EBS](https://000019.awsstudygroup.com/) <br> <br> [Amazon EFS](https://000020.awsstudygroup.com/) <br> <br> [AWS KMS](https://000077.awsstudygroup.com/) |
 
 ### Week 5 Achievements:
 
@@ -135,3 +136,32 @@ pre: " <b> 1.5. </b> "
   * Used VPC endpoints for private service access
   * Monitored VPC flow logs and network traffic
   * Applied best practices for VPC design and security
+
+* **Amazon EBS Block Storage Mastery:**
+  * Mastered EBS concepts and block storage principles
+  * Successfully created and attached EBS volumes to EC2 instances
+  * Configured EBS volume types (SSD, HDD) and IOPS settings
+  * Implemented EBS snapshots for data backup and recovery
+  * Set up automated snapshot policies and lifecycle management
+  * Monitored EBS performance metrics and optimized configurations
+  * Applied best practices for EBS encryption and security
+  * Integrated EBS with AWS Lambda for automated snapshot management
+
+* **Amazon EFS File System Mastery:**
+  * Mastered EFS concepts and file storage principles
+  * Successfully created and configured EFS file systems
+  * Set up mount targets and security groups for EFS access
+  * Implemented EFS access points for simplified permissions
+  * Configured EFS performance modes (General Purpose, Max I/O)
+  * Used EFS lifecycle management for cost optimization
+  * Monitored EFS performance and usage metrics
+  * Applied best practices for EFS backup and disaster recovery
+
+* **AWS KMS Encryption Key Management Mastery:**
+  * Mastered KMS concepts and encryption key management
+  * Successfully created and managed KMS keys
+  * Configured key policies and grants for access control
+  * Implemented key rotation and expiration settings
+  * Monitored KMS key usage and API activity
+  * Integrated KMS with AWS services for encryption at rest and in transit
+  * Applied best practices for KMS security and compliance
