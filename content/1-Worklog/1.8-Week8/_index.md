@@ -62,11 +62,44 @@ pre: " <b> 1.8. </b> "
   * Implement job monitoring and logging
   * Optimize batch processing costs
 
+* **Master AWS Step Functions for Workflow Orchestration:**
+  * Understand Step Functions concepts and state machines
+  * Configure task states and integrations
+  * Implement parallel and choice states
+  * Set up error handling and retry logic
+  * Configure wait states and timeouts
+  * Implement callback patterns
+  * Monitor executions and state transitions
+  * Use Express and Standard workflows
+
+* **Learn Amazon Rekognition for Image and Video Analysis:**
+  * Understand Rekognition concepts and features
+  * Detect labels and objects in images
+  * Perform facial analysis and recognition
+  * Detect text in images (OCR)
+  * Analyze video content and activities
+  * Create face collections and search
+  * Detect unsafe content moderation
+  * Implement celebrity recognition
+  * Monitor API usage and costs
+
+* **Understand Amazon Transcribe for Speech-to-Text Conversion:**
+  * Learn Transcribe concepts and capabilities
+  * Transcribe audio files to text
+  * Configure real-time streaming transcription
+  * Implement custom vocabularies
+  * Set up speaker identification
+  * Configure language identification
+  * Implement redaction for sensitive data
+  * Use custom language models
+  * Monitor transcription jobs
+
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ---- | ---------- | --------------- | ----------------- |
 | 2   | - Learn AWS Chatbot for DevOps notifications <br> - Master AWS AppConfig for configuration management <br> - Understand AWS Systems Manager Session Manager <br> - **Practice:** <br>&emsp; + **AWS Chatbot:** <br>&emsp;&emsp; - Configure Slack workspace integration <br>&emsp;&emsp; - Set up Microsoft Teams channel integration <br>&emsp;&emsp; - Configure CloudWatch alarm notifications <br>&emsp;&emsp; - Implement SNS topic subscriptions <br>&emsp;&emsp; - Set up Security Hub findings notifications <br>&emsp;&emsp; - Configure GuardDuty alert routing <br>&emsp;&emsp; - Implement notification filtering and customization <br>&emsp;&emsp; - Monitor chatbot delivery metrics <br>&emsp; + **AWS AppConfig:** <br>&emsp;&emsp; - Create AppConfig application and environments <br>&emsp;&emsp; - Configure configuration profiles and versions <br>&emsp;&emsp; - Implement feature flags for gradual rollouts <br>&emsp;&emsp; - Set up deployment strategies (linear, exponential) <br>&emsp;&emsp; - Configure validators for configuration validation <br>&emsp;&emsp; - Implement rollback mechanisms <br>&emsp;&emsp; - Monitor deployment progress and health <br>&emsp; + **Systems Manager Session Manager:** <br>&emsp;&emsp; - Configure Session Manager prerequisites <br>&emsp;&emsp; - Set up secure instance access without SSH keys <br>&emsp;&emsp; - Implement session logging to S3 and CloudWatch <br>&emsp;&emsp; - Configure session preferences and timeout settings <br>&emsp;&emsp; - Set up port forwarding for applications <br>&emsp;&emsp; - Implement session document customization <br>&emsp;&emsp; - Monitor and audit session activities | 10/27/2025 | 10/27/2025 | [AWS Chatbot](https://000138.awsstudygroup.com/) <br> <br> [AWS AppConfig](https://000139.awsstudygroup.com/) <br> <br> [Systems Manager <br> Session Manager](https://000140.awsstudygroup.com/) |
 | 3   | - Learn Amazon Athena for serverless SQL queries <br> - Master AWS Data Pipeline for data workflow orchestration <br> - Understand AWS Batch for batch computing workloads <br> - **Practice:** <br>&emsp; + **Amazon Athena:** <br>&emsp;&emsp; - Configure Athena workgroups and query settings <br>&emsp;&emsp; - Create databases and tables from S3 data <br>&emsp;&emsp; - Write and optimize SQL queries for S3 data <br>&emsp;&emsp; - Implement partitioning for query performance <br>&emsp;&emsp; - Set up data catalogs with AWS Glue <br>&emsp;&emsp; - Configure query result locations and encryption <br>&emsp;&emsp; - Use prepared statements for parameterized queries <br>&emsp;&emsp; - Monitor query execution and costs <br>&emsp; + **AWS Data Pipeline:** <br>&emsp;&emsp; - Design and create data pipeline definitions <br>&emsp;&emsp; - Configure pipeline activities and schedules <br>&emsp;&emsp; - Set up data nodes for sources and destinations <br>&emsp;&emsp; - Implement preconditions and dependencies <br>&emsp;&emsp; - Configure pipeline resources and compute <br>&emsp;&emsp; - Set up error handling and retries <br>&emsp;&emsp; - Monitor pipeline execution and logs <br>&emsp;&emsp; - Implement data transformation workflows <br>&emsp; + **AWS Batch:** <br>&emsp;&emsp; - Create batch compute environments <br>&emsp;&emsp; - Configure job queues and priorities <br>&emsp;&emsp; - Define job definitions with container images <br>&emsp;&emsp; - Submit and manage batch jobs <br>&emsp;&emsp; - Set up job dependencies and scheduling <br>&emsp;&emsp; - Configure resource requirements and constraints <br>&emsp;&emsp; - Implement job monitoring and logging <br>&emsp;&emsp; - Optimize batch processing costs | 10/28/2025 | 10/28/2025 | [Amazon Athena](https://000066.awsstudygroup.com/) <br> <br> [AWS Data Pipeline](https://000117.awsstudygroup.com/) <br> <br> [AWS Batch](https://000112.awsstudygroup.com/) |
+| 4   | - Learn AWS Step Functions for workflow orchestration <br> - Master Amazon Rekognition for image and video analysis <br> - Understand Amazon Transcribe for speech-to-text conversion <br> - **Practice:** <br>&emsp; + **AWS Step Functions:** <br>&emsp;&emsp; - Create state machines with JSON definitions <br>&emsp;&emsp; - Configure task states and Lambda integrations <br>&emsp;&emsp; - Implement parallel and choice states <br>&emsp;&emsp; - Set up error handling and retry logic <br>&emsp;&emsp; - Configure wait states and timeouts <br>&emsp;&emsp; - Implement callback patterns <br>&emsp;&emsp; - Monitor executions and state transitions <br>&emsp;&emsp; - Use Express and Standard workflows <br>&emsp; + **Amazon Rekognition:** <br>&emsp;&emsp; - Detect labels and objects in images <br>&emsp;&emsp; - Perform facial analysis and recognition <br>&emsp;&emsp; - Detect text in images (OCR) <br>&emsp;&emsp; - Analyze video content and activities <br>&emsp;&emsp; - Create face collections and search <br>&emsp;&emsp; - Detect unsafe content moderation <br>&emsp;&emsp; - Implement celebrity recognition <br>&emsp;&emsp; - Monitor API usage and costs <br>&emsp; + **Amazon Transcribe:** <br>&emsp;&emsp; - Transcribe audio files to text <br>&emsp;&emsp; - Configure real-time streaming transcription <br>&emsp;&emsp; - Implement custom vocabularies <br>&emsp;&emsp; - Set up speaker identification <br>&emsp;&emsp; - Configure language identification <br>&emsp;&emsp; - Implement redaction for sensitive data <br>&emsp;&emsp; - Use custom language models <br>&emsp;&emsp; - Monitor transcription jobs | 10/29/2025 | 10/29/2025 | [AWS Step Functions](https://000113.awsstudygroup.com/) <br> <br> [Amazon Rekognition](https://000021.awsstudygroup.com/) <br> <br> [Amazon Transcribe](https://000091.awsstudygroup.com/) |
 
 ### Week 8 Achievements:
 
@@ -139,3 +172,39 @@ pre: " <b> 1.8. </b> "
   * Implemented comprehensive job monitoring and logging
   * Optimized batch processing costs with Spot instances
   * Applied best practices for scalable batch computing
+
+* **AWS Step Functions Workflow Orchestration Mastery:**
+  * Mastered Step Functions concepts for serverless workflows
+  * Successfully created state machines with JSON definitions
+  * Configured task states with Lambda and AWS service integrations
+  * Implemented parallel states for concurrent execution
+  * Set up choice states for conditional branching
+  * Configured error handling with Catch and Retry
+  * Implemented wait states and timeouts for delays
+  * Used callback patterns for external processes
+  * Monitored workflow executions and state transitions
+  * Applied best practices for workflow design
+
+* **Amazon Rekognition Computer Vision Expertise:**
+  * Mastered Rekognition concepts for image and video analysis
+  * Successfully detected labels and objects in images
+  * Performed facial analysis including age and emotion detection
+  * Implemented facial recognition with face collections
+  * Detected and extracted text from images (OCR)
+  * Analyzed video content for activities and objects
+  * Configured content moderation for unsafe content
+  * Implemented celebrity recognition features
+  * Monitored API usage and optimization strategies
+  * Applied best practices for ML-powered vision
+
+* **Amazon Transcribe Speech-to-Text Proficiency:**
+  * Mastered Transcribe concepts for audio transcription
+  * Successfully transcribed audio files to text
+  * Configured real-time streaming transcription
+  * Implemented custom vocabularies for accuracy
+  * Set up speaker identification (diarization)
+  * Configured automatic language identification
+  * Implemented content redaction for PII
+  * Used custom language models for domain-specific terms
+  * Monitored transcription job performance
+  * Applied best practices for speech recognition

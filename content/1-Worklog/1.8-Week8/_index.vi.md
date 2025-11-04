@@ -34,6 +34,7 @@ pre: " <b> 1.8. </b> "
 | --- | ---- | ---------- | --------------- | ----------------- |
 | 2   | - Học AWS Chatbot cho thông báo DevOps <br> - Thành thạo AWS AppConfig cho quản lý cấu hình <br> - Hiểu AWS Systems Manager Session Manager <br> - **Thực hành:** <br>&emsp; + **AWS Chatbot:** <br>&emsp;&emsp; - Cấu hình tích hợp Slack workspace <br>&emsp;&emsp; - Thiết lập tích hợp Microsoft Teams channel <br>&emsp;&emsp; - Cấu hình thông báo CloudWatch alarm <br>&emsp;&emsp; - Triển khai đăng ký SNS topic <br>&emsp;&emsp; - Thiết lập thông báo Security Hub findings <br>&emsp;&emsp; - Cấu hình định tuyến cảnh báo GuardDuty <br>&emsp;&emsp; - Triển khai lọc và tùy chỉnh thông báo <br>&emsp;&emsp; - Giám sát metrics phân phối chatbot <br>&emsp; + **AWS AppConfig:** <br>&emsp;&emsp; - Tạo ứng dụng và môi trường AppConfig <br>&emsp;&emsp; - Cấu hình configuration profiles và versions <br>&emsp;&emsp; - Triển khai feature flags cho rollout dần dần <br>&emsp;&emsp; - Thiết lập chiến lược triển khai (linear, exponential) <br>&emsp;&emsp; - Cấu hình validators cho validation cấu hình <br>&emsp;&emsp; - Triển khai cơ chế rollback <br>&emsp;&emsp; - Giám sát tiến trình và sức khỏe triển khai <br>&emsp; + **Systems Manager Session Manager:** <br>&emsp;&emsp; - Cấu hình điều kiện tiên quyết Session Manager <br>&emsp;&emsp; - Thiết lập truy cập instance an toàn không cần SSH keys <br>&emsp;&emsp; - Triển khai session logging tới S3 và CloudWatch <br>&emsp;&emsp; - Cấu hình tùy chọn session và timeout settings <br>&emsp;&emsp; - Thiết lập port forwarding cho ứng dụng <br>&emsp;&emsp; - Triển khai tùy chỉnh session document <br>&emsp;&emsp; - Giám sát và kiểm tra hoạt động session | 27/10/2025 | 27/10/2025 | [AWS Chatbot](https://000138.awsstudygroup.com/) <br> <br> [AWS AppConfig](https://000139.awsstudygroup.com/) <br> <br> [Systems Manager <br> Session Manager](https://000140.awsstudygroup.com/) |
 | 3   | - Học Amazon Athena cho truy vấn SQL serverless <br> - Thành thạo AWS Data Pipeline cho điều phối data workflow <br> - Hiểu AWS Batch cho batch computing workloads <br> - **Thực hành:** <br>&emsp; + **Amazon Athena:** <br>&emsp;&emsp; - Cấu hình Athena workgroups và query settings <br>&emsp;&emsp; - Tạo databases và tables từ dữ liệu S3 <br>&emsp;&emsp; - Viết và tối ưu hóa SQL queries cho dữ liệu S3 <br>&emsp;&emsp; - Triển khai phân vùng cho hiệu suất query <br>&emsp;&emsp; - Thiết lập data catalogs với AWS Glue <br>&emsp;&emsp; - Cấu hình vị trí kết quả query và mã hóa <br>&emsp;&emsp; - Sử dụng prepared statements cho parameterized queries <br>&emsp;&emsp; - Giám sát thực thi query và chi phí <br>&emsp; + **AWS Data Pipeline:** <br>&emsp;&emsp; - Thiết kế và tạo định nghĩa data pipeline <br>&emsp;&emsp; - Cấu hình hoạt động và lịch trình pipeline <br>&emsp;&emsp; - Thiết lập data nodes cho nguồn và đích <br>&emsp;&emsp; - Triển khai preconditions và dependencies <br>&emsp;&emsp; - Cấu hình tài nguyên và compute pipeline <br>&emsp;&emsp; - Thiết lập xử lý lỗi và thử lại <br>&emsp;&emsp; - Giám sát thực thi và logs pipeline <br>&emsp;&emsp; - Triển khai workflows chuyển đổi dữ liệu <br>&emsp; + **AWS Batch:** <br>&emsp;&emsp; - Tạo batch compute environments <br>&emsp;&emsp; - Cấu hình job queues và priorities <br>&emsp;&emsp; - Định nghĩa job definitions với container images <br>&emsp;&emsp; - Submit và quản lý batch jobs <br>&emsp;&emsp; - Thiết lập job dependencies và scheduling <br>&emsp;&emsp; - Cấu hình yêu cầu và ràng buộc tài nguyên <br>&emsp;&emsp; - Triển khai giám sát và logging jobs <br>&emsp;&emsp; - Tối ưu chi phí xử lý batch | 28/10/2025 | 28/10/2025 | [Amazon Athena](https://000066.awsstudygroup.com/) <br> <br> [AWS Data Pipeline](https://000117.awsstudygroup.com/) <br> <br> [AWS Batch](https://000112.awsstudygroup.com/) |
+| 4   | - Học AWS Step Functions cho điều phối workflow <br> - Thành thạo Amazon Rekognition cho phân tích hình ảnh và video <br> - Hiểu Amazon Transcribe cho chuyển đổi speech-to-text <br> - **Thực hành:** <br>&emsp; + **AWS Step Functions:** <br>&emsp;&emsp; - Tạo state machines với định nghĩa JSON <br>&emsp;&emsp; - Cấu hình task states và Lambda integrations <br>&emsp;&emsp; - Triển khai parallel và choice states <br>&emsp;&emsp; - Thiết lập xử lý lỗi và retry logic <br>&emsp;&emsp; - Cấu hình wait states và timeouts <br>&emsp;&emsp; - Triển khai callback patterns <br>&emsp;&emsp; - Giám sát executions và state transitions <br>&emsp;&emsp; - Sử dụng Express và Standard workflows <br>&emsp; + **Amazon Rekognition:** <br>&emsp;&emsp; - Phát hiện labels và objects trong images <br>&emsp;&emsp; - Thực hiện phân tích và nhận dạng khuôn mặt <br>&emsp;&emsp; - Phát hiện text trong images (OCR) <br>&emsp;&emsp; - Phân tích nội dung video và activities <br>&emsp;&emsp; - Tạo face collections và search <br>&emsp;&emsp; - Phát hiện unsafe content moderation <br>&emsp;&emsp; - Triển khai celebrity recognition <br>&emsp;&emsp; - Giám sát API usage và costs <br>&emsp; + **Amazon Transcribe:** <br>&emsp;&emsp; - Transcribe audio files thành text <br>&emsp;&emsp; - Cấu hình real-time streaming transcription <br>&emsp;&emsp; - Triển khai custom vocabularies <br>&emsp;&emsp; - Thiết lập speaker identification <br>&emsp;&emsp; - Cấu hình language identification <br>&emsp;&emsp; - Triển khai redaction cho sensitive data <br>&emsp;&emsp; - Sử dụng custom language models <br>&emsp;&emsp; - Giám sát transcription jobs | 29/10/2025 | 29/10/2025 | [AWS Step Functions](https://000113.awsstudygroup.com/) <br> <br> [Amazon Rekognition](https://000021.awsstudygroup.com/) <br> <br> [Amazon Transcribe](https://000091.awsstudygroup.com/) |
 
 ### Kết quả đạt được tuần 8:
 
@@ -106,5 +107,41 @@ pre: " <b> 1.8. </b> "
   * Triển khai giám sát và logging jobs toàn diện
   * Tối ưu chi phí xử lý batch với Spot instances
   * Áp dụng best practices cho batch computing có thể mở rộng
+
+* **Thành thạo AWS Step Functions Workflow Orchestration:**
+  * Thành thạo khái niệm Step Functions cho serverless workflows
+  * Thành công tạo state machines với định nghĩa JSON
+  * Cấu hình task states với Lambda và AWS service integrations
+  * Triển khai parallel states cho concurrent execution
+  * Thiết lập choice states cho conditional branching
+  * Cấu hình xử lý lỗi với Catch và Retry
+  * Triển khai wait states và timeouts cho delays
+  * Sử dụng callback patterns cho external processes
+  * Giám sát workflow executions và state transitions
+  * Áp dụng best practices cho thiết kế workflow
+
+* **Thành thạo Amazon Rekognition Computer Vision:**
+  * Thành thạo khái niệm Rekognition cho phân tích image và video
+  * Thành công phát hiện labels và objects trong images
+  * Thực hiện phân tích facial bao gồm age và emotion detection
+  * Triển khai facial recognition với face collections
+  * Phát hiện và trích xuất text từ images (OCR)
+  * Phân tích nội dung video cho activities và objects
+  * Cấu hình content moderation cho unsafe content
+  * Triển khai tính năng celebrity recognition
+  * Giám sát API usage và chiến lược optimization
+  * Áp dụng best practices cho ML-powered vision
+
+* **Thành thạo Amazon Transcribe Speech-to-Text:**
+  * Thành thạo khái niệm Transcribe cho audio transcription
+  * Thành công transcribe audio files thành text
+  * Cấu hình real-time streaming transcription
+  * Triển khai custom vocabularies cho accuracy
+  * Thiết lập speaker identification (diarization)
+  * Cấu hình automatic language identification
+  * Triển khai content redaction cho PII
+  * Sử dụng custom language models cho domain-specific terms
+  * Giám sát transcription job performance
+  * Áp dụng best practices cho speech recognition
 
 
