@@ -19,9 +19,9 @@ pre: " <b> 1. </b> "
 
 **Week 6:** [AWS Security & Management: Certificate Manager, Secrets Manager, Parameter Store, Private Certificate Authority, Shield DDoS Protection, GuardDuty Security, Inspector Assessment, Trusted Advisor, SSO Access Management, EC2 Auto Scaling, Systems Manager, ElastiCache, SQS Queues, Kinesis Streams, MSK Kafka, MQ Messaging, and EventBridge](1.6-week6/)
 
-**Week 7:** [Doing task G...](1.7-week7/)
+**Week 7:** [AWS Identity & Operations: Directory Service, RAM Resource Sharing, Resource Groups, License Manager, Certificate Manager, Secrets Manager, Parameter Store, Private CA, CloudTrail Auditing, CloudWatch Logs & Insights, X-Ray Tracing, Cost Management, Security Hub, Audit Manager, Artifact, Marketplace, Service Quotas, and Well-Architected Tool](1.7-week7/)
 
-**Week 8:** [Doing task H...](1.8-week8/)
+**Week 8:** [AWS DevOps & Data: Chatbot Notifications, AppConfig Management, Session Manager, Athena SQL Queries, Data Pipeline Orchestration, and Batch Computing](1.8-week8/)
 
 **Week 9:** [Doing task I...](1.9-week9/)
 

@@ -18,9 +18,9 @@ pre: " <b> 1. </b> "
 
 **Tuần 6:** [AWS Security & Management: Certificate Manager, Secrets Manager, Parameter Store, Private Certificate Authority, Shield DDoS Protection, GuardDuty Security, Inspector Assessment, Trusted Advisor, SSO Access Management, EC2 Auto Scaling, Systems Manager, ElastiCache, SQS Queues, Kinesis Streams, MSK Kafka, MQ Messaging, và EventBridge](1.6-week6/)
 
-**Tuần 7:** [Làm công việc G...](1.7-week7/)
+**Tuần 7:** [AWS Identity & Operations: Directory Service, RAM Resource Sharing, Resource Groups, License Manager, Certificate Manager, Secrets Manager, Parameter Store, Private CA, CloudTrail Auditing, CloudWatch Logs & Insights, X-Ray Tracing, Cost Management, Security Hub, Audit Manager, Artifact, Marketplace, Service Quotas, và Well-Architected Tool](1.7-week7/)
 
-**Tuần 8:** [Làm công việc H...](1.8-week8/)
+**Tuần 8:** [AWS DevOps & Data: Chatbot Notifications, AppConfig Management, Session Manager, Athena SQL Queries, Data Pipeline Orchestration, và Batch Computing](1.8-week8/)
 
 **Tuần 9:** [Làm công việc I...](1.9-week9/)
 
