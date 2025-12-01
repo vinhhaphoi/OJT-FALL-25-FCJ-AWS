@@ -1,6 +1,6 @@
 ---
 title: "Blog 2"
-date: "2025-09-09"
+date: "2025-12-01"
 weight: 1
 chapter: false
 pre: " <b> 3.2. </b> "
@@ -10,118 +10,35 @@ pre: " <b> 3.2. </b> "
 ⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
 {{% /notice %}}
 
-# Bắt đầu với healthcare data lakes: Sử dụng microservices
+# Amazon Nova Lite cho phép Bito cung cấp tùy chọn miễn phí cho đánh giá mã nguồn bằng AI
 
-Các data lake có thể giúp các bệnh viện và cơ sở y tế chuyển dữ liệu thành những thông tin chi tiết về doanh nghiệp và duy trì hoạt động kinh doanh liên tục, đồng thời bảo vệ quyền riêng tư của bệnh nhân. **Data lake** là một kho lưu trữ tập trung, được quản lý và bảo mật để lưu trữ tất cả dữ liệu của bạn, cả ở dạng ban đầu và đã xử lý để phân tích. data lake cho phép bạn chia nhỏ các kho chứa dữ liệu và kết hợp các loại phân tích khác nhau để có được thông tin chi tiết và đưa ra các quyết định kinh doanh tốt hơn.
+### Lựa chọn mô hình chi phí hiệu quả cho gói miễn phí
 
-Bài đăng trên blog này là một phần của loạt bài lớn hơn về việc bắt đầu cài đặt data lake dành cho lĩnh vực y tế. Trong bài đăng blog cuối cùng của tôi trong loạt bài, *“Bắt đầu với data lake dành cho lĩnh vực y tế: Đào sâu vào Amazon Cognito”*, tôi tập trung vào các chi tiết cụ thể của việc sử dụng Amazon Cognito và Attribute Based Access Control (ABAC) để xác thực và ủy quyền người dùng trong giải pháp data lake y tế. Trong blog này, tôi trình bày chi tiết cách giải pháp đã phát triển ở cấp độ cơ bản, bao gồm các quyết định thiết kế mà tôi đã đưa ra và các tính năng bổ sung được sử dụng. Bạn có thể truy cập các code samples cho giải pháp tại Git repo này để tham khảo.
+Để cung cấp tùy chọn gói miễn phí cho AI Code Review Agent, Bito cần một mô hình nền tảng (FM) có thể cung cấp mức hiệu suất và kết quả phù hợp với chi phí hợp lý. Tất nhiên, việc cung cấp đánh giá mã miễn phí cho khách hàng tiềm năng sẽ không miễn phí đối với Bito, vì họ sẽ phải trả chi phí suy luận (inference costs). Để xác định một mô hình cho Gói miễn phí của mình, Bito đã thực hiện quy trình đánh giá kéo dài 2 tuần trên nhiều mô hình, bao gồm các FM hiệu suất cao trên [Amazon Bedrock](https://aws.amazon.com/bedrock/), cũng như OpenAI GPT-4o mini. Các mô hình Amazon Nova—các mô hình nhanh, tiết kiệm chi phí mới được giới thiệu trên Amazon Bedrock—đặc biệt thu hút sự quan tâm của nhóm.
 
----
+Vào cuối quá trình đánh giá, Bito xác định rằng Amazon Nova Lite mang lại sự kết hợp phù hợp giữa hiệu suất và hiệu quả chi phí cho các trường hợp sử dụng của họ. Tốc độ của nó cung cấp khả năng tạo nhanh các bản tóm tắt đánh giá mã. Tuy nhiên, chi phí—một cân nhắc chính cho Gói miễn phí của Bito—đã chứng minh là yếu tố quyết định. Cuối cùng, Amazon Nova Lite đã đáp ứng các tiêu chí của Bito về tốc độ, chi phí và chất lượng. Sự kết hợp giữa Amazon Nova Lite và Amazon Bedrock cũng giúp Bito có thể cung cấp độ tin cậy và bảo mật mà khách hàng của họ cần khi giao phó mã của họ cho Bito. Rốt cuộc, kiểm soát cẩn thận mã là một trong những lời hứa cốt lõi của Bito với khách hàng. Nó không lưu trữ mã hoặc sử dụng nó để đào tạo mô hình. Và các sản phẩm của nó được chứng nhận SOC 2 Type 2 để cung cấp bảo mật dữ liệu, tính toàn vẹn của quá trình xử lý, quyền riêng tư và bảo mật.
 
-## Hướng dẫn kiến trúc
+### Áp dụng mô hình phù hợp cho từng gói
 
-Thay đổi chính kể từ lần trình bày cuối cùng của kiến trúc tổng thể là việc tách dịch vụ đơn lẻ thành một tập hợp các dịch vụ nhỏ để cải thiện khả năng bảo trì và tính linh hoạt. Việc tích hợp một lượng lớn dữ liệu y tế khác nhau thường yêu cầu các trình kết nối chuyên biệt cho từng định dạng; bằng cách giữ chúng được đóng gói riêng biệt với microservices, chúng ta có thể thêm, xóa và sửa đổi từng trình kết nối mà không ảnh hưởng đến những kết nối khác. Các microservices được kết nối rời thông qua tin nhắn publish/subscribe tập trung trong cái mà tôi gọi là “pub/sub hub”.
+Bito hiện đã áp dụng Amazon Bedrock làm nền tảng tiêu chuẩn hóa để khám phá, thêm và chạy các mô hình. Bito sử dụng Amazon Nova Lite làm mô hình chính cho Gói miễn phí của mình và Claude 3.7 Sonnet của Anthropic cung cấp sức mạnh cho Gói Teams trả phí, tất cả đều được truy cập và tích hợp thông qua API và các biện pháp kiểm soát thống nhất của Amazon Bedrock. Amazon Bedrock cung cấp khả năng chuyển đổi liền mạch từ Amazon Nova Lite sang Sonnet của Anthropic khi khách hàng nâng cấp, với những thay đổi mã tối thiểu. Các nhà lãnh đạo của Bito nhanh chóng chỉ ra rằng Amazon Nova Lite không chỉ cung cấp sức mạnh cho Gói miễn phí của họ—nó đã truyền cảm hứng cho nó. Nếu không có chi phí rất thấp của Amazon Nova Lite, họ sẽ không thể cung cấp một tầng miễn phí của AI Code Review Agent, điều mà họ coi là một bước đi chiến lược cho phép mở rộng cơ sở khách hàng doanh nghiệp của mình. Chiến lược này nhanh chóng tạo ra kết quả, thu hút lượng khách hàng tiềm năng đến với Gói miễn phí nhiều gấp ba lần so với dự kiến. Vào cuối thời gian dùng thử 14 ngày, một số lượng đáng kể người dùng chuyển đổi sang AI Code Review Agent đầy đủ để truy cập toàn bộ các khả năng của nó.
 
-Giải pháp này đại diện cho những gì tôi sẽ coi là một lần lặp nước rút hợp lý khác từ last post của tôi. Phạm vi vẫn được giới hạn trong việc nhập và phân tích cú pháp đơn giản của các **HL7v2 messages** được định dạng theo **Quy tắc mã hóa 7 (ER7)** thông qua giao diện REST.
+Được khích lệ bởi thành công với AI Code Review Agent, Bito hiện đang sử dụng Amazon Nova Lite để cung cấp khả năng trò chuyện cho [Bito Wingman](https://bito.ai/product/wingman/), công nghệ tác nhân AI mới nhất của họ—một trợ lý nhà phát triển đầy đủ tính năng trong môi trường phát triển tích hợp (IDE) kết hợp tạo mã, xử lý lỗi, tư vấn kiến trúc và hơn thế nữa. Một lần nữa, sự kết hợp giữa chất lượng và chi phí thấp của Amazon Nova Lite đã khiến nó trở thành lựa chọn đúng đắn cho Bito.
 
-**Kiến trúc giải pháp bây giờ như sau:**
+### Kết luận
 
-> *Hình 1. Kiến trúc tổng thể; những ô màu thể hiện những dịch vụ riêng biệt.*
+Trong bài đăng này, chúng tôi đã chia sẻ cách Bito—một công ty khởi nghiệp sáng tạo cung cấp danh mục ngày càng tăng các tác nhân nhà phát triển được hỗ trợ bởi AI—đã chọn Amazon Nova Lite để cung cấp sức mạnh cho gói miễn phí của AI Code Review Agent, sản phẩm chủ lực của họ. Các tác nhân được hỗ trợ bởi AI của họ được thiết kế đặc biệt để giúp cuộc sống của các nhà phát triển dễ dàng hơn và công việc của họ hiệu quả hơn:
 
----
+- **Amazon Nova Lite cho phép Bito đáp ứng một trong những thách thức kinh doanh cốt lõi của mình**—thu hút khách hàng doanh nghiệp. Bằng cách giới thiệu gói miễn phí, Bito đã thu hút lượng khách hàng mới tiềm năng nhiều gấp ba lần đến với sản phẩm chủ lực dựa trên AI tạo sinh của mình—AI Code Review Agent.
+- **Amazon Nova Lite vượt trội hơn các mô hình khác trong quá trình thử nghiệm nội bộ nghiêm ngặt**, cung cấp mức hiệu suất phù hợp với chi phí rất thấp mà Bito cần để ra mắt gói miễn phí của AI Code Review Agent.
+- **Amazon Bedrock trao quyền cho Bito chuyển đổi liền mạch giữa các mô hình khi cần thiết** cho từng tầng của AI Code Review Agent—Amazon Nova Lite cho Gói miễn phí và Claude 3.7 Sonnet của Anthropic cho Gói Teams trả phí. Amazon Bedrock cũng cung cấp bảo mật và quyền riêng tư, những cân nhắc quan trọng đối với khách hàng của Bito.
+- **Bito cho thấy cách các tổ chức sáng tạo có thể sử dụng sự kết hợp giữa chất lượng, hiệu quả chi phí và tốc độ** trong Amazon Nova Lite để mang lại giá trị cho khách hàng của họ—và cho doanh nghiệp của họ.
 
-Mặc dù thuật ngữ *microservices* có một số sự mơ hồ cố hữu, một số đặc điểm là chung:  
-- Chúng nhỏ, tự chủ, kết hợp rời rạc  
-- Có thể tái sử dụng, giao tiếp thông qua giao diện được xác định rõ  
-- Chuyên biệt để giải quyết một việc  
-- Thường được triển khai trong **event-driven architecture**
+“Thách thức của chúng tôi là thúc đẩy khả năng của AI để mang lại giá trị mới cho các nhà phát triển, nhưng với chi phí hợp lý,” Amar Goel, đồng sáng lập và CEO của Bito chia sẻ. “Amazon Nova Lite cung cấp cho chúng tôi mô hình rất nhanh, chi phí thấp mà chúng tôi cần để cung cấp sức mạnh cho gói miễn phí của AI Code Review Agent—và thu hút khách hàng mới.”
 
-Khi xác định vị trí tạo ranh giới giữa các microservices, cần cân nhắc:  
-- **Nội tại**: công nghệ được sử dụng, hiệu suất, độ tin cậy, khả năng mở rộng  
-- **Bên ngoài**: chức năng phụ thuộc, tần suất thay đổi, khả năng tái sử dụng  
-- **Con người**: quyền sở hữu nhóm, quản lý *cognitive load*
+Bắt đầu với Amazon Nova trên [Amazon Bedrock console](https://console.aws.com/bedrock/). Tìm hiểu thêm về Amazon Nova Lite tại [trang sản phẩm Amazon Nova](https://aws.amazon.com/nova/).
 
----
+### Thông tin về tác giả
 
-## Lựa chọn công nghệ và phạm vi giao tiếp
+**Eshan Bhatnagar** là Giám đốc Quản lý Sản phẩm cho Amazon AGI tại Amazon Web Services.
 
-| Phạm vi giao tiếp                        | Các công nghệ / mô hình cần xem xét                                                        |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Trong một microservice                   | Amazon Simple Queue Service (Amazon SQS), AWS Step Functions                               |
-| Giữa các microservices trong một dịch vụ | AWS CloudFormation cross-stack references, Amazon Simple Notification Service (Amazon SNS) |
-| Giữa các dịch vụ                         | Amazon EventBridge, AWS Cloud Map, Amazon API Gateway                                      |
-
----
-
-## The pub/sub hub
-
-Việc sử dụng kiến trúc **hub-and-spoke** (hay message broker) hoạt động tốt với một số lượng nhỏ các microservices liên quan chặt chẽ.  
-- Mỗi microservice chỉ phụ thuộc vào *hub*  
-- Kết nối giữa các microservice chỉ giới hạn ở nội dung của message được xuất  
-- Giảm số lượng synchronous calls vì pub/sub là *push* không đồng bộ một chiều
-
-Nhược điểm: cần **phối hợp và giám sát** để tránh microservice xử lý nhầm message.
-
----
-
-## Core microservice
-
-Cung cấp dữ liệu nền tảng và lớp truyền thông, gồm:  
-- **Amazon S3** bucket cho dữ liệu  
-- **Amazon DynamoDB** cho danh mục dữ liệu  
-- **AWS Lambda** để ghi message vào data lake và danh mục  
-- **Amazon SNS** topic làm *hub*  
-- **Amazon S3** bucket cho artifacts như mã Lambda
-
-> Chỉ cho phép truy cập ghi gián tiếp vào data lake qua hàm Lambda → đảm bảo nhất quán.
-
----
-
-## Front door microservice
-
-- Cung cấp API Gateway để tương tác REST bên ngoài  
-- Xác thực & ủy quyền dựa trên **OIDC** thông qua **Amazon Cognito**  
-- Cơ chế *deduplication* tự quản lý bằng DynamoDB thay vì SNS FIFO vì:
-  1. SNS deduplication TTL chỉ 5 phút
-  2. SNS FIFO yêu cầu SQS FIFO
-  3. Chủ động báo cho sender biết message là bản sao
-
----
-
-## Staging ER7 microservice
-
-- Lambda “trigger” đăng ký với pub/sub hub, lọc message theo attribute  
-- Step Functions Express Workflow để chuyển ER7 → JSON  
-- Hai Lambda:
-  1. Sửa format ER7 (newline, carriage return)
-  2. Parsing logic  
-- Kết quả hoặc lỗi được đẩy lại vào pub/sub hub
-
----
-
-## Tính năng mới trong giải pháp
-
-### 1. AWS CloudFormation cross-stack references
-Ví dụ *outputs* trong core microservice:
-```yaml
-Outputs:
-  Bucket:
-    Value: !Ref Bucket
-    Export:
-      Name: !Sub ${AWS::StackName}-Bucket
-  ArtifactBucket:
-    Value: !Ref ArtifactBucket
-    Export:
-      Name: !Sub ${AWS::StackName}-ArtifactBucket
-  Topic:
-    Value: !Ref Topic
-    Export:
-      Name: !Sub ${AWS::StackName}-Topic
-  Catalog:
-    Value: !Ref Catalog
-    Export:
-      Name: !Sub ${AWS::StackName}-Catalog
-  CatalogArn:
-    Value: !GetAtt Catalog.Arn
-    Export:
-      Name: !Sub ${AWS::StackName}-CatalogArn
+**Amar Goel** là Đồng sáng lập và CEO của Bito. Là một doanh nhân hàng loạt, Amar trước đây đã thành lập PubMatic (lên sàn chứng khoán năm 2020), và từng làm việc tại Microsoft, McKinsey, và là kỹ sư phần mềm tại Netscape, công ty trình duyệt ban đầu. Amar đã theo học tại Đại học Harvard. Ông rất hào hứng với việc sử dụng GenAI để thúc đẩy thế hệ tiếp theo của cách phần mềm được xây dựng!

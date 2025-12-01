@@ -1,124 +1,67 @@
 ---
 title: "Blog 3"
-date: "2025-09-09"
+date: "2025-12-01"
 weight: 1
 chapter: false
 pre: " <b> 3.3. </b> "
 ---
 
+# Customer Contact Week 2025: Transform your contact center with AI-powered innovation
 
-# Getting Started with Healthcare Data Lakes: Using Microservices
+6/3/2025 update: The following sessions switched time slots, “Elevate your outbound communications with Amazon Connect data foundation” and “Unifying customer engagement: From siloed systems to intelligent omnichannel.” The schedule below contains the up-to-date session information.
 
-Data lakes can help hospitals and healthcare facilities turn data into business insights, maintain business continuity, and protect patient privacy. A **data lake** is a centralized, managed, and secure repository to store all your data, both in its raw and processed forms for analysis. Data lakes allow you to break down data silos and combine different types of analytics to gain insights and make better business decisions.
+The customer experience landscape has entered a new era of transformation, where generative AI and intelligent automation are no longer future possibilities but present-day imperatives. At [Amazon Web Services](https://aws.amazon.com/connect/) (AWS), we’re helping organizations harness these technologies to create more meaningful, efficient, and personalized customer interactions. This year, we are thrilled to be a sponsor of [Customer Contact Week 2025](https://www.customercontactweek.com/ccw-lasvegas/host-rebecca-jarvis/), where industry leaders will gather in Las Vegas to explore how AI is revolutionizing contact center operations and reshaping the future of customer engagement.
 
-This blog post is part of a larger series on getting started with setting up a healthcare data lake. In my final post of the series, *“Getting Started with Healthcare Data Lakes: Diving into Amazon Cognito”*, I focused on the specifics of using Amazon Cognito and Attribute Based Access Control (ABAC) to authenticate and authorize users in the healthcare data lake solution. In this blog, I detail how the solution evolved at a foundational level, including the design decisions I made and the additional features used. You can access the code samples for the solution in this Git repo for reference.
+From June 9-12, we will showcase our latest innovations and share real-world insights on how organizations are using [Amazon Connect](https://aws.amazon.com/connect/) to transform their customer interactions through intelligent automation and the power of AI. Our comprehensive lineup of sessions, workshops, and panels will provide attendees with actionable strategies and practical knowledge to elevate their customer service operations, optimize their workforce, and create meaningful customer connections in an AI-driven world. Here are some highlights from the AWS Agenda if you are attending the event:
 
----
+### Workshop:
 
-## Architecture Guidance
+#### [Get hands-on with AI-powered customer experiences](https://events.bizzabo.com/610782/agenda/session/1569664) June 10 | 9:00 – 10:30 AM (PST)
 
-The main change since the last presentation of the overall architecture is the decomposition of a single service into a set of smaller services to improve maintainability and flexibility. Integrating a large volume of diverse healthcare data often requires specialized connectors for each format; by keeping them encapsulated separately as microservices, we can add, remove, and modify each connector without affecting the others. The microservices are loosely coupled via publish/subscribe messaging centered in what I call the “pub/sub hub.”
+Experience end-customer and agent perspectives in an interactive contact center environment. Learn from AWS customer Fujitsu, who will showcase how their successful implementation of Amazon Connect is transforming customer experiences. In this hands-on session, you’ll discover practical strategies to elevate your business operations using AI-powered contact center capabilities. Bring your laptop for a guided experience that will help you envision and build the future of customer engagement.
 
-This solution represents what I would consider another reasonable sprint iteration from my last post. The scope is still limited to the ingestion and basic parsing of **HL7v2 messages** formatted in **Encoding Rules 7 (ER7)** through a REST interface.
+### Mainstage Panel:
 
-**The solution architecture is now as follows:**
+#### [Scaling AI across the entire customer journey](https://events.bizzabo.com/610782/agenda/session/1629282) June 11 | 5:00 – 5:30 PM (PST)
 
-> *Figure 1. Overall architecture; colored boxes represent distinct services.*
+Customer experience leaders stand at a pivotal moment of transformation: the opportunity to unleash AI’s full potential across every customer touchpoint. Many organizations are adopting AI for specific use cases, yet this approach can result in a disconnected experience, missing an opportunity to optimize the entire journey. Discover a future where AI works seamlessly across all channels, learning and improving with every interaction while maintaining predictable costs. Hear from AWS customers as they discuss how they are turning every customer conversation into a catalyst for growth. Walk away with strategic insights on how to future-proof your customer experience operations while eliminating the traditional barriers of cost uncertainty and technical complexity.
 
----
+### Pavilion sessions:
 
-While the term *microservices* has some inherent ambiguity, certain traits are common:  
-- Small, autonomous, loosely coupled  
-- Reusable, communicating through well-defined interfaces  
-- Specialized to do one thing well  
-- Often implemented in an **event-driven architecture**
+In these sessions, AWS experts, alongside customers, will explore how AI, analytics, proactive campaigns, and intelligent self-service capabilities within Amazon Connect can transform customer experiences. Attendees will gain practical insights into how leading organizations are using these technologies to boost agent productivity, deliver personalized omnichannel experiences, and harness real-time analytics to drive continuous improvement – all while maintaining operational efficiency in today’s AI-driven contact center landscape.
 
-When determining where to draw boundaries between microservices, consider:  
-- **Intrinsic**: technology used, performance, reliability, scalability  
-- **Extrinsic**: dependent functionality, rate of change, reusability  
-- **Human**: team ownership, managing *cognitive load*
+#### [Transforming customer experience with unified data](https://events.bizzabo.com/610782/agenda/session/1569714) June 11 | 11:00 – 11:45 AM (PST)
 
----
+Discover how the comprehensive data foundation in Amazon Connect goes beyond traditional Customer Data Platforms (CDPs), enabling organizations to personalize customer experiences in contact centers and beyond. Hear from United Airlines how the data foundation from Amazon Connect delivers unparalleled data matching, enrichment, and activation capabilities, creating a powerful system of action for optimizing customer interactions.
 
-## Technology Choices and Communication Scope
+#### [Revolutionizing customer experience: The TELUS digital success story](https://events.bizzabo.com/610782/agenda/session/1569731) June 11 | 12:00 – 12:45 PM (PST)
 
-| Communication scope                       | Technologies / patterns to consider                                                        |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Within a single microservice              | Amazon Simple Queue Service (Amazon SQS), AWS Step Functions                               |
-| Between microservices in a single service | AWS CloudFormation cross-stack references, Amazon Simple Notification Service (Amazon SNS) |
-| Between services                          | Amazon EventBridge, AWS Cloud Map, Amazon API Gateway                                      |
+Discover how TELUS transformed its customer support operations through a strategic partnership with AWS Partner Local Measure, leveraging generative AI to create an innovative asynchronous messaging solution.
 
----
+#### [Future-proofing contact centers with continuous AI innovation](https://events.bizzabo.com/610782/agenda/session/1569749) June 11 | 1:45 – 2:30 PM (PST)
 
-## The Pub/Sub Hub
+Stay ahead in the rapidly evolving landscape of AI-powered customer service. This session explores how companies are deploying an adaptable contact center that can readily embrace new AI innovations while consistently improving customer experience.
 
-Using a **hub-and-spoke** architecture (or message broker) works well with a small number of tightly related microservices.  
-- Each microservice depends only on the *hub*  
-- Inter-microservice connections are limited to the contents of the published message  
-- Reduces the number of synchronous calls since pub/sub is a one-way asynchronous *push*
+#### [Modernizing service excellence through customer experience innovation](https://events.bizzabo.com/610782/agenda/session/1569766) June 11 | 2:45 – 3:30 PM (PST)
 
-Drawback: **coordination and monitoring** are needed to avoid microservices processing the wrong message.
+Learn how a leading financial services organization is transforming service excellence by implementing Amazon Connect’s advanced voice and comprehensive analytics capabilities. This modernized approach is setting new standards for service delivery and operational efficiency.
 
----
+#### [Unifying customer engagement: From siloed systems to intelligent omnichannel](https://events.bizzabo.com/610782/agenda/session/1569797) June 12 | 11:00 – 11:45 AM (PST)
 
-## Core Microservice
+As customer expectations continue to evolve, organizations face increasing pressure to deliver seamless, personalized experiences across all touchpoints. Traditional approaches are no longer sufficient in today’s digital-first world. Join us to explore how AI and intelligent automation are transforming customer experience delivery. Learn how leading companies are leveraging predictive engagement and real-time intelligence to drive measurable business outcomes.
 
-Provides foundational data and communication layer, including:  
-- **Amazon S3** bucket for data  
-- **Amazon DynamoDB** for data catalog  
-- **AWS Lambda** to write messages into the data lake and catalog  
-- **Amazon SNS** topic as the *hub*  
-- **Amazon S3** bucket for artifacts such as Lambda code
+#### [Speed to value: Roadside Protect achieves 1000% ROI with Amazon Connect and NeonNow](https://events.bizzabo.com/610782/agenda/session/1569815) June 12 | 12:00 – 12:45 PM (PST)
 
-> Only allow indirect write access to the data lake through a Lambda function → ensures consistency.
+Learn from Randy Stern, Roadside Protect’s Chief Customer Officer, on how they achieved 1000% return on investment (ROI) by implementing Amazon Connect, AWS AI-powered contact center with AWS Partner [NeonNow](mailto:https://www.neonnow.io/en-us) – a division of Cloudwave.
 
----
+#### [Elevate your outbound communications with Amazon Connect data foundation](https://events.bizzabo.com/610782/agenda/session/1569833) June 12 | 1:45 – 2:30 PM (PST)
 
-## Front Door Microservice
+Explore how the robust data foundation in Amazon Connect is transforming outbound campaigns from basic call lists into highly personalized, context-aware customer engagements. Discover how you can leverage these capabilities to enhance customer interactions, improve campaign performance, and drive business growth.
 
-- Provides an API Gateway for external REST interaction  
-- Authentication & authorization based on **OIDC** via **Amazon Cognito**  
-- Self-managed *deduplication* mechanism using DynamoDB instead of SNS FIFO because:  
-  1. SNS deduplication TTL is only 5 minutes  
-  2. SNS FIFO requires SQS FIFO  
-  3. Ability to proactively notify the sender that the message is a duplicate  
+### Connect with us
 
----
+[Customer Contact Week 2025](https://www.customercontactweek.com/) presents an opportunity to connect with like-minded professionals, share knowledge, and discover cutting-edge solutions that can drive tangible business impact. Whether you are looking to optimize your contact center operations, harness the potential of AI and analytics, or elevate your overall customer experience strategy, AWS has the expertise and solutions to support your journey.
 
-## Staging ER7 Microservice
+To schedule a meeting with our team or learn more about our presence, please reach out to your AWS account team. You can also [book a meeting with an AWS expert attending the event](https://awscustomerprograms.jifflenow.com/external-request/customercontactweek2025/meeting-request?token=d8f0ae97ccd432b09f44). We look forward to connecting with you.
 
-- Lambda “trigger” subscribed to the pub/sub hub, filtering messages by attribute  
-- Step Functions Express Workflow to convert ER7 → JSON  
-- Two Lambdas:  
-  1. Fix ER7 formatting (newline, carriage return)  
-  2. Parsing logic  
-- Result or error is pushed back into the pub/sub hub  
-
----
-
-## New Features in the Solution
-
-### 1. AWS CloudFormation Cross-Stack References
-Example *outputs* in the core microservice:
-```yaml
-Outputs:
-  Bucket:
-    Value: !Ref Bucket
-    Export:
-      Name: !Sub ${AWS::StackName}-Bucket
-  ArtifactBucket:
-    Value: !Ref ArtifactBucket
-    Export:
-      Name: !Sub ${AWS::StackName}-ArtifactBucket
-  Topic:
-    Value: !Ref Topic
-    Export:
-      Name: !Sub ${AWS::StackName}-Topic
-  Catalog:
-    Value: !Ref Catalog
-    Export:
-      Name: !Sub ${AWS::StackName}-Catalog
-  CatalogArn:
-    Value: !GetAtt Catalog.Arn
-    Export:
-      Name: !Sub ${AWS::StackName}-CatalogArn
+Ready to transform your customer service experience with Amazon Connect? [Contact us](https://pages.awscloud.com/NAMER-field-SP-Amazon-Connect-Contact-Us-2023-reg.html?trk=1a309559-e1e0-46f2-b6e9-10ea4a5c52b1&sc_channel=el).
