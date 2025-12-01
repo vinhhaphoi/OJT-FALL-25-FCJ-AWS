@@ -1,4 +1,4 @@
-baseURL = "https://vinhdqse180012.netlify.app/"
+baseURL = "https://report.vinhhaphoi.com/"
 relativeURLs = true
 canonifyURLs = true
 
@@ -29,7 +29,7 @@ languageName = "English"
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> Vinhhaphoi's Facebook Page"
 identifier = "Personal Facebook"
-url = "https://www.facebook.com/vinhhaphoi/"
+url = "https://www.facebook.com/vinhhaphoi2/"
 weight = 20
 
 [Languages.vi]
@@ -40,7 +40,7 @@ languageName = "Tiếng Việt"
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> Trang cá nhân facebook của Vinhhaphoi"
 identifier = "Facebook cá nhân"
-url = "https://www.facebook.com/vinhhaphoi/"
+url = "https://www.facebook.com/vinhhaphoi2/"
 weight = 20
 
 [markup]
