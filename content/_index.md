@@ -15,7 +15,7 @@ chapter: false
 
 &emsp; **Phone Number:** 0845655779
 
-&emsp; **Email:** VinhDQSE180012@fpt.edu.vn | vinhhaphoi@gmail.com
+&emsp; **Email:** VinhDQSE180012@fpt.edu.vn | its.vnhdq@gmail.com | vinhhaphoi@gmail.com
 
 &emsp; **University:** FPT University
 
