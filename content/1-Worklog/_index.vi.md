@@ -22,10 +22,10 @@ pre: " <b> 1. </b> "
 
 **Tuần 8:** [AWS DevOps & Data: Chatbot Notifications, AppConfig Management, Session Manager, Athena SQL Queries, Data Pipeline Orchestration, và Batch Computing](1.8-week8/)
 
-**Tuần 9:** [Làm công việc I...](1.9-week9/)
+**Tuần 9:** [AWS Containers & Analytics: Kubernetes Fundamentals, Amazon EKS, CI/CD Pipelines, EKS Blueprints, Lambda Serverless, ROSA, Data Lake, và Analytics on AWS](1.9-week9/)
 
-**Tuần 10:** [Làm công việc L...](1.10-week10/)
+**Tuần 10:** [AWS Data & ML: Amazon QuickSight Visualization, Data Engineering, Athena Analytics, RDS PostgreSQL, và SageMaker Machine Learning](1.10-week10/)
 
-**Tuần 11:** [Làm công việc M...](1.11-week11/)
+**Tuần 11:** [Sắp ra mắt...](1.11-week11/)
 
-**Tuần 12:** [Làm công việc N...](1.12-week12/)
+**Tuần 12:** [Sắp ra mắt...](1.12-week12/)

@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-
 **Week 1:** [AWS Foundations: Global Infrastructure, Management Tools, Cost Optimization, VPC Networking, and Well-Architected Framework](1.1-week1/)
 
 **Week 2:** [Advanced AWS Services: IAM Security, Cloud9 Development, S3 Hosting, RDS Databases, Auto Scaling, Load Balancing, CloudFormation, CLI Management, DynamoDB, ElastiCache, and CloudFront CDN](1.2-week2/)
@@ -23,10 +22,10 @@ pre: " <b> 1. </b> "
 
 **Week 8:** [AWS DevOps & Data: Chatbot Notifications, AppConfig Management, Session Manager, Athena SQL Queries, Data Pipeline Orchestration, and Batch Computing](1.8-week8/)
 
-**Week 9:** [Doing task I...](1.9-week9/)
+**Week 9:** [AWS Containers & Analytics: Kubernetes Fundamentals, Amazon EKS, CI/CD Pipelines, EKS Blueprints, Lambda Serverless, ROSA, Data Lake, and Analytics on AWS](1.9-week9/)
 
-**Week 10:** [Doing task L...](1.10-week10/)
+**Week 10:** [AWS Data & ML: Amazon QuickSight Visualization, Data Engineering, Athena Analytics, RDS PostgreSQL, and SageMaker Machine Learning](1.10-week10/)
 
-**Week 11:** [Doing task M...](1.11-week11/)
+**Week 11:** [Coming Soon...](1.11-week11/)
 
-**Week 12:** [Doing task N...](1.12-week12/)
+**Week 12:** [Coming Soon...](1.12-week12/)
