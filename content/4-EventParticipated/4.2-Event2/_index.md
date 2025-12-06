@@ -160,8 +160,8 @@ Participating in Track 2: Migration & Modernization at Vietnam Cloud Day 2025 wa
 - **Security-first mindset:** Security is integrated from the start, not an afterthought
 - **Continuous modernization:** Modernization is a journey, not a destination
 
-#### Photos/ videos from the Event
+<!-- #### Photos/ videos from the Event
 
-- Add your photos here
+- Add your photos here -->
 
 > Overall, Track 2: Migration & Modernization provided a comprehensive view of how Vietnamese enterprises are transforming and modernizing infrastructure, with the support of AI and cloud technologies. This is practical knowledge that can be applied immediately to daily work.

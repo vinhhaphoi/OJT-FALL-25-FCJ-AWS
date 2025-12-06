@@ -159,8 +159,8 @@ Tham gia Track 2: Migration & Modernization tại Vietnam Cloud Day 2025 là m�
 - **Security-first mindset:** Bảo mật được tích hợp từ đầu, không phải afterthought
 - **Continuous modernization:** Modernization là journey, không phải destination
 
-#### Một số hình ảnh khi tham gia sự kiện
+<!-- #### Một số hình ảnh khi tham gia sự kiện
 
-- Thêm các hình ảnh của các bạn tại đây
+- Thêm các hình ảnh của các bạn tại đây -->
 
 > Tổng thể, Track 2: Migration & Modernization mang lại góc nhìn toàn diện về cách các doanh nghiệp Việt Nam đang chuyển đổi và hiện đại hóa infrastructure, với sự hỗ trợ của AI và cloud technologies. Đây là những kiến thức thiết thực có thể áp dụng ngay vào công việc hàng ngày.
