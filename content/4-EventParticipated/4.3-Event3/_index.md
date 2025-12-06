@@ -111,7 +111,7 @@ Participating in AWS Cloud Mastery Series #1 was an exciting experience with the
 - **Networking:** Meeting and connecting with the AI/ML community in Vietnam
 - **Updated knowledge:** Learning the latest GenAI trends on AWS
 
-#### Photos from the Event
+#### Photos/ videos from the Event
 
 <video width="50%" controls>
   <source src="/images/4-EventsParticipated/Series1.mp4" type="video/mp4">

@@ -227,7 +227,7 @@ The Security Pillar workshop was a very important and practical experience:
 - **Career guidance:** Roadmap for Security Specialty certification
 - **Networking:** Connecting with security professionals
 
-#### Photos from the Event
+#### Photos/ videos from the Event
 
 <div style="text-align: left;">
   <img src="/images/4-EventsParticipated/Series3.jpeg" alt="AWS Cloud Mastery Series #3 - Security Pillar" width="50%">

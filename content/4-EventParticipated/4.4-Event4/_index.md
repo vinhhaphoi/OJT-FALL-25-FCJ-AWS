@@ -203,7 +203,7 @@ The full-day DevOps workshop was a comprehensive and practical experience:
 - **Career guidance:** Career path and certification guidance
 - **Networking:** Connecting with DevOps engineers and cloud architects
 
-#### Photos from the Event
+#### Photos/ videos from the Event
 
 <img src="/images/4-EventsParticipated/Series2.jpeg" alt="AWS Cloud Mastery Series #2 - DevOps on AWS" width="50%">
 
