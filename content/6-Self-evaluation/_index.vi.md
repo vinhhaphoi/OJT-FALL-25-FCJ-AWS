@@ -5,30 +5,40 @@ weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
-Trong suốt thời gian thực tập tại **AWS | FCAJ** từ **08/09/2025** đến **12/12/2025**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
-Tôi đã tham gia dự án **Document QA with AWS Bedrock**, qua đó cải thiện kỹ năng **Điện toán đám mây (AWS), AI tạo sinh, Kiến trúc hệ thống và Phát triển Full-stack**.
+
+Trong suốt thời gian thực tập tại **First Cloud Journey (FCJ) - AWS** từ **08/09/2025** đến **12/12/2025**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.
+
+Tôi đã tham gia dự án **Document QA with AWS Bedrock** - Hệ thống Phân tích Tài liệu Thông minh sử dụng RAG, qua đó cải thiện kỹ năng **Điện toán đám mây (AWS), AI tạo sinh (Generative AI), Kiến trúc Serverless và Phát triển Full-stack**.
+
+Ngoài ra, tôi còn hoàn thành:
+
+- **10 tuần workshops** với hơn 50+ dịch vụ AWS
+- **6 bài blogs** dịch thuật kỹ thuật
+- **5 events** từ AWS (Cloud Day, Cloud Mastery Series)
+- **1 workshop** tự xây dựng (Amazon QuickSight)
 
 Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.
 
 Để phản ánh một cách khách quan quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
 
-| STT | Tiêu chí                            | Mô tả                                                                                            | Tốt | Khá | Trung bình |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu biết về ngành, áp dụng kiến thức vào thực tế, kỹ năng sử dụng công cụ, chất lượng công việc | ✅  | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Tiếp thu kiến thức mới, học hỏi nhanh                                                            | ☐   | ✅  | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu, nhận nhiệm vụ mà không chờ chỉ dẫn                                                  | ✅  | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành công việc đúng hạn, đảm bảo chất lượng                                                | ✅  | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tuân thủ giờ giấc, nội quy, quy trình làm việc                                                   | ☐   | ☐   | ✅         |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback và cải thiện bản thân                                                     | ☐   | ✅  | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng, báo cáo công việc rõ ràng                                                     | ☐   | ✅  | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với đồng nghiệp, tham gia nhóm                                                 | ✅  | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, đối tác, môi trường làm việc                                              | ✅  | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Nhận diện vấn đề, đề xuất giải pháp, sáng tạo                                                    | ☐   | ✅  | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hiệu quả công việc, sáng kiến cải tiến, ghi nhận từ team                                         | ✅  | ☐   | ☐          |
-| 12  | **Tổng thể**                        | Đánh giá chung về toàn bộ quá trình thực tập                                                     | ✅  | ☐   | ☐          |
+| STT | Tiêu chí                            | Mô tả                                                                             | Tốt | Khá | Trung bình |
+| --- | ----------------------------------- | --------------------------------------------------------------------------------- | --- | --- | ---------- |
+| 1   | **Kiến thức và kỹ năng chuyên môn** | Nắm vững AWS Services, Serverless, GenAI/RAG, áp dụng vào dự án Document QA       | ✅  | ☐   | ☐          |
+| 2   | **Khả năng học hỏi**                | Hoàn thành 10 tuần workshops, tự học thêm về AI/ML và Security                    | ☐   | ✅  | ☐          |
+| 3   | **Chủ động**                        | Tự đề xuất dự án, chủ động tham gia 5 events, tự xây dựng workshop QuickSight     | ✅  | ☐   | ☐          |
+| 4   | **Tinh thần trách nhiệm**           | Hoàn thành đầy đủ các nhiệm vụ, dịch 6 blogs, viết documentation chi tiết         | ✅  | ☐   | ☐          |
+| 5   | **Kỷ luật**                         | Có lúc chưa đảm bảo deadline, cần cải thiện quản lý thời gian                     | ☐   | ☐   | ✅         |
+| 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback, cải thiện liên tục qua các events và workshops            | ☐   | ✅  | ☐          |
+| 7   | **Giao tiếp**                       | Trình bày ý tưởng tốt, viết documentation rõ ràng, dịch thuật blogs kỹ thuật      | ☐   | ✅  | ☐          |
+| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với mentor và team, networking tốt tại các AWS events           | ✅  | ☐   | ☐          |
+| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, tham gia tích cực trong AWS community                      | ✅  | ☐   | ☐          |
+| 10  | **Tư duy giải quyết vấn đề**        | Áp dụng DDD, Event-Driven Architecture từ events vào dự án thực tế                | ☐   | ✅  | ☐          |
+| 11  | **Đóng góp vào dự án/tổ chức**      | Hoàn thành Document QA project, đóng góp 6 blogs dịch, 1 workshop mới             | ✅  | ☐   | ☐          |
+| 12  | **Tổng thể**                        | Quá trình thực tập đạt kết quả tốt, phát triển cả kỹ năng kỹ thuật và kỹ năng mềm | ✅  | ☐   | ☐          |
 
 ### Cần cải thiện
 
-- Nâng cao tính kỹ luật, chấp hành nghiêm chỉnh nội quy của công ty hoặc bất kỳ trong một tổ chức nào
-- Cải thiện trong cách tư duy giải quyết vấn đề
-- Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
+- **Kỷ luật và quản lý thời gian:** Cải thiện việc lập kế hoạch và theo dõi deadline, áp dụng các phương pháp quản lý thời gian hiệu quả hơn
+- **Tư duy giải quyết vấn đề:** Phát triển systematic thinking, học thêm về design patterns và architecture patterns
+- **Giao tiếp chuyên nghiệp:** Cải thiện kỹ năng thuyết trình, học cách giao tiếp hiệu quả trong môi trường đa văn hóa
+- **Deep dive chuyên môn:** Đi sâu hơn vào AI/ML và Security, chuẩn bị cho các AWS certifications (SAA, DevOps, Security Specialty)

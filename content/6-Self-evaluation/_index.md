@@ -6,30 +6,39 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **AWS | FCAJ** from **08/09/2025** to **12/12/2025**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **Document QA with AWS Bedrock**, through which I improved my skills in **Cloud Computing (AWS), Generative AI, System Architecture, and Full-stack Development**.
+During my internship at **First Cloud Journey (FCJ) - AWS** from **08/09/2025** to **12/12/2025**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.
+
+I participated in the **Document QA with AWS Bedrock** project - an Intelligent Document Analysis System using RAG, through which I improved my skills in **Cloud Computing (AWS), Generative AI, Serverless Architecture, and Full-stack Development**.
+
+Additionally, I completed:
+
+- **10 weeks of workshops** with 50+ AWS services
+- **6 technical blogs** translation
+- **5 AWS events** (Cloud Day, Cloud Mastery Series)
+- **1 self-built workshop** (Amazon QuickSight)
 
 In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
 
 To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅   | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅   | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅   | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅   | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅      |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅   | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅   | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅   | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅   | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅   | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅   | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅   | ☐    | ☐       |
+| No. | Criteria                            | Description                                                                         | Good | Fair | Average |
+| --- | ----------------------------------- | ----------------------------------------------------------------------------------- | ---- | ---- | ------- |
+| 1   | **Professional knowledge & skills** | Mastered AWS Services, Serverless, GenAI/RAG, applied to Document QA project        | ✅   | ☐    | ☐       |
+| 2   | **Ability to learn**                | Completed 10 weeks workshops, self-studied AI/ML and Security                       | ☐    | ✅   | ☐       |
+| 3   | **Proactiveness**                   | Self-proposed project, actively participated in 5 events, built QuickSight workshop | ✅   | ☐    | ☐       |
+| 4   | **Sense of responsibility**         | Completed all tasks, translated 6 blogs, wrote detailed documentation               | ✅   | ☐    | ☐       |
+| 5   | **Discipline**                      | Sometimes missed deadlines, need to improve time management                         | ☐    | ☐    | ✅      |
+| 6   | **Progressive mindset**             | Willing to receive feedback, continuously improved through events and workshops     | ☐    | ✅   | ☐       |
+| 7   | **Communication**                   | Good at presenting ideas, clear documentation, technical blog translation           | ☐    | ✅   | ☐       |
+| 8   | **Teamwork**                        | Worked effectively with mentor and team, good networking at AWS events              | ✅   | ☐    | ☐       |
+| 9   | **Professional conduct**            | Respected colleagues, actively participated in AWS community                        | ✅   | ☐    | ☐       |
+| 10  | **Problem-solving skills**          | Applied DDD, Event-Driven Architecture from events to real project                  | ☐    | ✅   | ☐       |
+| 11  | **Contribution to project/team**    | Completed Document QA project, contributed 6 translated blogs, 1 new workshop       | ✅   | ☐    | ☐       |
+| 12  | **Overall**                         | Internship achieved good results, developed both technical and soft skills          | ✅   | ☐    | ☐       |
 
 ### Needs Improvement
 
-- Strengthen discipline and strictly comply with the rules and regulations of the company or any organization
-- Improve problem-solving thinking
-- Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+- **Discipline and time management:** Improve planning and deadline tracking, apply more effective time management methods
+- **Problem-solving thinking:** Develop systematic thinking, learn more about design patterns and architecture patterns
+- **Professional communication:** Improve presentation skills, learn to communicate effectively in multicultural environments
+- **Deep specialization:** Go deeper into AI/ML and Security, prepare for AWS certifications (SAA, DevOps, Security Specialty)
