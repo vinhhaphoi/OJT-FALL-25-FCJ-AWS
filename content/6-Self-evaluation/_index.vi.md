@@ -5,11 +5,6 @@ weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
-
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 Trong suốt thời gian thực tập tại **AWS | FCAJ** từ **08/09/2025** đến **12/12/2025**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.  
 Tôi đã tham gia dự án **Document QA with AWS Bedrock**, qua đó cải thiện kỹ năng **Điện toán đám mây (AWS), AI tạo sinh, Kiến trúc hệ thống và Phát triển Full-stack**.
 
