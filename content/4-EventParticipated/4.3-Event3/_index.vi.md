@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Bài thu hoạch "AWS Cloud Mastery Series #1 - AI/ML/GenAI on AWS"
+# "AWS Cloud Mastery Series #1 - AI/ML/GenAI on AWS"
 
 ### Thông Tin Sự Kiện
 
@@ -32,7 +32,7 @@ pre: " <b> 4.3. </b> "
 | 09:00 - 10:30 | **AWS AI/ML Services Overview**       | Amazon SageMaker - End-to-end ML platform, data preparation, model training, MLOps            |
 | 10:30 - 10:45 | **Coffee Break**                      | Nghỉ giải lao                                                                                 |
 | 10:45 - 12:00 | **Generative AI with Amazon Bedrock** | Foundation Models, Prompt Engineering, RAG, Bedrock Agents, Guardrails                        |
-| 12:00         | **Lunch Break**                       | Nghỉ trưa (tự túc)                                                                            |
+| 12:00         | **Lunch Break**                       | Nghỉ trưa                                                                            |
 
 ### Nội Dung Nổi Bật
 

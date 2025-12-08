@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Takeaways from "Vietnam Cloud Day 2025 - Track 2: Migration & Modernization"
+# "Vietnam Cloud Day 2025 - Track 2: Migration & Modernization"
 
 ### Event Information
 

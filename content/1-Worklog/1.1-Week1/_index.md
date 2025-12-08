@@ -8,8 +8,8 @@ pre: " <b> 1.1. </b> "
 
 ### Week 1 Objectives:
 
-- Know, get target, connect with advisor team and other people on OJT in FCJ
-- Understand basic of AWS services and kick - off for start learning in FCJ
+- Know, get target, connect with advisor team and other people on OJT in FCAJ
+- Understand basic of AWS services and kick - off for start learning in FCAJ
 - Understand how to use console and CLI.
 - Configure basic services in AWS Management Console.
 - Setup AWS account, free tier credit, budget for cost management

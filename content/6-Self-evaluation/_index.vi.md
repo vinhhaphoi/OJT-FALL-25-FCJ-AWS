@@ -6,15 +6,15 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Trong suốt thời gian thực tập tại **First Cloud Journey (FCJ) - AWS** từ **08/09/2025** đến **12/12/2025**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.
+Trong suốt thời gian thực tập tại **First Cloud AI Journey (FCAJ) - AWS** từ **08/09/2025** đến **12/2025**, tôi đã có cơ hội học hỏi, rèn luyện và áp dụng kiến thức đã được trang bị tại trường vào môi trường làm việc thực tế.
 
 Tôi đã tham gia dự án **Document QA with AWS Bedrock** - Hệ thống Phân tích Tài liệu Thông minh sử dụng RAG, qua đó cải thiện kỹ năng **Điện toán đám mây (AWS), AI tạo sinh (Generative AI), Kiến trúc Serverless và Phát triển Full-stack**.
 
-Ngoài ra, tôi còn hoàn thành:
+Ngoài ra, tôi còn hoàn thành và tham dự:
 
-- **10 tuần workshops** với hơn 50+ dịch vụ AWS
-- **6 bài blogs** dịch thuật kỹ thuật
-- **5 events** từ AWS (Cloud Day, Cloud Mastery Series)
+- **14 tuần cùng các bài labs** với nhiều dịch vụ AWS
+- **3 bài blogs** dịch thuật kỹ thuật
+- **Events** từ AWS (Cloud Day, Cloud Mastery Series, ...)
 - **1 workshop** tự xây dựng (Amazon QuickSight)
 
 Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân thủ nội quy, và tích cực trao đổi với đồng nghiệp để nâng cao hiệu quả công việc.

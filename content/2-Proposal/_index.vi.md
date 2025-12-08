@@ -121,19 +121,20 @@ Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bả
 
 ### 9. Cấu trúc Nhóm và Trách nhiệm
 
-| Tên | Mã sinh viên | Vai trò Chính | Email/Thông tin Liên hệ |
-|-----|-------------|---------------|-------------------------|
-| **Nguyễn Lê Anh Quân** | SE192307 | Trưởng nhóm/ Cloud Architect | nguyenleanhquan2005@gmail.com |
-| **Đào Quang Vinh** | SE180012 | Project Manager/ Backend Developer (Bedrock, RAG) | its.vnhdq@gmail.com |
-| **Nguyễn Thanh Liêm** | SE184163 | Backend Developer | liemntse184163@fpt.edu.vn |
-| **Trần Đình Phong** | SE184217 | Frontend Developer/ UI/UX Designer | phongtdse184217@fpt.edu.vn |
-| **Dương Nguyễn Gia Huy** | SE182202 | QA Engineer/Backend Developer (Bedrock, RAG) | huydngse182202@fpt.edu.vn |
+| Tên                      | Mã sinh viên | Vai trò Chính                                | Email/Thông tin Liên hệ       |
+| ------------------------ | ------------ | -------------------------------------------- | ----------------------------- |
+| **Nguyễn Lê Anh Quân**   | SE192307     | Trưởng nhóm/ Cloud Architect                 | nguyenleanhquan2005@gmail.com |
+| **Đào Quang Vinh**       | SE180012     | Backend Developer (Bedrock, RAG)             | its.vnhdq@gmail.com           |
+| **Nguyễn Thanh Liêm**    | SE184163     | Backend Developer                            | liemntse184163@fpt.edu.vn     |
+| **Trần Đình Phong**      | SE184217     | Frontend Developer/ UI/UX Designer           | phongtdse184217@fpt.edu.vn    |
+| **Dương Nguyễn Gia Huy** | SE182202     | QA Engineer/Backend Developer (Bedrock, RAG) | huydngse182202@fpt.edu.vn     |
 
 #### Trách nhiệm Chi tiết theo Thành viên Nhóm
 
 ##### Nguyễn Lê Anh Quân - Cloud Architect/ Trưởng nhóm
 
 **Trách nhiệm Chính:**
+
 - Thiết kế kiến trúc AWS và lựa chọn dịch vụ
 - Lập kế hoạch và tối ưu hóa cơ sở hạ tầng
 - Kiến trúc bảo mật và IAM policies
@@ -141,9 +142,10 @@ Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bả
 
 ---
 
-##### Đào Quang Vinh - Project Manager/Backend Developer
+##### Đào Quang Vinh - Backend Developer
 
 **Trách nhiệm Chính:**
+
 - Quản lý dự án tổng thể và điều phối thời gian
 - Điều phối nhóm và phân công nhiệm vụ
 - Báo cáo tiến độ cho giảng viên/cố vấn
@@ -155,6 +157,7 @@ Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bả
 ##### Dương Nguyễn Gia Huy - QA Engineer/Backend Developer
 
 **Trách nhiệm Chính:**
+
 - Phát triển logic backend cốt lõi
 - Tích hợp Amazon Bedrock (Foundation Models)
 - Triển khai pipeline RAG (Retrieval-Augmented Generation)
@@ -167,6 +170,7 @@ Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bả
 ##### Nguyễn Thanh Liêm - Backend Developer
 
 **Trách nhiệm Chính:**
+
 - Cơ sở hạ tầng backend và quản lý dữ liệu
 - Phát triển CI/CD pipeline
 - Giám sát hệ thống và logging
@@ -179,6 +183,7 @@ Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bả
 ##### Trần Đình Phong - Frontend Developer
 
 **Trách nhiệm Chính:**
+
 - Thiết kế và phát triển giao diện người dùng
 - Tích hợp frontend-backend
 - Tối ưu hóa trải nghiệm người dùng

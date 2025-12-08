@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.4. </b> "
 ---
 
-# Bài thu hoạch "AWS Cloud Mastery Series #2 - DevOps on AWS"
+# "AWS Cloud Mastery Series #2 - DevOps on AWS"
 
 ### Thông Tin Sự Kiện
 
@@ -34,7 +34,7 @@ pre: " <b> 4.4. </b> "
 | 09:00 - 10:30 | **AWS DevOps Services – CI/CD Pipeline** | CodeCommit, CodeBuild, CodeDeploy, CodePipeline                               |
 | 10:30 - 10:45 | **Break**                                | Nghỉ giải lao                                                                 |
 | 10:45 - 12:00 | **Infrastructure as Code (IaC)**         | CloudFormation, AWS CDK                                                       |
-| 12:00 - 13:00 | **Lunch Break**                          | Nghỉ trưa (tự túc)                                                            |
+| 12:00 - 13:00 | **Lunch Break**                          | Nghỉ trưa                                                                     |
 
 #### Buổi Chiều (13:00 – 17:00)
 

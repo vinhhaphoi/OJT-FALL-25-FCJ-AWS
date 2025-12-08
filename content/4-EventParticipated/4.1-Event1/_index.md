@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: "Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition - Live Telecast Session"
+# "Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition - Live Telecast Session"
 
 ### Event Overview
 

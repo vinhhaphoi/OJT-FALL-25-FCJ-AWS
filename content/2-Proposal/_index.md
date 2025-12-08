@@ -119,22 +119,22 @@ The platform employs a modern serverless architecture to ensure scalability, sec
 - A reusable RAG framework for future knowledge base applications.
 - Significant productivity gains for users needing quick information retrieval.
 
-
 ### 9. Team Structure and Responsibilities
 
-| Name | Student ID | Primary Role | Email/Contact Info |
-|------|-----------|--------------|-------------------|
-| **Nguyễn Lê Anh Quân** | SE192307 | Team Leader/ Cloud Architect | nguyenleanhquan2005@gmail.com |
-| **Đào Quang Vinh** | SE180012 | Project Manager/ Backend Developer (Bedrock, RAG) | its.vnhdq@gmail.com |
-| **Nguyễn Thanh Liêm** | SE184163 | Backend Developer | liemntse184163@fpt.edu.vn |
-| **Trần Đình Phong** | SE184217 | Frontend Developer/ UI/UX Designer | phongtdse184217@fpt.edu.vn |
-| **Dương Nguyễn Gia Huy** | SE182202 | QA Engineer/Backend Developer (Bedrock, RAG) | huydngse182202@fpt.edu.vn |
+| Name                     | Student ID | Primary Role                                 | Email/Contact Info            |
+| ------------------------ | ---------- | -------------------------------------------- | ----------------------------- |
+| **Nguyễn Lê Anh Quân**   | SE192307   | Team Leader/ Cloud Architect                 | nguyenleanhquan2005@gmail.com |
+| **Đào Quang Vinh**       | SE180012   | Backend Developer (Bedrock, RAG)             | its.vnhdq@gmail.com           |
+| **Nguyễn Thanh Liêm**    | SE184163   | Backend Developer                            | liemntse184163@fpt.edu.vn     |
+| **Trần Đình Phong**      | SE184217   | Frontend Developer/ UI/UX Designer           | phongtdse184217@fpt.edu.vn    |
+| **Dương Nguyễn Gia Huy** | SE182202   | QA Engineer/Backend Developer (Bedrock, RAG) | huydngse182202@fpt.edu.vn     |
 
-
-####  Detailed Responsibilities by Team Member
+#### Detailed Responsibilities by Team Member
 
 ##### Nguyễn Lê Anh Quân - Cloud Architect/ Team Leader
+
 **Primary Responsibilities:**
+
 - AWS architecture design and service selection
 - Infrastructure planning and optimization
 - Security architecture and IAM policies
@@ -142,8 +142,10 @@ The platform employs a modern serverless architecture to ensure scalability, sec
 
 ---
 
-##### Đào Quang Vinh - Project Manager/Backend Developer
+##### Đào Quang Vinh - Backend Developer
+
 **Primary Responsibilities:**
+
 - Overall project management and timeline coordination
 - Team coordination and task assignment
 - Progress reporting to instructor/advisor
@@ -152,9 +154,10 @@ The platform employs a modern serverless architecture to ensure scalability, sec
 - Build vector search and retrieval logic
 - Develop chat/query handler Lambda function
 
-
 ##### Dương Nguyễn Gia Huy - QA Engineer/Backend Developer
+
 **Primary Responsibilities:**
+
 - Core backend logic development
 - Amazon Bedrock integration (Foundation Models)
 - RAG (Retrieval-Augmented Generation) pipeline implementation
@@ -164,8 +167,10 @@ The platform employs a modern serverless architecture to ensure scalability, sec
 
 ---
 
-##### Nguyễn Thanh Liêm - Backend Developer 
+##### Nguyễn Thanh Liêm - Backend Developer
+
 **Primary Responsibilities:**
+
 - Backend infrastructure and data management
 - CI/CD pipeline development
 - System monitoring and logging
@@ -176,7 +181,9 @@ The platform employs a modern serverless architecture to ensure scalability, sec
 ---
 
 ##### Trần Đình Phong - Frontend Developer
+
 **Primary Responsibilities:**
+
 - User interface design and development
 - Frontend-backend integration
 - User experience optimization
@@ -187,4 +194,3 @@ The platform employs a modern serverless architecture to ensure scalability, sec
 - Deploy frontend to S3 + CloudFront
 
 ---
-

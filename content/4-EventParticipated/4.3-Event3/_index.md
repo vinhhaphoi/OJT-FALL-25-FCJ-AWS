@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Takeaways from "AWS Cloud Mastery Series #1 - AI/ML/GenAI on AWS"
+# "AWS Cloud Mastery Series #1 - AI/ML/GenAI on AWS"
 
 ### Event Information
 

@@ -5,7 +5,8 @@ weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
-# Bài thu hoạch "Vietnam Cloud Day 2025 - Track 2: Migration & Modernization"
+
+# "Vietnam Cloud Day 2025 - Track 2: Migration & Modernization"
 
 ### Thông Tin Sự Kiện
 
@@ -39,19 +40,19 @@ pre: " <b> 4.2. </b> "
 
 ### Lịch Trình Chi Tiết - Track 2: Migration & Modernization
 
-| Thời gian     | Session                                                           | Mô tả                                                                                                                                                                                               |
-| ------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 13:15 - 13:30 | **Opening**                                                       | Giới thiệu và chào đón - _Hung Nguyen Gia, Head of Solutions Architect, AWS_                                                                                                                        |
-| 13:30 - 14:00 | **Completing a large-scale migration and modernisation with AWS** | Chia sẻ bài học từ hàng nghìn doanh nghiệp đã di chuyển và hiện đại hóa workloads. Khám phá mental models, best practices, và modernization pathways. - _Son Do, AWS & Nguyen Van Hai, Techcombank_ |
-| 14:00 - 14:30 | **Modernizing Applications with Generative AI-Powered Tools**     | Khám phá cách Amazon Q Developer biến đổi SDLC thông qua các khả năng agentic trên AWS Console, IDE, CLI và DevSecOps platforms. - _Phuc Nguyen, AWS & Alex Tran, OCB_                              |
-| 14:30 - 15:00 | **Panel Discussion: Application Modernization**                   | Thảo luận về việc tăng tốc chuyển đổi kinh doanh thông qua hiện đại hóa ứng dụng - _Moderator: Hung Nguyen Gia_                                                                                     |
-| 15:00 - 15:30 | **Tea Break**                                                     | Nghỉ giải lao và networking                                                                                                                                                                         |
-| 15:30 - 16:00 | **Transforming VMware with AI-driven cloud modernisation**        | Hướng dẫn di chuyển VMware estates lên AWS một cách nhanh chóng, an toàn và tiết kiệm chi phí. - _Hung Hoang, AWS_                                                                                  |
-| 16:00 - 17:00 | **AWS security at scale: From development to production**         | Khám phá cách tăng cường bảo mật cloud trong toàn bộ vòng đời phát triển và vận hành. - _Taiki Dang, AWS_                                                                                           |
+| Thời gian     | Session                                                                                   | Mô tả                                                                                                                                                                                               |
+| ------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 13:15 - 13:30 | **Opening**                                                                               | Giới thiệu và chào đón - _Hung Nguyen Gia, Head of Solutions Architect, AWS_                                                                                                                        |
+| 13:30 - 14:00 | **Hoàn tất quá trình migration và hiện đại hóa quy mô lớn với AWS**                       | Chia sẻ bài học từ hàng nghìn doanh nghiệp đã di chuyển và hiện đại hóa workloads. Khám phá mental models, best practices, và modernization pathways. - _Son Do, AWS & Nguyen Van Hai, Techcombank_ |
+| 14:00 - 14:30 | **Hiện đại hóa ứng dụng với các công cụ được tăng cường bởi AI tạo sinh (Generative AI)** | Khám phá cách Amazon Q Developer biến đổi SDLC thông qua các khả năng agentic trên AWS Console, IDE, CLI và DevSecOps platforms. - _Phuc Nguyen, AWS & Alex Tran, OCB_                              |
+| 14:30 - 15:00 | **Tọa đàm với chủ đề: Application Modernization**                                         | Thảo luận về việc tăng tốc chuyển đổi kinh doanh thông qua hiện đại hóa ứng dụng - _Moderator: Hung Nguyen Gia_                                                                                     |
+| 15:00 - 15:30 | **Tea Break**                                                                             | Nghỉ giải lao và networking                                                                                                                                                                         |
+| 15:30 - 16:00 | **Chuyển đổi môi trường VMware thông qua hiện đại hóa đám mây được điều khiển bởi AI**    | Hướng dẫn di chuyển VMware estates lên AWS một cách nhanh chóng, an toàn và tiết kiệm chi phí. - _Hung Hoang, AWS_                                                                                  |
+| 16:00 - 17:00 | **Bảo mật AWS ở quy mô lớn từ development đến production**                                | Khám phá cách tăng cường bảo mật cloud trong toàn bộ vòng đời phát triển và vận hành. - _Taiki Dang, AWS_                                                                                           |
 
 ### Nội Dung Nổi Bật
 
-#### 1. Completing a large-scale migration and modernisation with AWS
+#### 1. Hoàn tất quá trình migration và hiện đại hóa quy mô lớn với AWS
 
 Session này tập trung vào các bài học quý giá từ hàng nghìn doanh nghiệp đã di chuyển và hiện đại hóa on-premises workloads lên AWS:
 
@@ -61,7 +62,7 @@ Session này tập trung vào các bài học quý giá từ hàng nghìn doanh 
 - **AWS migration accelerators:** Các công cụ và dịch vụ tăng tốc quá trình di chuyển
 - **Case study Techcombank:** Ví dụ thực tế về việc xây dựng nền tảng vững chắc và lộ trình chiến lược
 
-#### 2. Modernizing Applications with Generative AI-Powered Tools (Amazon Q Developer)
+#### 2. Hiện đại hóa ứng dụng với các công cụ được tăng cường bởi AI tạo sinh (Generative AI) (Amazon Q Developer)
 
 Session này khám phá cách Amazon Q Developer biến đổi Software Development Lifecycle (SDLC):
 
@@ -71,7 +72,7 @@ Session này khám phá cách Amazon Q Developer biến đổi Software Developm
 - **Unit test generation:** Tự động tạo unit tests để cải thiện độ tin cậy
 - **Intelligent collaborator:** AI hoạt động như một cộng sự thông minh trong development
 
-#### 3. Panel Discussion: Application Modernization
+#### 3. Tọa đàm với chủ đề: Application Modernization
 
 Thảo luận chuyên sâu về việc tăng tốc chuyển đổi kinh doanh thông qua hiện đại hóa ứng dụng:
 
@@ -79,7 +80,7 @@ Thảo luận chuyên sâu về việc tăng tốc chuyển đổi kinh doanh th
 - **Topics:** Chiến lược hiện đại hóa, challenges và solutions thực tế từ các doanh nghiệp Việt Nam
 - **Best practices:** Chia sẻ kinh nghiệm triển khai thực tế
 
-#### 4. Transforming VMware with AI-driven cloud modernisation
+#### 4. Chuyển đổi môi trường VMware thông qua hiện đại hóa đám mây được điều khiển bởi AI
 
 Hướng dẫn cho các tổ chức đang tăng tốc cloud adoption với VMware estates:
 
@@ -88,7 +89,7 @@ Hướng dẫn cho các tổ chức đang tăng tốc cloud adoption với VMwar
 - **Downtime-aware patterns:** Các pattern giảm thiểu thời gian ngừng hoạt động
 - **Modernization roadmap:** Lộ trình hiện đại hóa lên EKS, RDS, và serverless
 
-#### 5. AWS security at scale: From development to production
+#### 5. Bảo mật AWS ở quy mô lớn từ development đến production
 
 Khám phá cách tăng cường bảo mật cloud trong toàn bộ vòng đời:
 

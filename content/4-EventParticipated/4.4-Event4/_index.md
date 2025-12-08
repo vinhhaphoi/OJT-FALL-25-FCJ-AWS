@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.4. </b> "
 ---
 
-# Takeaways from "AWS Cloud Mastery Series #2 - DevOps on AWS"
+# "AWS Cloud Mastery Series #2 - DevOps on AWS"
 
 ### Event Information
 

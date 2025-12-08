@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Internship Position:** FCAJ Intern
 
-&emsp; **Internship Duration:** From 08/09/2025 to 12/12/2025
+&emsp; **Internship Duration:** From 08/09/2025 to 12/2025
 
 ![Your profile picture](/images/avatar.JPG)
 

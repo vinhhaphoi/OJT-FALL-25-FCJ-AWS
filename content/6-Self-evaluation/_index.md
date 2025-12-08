@@ -6,15 +6,15 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **First Cloud Journey (FCJ) - AWS** from **08/09/2025** to **12/12/2025**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.
+During my internship at **First Cloud AI Journey (FCAJ) - AWS** from **9 Aug, 2025** to **Dec, 2025**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.
 
 I participated in the **Document QA with AWS Bedrock** project - an Intelligent Document Analysis System using RAG, through which I improved my skills in **Cloud Computing (AWS), Generative AI, Serverless Architecture, and Full-stack Development**.
 
 Additionally, I completed:
 
-- **10 weeks of workshops** with 50+ AWS services
-- **6 technical blogs** translation
-- **5 AWS events** (Cloud Day, Cloud Mastery Series)
+- **14 weeks of labs** with a lot of AWS services AWS services
+- **3 technical blogs** translation
+- **AWS events** (Cloud Day, Cloud Mastery Series, ...)
 - **1 self-built workshop** (Amazon QuickSight)
 
 In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
@@ -24,7 +24,7 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 | No. | Criteria                            | Description                                                                         | Good | Fair | Average |
 | --- | ----------------------------------- | ----------------------------------------------------------------------------------- | ---- | ---- | ------- |
 | 1   | **Professional knowledge & skills** | Mastered AWS Services, Serverless, GenAI/RAG, applied to Document QA project        | ✅   | ☐    | ☐       |
-| 2   | **Ability to learn**                | Completed 10 weeks workshops, self-studied AI/ML and Security                       | ☐    | ✅   | ☐       |
+| 2   | **Ability to learn**                | Completed 14 weeks workshops, self-studied AI/ML and Security                       | ☐    | ✅   | ☐       |
 | 3   | **Proactiveness**                   | Self-proposed project, actively participated in 5 events, built QuickSight workshop | ✅   | ☐    | ☐       |
 | 4   | **Sense of responsibility**         | Completed all tasks, translated 6 blogs, wrote detailed documentation               | ✅   | ☐    | ☐       |
 | 5   | **Discipline**                      | Sometimes missed deadlines, need to improve time management                         | ☐    | ☐    | ✅      |

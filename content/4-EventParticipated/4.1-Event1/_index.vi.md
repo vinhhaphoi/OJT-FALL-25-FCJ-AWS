@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài Thu Hoạch: "Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition - Phiên Live Telecast"
+# "Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition - Phiên Live Telecast"
 
 ### Tổng Quan Sự Kiện
 
@@ -56,12 +56,12 @@ Trong khi sự kiện chính diễn ra tại Hà Nội, AWS đã mang đến tr�
 - **Diễn giả**: Jaime Valles, Vice President, General Manager Asia Pacific and Japan, AWS
 - Thảo luận về định hướng chiến lược của AWS và các dịch vụ mới cho khu vực Châu Á Thái Bình Dương
 
-#### Panel Discussion: Điều Hướng Cuộc Cách Mạng GenAI - Chiến Lược Cho Lãnh Đạo Doanh Nghiệp
+#### Tọa đàm: Điều Hướng Cuộc Cách Mạng GenAI - Chiến Lược Cho Đội Ngũ Lãnh Đạo Cấp Cao
 
 Phiên thảo luận panel này đi sâu vào cách các lãnh đạo doanh nghiệp có thể điều hướng tổ chức của mình hiệu quả qua các bước tiến nhanh chóng trong generative AI.
 
 - **Người điều phối**: Jeff Johnson, Managing Director, ASEAN, AWS
-- **Thành viên panel**:
+- **Thành viên tọa đàm**:
   - Vu Van, Co-founder & CEO, ELSA Corp
   - Nguyen Hoa Binh, Chairman, Nexttech Group
   - Dieter Botha, CEO, TymeX
