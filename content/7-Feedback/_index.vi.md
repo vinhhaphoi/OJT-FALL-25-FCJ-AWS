@@ -20,10 +20,10 @@ Mentor hướng dẫn rất chi tiết và kiên nhẫn, luôn sẵn sàng giả
 Dự án Document QA với AWS Bedrock rất phù hợp với kiến thức đã học, đồng thời mở rộng thêm các mảng mới như Generative AI, RAG, Serverless Architecture. Nhờ vậy, vừa củng cố kiến thức nền tảng về Cloud Computing, vừa học thêm kỹ năng AI/ML thực tế.
 
 **4. Cơ hội học hỏi & phát triển kỹ năng**  
-Được tham gia 14 tuần với bài lab thực hành với nhiều dịch vụ AWS, từ cơ bản đến nâng cao. Đặc biệt được tham gia nhiều sự kiện chất lượng cao từ AWS (Vietnam Cloud Day, Cloud Mastery Series, ...), học trực tiếp từ Solutions Architects và chuyên gia. Mentor chia sẻ nhiều kinh nghiệm thực tế giúp định hướng career path trong Cloud Computing.
+Được tham gia 14 tuần với bài lab thực hành với nhiều dịch vụ AWS, từ cơ bản đến nâng cao. Đặc biệt được tham gia nhiều sự kiện chất lượng cao từ AWS (Vietnam Cloud Day, Cloud Mastery Series, ...), học trực tiếp từ các chuyên gia. Mentor chia sẻ nhiều kinh nghiệm thực tế giúp định hướng career path trong Cloud Computing.
 
 **5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực, mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Được networking với AWS community tại Việt Nam qua các events. Điều này giúp cảm thấy là một phần của cộng đồng cloud lớn hơn, không chỉ là thực tập sinh.
+Văn hóa công ty rất tích cực, mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Được networking với AWS community tại Việt Nam qua các sự kiện. Điều này giúp cảm thấy là một phần của cộng đồng FCAJ, không chỉ là thực tập sinh.
 
 **6. Chính sách / phúc lợi cho thực tập sinh**  
 Được tham gia miễn phí các events từ AWS, thời gian làm việc linh hoạt, môi trường học tập với đầy đủ resources. Có thể xem xét hỗ trợ thêm AWS credits cho thực tập sinh thực hành.
