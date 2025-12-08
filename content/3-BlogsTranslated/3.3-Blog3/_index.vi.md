@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 3.3. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 # Customer Contact Week 2025: Chuyển đổi trung tâm liên lạc khách hàng với đổi mới từ AI
 
 Cập nhật ngày 3/6/2025: Các phiên sau đã thay đổi khung giờ, “Nâng cao giao tiếp hướng ngoại của bạn với nền tảng dữ liệu Amazon Connect” và “Thống nhất sự tham gia của khách hàng: Từ các hệ thống rời rạc đến đa kênh thông minh.” Lịch trình bên dưới chứa thông tin phiên cập nhật.

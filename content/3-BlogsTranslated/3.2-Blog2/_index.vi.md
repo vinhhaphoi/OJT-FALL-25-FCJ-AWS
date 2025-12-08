@@ -6,10 +6,6 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 # Amazon Nova Lite cho phép Bito cung cấp tùy chọn miễn phí cho đánh giá mã nguồn bằng AI
 
 ### Lựa chọn mô hình chi phí hiệu quả cho gói miễn phí
