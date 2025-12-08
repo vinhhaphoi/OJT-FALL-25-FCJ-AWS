@@ -40,7 +40,7 @@ Chúng tôi đề xuất một **Chatbot dựa trên RAG Serverless** sử dụn
 
 Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bảo khả năng mở rộng, bảo mật và hiệu suất.
 
-![Architecture](/images/image.png)
+![Architecture](/images/2-Proposal/architecture.png)
 
 ### Các Dịch vụ AWS Sử dụng
 
