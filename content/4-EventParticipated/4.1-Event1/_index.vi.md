@@ -6,122 +6,127 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
+# Bài Thu Hoạch: "Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition - Phiên Live Telecast"
 
-### Mục Đích Của Sự Kiện
+### Tổng Quan Sự Kiện
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+Trong khi sự kiện chính diễn ra tại Hà Nội, AWS đã mang đến trải nghiệm hybrid liền mạch cho Thành phố Hồ Chí Minh. Phiên Live Telecast bao gồm phiên toàn thể được phát trực tiếp từ Hà Nội, với các diễn giả keynote và các thông báo đột phá định hình tương lai cloud của Việt Nam.
+
+**Các Chủ Đề Trọng Tâm:**
+
+- Generative AI: Các phát triển mới nhất và ứng dụng thực tế
+- Data Analytics: Chuyển đổi kinh doanh thông qua insights từ dữ liệu
+- Migration & Modernization: Hướng dẫn hành trình chuyển đổi cloud
 
 ### Danh Sách Diễn Giả
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+- **Eric Yeo** – Country General Manager, Vietnam, Cambodia, Laos & Myanmar, AWS
+- **Jaime Valles** – Vice President, Commercial Sales & Business Development APJ, AWS
+- **Jeff Johnson** – Managing Director ASEAN, AWS
+- **Dr. Jens Lottner** – Chief Executive Officer, Techcombank
+- **Ms. Trang Phung** – CEO & Co-Founder, U2U Network
+- **Vu Van** – Co-founder & CEO, ELSA Corp
+- **Nguyen Hoa Binh** – Chairman, Nexttech Group
+- **Dieter Botha** – CEO, TymeX
 
-### Nội Dung Nổi Bật
+### Chương Trình Phiên Live Telecast
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### Phiên Khai Mạc
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+- Đăng ký và chào đón
+- Phát biểu khai mạc bởi đại diện Chính phủ
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### Keynote Address
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+- **Diễn giả**: Eric Yeo, Country General Manager, Vietnam, Cambodia, Laos & Myanmar, AWS
+- Chia sẻ tầm nhìn của AWS về hệ sinh thái cloud và chuyển đổi số tại Việt Nam
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### Customer Keynote 1: Techcombank
 
-#### Domain-Driven Design (DDD)
+- **Diễn giả**: Dr. Jens Lottner, CEO, Techcombank
+- Chia sẻ insights về cách Techcombank tận dụng công nghệ cloud cho đổi mới ngân hàng số
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+#### Customer Keynote 2: U2U Network
 
-#### Event-Driven Architecture
+- **Diễn giả**: Ms. Trang Phung, CEO & Co-Founder, U2U Network
+- Trình bày góc nhìn về việc áp dụng công nghệ Web3 và blockchain với AWS
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+#### AWS Keynote
 
-#### Compute Evolution
+- **Diễn giả**: Jaime Valles, Vice President, General Manager Asia Pacific and Japan, AWS
+- Thảo luận về định hướng chiến lược của AWS và các dịch vụ mới cho khu vực Châu Á Thái Bình Dương
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+#### Panel Discussion: Điều Hướng Cuộc Cách Mạng GenAI - Chiến Lược Cho Lãnh Đạo Doanh Nghiệp
 
-#### Amazon Q Developer
+Phiên thảo luận panel này đi sâu vào cách các lãnh đạo doanh nghiệp có thể điều hướng tổ chức của mình hiệu quả qua các bước tiến nhanh chóng trong generative AI.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+- **Người điều phối**: Jeff Johnson, Managing Director, ASEAN, AWS
+- **Thành viên panel**:
+  - Vu Van, Co-founder & CEO, ELSA Corp
+  - Nguyen Hoa Binh, Chairman, Nexttech Group
+  - Dieter Botha, CEO, TymeX
+
+**Các Điểm Thảo Luận Chính:**
+
+- Xây dựng văn hóa đổi mới trong tổ chức
+- Căn chỉnh các sáng kiến AI với mục tiêu kinh doanh
+- Quản lý các thay đổi tổ chức đi kèm với tích hợp AI
+- Chia sẻ hành trình cá nhân và insights từ các lãnh đạo về việc áp dụng AI
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
+#### Tầm Nhìn Chiến Lược
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+- **Tiếp cận cloud-first**: Việt Nam đang nhanh chóng áp dụng công nghệ cloud cho chuyển đổi số
+- **Áp dụng GenAI**: Các lãnh đạo nhấn mạnh tầm quan trọng của việc tích hợp generative AI vào chiến lược kinh doanh
+- **Câu chuyện thành công của khách hàng**: Các ví dụ thực tế từ Techcombank và U2U Network minh họa việc áp dụng cloud hiệu quả
 
-#### Kiến Trúc Kỹ Thuật
+#### Insights Từ Lãnh Đạo
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+- **Văn hóa đổi mới**: Tổ chức cần xây dựng môi trường khuyến khích thử nghiệm AI
+- **Căn chỉnh kinh doanh**: Các sáng kiến AI phải phù hợp với mục tiêu kinh doanh cốt lõi để đạt hiệu quả tối đa
+- **Quản lý thay đổi**: Tích hợp AI thành công đòi hỏi quản lý cẩn thận các chuyển đổi tổ chức
 
-#### Chiến Lược Hiện Đại Hóa
+#### Xu Hướng Ngành
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- **Trải nghiệm hybrid cloud**: AWS cho phép kết nối liền mạch giữa các khu vực
+- **Đổi mới ngành tài chính**: Các ngân hàng như Techcombank đang dẫn đầu việc áp dụng cloud tại Việt Nam
+- **Web3 và công nghệ mới**: Các công ty như U2U Network đang xây dựng trên AWS cho các ứng dụng thế hệ tiếp theo
 
 ### Ứng Dụng Vào Công Việc
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+- **Áp dụng tư duy cloud-first**: Cân nhắc các dịch vụ AWS cho phát triển và triển khai ứng dụng
+- **Khám phá khả năng GenAI**: Tìm hiểu cách generative AI có thể tăng năng suất và đổi mới
+- **Học hỏi từ các lãnh đạo ngành**: Áp dụng bài học từ các tổ chức thành công như Techcombank và ELSA
+- **Tập trung vào căn chỉnh kinh doanh**: Đảm bảo các sáng kiến công nghệ hỗ trợ mục tiêu kinh doanh cốt lõi
+- **Xây dựng văn hóa đổi mới**: Tạo môi trường khuyến khích thử nghiệm với công nghệ mới
 
-### Trải nghiệm trong event
+### Trải Nghiệm Trong Sự Kiện
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Tham dự phiên Live Telecast của **"Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition"** là một trải nghiệm đầy cảm hứng. Các điểm nổi bật bao gồm:
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
+#### Insights Từ Các Lãnh Đạo Ngành
 
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+- Các keynotes từ lãnh đạo AWS và các công ty hàng đầu Việt Nam cung cấp cái nhìn toàn diện về việc áp dụng cloud tại Việt Nam.
+- Bài trình bày của Dr. Jens Lottner về hành trình chuyển đổi số của Techcombank đặc biệt sâu sắc.
 
-#### Trải nghiệm kỹ thuật thực tế
+#### Hiểu Về Chiến Lược GenAI
 
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+- Phiên thảo luận panel về "Điều Hướng Cuộc Cách Mạng GenAI" cung cấp góc nhìn quý giá về cách các lãnh đạo đang tiếp cận việc tích hợp AI.
+- Học được tầm quan trọng của việc cân bằng đổi mới với kết quả kinh doanh thực tế.
 
-#### Ứng dụng công cụ hiện đại
+#### Cơ Hội Kết Nối
 
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+- Định dạng hybrid cho phép kết nối với cộng đồng tech sôi động của Thành phố Hồ Chí Minh.
+- Tham gia các cuộc thảo luận về ứng dụng thực tế của các dịch vụ AWS trong nhiều ngành khác nhau.
 
-#### Kết nối và trao đổi
+#### Bài Học Rút Ra
 
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
-
-#### Bài học rút ra
-
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+- Việc áp dụng cloud thành công đòi hỏi lãnh đạo mạnh mẽ và tầm nhìn rõ ràng.
+- GenAI đang định hình lại cách doanh nghiệp hoạt động, đòi hỏi chiến lược mới để áp dụng.
+- Hệ sinh thái tech của Việt Nam đang phát triển nhanh chóng với các công ty dẫn đầu trong nhiều lĩnh vực.
 
 <!-- #### Một số hình ảnh khi tham gia sự kiện
 * Thêm các hình ảnh của các bạn tại đây -->
 
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+> Tổng thể, phiên Live Telecast cung cấp insights quý giá về tầm nhìn của AWS cho Việt Nam, câu chuyện thành công của khách hàng, và chiến lược cho lãnh đạo doanh nghiệp trong kỷ nguyên GenAI. Sự kiện củng cố tầm quan trọng của việc áp dụng cloud và tích hợp AI cho chuyển đổi kinh doanh.
