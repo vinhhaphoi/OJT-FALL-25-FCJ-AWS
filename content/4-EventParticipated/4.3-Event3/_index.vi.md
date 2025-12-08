@@ -13,7 +13,7 @@ pre: " <b> 4.3. </b> "
 - **Tên sự kiện:** AWS Cloud Mastery Series #1
 - **Chủ đề:** AI/ML/GenAI on AWS
 - **Thời gian:** 08:30 – 12:00, Thứ Bảy, ngày 15/11/2025
-- **Địa điểm:** AWS Vietnam Office, Tầng 36, Bitexco Financial Tower, Quận 1, Thành phố Hồ Chí Minh
+- **Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 - **Vai trò:** Người tham dự
 - **Người tổ chức:** Kha Van
 

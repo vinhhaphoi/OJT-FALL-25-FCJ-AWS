@@ -13,7 +13,7 @@ pre: " <b> 4.5. </b> "
 - **Event Name:** AWS Cloud Mastery Series #3
 - **Topic:** AWS Well-Architected Security Pillar
 - **Time:** 08:30 – 12:00, Saturday, November 29, 2025
-- **Location:** AWS Vietnam Office, 36th Floor, Bitexco Financial Tower, District 1, Ho Chi Minh City
+- **Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 - **Role:** Attendee
 - **Organizer:** Kha Van
 

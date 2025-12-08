@@ -13,7 +13,7 @@ pre: " <b> 4.4. </b> "
 - **Event Name:** AWS Cloud Mastery Series #2
 - **Topic:** DevOps on AWS
 - **Time:** 08:30 – 17:00, Monday, November 17, 2025
-- **Location:** AWS Vietnam Office, 36th Floor, Bitexco Financial Tower, District 1, Ho Chi Minh City
+- **Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 - **Role:** Attendee
 - **Organizer:** Kha Van
 

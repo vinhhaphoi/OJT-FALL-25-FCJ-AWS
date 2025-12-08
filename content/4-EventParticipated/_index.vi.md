@@ -10,9 +10,9 @@ Trong quá trình thực tập, em đã tham gia 5 events, với mỗi event là
 
 ### [Event 1](4.1-Event1/)
 
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+&emsp;**Tên sự kiện:** Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders - Morning Plenary
 
-&emsp;**Thời gian:** 09:00 ngày 13/08/2025
+&emsp;**Thời gian:** 09:00 - 11:40, Thứ Năm, ngày 18/09/2025
 
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
@@ -20,7 +20,7 @@ Trong quá trình thực tập, em đã tham gia 5 events, với mỗi event là
 
 ### [Event 2](4.2-Event2/)
 
-&emsp;**Tên sự kiện:** Vietnam Cloud Day 2025 : Ho Chi Minh City Connect Edition for Builders - Track 2: Migration & Modernization
+&emsp;**Tên sự kiện:** Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders - Track 2: Migration & Modernization
 
 &emsp;**Thời gian:** 13:15 – 17:15, Thứ Năm, ngày 18/09/2025
 
@@ -34,7 +34,7 @@ Trong quá trình thực tập, em đã tham gia 5 events, với mỗi event là
 
 &emsp;**Thời gian:** 08:30 – 12:00, Thứ Bảy, ngày 15/11/2025
 
-&emsp;**Địa điểm:** AWS Vietnam Office, Tầng 36, Bitexco Financial Tower, Quận 1, TP.HCM
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
 
@@ -44,7 +44,7 @@ Trong quá trình thực tập, em đã tham gia 5 events, với mỗi event là
 
 &emsp;**Thời gian:** 08:30 – 17:00, Thứ Hai, ngày 17/11/2025
 
-&emsp;**Địa điểm:** AWS Vietnam Office, Tầng 36, Bitexco Financial Tower, Quận 1, TP.HCM
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
 
@@ -54,6 +54,6 @@ Trong quá trình thực tập, em đã tham gia 5 events, với mỗi event là
 
 &emsp;**Thời gian:** 08:30 – 12:00, Thứ Bảy, ngày 29/11/2025
 
-&emsp;**Địa điểm:** AWS Vietnam Office, Tầng 36, Bitexco Financial Tower, Quận 1, TP.HCM
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự

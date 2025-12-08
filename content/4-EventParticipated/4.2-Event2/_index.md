@@ -10,7 +10,7 @@ pre: " <b> 4.2. </b> "
 
 ### Event Information
 
-- **Event Name:** Vietnam Cloud Day 2025 : Ho Chi Minh City Connect Edition for Builders
+- **Event Name:** Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders
 - **Track:** Track 2 - Migration & Modernization
 - **Time:** 13:15 – 17:15, Thursday, September 18, 2025
 - **Location:** 36th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, District 1, Ho Chi Minh City

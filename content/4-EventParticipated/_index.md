@@ -10,18 +10,17 @@ During my internship, I participated in five events. Each one was a memorable ex
 
 ### [Event 1](4.1-Event1/)
 
-&emsp;**Event Name:** Vietnam Cloud Day 2025 :
-Ho Chi Minh City Connect Edition for Builders
+&emsp;**Event Name:** Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders - Morning Plenary
 
-&emsp;**Date & Time:** 9:00 – 17:00, Thursday, 18 September 2025
+&emsp;**Date & Time:** 9:00 – 11:40, Thursday, 18 September 2025
 
-&emsp;**Location:** 36th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
 &emsp;**Role:** Attendee
 
 ### [Event 2](4.2-Event2/)
 
-&emsp;**Event Name:** Vietnam Cloud Day 2025 : Ho Chi Minh City Connect Edition for Builders - Track 2: Migration & Modernization
+&emsp;**Event Name:** Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders - Track 2: Migration & Modernization
 
 &emsp;**Date & Time:** 13:15 – 17:15, Thursday, 18 September 2025
 
@@ -35,7 +34,7 @@ Ho Chi Minh City Connect Edition for Builders
 
 &emsp;**Date & Time:** 08:30 – 12:00, Saturday, November 15, 2025
 
-&emsp;**Location:** AWS Vietnam Office, 36th Floor, Bitexco Financial Tower, District 1, Ho Chi Minh City
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
 &emsp;**Role:** Attendee
 
@@ -45,7 +44,8 @@ Ho Chi Minh City Connect Edition for Builders
 
 &emsp;**Date & Time:** 08:30 – 17:00, Monday, November 17, 2025
 
-&emsp;**Location:** AWS Vietnam Office, 36th Floor, Bitexco Financial Tower, District 1, Ho Chi Minh City
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
 
 &emsp;**Role:** Attendee
 
@@ -55,6 +55,6 @@ Ho Chi Minh City Connect Edition for Builders
 
 &emsp;**Date & Time:** 08:30 – 12:00, Saturday, November 29, 2025
 
-&emsp;**Location:** AWS Vietnam Office, 36th Floor, Bitexco Financial Tower, District 1, Ho Chi Minh City
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
 
 &emsp;**Role:** Attendee
