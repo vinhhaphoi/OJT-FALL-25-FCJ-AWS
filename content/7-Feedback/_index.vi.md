@@ -31,7 +31,7 @@ Văn hóa công ty rất tích cực, mọi người tôn trọng lẫn nhau, l�
 ### Một số câu hỏi khác
 
 - **Điều hài lòng nhất trong thời gian thực tập:**  
-  Được làm việc với công nghệ Generative AI thông qua dự án Document QA với AWS Bedrock. Tham gia nhiều sự kiện chất lượng cao từ AWS, học trực tiếp từ các chuyên gia. Hoàn thành 14 tuần với các bài labsgiúp có cái nhìn toàn diện về hệ sinh thái AWS.
+  Được làm việc với công nghệ Generative AI thông qua dự án Document QA với AWS Bedrock. Tham gia nhiều sự kiện chất lượng cao từ AWS, học trực tiếp từ các chuyên gia. Hoàn thành 14 tuần với các bài labs giúp có cái nhìn toàn diện về hệ sinh thái AWS.
 
 - **Nếu giới thiệu cho bạn bè, có khuyên họ thực tập ở đây không? Vì sao?**  
   **CÓ, chắc chắn!** Vì được làm việc với công nghệ cloud hàng đầu thế giới, mentor tận tâm và có chuyên môn cao, có cơ hội tham gia các events chất lượng của AWS, và dự án thực tế với AI/ML - công nghệ đang rất hot.
@@ -39,7 +39,7 @@ Văn hóa công ty rất tích cực, mọi người tôn trọng lẫn nhau, l�
 ### Đề xuất & mong muốn
 
 - **Có muốn tiếp tục chương trình này trong tương lai?**  
-  Có! Mong muốn tiếp tục contribute cho community FCAJ, có thể tham gia làm mentor cho các thực tập sinh tiếp theo.
+  Có! hi vọng được tiếp tục chương trình FCAJ trong tương lai, có thể tham gia làm mentor cho các thực tập sinh tiếp theo.
 
 - **Góp ý khác:**  
   Cảm ơn toàn bộ team FCAJ và AWS đã tạo điều kiện cho một kỳ thực tập tuyệt vời. Những kiến thức và kinh nghiệm trong 14 tuần này sẽ là nền tảng quan trọng cho sự nghiệp Cloud Computing. Đặc biệt cảm ơn mentor đã kiên nhẫn hướng dẫn và chia sẻ kinh nghiệm quý báu!
