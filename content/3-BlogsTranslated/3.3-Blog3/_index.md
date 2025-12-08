@@ -63,5 +63,3 @@ Explore how the robust data foundation in Amazon Connect is transforming outboun
 [Customer Contact Week 2025](https://www.customercontactweek.com/) presents an opportunity to connect with like-minded professionals, share knowledge, and discover cutting-edge solutions that can drive tangible business impact. Whether you are looking to optimize your contact center operations, harness the potential of AI and analytics, or elevate your overall customer experience strategy, AWS has the expertise and solutions to support your journey.
 
 To schedule a meeting with our team or learn more about our presence, please reach out to your AWS account team. You can also [book a meeting with an AWS expert attending the event](https://awscustomerprograms.jifflenow.com/external-request/customercontactweek2025/meeting-request?token=d8f0ae97ccd432b09f44). We look forward to connecting with you.
-
-Ready to transform your customer service experience with Amazon Connect? [Contact us](https://pages.awscloud.com/NAMER-field-SP-Amazon-Connect-Contact-Us-2023-reg.html?trk=1a309559-e1e0-46f2-b6e9-10ea4a5c52b1&sc_channel=el).

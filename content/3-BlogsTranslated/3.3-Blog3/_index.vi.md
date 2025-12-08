@@ -63,5 +63,3 @@ Khám phá cách nền tảng dữ liệu mạnh mẽ trong Amazon Connect đang
 [Customer Contact Week 2025](https://www.customercontactweek.com/) mang đến cơ hội kết nối với các chuyên gia cùng chí hướng, chia sẻ kiến thức và khám phá các giải pháp tiên tiến có thể thúc đẩy tác động kinh doanh hữu hình. Cho dù bạn đang tìm cách tối ưu hóa hoạt động trung tâm liên lạc của mình, khai thác tiềm năng của AI và phân tích, hay nâng cao chiến lược trải nghiệm khách hàng tổng thể của mình, AWS có chuyên môn và giải pháp để hỗ trợ hành trình của bạn.
 
 Để lên lịch cuộc họp với nhóm của chúng tôi hoặc tìm hiểu thêm về sự hiện diện của chúng tôi, vui lòng liên hệ với nhóm tài khoản AWS của bạn. Bạn cũng có thể [đặt cuộc họp với chuyên gia AWS tham dự sự kiện](https://awscustomerprograms.jifflenow.com/external-request/customercontactweek2025/meeting-request?token=d8f0ae97ccd432b09f44). Chúng tôi mong muốn được kết nối với bạn.
-
-Sẵn sàng chuyển đổi trải nghiệm dịch vụ khách hàng của bạn với Amazon Connect? [Liên hệ với chúng tôi](https://pages.awscloud.com/NAMER-field-SP-Amazon-Connect-Contact-Us-2023-reg.html?trk=1a309559-e1e0-46f2-b6e9-10ea4a5c52b1&sc_channel=el).

@@ -5,9 +5,6 @@ weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
-
-This section will list and introduce the blogs you have translated. For example:
-
 ### [Blog 1 - Harnessing the Power of Nested Materialized Views and exploring Cascading Refresh](3.1-Blog1/)
 
 This post explores how to maximize Amazon Redshift query performance through nested materialized views and implementing cascading refresh strategies. It demonstrates how to create materialized views based on other materialized views, enabling a hierarchical structure of precomputed results.

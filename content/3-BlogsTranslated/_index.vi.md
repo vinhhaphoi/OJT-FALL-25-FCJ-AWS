@@ -5,13 +5,6 @@ weight: 3
 chapter: false
 pre: " <b> 3. </b> "
 ---
-
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã dịch. Ví dụ:
-
 ### [Blog 1 - Khai thác sức mạnh của Nested Materialized Views và khám phá tính năng Cascading Refresh](3.1-Blog1/)
 
 Bài viết này khám phá cách tối đa hóa hiệu suất truy vấn Amazon Redshift thông qua nested materialized views và triển khai các chiến lược cascading refresh. Nó minh họa cách tạo các materialized view dựa trên các materialized view khác, cho phép tạo ra một cấu trúc phân cấp của các kết quả được tính toán trước.
