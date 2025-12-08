@@ -41,7 +41,6 @@ We propose a **Serverless RAG-based Chatbot** using **AWS Bedrock (Amazon Titan)
 The platform employs a modern serverless architecture to ensure scalability, security, and performance.
 
 ![Architecture](/images/image.png)
-
 ### AWS Services Used
 
 - **AWS Bedrock**: Provides the Foundation Models (Amazon Titan) for embeddings and text generation.
@@ -119,164 +118,72 @@ The platform employs a modern serverless architecture to ensure scalability, sec
 - A reusable RAG framework for future knowledge base applications.
 - Significant productivity gains for users needing quick information retrieval.
 
+
 ### 9. Team Structure and Responsibilities
 
-| Name                     | Student ID | Primary Role                 | Secondary Role                      | Email/Contact Info            |
-| ------------------------ | ---------- | ---------------------------- | ----------------------------------- | ----------------------------- |
-| **Nguyễn Lê Anh Quân**   | SE192307   | Team Leader/ Cloud Architect | Backend Developer (API Gateway, S3) | nguyenleanhquan2005@gmail.com |
-| **Đào Quang Vinh**       | SE180012   | Project Manager              | Backend Developer (Bedrock, RAG)    | its.vnhdq@gmail.com           |
-| **Nguyễn Thanh Liêm**    | SE184163   | Backend Developer            | DevOps Engineer                     | liemntse184163@fpt.edu.vn     |
-| **Trần Đình Phong**      | SE184217   | Frontend Developer           | UI/UX Designer                      | phongtdse184217@fpt.edu.vn    |
-| **Dương Nguyễn Gia Huy** | SE182202   | QA Engineer                  | Testing Automation Lead             | huydngse182202@fpt.edu.vn     |
+| Name | Student ID | Primary Role | Email/Contact Info |
+|------|-----------|--------------|-------------------|
+| **Nguyễn Lê Anh Quân** | SE192307 | Team Leader/ Cloud Architect | nguyenleanhquan2005@gmail.com |
+| **Đào Quang Vinh** | SE180012 | Project Manager/ Backend Developer (Bedrock, RAG) | its.vnhdq@gmail.com |
+| **Nguyễn Thanh Liêm** | SE184163 | Backend Developer | liemntse184163@fpt.edu.vn |
+| **Trần Đình Phong** | SE184217 | Frontend Developer/ UI/UX Designer | phongtdse184217@fpt.edu.vn |
+| **Dương Nguyễn Gia Huy** | SE182202 | QA Engineer/Backend Developer (Bedrock, RAG) | huydngse182202@fpt.edu.vn |
 
-#### Detailed Responsibilities by Team Member
+
+####  Detailed Responsibilities by Team Member
 
 ##### Nguyễn Lê Anh Quân - Cloud Architect/ Team Leader
-
 **Primary Responsibilities:**
-
 - AWS architecture design and service selection
 - Infrastructure planning and optimization
 - Security architecture and IAM policies
 - Technical consultation and best practices
 
-**Technical Responsibilities:**
-
-- Design serverless architecture (Lambda, API Gateway, S3, DynamoDB)
-- Set up AWS account and IAM roles/policies
-- Configure Amazon API Gateway endpoints
-- Implement S3 presigned URL generation for secure uploads
-- API response formatting and error handling
-- Integration oversight and technical decision-making
-
-**Deliverables:**
-
-- Project proposal and architecture diagrams
-- AWS infrastructure design documents
-- API Gateway configuration
-- S3 upload handler Lambda function
-- Security and IAM documentation
-
 ---
 
-##### Đào Quang Vinh - Project Manager
-
+##### Đào Quang Vinh - Project Manager/Backend Developer
 **Primary Responsibilities:**
-
 - Overall project management and timeline coordination
 - Team coordination and task assignment
 - Progress reporting to instructor/advisor
 - Risk management and mitigation strategies
 - Documentation oversight and quality assurance
+- Build vector search and retrieval logic
+- Develop chat/query handler Lambda function
 
-**Technical Responsibilities:**
 
+##### Dương Nguyễn Gia Huy - QA Engineer/Backend Developer
+**Primary Responsibilities:**
 - Core backend logic development
 - Amazon Bedrock integration (Foundation Models)
 - RAG (Retrieval-Augmented Generation) pipeline implementation
 - Develop Lambda function for document ingestion
 - Integrate Amazon Bedrock Knowledge Bases
 - Implement text chunking and embedding generation
-- Build vector search and retrieval logic
-- Develop chat/query handler Lambda function
-
-**Deliverables:**
-
-- Weekly progress reports and meeting minutes
-- Document ingestion Lambda function
-- Bedrock embedding integration
-- Query processing Lambda function
-- RAG pipeline implementation
-- API documentation (OpenAPI/Swagger)
 
 ---
 
-##### Nguyễn Thanh Liêm - Backend Developer / DevOps Engineer
-
+##### Nguyễn Thanh Liêm - Backend Developer 
 **Primary Responsibilities:**
-
 - Backend infrastructure and data management
 - CI/CD pipeline development
 - System monitoring and logging
 - Performance optimization
-
-**Technical Responsibilities:**
-
 - DynamoDB schema design and implementation
 - Conversation history storage logic
-- Set up AWS CodePipeline for automated deployment
-- Configure CloudWatch logs and metrics
-- Implement AWS CDK/CloudFormation for IaC
-- Database query optimization
-- Cost monitoring and optimization
-
-**Deliverables:**
-
-- DynamoDB tables and access patterns
-- CI/CD pipeline (CodePipeline, CodeBuild, CodeDeploy)
-- Infrastructure as Code (AWS CDK)
-- CloudWatch dashboards and alarms
-- Performance monitoring setup
 
 ---
 
 ##### Trần Đình Phong - Frontend Developer
-
 **Primary Responsibilities:**
-
 - User interface design and development
 - Frontend-backend integration
 - User experience optimization
 - Responsive design implementation
-
-**Technical Responsibilities:**
-
-- Develop React single-page application (SPA)
-- Design and implement UI/UX for chat interface
-- Integrate Amazon Cognito for authentication
 - Implement file upload interface with drag-and-drop
 - Connect frontend to API Gateway endpoints
 - Handle API responses and error states
 - Deploy frontend to S3 + CloudFront
 
-**Deliverables:**
-
-- React application with modern UI/UX
-- User authentication flow (Cognito integration)
-- Document upload interface
-- Chat/Q&A interface
-- Responsive design for mobile/tablet
-- Frontend deployment to S3/CloudFront
-
 ---
 
-##### Dương Nguyễn Gia Huy - QA Engineer
-
-**Primary Responsibilities:**
-
-- Quality assurance and testing strategy
-- Test automation development
-- Bug tracking and resolution
-- System validation
-
-**Technical Responsibilities:**
-
-- Design comprehensive test cases (unit, integration, E2E)
-- Implement automated testing with Jest/Pytest
-- Perform API testing with Postman/Newman
-- Conduct performance testing and load testing
-- Security testing (authentication, authorization)
-- User acceptance testing (UAT) coordination
-- Bug reporting and tracking in GitHub Issues
-
-**Deliverables:**
-
-- Test strategy document
-- Unit test suites for Lambda functions
-- Integration test suites for APIs
-- End-to-end test scenarios
-- Performance test reports
-- Bug reports and resolution tracking
-- Test coverage reports (target: >80%)
-
----

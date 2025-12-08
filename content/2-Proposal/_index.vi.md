@@ -12,13 +12,13 @@ pre: " <b> 2. </b> "
 
 ### 1. Tóm tắt Tổng quan
 
-Hệ thống Document QA là một ứng dụng serverless được thiết kế để cách mạng hóa cách người dùng tương tác với tài liệu. Bằng cách tận dụng **AWS Bedrock** cho Generative AI và công nghệ **RAG (Retrieval Augmented Generation)**, nền tảng cho phép người dùng tải lên tài liệu PDF/TXT và đặt câu hỏi bằng ngôn ngữ tự nhiên. Hệ thống cung cấp câu trả lời chính xác, nhận biết ngữ cảnh bằng cách truy xuất thông tin liên quan từ các tài liệu đã tải lên, giảm đáng kể thời gian tìm kiếm thủ công và cải thiện khả năng tiếp cận thông tin.
+Hệ thống Document QA là một ứng dụng serverless được thiết kế để cách mạng hóa cách người dùng tương tác với tài liệu. Bằng cách tận dụng **AWS Bedrock** cho Generative AI và công nghệ **RAG (Retrieval Augmented Generation)**, nền tảng này cho phép người dùng tải lên tài liệu PDF/TXT và đặt câu hỏi bằng ngôn ngữ tự nhiên. Hệ thống cung cấp câu trả lời chính xác, nhận biết ngữ cảnh bằng cách truy xuất thông tin liên quan từ các tài liệu đã tải lên, giảm đáng kể thời gian tìm kiếm thủ công và cải thiện khả năng tiếp cận thông tin.
 
 ### 2. Phát biểu Vấn đề
 
 ### Vấn đề là gì?
 
-Các phương pháp tìm kiếm tài liệu truyền thống (khớp từ khóa) thường không nắm bắt được ngữ cảnh hoặc ý nghĩa ngữ nghĩa. Việc xem xét tài liệu thủ công tốn thời gian, dễ xảy ra lỗi và không hiệu quả, đặc biệt đối với khối lượng văn bản lớn. Người dùng gặp khó khăn trong việc trích xuất thông tin chi tiết cụ thể một cách nhanh chóng, dẫn đến các nút thắt về năng suất.
+Các phương pháp tìm kiếm tài liệu truyền thống (khớp từ khóa) thường không nắm bắt được ngữ cảnh hoặc ý nghĩa ngữ nghĩa. Việc xem xét tài liệu thủ công tốn thời gian, dễ xảy ra lỗi và không hiệu quả, đặc biệt đối với khối lượng văn bản lớn. Người dùng gặp khó khăn trong việc trích xuất thông tin chi tiết cụ thể một cách nhanh chóng, dẫn đến các điểm nghẽn về năng suất.
 
 ### Giải pháp
 
@@ -47,15 +47,15 @@ Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bả
 - **AWS Bedrock**: Cung cấp các Foundation Models (Amazon Titan) cho embeddings và tạo văn bản.
 - **AWS Lambda**: Serverless compute để xử lý các yêu cầu API, xử lý tài liệu và điều phối.
 - **Amazon API Gateway**: Quản lý các REST API endpoints cho frontend.
-- **Amazon S3**: Lưu trữ tài liệu gốc đã tải lên và các tài sản tĩnh của frontend.
+- **Amazon S3**: Lưu trữ tài liệu thô đã tải lên và các tài nguyên tĩnh của frontend.
 - **Amazon DynamoDB**: Quản lý phiên người dùng và lịch sử trò chuyện.
-- **Vector Store**: (Được triển khai qua Lambda/Local hoặc vector DB chuyên dụng) Lưu trữ embeddings tài liệu cho tìm kiếm ngữ nghĩa.
+- **Vector Store**: (Được triển khai qua Lambda/Local hoặc vector DB chuyên dụng) Lưu trữ document embeddings cho tìm kiếm ngữ nghĩa.
 
 ### Thiết kế Thành phần
 
 - **Frontend**: Được lưu trữ trên S3 (hoặc Amplify), cung cấp giao diện trò chuyện thân thiện với người dùng.
 - **API Layer**: API Gateway định tuyến các yêu cầu (`/upload`, `/ask`) đến các hàm Lambda.
-- **Processing Layer**: Lambda xử lý trích xuất văn bản, gọi Bedrock cho embeddings và thực hiện tìm kiếm tương tự vector.
+- **Processing Layer**: Lambda xử lý trích xuất văn bản, gọi Bedrock để tạo embeddings và thực hiện tìm kiếm tương đồng vector.
 - **AI Layer**: AWS Bedrock tạo ra các phản hồi sử dụng ngữ cảnh đã truy xuất và truy vấn của người dùng.
 
 ### 4. Triển khai Kỹ thuật
@@ -74,7 +74,7 @@ Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bả
 - **Infrastructure as Code**: Serverless Framework hoặc AWS CDK.
 - **Frontend**: React.js / Next.js.
 
-### 5. Lộ trình & Các Mốc quan trọng
+### 5. Thời gian & Các Mốc quan trọng
 
 - **Tháng 1**: Thiết kế Kiến trúc, Thiết lập AWS, Backend Core (Upload/Embeddings).
 - **Tháng 2**: Triển khai RAG, Logic Tìm kiếm Vector, Phát triển API.
@@ -103,8 +103,8 @@ Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bả
 #### Chiến lược Giảm thiểu
 
 - **Hallucinations**: Triển khai RAG nghiêm ngặt (dựa câu trả lời vào ngữ cảnh).
-- **Chi phí**: Đặt AWS Budget Alerts và hạn ngạch sử dụng.
-- **Bảo mật**: Sử dụng Presigned URLs cho S3, IAM roles với đặc quyền tối thiểu.
+- **Chi phí**: Thiết lập AWS Budget Alerts và hạn ngạch sử dụng.
+- **Bảo mật**: Sử dụng Presigned URLs cho S3, IAM roles với quyền tối thiểu.
 
 ### 8. Kết quả Mong đợi
 
@@ -121,162 +121,71 @@ Nền tảng sử dụng kiến trúc serverless hiện đại để đảm bả
 
 ### 9. Cấu trúc Nhóm và Trách nhiệm
 
-| Tên                      | Mã sinh viên | Vai trò Chính                | Vai trò Phụ                         | Email/Thông tin Liên hệ       |
-| ------------------------ | ------------ | ---------------------------- | ----------------------------------- | ----------------------------- |
-| **Nguyễn Lê Anh Quân**   | SE192307     | Trưởng nhóm/ Cloud Architect | Backend Developer (API Gateway, S3) | nguyenleanhquan2005@gmail.com |
-| **Đào Quang Vinh**       | SE180012     | Project Manager              | Backend Developer (Bedrock, RAG)    | its.vnhdq@gmail.com           |
-| **Nguyễn Thanh Liêm**    | SE184163     | Backend Developer            | DevOps Engineer                     | liemntse184163@fpt.edu.vn     |
-| **Trần Đình Phong**      | SE184217     | Frontend Developer           | UI/UX Designer                      | phongtdse184217@fpt.edu.vn    |
-| **Dương Nguyễn Gia Huy** | SE182202     | QA Engineer                  | Testing Automation Lead             | huydngse182202@fpt.edu.vn     |
+| Tên | Mã sinh viên | Vai trò Chính | Email/Thông tin Liên hệ |
+|-----|-------------|---------------|-------------------------|
+| **Nguyễn Lê Anh Quân** | SE192307 | Trưởng nhóm/ Cloud Architect | nguyenleanhquan2005@gmail.com |
+| **Đào Quang Vinh** | SE180012 | Project Manager/ Backend Developer (Bedrock, RAG) | its.vnhdq@gmail.com |
+| **Nguyễn Thanh Liêm** | SE184163 | Backend Developer | liemntse184163@fpt.edu.vn |
+| **Trần Đình Phong** | SE184217 | Frontend Developer/ UI/UX Designer | phongtdse184217@fpt.edu.vn |
+| **Dương Nguyễn Gia Huy** | SE182202 | QA Engineer/Backend Developer (Bedrock, RAG) | huydngse182202@fpt.edu.vn |
 
 #### Trách nhiệm Chi tiết theo Thành viên Nhóm
 
-##### Nguyễn Lê Anh Quân - Trưởng nhóm / Cloud Architect
+##### Nguyễn Lê Anh Quân - Cloud Architect/ Trưởng nhóm
 
 **Trách nhiệm Chính:**
-
 - Thiết kế kiến trúc AWS và lựa chọn dịch vụ
 - Lập kế hoạch và tối ưu hóa cơ sở hạ tầng
-- Kiến trúc bảo mật và chính sách IAM
-- Tư vấn kỹ thuật và các phương pháp hay nhất
-
-**Trách nhiệm Kỹ thuật:**
-
-- Thiết kế kiến trúc serverless (Lambda, API Gateway, S3, DynamoDB)
-- Thiết lập tài khoản AWS và IAM roles/policies
-- Cấu hình các endpoints Amazon API Gateway
-- Triển khai tạo presigned URL cho S3 để upload an toàn
-- Định dạng phản hồi API và xử lý lỗi
-- Giám sát tích hợp và ra quyết định kỹ thuật
-
-**Sản phẩm Bàn giao:**
-
-- Đề xuất dự án và sơ đồ kiến trúc
-- Tài liệu thiết kế cơ sở hạ tầng AWS
-- Cấu hình API Gateway
-- Hàm Lambda xử lý upload S3
-- Tài liệu bảo mật và IAM
+- Kiến trúc bảo mật và IAM policies
+- Tư vấn kỹ thuật và best practices
 
 ---
 
-##### Đào Quang Vinh - Project Manager
+##### Đào Quang Vinh - Project Manager/Backend Developer
 
 **Trách nhiệm Chính:**
-
-- Quản lý dự án tổng thể và điều phối lộ trình
+- Quản lý dự án tổng thể và điều phối thời gian
 - Điều phối nhóm và phân công nhiệm vụ
 - Báo cáo tiến độ cho giảng viên/cố vấn
 - Quản lý rủi ro và chiến lược giảm thiểu
 - Giám sát tài liệu và đảm bảo chất lượng
+- Xây dựng logic tìm kiếm và truy xuất vector
+- Phát triển hàm Lambda xử lý chat/query
 
-**Trách nhiệm Kỹ thuật:**
+##### Dương Nguyễn Gia Huy - QA Engineer/Backend Developer
 
+**Trách nhiệm Chính:**
 - Phát triển logic backend cốt lõi
 - Tích hợp Amazon Bedrock (Foundation Models)
 - Triển khai pipeline RAG (Retrieval-Augmented Generation)
 - Phát triển hàm Lambda cho document ingestion
 - Tích hợp Amazon Bedrock Knowledge Bases
 - Triển khai text chunking và tạo embedding
-- Xây dựng logic tìm kiếm và truy xuất vector
-- Phát triển hàm Lambda xử lý chat/query
-
-**Sản phẩm Bàn giao:**
-
-- Báo cáo tiến độ hàng tuần và biên bản họp
-- Hàm Lambda document ingestion
-- Tích hợp Bedrock embedding
-- Hàm Lambda xử lý query
-- Triển khai pipeline RAG
-- Tài liệu API (OpenAPI/Swagger)
 
 ---
 
-##### Nguyễn Thanh Liêm - Backend Developer / DevOps Engineer
+##### Nguyễn Thanh Liêm - Backend Developer
 
 **Trách nhiệm Chính:**
-
 - Cơ sở hạ tầng backend và quản lý dữ liệu
 - Phát triển CI/CD pipeline
-- Giám sát và logging hệ thống
+- Giám sát hệ thống và logging
 - Tối ưu hóa hiệu suất
-
-**Trách nhiệm Kỹ thuật:**
-
-- Thiết kế và triển khai schema DynamoDB
+- Thiết kế và triển khai DynamoDB schema
 - Logic lưu trữ lịch sử hội thoại
-- Thiết lập AWS CodePipeline cho triển khai tự động
-- Cấu hình CloudWatch logs và metrics
-- Triển khai AWS CDK/CloudFormation cho IaC
-- Tối ưu hóa truy vấn database
-- Giám sát và tối ưu hóa chi phí
-
-**Sản phẩm Bàn giao:**
-
-- Bảng DynamoDB và access patterns
-- CI/CD pipeline (CodePipeline, CodeBuild, CodeDeploy)
-- Infrastructure as Code (AWS CDK)
-- CloudWatch dashboards và alarms
-- Thiết lập giám sát hiệu suất
 
 ---
 
 ##### Trần Đình Phong - Frontend Developer
 
 **Trách nhiệm Chính:**
-
 - Thiết kế và phát triển giao diện người dùng
 - Tích hợp frontend-backend
 - Tối ưu hóa trải nghiệm người dùng
-- Triển khai thiết kế responsive
-
-**Trách nhiệm Kỹ thuật:**
-
-- Phát triển ứng dụng React single-page (SPA)
-- Thiết kế và triển khai UI/UX cho giao diện chat
-- Tích hợp Amazon Cognito cho authentication
-- Triển khai giao diện upload file với drag-and-drop
-- Kết nối frontend với các endpoints API Gateway
-- Xử lý phản hồi API và trạng thái lỗi
-- Deploy frontend lên S3 + CloudFront
-
-**Sản phẩm Bàn giao:**
-
-- Ứng dụng React với UI/UX hiện đại
-- Luồng xác thực người dùng (tích hợp Cognito)
-- Giao diện upload tài liệu
-- Giao diện Chat/Q&A
-- Thiết kế responsive cho mobile/tablet
-- Triển khai frontend lên S3/CloudFront
-
----
-
-##### Dương Nguyễn Gia Huy - QA Engineer
-
-**Trách nhiệm Chính:**
-
-- Đảm bảo chất lượng và chiến lược kiểm thử
-- Phát triển tự động hóa kiểm thử
-- Theo dõi và giải quyết lỗi
-- Xác thực hệ thống
-
-**Trách nhiệm Kỹ thuật:**
-
-- Thiết kế các test cases toàn diện (unit, integration, E2E)
-- Triển khai automated testing với Jest/Pytest
-- Thực hiện API testing với Postman/Newman
-- Tiến hành performance testing và load testing
-- Security testing (authentication, authorization)
-- Điều phối user acceptance testing (UAT)
-- Báo cáo và theo dõi lỗi trong GitHub Issues
-
-**Sản phẩm Bàn giao:**
-
-- Tài liệu chiến lược kiểm thử
-- Bộ unit test cho các hàm Lambda
-- Bộ integration test cho APIs
-- Các kịch bản kiểm thử end-to-end
-- Báo cáo performance test
-- Báo cáo lỗi và theo dõi giải quyết
-- Báo cáo test coverage (mục tiêu: >80%)
+- Triển khai responsive design
+- Triển khai giao diện tải file với drag-and-drop
+- Kết nối frontend với API Gateway endpoints
+- Xử lý API responses và error states
+- Triển khai frontend lên S3 + CloudFront
 
 ---
