@@ -32,7 +32,7 @@ pre: " <b> 4.3. </b> "
 | 09:00 - 10:30 | **AWS AI/ML Services Overview**       | Amazon SageMaker - End-to-end ML platform, data preparation, model training, MLOps            |
 | 10:30 - 10:45 | **Coffee Break**                      | Nghỉ giải lao                                                                                 |
 | 10:45 - 12:00 | **Generative AI with Amazon Bedrock** | Foundation Models, Prompt Engineering, RAG, Bedrock Agents, Guardrails                        |
-| 12:00         | **Lunch Break**                       | Nghỉ trưa                                                                            |
+| 12:00         | **Lunch Break**                       | Nghỉ trưa                                                                                     |
 
 ### Nội Dung Nổi Bật
 
@@ -104,7 +104,7 @@ pre: " <b> 4.3. </b> "
 
 ### Trải Nghiệm Trong Sự Kiện
 
-Tham gia AWS Cloud Mastery Series #1 là một trải nghiệm thú vị với chủ đề AI/ML/GenAI đang rất hot hiện nay:
+Tham gia AWS Cloud Mastery Series #1 là một trải nghiệm thú vị với chủ đề AI/ML/GenAI :
 
 - **Hands-on experience:** Được thực hành trực tiếp với SageMaker Studio và Bedrock
 - **Real-world demos:** Xem demo xây dựng chatbot GenAI thực tế
