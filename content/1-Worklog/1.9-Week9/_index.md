@@ -64,7 +64,6 @@ pre: " <b> 1.9. </b> "
   - Deployed essential EKS add-ons (metrics-server, cluster-autoscaler)
   - Understood GitOps deployment patterns
   - Implemented multi-tenancy using namespaces
-  - Applied security best practices for production EKS clusters
 
 - **CI/CD on Amazon EKS Expertise:**
 
@@ -77,7 +76,6 @@ pre: " <b> 1.9. </b> "
   - Set up pipeline notifications and monitoring
   - Implemented rollback strategies for deployments
   - Monitored deployment health and logs
-  - Applied best practices for EKS CI/CD
 
 - **AWS Lambda Serverless Computing Mastery:**
 
@@ -90,7 +88,6 @@ pre: " <b> 1.9. </b> "
   - Implemented error handling and retry mechanisms
   - Monitored Lambda functions with CloudWatch Logs
   - Optimized Lambda performance and cost efficiency
-  - Applied serverless best practices
 
 - **Red Hat OpenShift Service on AWS (ROSA) Expertise:**
 
@@ -103,7 +100,6 @@ pre: " <b> 1.9. </b> "
   - Configured persistent storage for stateful applications
   - Set up monitoring and logging for OpenShift clusters
   - Managed cluster scaling and version upgrades
-  - Applied best practices for enterprise Kubernetes
 
 - **AWS Data Lake Implementation Mastery:**
 
@@ -141,4 +137,3 @@ pre: " <b> 1.9. </b> "
   - Implemented both real-time and batch analytics
   - Configured data pipeline orchestration
   - Optimized query performance across analytics stack
-  - Applied analytics best practices for production workloads

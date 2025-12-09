@@ -26,7 +26,7 @@ pre: " <b> 1.9. </b> "
 - **Thành thạo Introduction to Kubernetes:**
 
   - Thành thạo kiến trúc Kubernetes và các thành phần cốt lõi
-  - Thành công hiểu về pods, deployments, và services
+  - Hiểu rõ về pods, deployments, và services
   - Cấu hình và sử dụng công cụ kubectl CLI hiệu quả
   - Triển khai ứng dụng mẫu lên Kubernetes clusters
   - Quản lý tài nguyên và namespaces Kubernetes
@@ -52,7 +52,7 @@ pre: " <b> 1.9. </b> "
 - **Thành thạo Amazon EKS Blueprints Infrastructure:**
 
   - Thành thạo kiến trúc và patterns của EKS Blueprints
-  - Thành công hiểu về add-ons và team management concepts
+  - Hiểu rõ về add-ons và team management concepts
   - Cấu hình VPC networking cho EKS clusters
   - Thiết lập Application Load Balancer cho ingress
   - Triển khai và quản lý EC2 Kubernetes worker nodes
@@ -64,7 +64,6 @@ pre: " <b> 1.9. </b> "
   - Deploy các EKS add-ons thiết yếu (metrics-server, cluster-autoscaler)
   - Hiểu GitOps deployment patterns
   - Triển khai multi-tenancy sử dụng namespaces
-  - Áp dụng security best practices cho production EKS clusters
 
 - **Chuyên gia CI/CD trên Amazon EKS:**
 
@@ -90,7 +89,6 @@ pre: " <b> 1.9. </b> "
   - Triển khai error handling và retry mechanisms
   - Giám sát Lambda functions với CloudWatch Logs
   - Tối ưu Lambda performance và cost efficiency
-  - Áp dụng serverless best practices
 
 - **Chuyên gia Red Hat OpenShift Service trên AWS (ROSA):**
 
@@ -103,7 +101,6 @@ pre: " <b> 1.9. </b> "
   - Cấu hình persistent storage cho stateful applications
   - Thiết lập monitoring và logging cho OpenShift clusters
   - Quản lý cluster scaling và version upgrades
-  - Thực hành hiệu quả về enterprise Kubernetes
 
 - **Thành thạo Triển khai AWS Data Lake:**
 
@@ -119,16 +116,16 @@ pre: " <b> 1.9. </b> "
   - Giám sát và tối ưu Data Lake performance
 
 - **Chuyên gia Xây dựng Data Lake Nâng cao:**
-- Thành thạo thiết kế kiến trúc Data Lake có khả năng mở rộng
-- Thành công triển khai data ingestion pipelines
-- Cấu hình S3 storage tiers và lifecycle policies
-- Thiết lập comprehensive data cataloging và metadata management
-- Triển khai data quality và validation frameworks
-- Cấu hình AWS Glue ETL jobs cho transformation
-- Áp dụng complex data transformation workflows
-- Triển khai data lineage tracking
-- Thiết lập efficient data access patterns
-- Áp dụng performance optimization techniques
+  - Thành thạo thiết kế kiến trúc Data Lake có khả năng mở rộng
+  - Thành công triển khai data ingestion pipelines
+  - Cấu hình S3 storage tiers và lifecycle policies
+  - Thiết lập comprehensive data cataloging và metadata management
+  - Triển khai data quality và validation frameworks
+  - Cấu hình AWS Glue ETL jobs cho transformation
+  - Áp dụng complex data transformation workflows
+  - Triển khai data lineage tracking
+  - Thiết lập efficient data access patterns
+  - Áp dụng performance optimization techniques
 
 - **Thành thạo Toàn diện Analytics trên AWS:**
   - Thành thạo kiến trúc end-to-end analytics pipeline
@@ -140,4 +137,3 @@ pre: " <b> 1.9. </b> "
   - Triển khai cả real-time và batch analytics
   - Cấu hình data pipeline orchestration
   - Tối ưu query performance across analytics stack
-  - Áp dụng analytics best practices cho production workloads
