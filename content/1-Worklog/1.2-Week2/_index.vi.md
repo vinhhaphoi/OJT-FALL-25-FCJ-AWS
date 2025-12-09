@@ -47,7 +47,7 @@ pre: " <b> 1.2. </b> "
   - Cấu hình và gắn IAM policies để cấp quyền truy cập cần thiết
   - Hiểu nguyên tắc least privilege và best practices cho IAM security
 
-- **Chuyên sâu AWS Cloud9 Development Environment:**
+- **Tìm hiểu chuyên sâu AWS Cloud9 Development Environment:**
 
   - Nắm vững các tính năng và khả năng của AWS Cloud9
   - Thành thạo sử dụng Cloud9 IDE cho development tasks
