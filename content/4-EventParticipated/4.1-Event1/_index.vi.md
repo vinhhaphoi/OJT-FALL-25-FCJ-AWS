@@ -10,7 +10,7 @@ pre: " <b> 4.1. </b> "
 
 ### Tổng Quan Sự Kiện
 
-Trong khi sự kiện chính diễn ra tại Hà Nội, AWS đã mang đến trải nghiệm hybrid liền mạch cho Thành phố Hồ Chí Minh. Phiên Live Telecast bao gồm phiên toàn thể được phát trực tiếp từ Hà Nội, với các diễn giả keynote và các thông báo đột phá định hình tương lai cloud của Việt Nam.
+Trong khi sự kiện chính diễn ra tại Hà Nội, AWS đã mang đến trải nghiệm hybrid liền mạch cho thành phố Hồ Chí Minh. Phiên Live Telecast bao gồm phiên toàn thể được phát trực tiếp từ Hà Nội, với các diễn giả keynote và các thông báo đột phá định hình tương lai cloud của Việt Nam.
 
 **Các Chủ Đề Trọng Tâm:**
 
@@ -117,7 +117,7 @@ Tham dự phiên Live Telecast của **"Vietnam Cloud Day 2025: Ho Chi Minh City
 
 #### Cơ Hội Kết Nối
 
-- Định dạng hybrid cho phép kết nối với cộng đồng tech sôi động của Thành phố Hồ Chí Minh.
+- Định dạng hybrid cho phép kết nối với cộng đồng tech sôi động của thành phố Hồ Chí Minh.
 - Tham gia các cuộc thảo luận về ứng dụng thực tế của các dịch vụ AWS trong nhiều ngành khác nhau.
 
 #### Bài Học Rút Ra

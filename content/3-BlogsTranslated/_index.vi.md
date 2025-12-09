@@ -16,15 +16,3 @@ Bito là một công ty khởi nghiệp sáng tạo tạo ra các tác nhân AI 
 ### [Blog 3 - Customer Contact Week 2025: Chuyển đổi trung tâm liên lạc khách hàng với đổi mới từ AI](3.3-Blog3/)
 
 Bối cảnh trải nghiệm khách hàng đã bước vào một kỷ nguyên chuyển đổi mới, nơi AI tạo sinh và tự động hóa thông minh không còn là khả năng trong tương lai mà là những yêu cầu cấp thiết của hiện tại. Bài viết này nêu bật sự hiện diện của AWS tại Customer Contact Week 2025 và cách Amazon Connect đang cách mạng hóa hoạt động của trung tâm liên lạc.
-
-### [Blog 4 - ...](3.4-Blog4/)
-
-Blog này giới thiệu cách bắt đầu xây dựng data lake trong lĩnh vực y tế bằng cách áp dụng kiến trúc microservices. Bạn sẽ tìm hiểu vì sao data lake quan trọng trong việc lưu trữ và phân tích dữ liệu y tế đa dạng (hồ sơ bệnh án điện tử, dữ liệu xét nghiệm, thiết bị IoT y tế…), cách microservices giúp hệ thống linh hoạt, dễ mở rộng và dễ bảo trì hơn. Bài viết cũng hướng dẫn các bước khởi tạo môi trường, tổ chức pipeline xử lý dữ liệu, và đảm bảo tuân thủ các tiêu chuẩn bảo mật & quyền riêng tư như HIPAA.
-
-### [Blog 5 - ...](3.5-Blog5/)
-
-Blog này giới thiệu cách bắt đầu xây dựng data lake trong lĩnh vực y tế bằng cách áp dụng kiến trúc microservices. Bạn sẽ tìm hiểu vì sao data lake quan trọng trong việc lưu trữ và phân tích dữ liệu y tế đa dạng (hồ sơ bệnh án điện tử, dữ liệu xét nghiệm, thiết bị IoT y tế…), cách microservices giúp hệ thống linh hoạt, dễ mở rộng và dễ bảo trì hơn. Bài viết cũng hướng dẫn các bước khởi tạo môi trường, tổ chức pipeline xử lý dữ liệu, và đảm bảo tuân thủ các tiêu chuẩn bảo mật & quyền riêng tư như HIPAA.
-
-### [Blog 6 - ...](3.6-Blog6/)
-
-Blog này giới thiệu cách bắt đầu xây dựng data lake trong lĩnh vực y tế bằng cách áp dụng kiến trúc microservices. Bạn sẽ tìm hiểu vì sao data lake quan trọng trong việc lưu trữ và phân tích dữ liệu y tế đa dạng (hồ sơ bệnh án điện tử, dữ liệu xét nghiệm, thiết bị IoT y tế…), cách microservices giúp hệ thống linh hoạt, dễ mở rộng và dễ bảo trì hơn. Bài viết cũng hướng dẫn các bước khởi tạo môi trường, tổ chức pipeline xử lý dữ liệu, và đảm bảo tuân thủ các tiêu chuẩn bảo mật & quyền riêng tư như HIPAA.

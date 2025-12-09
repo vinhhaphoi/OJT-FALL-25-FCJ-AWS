@@ -13,7 +13,7 @@ pre: " <b> 4.2. </b> "
 - **Tên sự kiện:** Vietnam Cloud Day 2025: Ho Chi Minh City Connect Edition for Builders
 - **Track:** Track 2 - Migration & Modernization
 - **Thời gian:** 13:15 – 17:15, Thứ Năm, ngày 18/09/2025
-- **Địa điểm:** Tầng 36, Tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn Thành phố Hồ Chí Minh
+- **Địa điểm:** Tầng 36, Tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 - **Vai trò:** Người tham dự
 
 ### Mục Đích Của Track
