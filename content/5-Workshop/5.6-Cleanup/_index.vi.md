@@ -13,9 +13,9 @@ pre: " <b> 5.6. </b> "
 1.  **Quản lý QuickSight**:
     - Nhấp vào biểu tượng người dùng của bạn ở góc trên bên phải.
     - Chọn **Manage QuickSight**.
-2.  **Cài đặt Tài khoản**:
+2.  **Hủy đăng ký QuickSight**:
     - Đi tới **Account settings**.
-    - Chọn **Delete account** (Xóa tài khoản).
+    - Chọn **Delete account** (Hủy đăng ký QuickSight).
     - Gõ `delete` để xác nhận.
     - Chọn **Delete account**.
 
