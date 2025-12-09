@@ -165,7 +165,7 @@ pre: " <b> 4.4. </b> "
 
 - **Case Studies:** Startups và enterprise DevOps transformations
 
-### Những Gì Học Được
+### Những Gì Tìm hiểu về Được
 
 #### DevOps Fundamentals
 
@@ -199,7 +199,7 @@ Workshop toàn ngày về DevOps là một trải nghiệm rất đầy đủ v�
 
 - **Full-day intensive:** 8.5 tiếng học tập và thực hành intensive
 - **Hands-on demos:** Nhiều demo thực tế về CI/CD, IaC, Containers
-- **Real case studies:** Học từ các doanh nghiệp đã thành công với DevOps
+- **Real case studies:** Tìm hiểu về từ các doanh nghiệp đã thành công với DevOps
 - **Career guidance:** Định hướng career path và certification
 - **Networking:** Kết nối với DevOps engineers và cloud architects
 

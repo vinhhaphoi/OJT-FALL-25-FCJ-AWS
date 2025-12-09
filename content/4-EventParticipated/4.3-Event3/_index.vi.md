@@ -75,7 +75,7 @@ pre: " <b> 4.3. </b> "
 
 - **Live Demo:** Building a Generative AI chatbot using Bedrock
 
-### Những Gì Học Được
+### Những Gì Tìm hiểu về Được
 
 #### Kiến Thức AI/ML Cơ Bản
 

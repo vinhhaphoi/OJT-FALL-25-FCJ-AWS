@@ -18,7 +18,7 @@ Từ ngày 9-12 tháng 6, chúng tôi sẽ giới thiệu những đổi mới m
 
 #### [Trải nghiệm thực tế với trải nghiệm khách hàng được hỗ trợ bởi AI](https://events.bizzabo.com/610782/agenda/session/1569664) 10 tháng 6 | 9:00 – 10:30 AM (PST)
 
-Trải nghiệm quan điểm của khách hàng cuối và nhân viên trong môi trường trung tâm liên lạc tương tác. Học hỏi từ khách hàng AWS Fujitsu, người sẽ giới thiệu cách triển khai thành công Amazon Connect của họ đang chuyển đổi trải nghiệm khách hàng. Trong phiên thực hành này, bạn sẽ khám phá các chiến lược thực tế để nâng cao hoạt động kinh doanh của mình bằng cách sử dụng các khả năng của trung tâm liên lạc được hỗ trợ bởi AI. Mang theo máy tính xách tay của bạn để có trải nghiệm được hướng dẫn sẽ giúp bạn hình dung và xây dựng tương lai của sự tham gia của khách hàng.
+Trải nghiệm quan điểm của khách hàng cuối và nhân viên trong môi trường trung tâm liên lạc tương tác. Tìm hiểu về hỏi từ khách hàng AWS Fujitsu, người sẽ giới thiệu cách triển khai thành công Amazon Connect của họ đang chuyển đổi trải nghiệm khách hàng. Trong phiên thực hành này, bạn sẽ khám phá các chiến lược thực tế để nâng cao hoạt động kinh doanh của mình bằng cách sử dụng các khả năng của trung tâm liên lạc được hỗ trợ bởi AI. Mang theo máy tính xách tay của bạn để có trải nghiệm được hướng dẫn sẽ giúp bạn hình dung và xây dựng tương lai của sự tham gia của khách hàng.
 
 ### Mainstage Panel:
 
@@ -52,7 +52,7 @@ Khi kỳ vọng của khách hàng tiếp tục phát triển, các tổ chức 
 
 #### [Tốc độ đến giá trị: Roadside Protect đạt được 1000% ROI với Amazon Connect và NeonNow](https://events.bizzabo.com/610782/agenda/session/1569815) 12 tháng 6 | 12:00 – 12:45 PM (PST)
 
-Học hỏi từ Randy Stern, Giám đốc Khách hàng của Roadside Protect, về cách họ đạt được lợi nhuận đầu tư (ROI) 1000% bằng cách triển khai Amazon Connect, trung tâm liên lạc được hỗ trợ bởi AI của AWS với Đối tác AWS [NeonNow](mailto:https://www.neonnow.io/en-us) – một bộ phận của Cloudwave.
+Tìm hiểu về hỏi từ Randy Stern, Giám đốc Khách hàng của Roadside Protect, về cách họ đạt được lợi nhuận đầu tư (ROI) 1000% bằng cách triển khai Amazon Connect, trung tâm liên lạc được hỗ trợ bởi AI của AWS với Đối tác AWS [NeonNow](mailto:https://www.neonnow.io/en-us) – một bộ phận của Cloudwave.
 
 #### [Nâng cao giao tiếp hướng ngoại của bạn với nền tảng dữ liệu Amazon Connect](https://events.bizzabo.com/610782/agenda/session/1569833) 12 tháng 6 | 1:45 – 2:30 PM (PST)
 

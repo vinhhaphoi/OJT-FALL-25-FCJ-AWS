@@ -73,7 +73,7 @@ Phiên thảo luận panel này đi sâu vào cách các lãnh đạo doanh nghi
 - Quản lý các thay đổi tổ chức đi kèm với tích hợp AI
 - Chia sẻ hành trình cá nhân và insights từ các lãnh đạo về việc áp dụng AI
 
-### Những Gì Học Được
+### Những Gì Tìm hiểu về Được
 
 #### Tầm Nhìn Chiến Lược
 
@@ -97,7 +97,7 @@ Phiên thảo luận panel này đi sâu vào cách các lãnh đạo doanh nghi
 
 - **Áp dụng tư duy cloud-first**: Cân nhắc các dịch vụ AWS cho phát triển và triển khai ứng dụng
 - **Khám phá khả năng GenAI**: Tìm hiểu cách generative AI có thể tăng năng suất và đổi mới
-- **Học hỏi từ các lãnh đạo ngành**: Áp dụng bài học từ các tổ chức thành công như Techcombank và ELSA
+- **Tìm hiểu về hỏi từ các lãnh đạo ngành**: Áp dụng bài học từ các tổ chức thành công như Techcombank và ELSA
 - **Tập trung vào căn chỉnh kinh doanh**: Đảm bảo các sáng kiến công nghệ hỗ trợ mục tiêu kinh doanh cốt lõi
 - **Xây dựng văn hóa đổi mới**: Tạo môi trường khuyến khích thử nghiệm với công nghệ mới
 
@@ -113,14 +113,14 @@ Tham dự phiên Live Telecast của **"Vietnam Cloud Day 2025: Ho Chi Minh City
 #### Hiểu Về Chiến Lược GenAI
 
 - Phiên thảo luận panel về "Điều Hướng Cuộc Cách Mạng GenAI" cung cấp góc nhìn quý giá về cách các lãnh đạo đang tiếp cận việc tích hợp AI.
-- Học được tầm quan trọng của việc cân bằng đổi mới với kết quả kinh doanh thực tế.
+- Tìm hiểu về được tầm quan trọng của việc cân bằng đổi mới với kết quả kinh doanh thực tế.
 
 #### Cơ Hội Kết Nối
 
 - Định dạng hybrid cho phép kết nối với cộng đồng tech sôi động của thành phố Hồ Chí Minh.
 - Tham gia các cuộc thảo luận về ứng dụng thực tế của các dịch vụ AWS trong nhiều ngành khác nhau.
 
-#### Bài Học Rút Ra
+#### Bài Tìm hiểu về Rút Ra
 
 - Việc áp dụng cloud thành công đòi hỏi lãnh đạo mạnh mẽ và tầm nhìn rõ ràng.
 - GenAI đang định hình lại cách doanh nghiệp hoạt động, đòi hỏi chiến lược mới để áp dụng.

@@ -98,7 +98,7 @@ Khám phá cách tăng cường bảo mật cloud trong toàn bộ vòng đời:
 - **GenAI for security:** Sử dụng GenAI để phân tích bảo mật và tự động hóa operations
 - **Resilient architectures:** Xây dựng kiến trúc bền vững trước các threats
 
-### Những Gì Học Được
+### Những Gì Tìm hiểu về Được
 
 #### Tư Duy Chiến Lược Migration
 
@@ -136,7 +136,7 @@ Khám phá cách tăng cường bảo mật cloud trong toàn bộ vòng đời:
 
 Tham gia Track 2: Migration & Modernization tại Vietnam Cloud Day 2025 là một trải nghiệm vô cùng bổ ích và thực tiễn. Một số điểm nổi bật:
 
-#### Học hỏi từ Case Studies thực tế
+#### Tìm hiểu về hỏi từ Case Studies thực tế
 
 - Nghe trực tiếp chia sẻ từ **Techcombank** về hành trình migration và modernization của họ
 - Hiểu rõ hơn cách các doanh nghiệp lớn tại Việt Nam như **OCB**, **LPBank Securities**, **Ninety Eight** đang tiếp cận cloud modernization

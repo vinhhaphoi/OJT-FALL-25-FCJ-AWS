@@ -26,16 +26,16 @@ pre: " <b> 4.5. </b> "
 
 ### Lịch Trình Chi Tiết
 
-| Thời gian     | Session                                     | Nội dung                                                                   |
-| ------------- | ------------------------------------------- | -------------------------------------------------------------------------- |
-| 08:30 - 08:50 | **Opening & Security Foundation**           | Security Pillar, core principles, Shared Responsibility Model, top threats |
-| 08:50 - 09:30 |  Pillar 1: Identity & Access Management | Modern IAM Architecture, IAM Identity Center, SCPs                         |
-| 09:30 - 09:55 |  Pillar 2: Detection                    | Detection & Continuous Monitoring, CloudTrail, GuardDuty, Security Hub     |
-| 09:55 - 10:10 | **Coffee Break**                            | Nghỉ giải lao                                                              |
-| 10:10 - 10:40 |  Pillar 3: Infrastructure Protection    | Network & Workload Security, VPC, WAF, Shield                              |
-| 10:40 - 11:10 |  Pillar 4: Data Protection              | Encryption, Keys & Secrets, KMS, Secrets Manager                           |
-| 11:10 - 11:40 |  Pillar 5: Incident Response            | IR Playbook & Automation                                                   |
-| 11:40 - 12:00 | **Wrap-Up & Q&A**                           | Tổng kết, common pitfalls, certification roadmap                           |
+| Thời gian     | Session                                | Nội dung                                                                   |
+| ------------- | -------------------------------------- | -------------------------------------------------------------------------- |
+| 08:30 - 08:50 | **Opening & Security Foundation**      | Security Pillar, core principles, Shared Responsibility Model, top threats |
+| 08:50 - 09:30 | Pillar 1: Identity & Access Management | Modern IAM Architecture, IAM Identity Center, SCPs                         |
+| 09:30 - 09:55 | Pillar 2: Detection                    | Detection & Continuous Monitoring, CloudTrail, GuardDuty, Security Hub     |
+| 09:55 - 10:10 | **Coffee Break**                       | Nghỉ giải lao                                                              |
+| 10:10 - 10:40 | Pillar 3: Infrastructure Protection    | Network & Workload Security, VPC, WAF, Shield                              |
+| 10:40 - 11:10 | Pillar 4: Data Protection              | Encryption, Keys & Secrets, KMS, Secrets Manager                           |
+| 11:10 - 11:40 | Pillar 5: Incident Response            | IR Playbook & Automation                                                   |
+| 11:40 - 12:00 | **Wrap-Up & Q&A**                      | Tổng kết, common pitfalls, certification roadmap                           |
 
 ### Nội Dung Nổi Bật - 5 Security Pillars
 
@@ -181,7 +181,7 @@ pre: " <b> 4.5. </b> "
   - Step Functions orchestration
   - Auto-remediation patterns
 
-### Những Gì Học Được
+### Những Gì Tìm hiểu về Được
 
 #### Security Mindset
 
