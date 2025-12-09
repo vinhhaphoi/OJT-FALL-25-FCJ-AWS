@@ -24,16 +24,16 @@ Về tác phong, tôi luôn cố gắng hoàn thành tốt nhiệm vụ, tuân t
 | STT | Tiêu chí                            | Mô tả                                                                             | Tốt | Khá | Trung bình |
 | --- | ----------------------------------- | --------------------------------------------------------------------------------- | --- | --- | ---------- |
 | 1   | **Kiến thức và kỹ năng chuyên môn** | Nắm vững AWS Services, Serverless, GenAI/RAG, áp dụng vào dự án Document QA       | ✅  | ☐   | ☐          |
-| 2   | **Khả năng học hỏi**                | Hoàn thành 10 tuần workshops, tự học thêm về AI/ML và Security                    | ☐   | ✅  | ☐          |
+| 2   | **Khả năng học hỏi**                | Hoàn thành 14 tuần workshops, tự học thêm về AI/ML và Security                    | ☐   | ✅  | ☐          |
 | 3   | **Chủ động**                        | Tự đề xuất dự án, chủ động tham gia 5 events, tự xây dựng workshop QuickSight     | ✅  | ☐   | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Hoàn thành đầy đủ các nhiệm vụ, dịch 6 blogs, viết documentation chi tiết         | ✅  | ☐   | ☐          |
+| 4   | **Tinh thần trách nhiệm**           | Hoàn thành đầy đủ các nhiệm vụ, dịch 3 blogs, viết tài liệu chi tiết              | ✅  | ☐   | ☐          |
 | 5   | **Kỷ luật**                         | Có lúc chưa đảm bảo deadline, cần cải thiện quản lý thời gian                     | ☐   | ☐   | ✅         |
 | 6   | **Tính cầu tiến**                   | Sẵn sàng nhận feedback, cải thiện liên tục qua các events và workshops            | ☐   | ✅  | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày ý tưởng tốt, viết documentation rõ ràng, dịch thuật blogs kỹ thuật      | ☐   | ✅  | ☐          |
-| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với mentor và team, networking tốt tại các AWS events           | ✅  | ☐   | ☐          |
+| 7   | **Giao tiếp**                       | Trình bày ý tưởng tốt, viết tài liệu rõ ràng, dịch thuật blogs kỹ thuật           | ☐   | ✅  | ☐          |
+| 8   | **Hợp tác nhóm**                    | Làm việc hiệu quả với mentor và team, networking tốt tại các sự kiện của AWS      | ✅  | ☐   | ☐          |
 | 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng đồng nghiệp, tham gia tích cực trong AWS community                      | ✅  | ☐   | ☐          |
 | 10  | **Tư duy giải quyết vấn đề**        | Áp dụng DDD, Event-Driven Architecture từ events vào dự án thực tế                | ☐   | ✅  | ☐          |
-| 11  | **Đóng góp vào dự án/tổ chức**      | Hoàn thành Document QA project, đóng góp 6 blogs dịch, 1 workshop mới             | ✅  | ☐   | ☐          |
+| 11  | **Đóng góp vào dự án/tổ chức**      | Hoàn thành Document QA project, đóng góp 3 blogs dịch, 1 workshop mới             | ✅  | ☐   | ☐          |
 | 12  | **Tổng thể**                        | Quá trình thực tập đạt kết quả tốt, phát triển cả kỹ năng kỹ thuật và kỹ năng mềm | ✅  | ☐   | ☐          |
 
 ### Cần cải thiện

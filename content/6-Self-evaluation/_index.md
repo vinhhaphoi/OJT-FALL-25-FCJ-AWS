@@ -26,7 +26,7 @@ To objectively reflect on my internship period, I would like to evaluate myself 
 | 1   | **Professional knowledge & skills** | Mastered AWS Services, Serverless, GenAI/RAG, applied to Document QA project        | ✅   | ☐    | ☐       |
 | 2   | **Ability to learn**                | Completed 14 weeks workshops, self-studied AI/ML and Security                       | ☐    | ✅   | ☐       |
 | 3   | **Proactiveness**                   | Self-proposed project, actively participated in 5 events, built QuickSight workshop | ✅   | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completed all tasks, translated 6 blogs, wrote detailed documentation               | ✅   | ☐    | ☐       |
+| 4   | **Sense of responsibility**         | Completed all tasks, translated 3 blogs, wrote detailed documentation               | ✅   | ☐    | ☐       |
 | 5   | **Discipline**                      | Sometimes missed deadlines, need to improve time management                         | ☐    | ☐    | ✅      |
 | 6   | **Progressive mindset**             | Willing to receive feedback, continuously improved through events and workshops     | ☐    | ✅   | ☐       |
 | 7   | **Communication**                   | Good at presenting ideas, clear documentation, technical blog translation           | ☐    | ✅   | ☐       |

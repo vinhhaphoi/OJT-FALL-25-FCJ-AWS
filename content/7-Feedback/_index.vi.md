@@ -6,15 +6,15 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-<!-- > Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau: -->
+<!-- > Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau: -->
 
 ### Đánh giá chung
 
 **1. Môi trường làm việc**  
-Môi trường làm việc tại AWS Vietnam Office (Bitexco Tower) rất hiện đại và chuyên nghiệp. Được tiếp cận với công nghệ cloud tiên tiến nhất từ AWS, không gian làm việc thoải mái với đầy đủ tiện nghi. Văn hóa công ty cởi mở, khuyến khích sáng tạo và học hỏi. Tuy nhiên, có thể tổ chức thêm các buổi team building để thực tập sinh hiểu nhau hơn.
+Môi trường làm việc tại FCAJ rất hiện đại và chuyên nghiệp. Được tiếp cận với công nghệ cloud tiên tiến nhất từ AWS, không gian làm việc thoải mái với đầy đủ tiện nghi. Văn hóa công ty cởi mở, khuyến khích sáng tạo và học hỏi. Tuy nhiên, có thể tổ chức thêm các buổi team building để thực tập sinh hiểu nhau hơn.
 
 **2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết và kiên nhẫn, luôn sẵn sàng giải đáp thắc mắc kể cả ngoài giờ làm việc. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để làm việc thuận lợi. Đặc biệt đánh giá cao việc mentor cho phép tự tìm hiểu và giải quyết vấn đề thay vì chỉ đưa đáp án, giúp phát triển tư duy problem-solving.
+Mentor hướng dẫn rất chi tiết và kiên nhẫn, luôn sẵn sàng giải đáp thắc mắc kể cả ngoài giờ làm việc. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để làm việc thuận lợi. Đặc biệt đánh giá cao việc mentor cho phép tự tìm hiểu và giải quyết vấn đề thay vì chỉ đưa đáp án, giúp phát triển tư duy giải quyết vấn đề.
 
 **3. Sự phù hợp giữa công việc và chuyên ngành học**  
 Dự án Document QA với AWS Bedrock rất phù hợp với kiến thức đã học, đồng thời mở rộng thêm các mảng mới như Generative AI, RAG, Serverless Architecture. Nhờ vậy, vừa củng cố kiến thức nền tảng về Cloud Computing, vừa học thêm kỹ năng AI/ML thực tế.
@@ -23,10 +23,10 @@ Dự án Document QA với AWS Bedrock rất phù hợp với kiến thức đã
 Được tham gia 14 tuần với bài lab thực hành với nhiều dịch vụ AWS, từ cơ bản đến nâng cao. Đặc biệt được tham gia nhiều sự kiện chất lượng cao từ AWS (Vietnam Cloud Day, Cloud Mastery Series, ...), học trực tiếp từ các chuyên gia. Mentor chia sẻ nhiều kinh nghiệm thực tế giúp định hướng career path trong Cloud Computing.
 
 **5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực, mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Được networking với AWS community tại Việt Nam qua các sự kiện. Điều này giúp cảm thấy là một phần của cộng đồng FCAJ, không chỉ là thực tập sinh.
+Văn hóa công ty rất tích cực, mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Được networking với AWS community tại Việt Nam qua các sự kiện. Điều này giúp bản thân cảm thấy là một phần của cộng đồng FCAJ, không chỉ là thực tập sinh.
 
 **6. Chính sách / phúc lợi cho thực tập sinh**  
-Được tham gia miễn phí các events từ AWS, thời gian làm việc linh hoạt, môi trường học tập với đầy đủ resources. Có thể xem xét hỗ trợ thêm AWS credits cho thực tập sinh thực hành.
+Được tham gia miễn phí các events từ AWS và FCAJ, thời gian làm việc linh hoạt, môi trường học tập với đầy đủ resources. Có thể xem xét hỗ trợ thêm AWS credits cho thực tập sinh thực hành.
 
 ### Một số câu hỏi khác
 

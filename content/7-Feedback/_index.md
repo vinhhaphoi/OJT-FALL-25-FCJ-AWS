@@ -7,12 +7,12 @@ pre: " <b> 7. </b> "
 ---
 
 <!--
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects: -->
+> Here, you can freely share your personal opinions about your experience participating in the First Cloud AI Journey program. This will help the FCAJ team improve any shortcomings based on the following aspects: -->
 
 ### Overall Evaluation
 
 **1. Working Environment**  
-The working environment at AWS Vietnam Office (Bitexco Tower) is very modern and professional. Access to the most advanced cloud technology from AWS, comfortable workspace with all amenities. Open company culture that encourages creativity and learning. However, could organize more team building events for interns to know each other better.
+The working environment at FCAJ is very modern and professional. Access to the most advanced cloud technology from AWS, comfortable workspace with all amenities. Open company culture that encourages creativity and learning. However, could organize more team building events for interns to know each other better.
 
 **2. Support from Mentor / Team Admin**  
 The mentor provides very detailed and patient guidance, always ready to answer questions even outside working hours. The admin team supports administrative tasks, provides documents, and creates favorable conditions for work. Especially appreciate that the mentor allows self-exploration and problem-solving instead of just giving answers, helping develop problem-solving thinking.
