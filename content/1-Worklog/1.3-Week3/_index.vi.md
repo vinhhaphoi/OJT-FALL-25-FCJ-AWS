@@ -146,7 +146,7 @@ pre: " <b> 1.3. </b> "
   - Thành thạo Link Aggregation Groups (LAG) cho increased bandwidth
   - Học Direct Connect resiliency và high availability patterns
   - Hiểu cost optimization strategies cho Direct Connect deployments
-  - Thực hành hiệu quả cho hybrid cloud network architecture
+  - Thực hành hiệu quả về hybrid cloud network architecture
   - So sánh Direct Connect vs VPN cho enterprise connectivity scenarios
 
 - **Thành thạo AWS Client VPN:**

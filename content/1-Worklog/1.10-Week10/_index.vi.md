@@ -31,7 +31,7 @@ pre: " <b> 1.10. </b> "
   - Tạo và quản lý datasets cho phân tích
   - Xây dựng dashboards tương tác và trực quan
   - Triển khai các loại biểu đồ và tính tương tác cho dashboard
-  - Thực hành hiệu quả cho trực quan hóa dữ liệu
+  - Thực hành hiệu quả về trực quan hóa dữ liệu
 
 - **Thành thạo Phân tích Amazon Athena:**
 
@@ -40,7 +40,7 @@ pre: " <b> 1.10. </b> "
   - Triển khai Athena cho khối lượng công việc Apache Spark
   - Cấu hình Athena Federation để truy vấn các nguồn dữ liệu bên ngoài
   - Tối ưu hóa hiệu suất truy vấn và quản lý chi phí hiệu quả
-  - Thực hành hiệu quả cho phân tích dữ liệu serverless
+  - Thực hành hiệu quả về phân tích dữ liệu serverless
 
 - **Thành thạo Phát triển RDS PostgreSQL:**
 
@@ -54,6 +54,6 @@ pre: " <b> 1.10. </b> "
   - Thành thạo quy trình ML end-to-end trên SageMaker
   - Thành công thực hiện Feature Engineering
   - Train, tune, và deploy các mô hình XGBoost
-  - Thực hành hiệu quả cho triển khai mô hình
+  - Thực hành hiệu quả về triển khai mô hình
 
 - New worklog will be coming soon

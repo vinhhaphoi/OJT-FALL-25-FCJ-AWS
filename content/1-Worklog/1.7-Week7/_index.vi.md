@@ -59,7 +59,7 @@ pre: " <b> 1.7. </b> "
   - Thiết lập tham gia domain liền mạch
   - Cấu hình sao chép directory
   - Giám sát sức khỏe và hiệu suất directory
-  - Thực hành hiệu quả cho quản lý directory
+  - Thực hành hiệu quả về quản lý directory
 
 - **Thành thạo AWS RAM Resource Sharing:**
 
@@ -68,7 +68,7 @@ pre: " <b> 1.7. </b> "
   - Triển khai chia sẻ tài nguyên xuyên tài khoản
   - Cấu hình quyền và truy cập chia sẻ
   - Giám sát sử dụng tài nguyên được chia sẻ
-  - Thực hành hiệu quả cho chia sẻ tài nguyên
+  - Thực hành hiệu quả về chia sẻ tài nguyên
 
 - **Thành thạo AWS Resource Groups Management:**
 
@@ -77,7 +77,7 @@ pre: " <b> 1.7. </b> "
   - Triển khai chiến lược gắn thẻ hiệu quả
   - Cấu hình thao tác dựa trên nhóm
   - Giám sát tài nguyên và trạng thái nhóm
-  - Thực hành hiệu quả cho tổ chức tài nguyên
+  - Thực hành hiệu quả về tổ chức tài nguyên
 
 - **Thành thạo AWS License Manager:**
 
@@ -86,7 +86,7 @@ pre: " <b> 1.7. </b> "
   - Triển khai báo cáo sử dụng giấy phép
   - Thiết lập cảnh báo và thông báo giấy phép
   - Giám sát tiêu thụ giấy phép
-  - Thực hành hiệu quả cho quản lý giấy phép
+  - Thực hành hiệu quả về quản lý giấy phép
 
 - **Thành thạo AWS Certificate Manager SSL/TLS:**
 
@@ -95,7 +95,7 @@ pre: " <b> 1.7. </b> "
   - Triển khai gia hạn và thông báo chứng chỉ
   - Cấu hình tích hợp với dịch vụ AWS
   - Giám sát vòng đời và hết hạn chứng chỉ
-  - Thực hành hiệu quả cho bảo mật SSL/TLS
+  - Thực hành hiệu quả về bảo mật SSL/TLS
 
 - **Thành thạo AWS Secrets Manager Security:**
 
@@ -104,7 +104,7 @@ pre: " <b> 1.7. </b> "
   - Triển khai luân chuyển bí mật tự động
   - Cấu hình kiểm soát truy cập và mã hóa
   - Giám sát truy cập và sử dụng bí mật
-  - Thực hành hiệu quả cho quản lý bí mật
+  - Thực hành hiệu quả về quản lý bí mật
 
 - **Thành thạo AWS Parameter Store Configuration:**
 
@@ -113,7 +113,7 @@ pre: " <b> 1.7. </b> "
   - Triển khai chính sách và phiên bản tham số
   - Cấu hình tham số chuỗi bảo mật
   - Giám sát mẫu truy cập tham số
-  - Thực hành hiệu quả cho quản lý cấu hình
+  - Thực hành hiệu quả về quản lý cấu hình
 
 - **Thành thạo AWS Private Certificate Authority:**
 
@@ -122,7 +122,7 @@ pre: " <b> 1.7. </b> "
   - Triển khai phát hành và mẫu chứng chỉ
   - Cấu hình danh sách thu hồi chứng chỉ
   - Giám sát hoạt động và sức khỏe CA
-  - Thực hành hiệu quả cho PKI riêng
+  - Thực hành hiệu quả về PKI riêng
 
 - **Thành thạo AWS CloudTrail Auditing:**
 

@@ -144,7 +144,7 @@ pre: " <b> 1.5. </b> "
   - Thiết lập giám sát thay đổi cấu hình
   - Triển khai báo cáo và kiểm tra tuân thủ
   - Tạo theo dõi mối quan hệ tài nguyên
-  - Thực hành hiệu quả cho quản trị tài nguyên
+  - Thực hành hiệu quả về quản trị tài nguyên
 
 - **Thành thạo AWS WAF Security:**
 
@@ -155,7 +155,7 @@ pre: " <b> 1.5. </b> "
   - Cấu hình phòng chống SQL injection và XSS
   - Triển khai điều kiện geo-matching
   - Giám sát và phân tích sự kiện bảo mật
-  - Thực hành hiệu quả cho bảo mật ứng dụng web
+  - Thực hành hiệu quả về bảo mật ứng dụng web
 
 - **Thành thạo Application Load Balancer:**
   - Thành thạo khái niệm và tính năng ALB
@@ -165,4 +165,4 @@ pre: " <b> 1.5. </b> "
   - Cấu hình path-based routing
   - Triển khai SSL/TLS termination
   - Giám sát metrics hiệu suất ALB
-  - Thực hành hiệu quả cho load balancing
+  - Thực hành hiệu quả về load balancing
