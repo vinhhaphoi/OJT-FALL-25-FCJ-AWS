@@ -11,7 +11,7 @@ chapter: false
 
 
 ### Student Information:
-&emsp; **Full Name:** Dao Quang Vinh anh nèeeee
+&emsp; **Full Name:** Dao Quang Vinh
 
 &emsp; **Phone Number:** 0845655779
 
